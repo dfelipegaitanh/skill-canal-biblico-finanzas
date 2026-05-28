@@ -4,15 +4,17 @@
 
 ## Paso 0 — Checkpoints de Supervivencia y Clasificación
 
-Antes de llenar la tabla, verificar estas 8 reglas de oro del canal:
+Antes de llenar la tabla, verificar estas 10 reglas de oro del canal:
 1. **Primer Segundo de Choque:** ¿El segundo 0 al 1 tiene texto gigante rojo (ej. ERROR, DEUDA) o imagen chocante? Si hay un arranque hablado pasivo → **Error Crítico**.
 2. **Gancho Letal (Power Words en Shorts):** ¿El hook combina una palabra de *Síntoma* (deuda, cuenta en rojo, estancamiento) con una de *Autoridad* (Código, Sistema, 3.000 años)? Si falta alguna de las dos o no hay ninguna → **Error Crítico** (el algoritmo no clasificará el dolor ni la solución).
 3. **Disonancia Bíblica vs. Caballo de Troya (Empaque):** ¿Las palabras religiosas ("Biblia", "Jesús", "Dios") en los primeros 3 segundos se usan para generar shock y disonancia (ej. "Jesús condenó al hombre prudente")? → **CORRECTO** (es la Fórmula de Disonancia Bíblica). ¿Se usan de forma genérica que suena a sermón (ej. "Dios quiere prosperarte")? → **Error Crítico** (mata el CTR). ¿El gancho NO usa disonancia y tampoco se ancla en un dolor secular masivo (deuda, bancos)? → **Error Crítico** (falta hook).
 4. **Límite de Palabras (Shorts):** ¿El guión supera el presupuesto (60 para Micro-Short, 150 para estándar)? Si sí, durará más de la retención meta → **Error Crítico** (exigir recortes).
-5. **Filtro Anti-Sermón (Tono Humano):** ¿El narrador usa preguntas retóricas de iglesia abstractas o muletillas condescendientes de profesor ("Y mira...", "Ahora bien...", "Aquí está el sistema")? Si es así → **Error Crítico** (se debe exigir reescribir la línea usando afirmaciones secas, directas y desde la frustración compartida).
+5. **Filtro Anti-Sermón (Tono Humano y Cero Verborrea):** ¿El narrador usa preguntas retóricas de iglesia abstractas, muletillas condescendientes ("Y mira...", "Aquí está el sistema"), o suena robotizado y con relleno? Si es así → **Error Crítico** (exigir reescribir en español neutral, hiper-eficiente, directo y desde la frustración compartida).
 6. **Hashtags en el Título (Empaque):** ¿El título tiene hashtags (#)? Si es así → **Error Crítico** (desperdician espacio valioso, moverlos a la descripción).
 7. **Power Words en el Título (Empaque Shorts):** ¿El título del Short contiene al menos 1 Power Word de la matriz? Si no → **Error Crítico** (baja CTR).
 8. **Frases Muertas (Empaque):** ¿El título usa una frase quemada ("La respuesta te sorprenderá", "No vas a creer")? Si es así → **Error Crítico** (el cerebro lo filtra como spam).
+9. **Ancla de Tensión Económica:** ¿El gancho ancla la curiosidad a una pregunta financiera hiper-específica que necesita resolverse HOY (ej. "salir de una deuda al 89%") o se queda en una paradoja bíblica interesante pero vacía? Si es vacía → **Error Crítico** (el espectador abandonará cuando entre el sermón).
+10. **Bucle Parasocial (Personalidad y Vulnerabilidad):** ¿El guion expone la frustración/personalidad del creador hablando en primera persona ("Yo también fui al banco...", "Mi cuenta estaba en rojo") o usa datos crudos y específicos (CAT del 89%), o es solo un relato distante de hechos? Si el guion es plano, no opina y no tiene vulnerabilidad → **Error Crítico** (no retendrá para un video #2).
 
 ## Paso 1 — Formato de entrega obligatorio (Tabla por Severidad)
 
@@ -82,3 +84,12 @@ Cerrar siempre la auditoría con un bloque de veredicto que incluya:
 2. Cuántos fixes son de post-producción vs regrabar
 3. Tiempo estimado de implementación en CapCut
 4. Si los fixes pueden impactar significativamente la retención
+
+## Paso 8 — Bypass de Auditoría (Reescritura Directa)
+
+> ⛔ **EXCEPCIÓN A LA REGLA DURA:** Si el usuario incluye instrucciones explícitas como *"dame solo el guion"*, *"reescríbelo"*, *"ponlo más humano"*, o *"sin tanta verborrea"*, **SE CANCELA EL PROTOCOLO DE AUDITORÍA (Pasos 1 al 7).**
+
+En ese caso, la IA NO entrega la tabla de errores ni el veredicto. Debe pasar directamente a la acción:
+1. Reescribir el guión completo aplicando las reglas Anti-Sermón, el español neutral y eliminando toda verborrea y tono robótico.
+2. Entregar **ÚNICAMENTE** el bloque de texto del guión corregido.
+3. Cero relleno conversacional ("Aquí tienes el guión mejorado", "Le quité la verborrea como pediste"). **Directo al markdown.**

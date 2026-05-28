@@ -58,6 +58,7 @@ Una vez que el usuario confirme o elija su opción, generar el guión completo c
 
 ### Pilar 1 — El Gancho de Herida (0:00 - 0:45)
 **Regla de Oro:** Empieza con una pregunta dolorosa o contradictoria. Cero introducciones lentas, cero saludos, cero logotipos. Empieza entregando valor desde el primer respiro.
+- **Ancla de Tensión (OBLIGATORIO):** El gancho no puede ser solo una paradoja bíblica interesante. Debe anclar la tensión a una pregunta económica concreta que el espectador necesite resolver HOY para que no se vaya en el minuto 2. (Ej. *"¿Esta estrategia realmente me hará salir de la deuda al 89% anual que me cobra el banco?"*). Si se agota esta premisa y entra el sermón, la retención muere.
 - **Ejemplo:** *"¿Llevas años diezmando y tu cuenta sigue en rojo? El problema no es Dios, es que estás usando un sistema de 1950 para una economía de 2026."*
 - **Visual/Overlay:** Palabra "ERROR" o "SISTEMA FALLIDO" gigante en pantalla en el segundo 0 (Primer Segundo de Choque).
 
@@ -346,6 +347,8 @@ Para evitar sonar robotizado, condescendiente o como un pastor dando clase, el g
 1. **Cero preguntas retóricas de iglesia:** Elimina las preguntas abstractas (ej. "¿Cuántas veces has esperado a Dios?") y reemplázalas por afirmaciones secas, directas y punzantes (ej. "Llevas años esperando. Y la cuenta sigue en rojo.").
 2. **Cero condescendencia:** El narrador es un amigo que te dice la verdad en la cara con frustración compartida, NO un profesor iluminado dando clase. **Prohibidas** las muletillas de sermón o conferencia: *"Y mira..."*, *"Ahora bien..."*, *"Presta atención..."*, *"Aquí está el sistema"*. Se golpea directo al punto.
 3. **Texto en pantalla orgánico, no PowerPoint:** Los textos superpuestos deben apoyar el golpe emocional de la voz. No deben parecer diapositivas aburridas o académicas.
+4. **Español neutral, humano y sin verborrea:** El texto debe ser hiper-eficiente y natural. Cero relleno. Sin palabras rebuscadas. Habla en español neutral, más humano y menos robotizado. Si una oración no avanza la narrativa o el dolor, bórrala.
+5. **Bucle Parasocial (Vulnerabilidad y Especificidad):** La audiencia vuelve por ti, no solo por la Biblia o las finanzas. Al ser un formato animado sin cámara, tu personalidad debe ir en el texto. Habla de tus propias frustraciones económicas ("Yo también fui al banco y me ofrecieron un crédito al 89% anual..."). Sé específico y raro. No digas "las deudas son malas", di "el CAT promedio en México es 89%, eso es ser esclavo". Usa anécdotas personales crudas como detonadores del video.
 
 ---
 
@@ -416,5 +419,5 @@ Cuando el usuario pida un guión:
 2. **Considera:** el vocabulario del viewer descrito en SKILL.md
 3. **Define:** versículo ancla y personaje bíblico (si aplica)
 4. **Construye bloque por bloque** siguiendo la estructura maestra
-5. **Entrega:** guión completo con tiempos asignados + micro-cliffhangers + CTA
+5. **Entrega directa y sin relleno:** Entrega SIEMPRE **solo el guión** completo con tiempos asignados + micro-cliffhangers + CTA. Cero verborrea conversacional de IA (PROHIBIDO decir "Aquí tienes el guión", "Espero que te sirva"). Directo al texto.
 6. **Pregunta:** "¿Quieres los prompts de voz para Google AI Studio o pasamos a los prompts de imagen?"
