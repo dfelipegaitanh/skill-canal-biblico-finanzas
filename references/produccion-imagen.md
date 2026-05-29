@@ -206,16 +206,26 @@ high contrast, storytelling mood, no text
 
 ---
 
-## Formato de entrega obligatorio (Tabla + Bloque Raw)
+## Formato de entrega obligatorio (Tarjetas de Producción + Bloque Raw)
 
-Entregar SIEMPRE la respuesta en dos partes, sin excepciones:
+Entregar SIEMPRE la respuesta en dos partes, sin excepciones. Queda estrictamente PROHIBIDO usar tablas de Markdown, ya que comprimen el texto.
 
-**PARTE 1: La Tabla Unificada**
-Una fila por imagen para el control del editor.
-| Bloque | Prompt imagen (DALL-E 3) | Prompt video (Kling/Runway) | Prioridad Video | Animación CapCut | Texto en pantalla | Prioridad Texto |
-|--------|--------------------------|-----------------------------|--------------|------------------|-------------------|-----------------|
-| **00:00–00:03** | (prompt completo) | N/A (Solo texto inicial) | OPCIONAL | Entrada: Zoom rápido / Salida: Fade | PARA DEUDORES | IDEAL (Visual Hook) |
-| **00:03–00:06** | (prompt completo) | Fast push-in camera... | RECOMENDADO | Entrada: Flash Blur / Salida: Wipe-L | ¿Llevas años? | RECOMENDADO |
+**PARTE 1: Las Tarjetas de Producción**
+Presenta cada bloque de imagen como una tarjeta vertical y fácil de leer.
+
+**🎬 BLOQUE [00:00 – 00:03]**
+*   🖼️ **DALL-E:** `(Prompt visual completo)`
+*   🎥 **Kling/Runway:** `(Prompt de movimiento en inglés)` [OPCIONAL / RECOMENDADO]
+*   ✨ **CapCut:** Entrada: Zoom rápido / Salida: Fade
+*   📝 **Texto en Pantalla:** "PARA DEUDORES" [IDEAL / OPCIONAL]
+
+**🎬 BLOQUE [00:03 – 00:06]**
+*   🖼️ **DALL-E:** `(Prompt visual completo)`
+*   🎥 **Kling/Runway:** `Fast push in camera, heavy dust...` [RECOMENDADO]
+*   ✨ **CapCut:** Entrada: Flash Blur / Salida: Wipe-L
+*   📝 **Texto en Pantalla:** "¿Llevas años?" [RECOMENDADO]
+
+*(Repetir para todos los bloques...)*
 
 **PARTE 2: El Bloque Raw para Batch (Copy-Paste)**
 Justo debajo de la tabla, entrega un único bloque de código (`text`) que contenga ÚNICAMENTE los prompts de imagen de DALL-E, uno por línea. Sin viñetas, sin números, sin timestamps. Esto es para que el usuario pueda copiar todo el bloque y pegarlo en una extensión de Chrome para generar en masa.
