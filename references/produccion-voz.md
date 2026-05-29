@@ -43,7 +43,7 @@ Usar la etiqueta `[pause]` ÚNICAMENTE cuando el guion exige explícitamente "1 
 
 **Identidad del Narrador y Configuración de Voz:**
 - **El Tono Exacto:** Hombre, voz medio-grave. Suena como un "amigo que sabe algo importante" o un consultor financiero. **NO es un predicador, NO es un coach motivacional.** El tono es de autoridad técnica (decodificador) pero empático.
-- **Velocidad:** Ritmo deliberado, 85–90% (más lento que lo natural). Las palabras clave deben tener peso.
+- **Velocidad:** Ritmo deliberado, 85–90% de la velocidad natural de habla humano (pausado, con peso). Las palabras clave deben tener peso.
 - **Pausas Estratégicas:** Las pausas después de preguntas directas o números de "Aritmética Brutal" valen más que seguir hablando.
 - **Shorts:** Duración estricta de **15–20 segundos** para Micro-Shorts (presupuesto **50–60 palabras**) o **50–60 segundos** para Shorts estándar (presupuesto **130–150 palabras**, incluyendo etiquetas de pausa).
 - **Videos largos:** Duración de 5–20 minutos.

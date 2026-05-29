@@ -48,7 +48,9 @@ Solo se puede elegir A o B. No se generan prompts en ningún otro estilo.
 - Cejas arqueadas altas, ojos abiertos = sorpresa / revelación
 - Cejas rectas, mirada firme = calma / autoridad / seriedad
 
-**2. Silueta minimalista con túnica** — `minimalist stylized character with thick black ink stroke arms and legs, torso wearing a simple flowing ancient tunic or shirt with stylized folds and volume`
+**2. Silueta monigote con túnica** — `stick-figure character with thick black ink stroke arms and legs, torso wearing a simple flowing ancient tunic or shirt with stylized folds and volume`
+
+**3. Personajes Bíblicos (Regla Excepcional):** Si el guión pide un personaje bíblico (Salomón, José, Jesús), SIGUEN SIENDO "stick-figures" (sin rasgos faciales realistas), pero se distinguen agregando *props* de poder o vestuario. Ej: `a stick-figure character representing King Solomon wearing a worn golden crown and royal ancient robes`. NUNCA dibujar caras humanas.
 
 **3. Fondos texturizados y definidos** — `background features architectural details drawn in dark, slightly thinner hand-drawn sketchy outlines, with pencil-sketch textures, stone cracks, and wood grain`
 
@@ -56,20 +58,14 @@ Solo se puede elegir A o B. No se generan prompts en ningún otro estilo.
 
 **Reglas de Oro del Delineado e Iluminación (¡CRÍTICO para evitar líneas digitales delgadas!):**
 
-> ⛔ **PROHIBICIÓN DURA DE LÍNEAS VECTORIALES:** Queda estrictamente prohibido usar términos como "clean line art", "smooth lines", "faded lines" o "no rough edges". DALL-E interpretará esto como vectores estériles de computadora.
-> *   **El Delineado Correcto:** Debe describirse siempre como **trazos gruesos hechos a mano con rotulador/tinta, con sutiles imperfecciones orgánicas** (`thick bold hand-drawn black ink outlines, felt-tip pen style, organic marker strokes with subtle ink texture`).
-> *   **La Textura Correcta:** El fondo debe tener una textura de papel rugoso o arena muy visible, no una pared lisa (`coarse textured warm beige paper background (#E8D5B0) with visible organic fiber flecks and sand grain texture`).
-> *   **El Sombreado Correcto:** Usar sombreado suave con lápiz carbón y gradientes cálidos para dar volumen tridimensional a las escenas, evitando que se vean planas (`soft charcoal shading and warm gradients for rich volumetric depth`).
+> ⛔ **PROHIBICIÓN DURA DE LÍNEAS VECTORIALES:** Prohibido usar "clean line art" o "smooth lines".
+> **Prompt Obligatorio de Delineado/Sombra:** `thick bold hand-drawn black ink outlines, coarse textured warm beige paper background (#E8D5B0) with visible organic fiber flecks, soft charcoal shading and warm gradients for rich volumetric depth`.
 
 ---
 
 **Reglas de Oro para el Acento de Color (¡CRÍTICO para evitar exceso de color!):**
 
-> ⛔ **REGLA DE MINIMALISMO ABSOLUTO:** Los colores semánticos se usan **únicamente en elementos simbólicos extremadamente pequeños y de alto impacto** (ej. una moneda, una cadena, una flecha de camino, un pergamino). 
-> 
-> **PROHIBICIÓN DURA:** NUNCA colorear áreas grandes, fondos, ropa, paredes, puertas completas, ni luz ambiental con colores semánticos (especialmente Verde o Azul).
-> *   *Ejemplo de error:* Pintar la luz que entra por una puerta en verde (`#27AE60`) hace que parezca radioactiva. La luz ambiental siempre debe ser cálida natural (`#E67E22` o `#E8D5B0`).
-> *   *Regla de naturalidad:* Las puertas, mesas, sillas y ropa deben dibujarse **siempre en outline negro (`#1A1A1A`)**, sin relleno de color, a menos que sean el objeto simbólico principal (ej. un cofre dorado).
+> ⛔ **REGLA DE MINIMALISMO DE COLOR:** Los colores semánticos son SOLO para objetos pequeños de impacto (monedas, pergaminos, cadenas). NUNCA colorear áreas grandes, fondos, luz ambiental, ropa o paredes (todo esto va en outline negro o beige cálido natural).
 
 **Colores semánticos corregidos y sus límites:**
 
@@ -108,7 +104,7 @@ Solo se puede elegir A o B. No se generan prompts en ningún otro estilo.
 **Prompt base (sustituir campos en MAYÚSCULAS):**
 ```
 [DESCRIPCIÓN DEL PERSONAJE Y ACCIÓN EN EL PRIMER PLANO],
-minimalist stylized character with thick black ink stroke arms and legs, large round head, expressive cartoon eyes with pupils and thick bold black eyebrows showing [EMOCIÓN],
+stick-figure character with thick black ink stroke arms and legs, large round head, expressive cartoon eyes with pupils and thick bold black eyebrows showing [EMOCIÓN],
 wearing a simple ancient [flowing tunic / plain shirt] with stylized folds,
 — midground: [objeto secundario o figura de contexto en trazos medianos de tinta],
 — background: [ELEMENTO CONTEXTUAL] drawn in dark, slightly thinner hand-drawn sketchy outlines, with pencil-sketch textures, stone cracks, and wood grain,
@@ -123,13 +119,13 @@ no text
 ```
 
 **Ejemplo de Prompt real (Estilo A):**
-> *A stylized character kneeling in distress, holding an empty small leather pouch with both hands, minimalist body with thick black ink stroke arms and legs, large round head, expressive cartoon eyes with pupils and thick bold black eyebrows showing intense guilt and worry, wearing a simple flowing ancient tunic with stylized folds, — midground: a simple rustic wooden table drawn in sketchy outlines, — background: an ancient stone temple wall with visible cracks and rough stone textures drawn in slightly thinner sketchy ink outlines, felt-tip pen ink illustration style, premium hand-drawn comic book aesthetic, coarse textured warm beige paper background (#E8D5B0) with visible organic fiber flecks and sand grain texture, thick bold hand-drawn black ink outlines with subtle organic imperfections and slightly rough edges, soft charcoal shading and warm gradients for rich volumetric depth, color accent rule: empty leather pouch in dark brown (#C4956A) — main accent, everything else in black ink outlines on textured warm beige, no text*
+> *A stick-figure character kneeling in distress, holding an empty small leather pouch with both hands, thick black ink stroke arms and legs, large round head, expressive cartoon eyes with pupils and thick bold black eyebrows showing intense guilt and worry, wearing a simple flowing ancient tunic with stylized folds, — midground: a simple rustic wooden table drawn in sketchy outlines, — background: an ancient stone temple wall with visible cracks and rough stone textures drawn in slightly thinner sketchy ink outlines, felt-tip pen ink illustration style, premium hand-drawn comic book aesthetic, coarse textured warm beige paper background (#E8D5B0) with visible organic fiber flecks and sand grain texture, thick bold hand-drawn black ink outlines with subtle organic imperfections and slightly rough edges, soft charcoal shading and warm gradients for rich volumetric depth, color accent rule: empty leather pouch in dark brown (#C4956A) — main accent, everything else in black ink outlines on textured warm beige, no text*
 
 ---
 
 Frame Hook — solo para la primera imagen del Short:
 ```
-A stylized character with wide alarmed eyes and body recoiling backward in shock, one hand pressing against chest in disbelief, the other hand gripping [OBJETO BÍBLICO-FINANCIERO: ancient scroll / gold coin / iron chains] tightly, minimalist body with thick black ink stroke arms and legs, large round head, expressive cartoon eyes with pupils wide open and thick bold black eyebrows shot up high showing intense shock and disturbed revelation, mouth slightly open, wearing a simple ancient tunic with stylized folds,
+A stick-figure character with wide alarmed eyes and body recoiling backward in shock, one hand pressing against chest in disbelief, the other hand gripping [OBJETO BÍBLICO-FINANCIERO: ancient scroll / gold coin / iron chains] tightly, thick black ink stroke arms and legs, large round head, expressive cartoon eyes with pupils wide open and thick bold black eyebrows shot up high showing intense shock and disturbed revelation, mouth slightly open, wearing a simple ancient tunic with stylized folds,
 — midground: [ELEMENTO DE CONTEXTO: stone ledge with scrolls / rustic wooden table / iron gate],
 — background: dark ancient stone walls with visible cracks and deep dramatic shadows, oppressive enclosed space with no sky visible,
 single oil lamp casting amber side light, high-contrast chiaroscuro lighting,

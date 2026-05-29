@@ -17,10 +17,8 @@ Antes de redactar una sola línea, la IA presenta al usuario las opciones de enf
 
 **Paso 2 — Dar la recomendación directa:**
 
-Después de la tabla, la IA le habla claro al usuario: explica cuál opción recomienda para el video específico que se está construyendo, por qué esa opción es la más estratégica dado el tema y el objetivo del video, y le pide explícitamente que confirme o elija otra.
-
-Formato de la recomendación:
-> *"Para este video sobre [tema], recomiendo el enfoque [X] porque [razón concreta basada en el tema, la audiencia y el objetivo]. ¿Avanzamos con este enfoque o prefieres otro?"*
+La IA explica brevemente qué enfoque recomienda según el tema y pide confirmación:
+> *"Para este video sobre [tema], recomiendo el enfoque [X] porque [razón]. ¿Avanzamos con este enfoque o prefieres otro?"*
 
 **Paso 3 — Solo después de la confirmación del usuario, proceder:**
 
@@ -71,13 +69,9 @@ Una vez que el usuario confirme o elija su opción, generar el guión completo c
   3. *La cronología invertida:* "Pides la bendición antes de preparar la tierra, cuando la regla dice lo opuesto."
 
 ### Pilar 3 — El Micro-CTA de Algoritmo (Hard CTA 1) ⭐ HACK DE RETENCIÓN
-**Timing:** Minuto 1:30 para videos de 3-5 min / Minuto 2:00-2:30 para videos de 8-12 min.
-**⚠️ Regla Inviolable:** NUNCA pedir suscripción o like en los primeros 60 segundos. Si pides antes de dar valor, suenas a motivación barata y abandonan.
-**El Truco:** Interrumpir el video *justo antes* de dar la solución técnica pesada para pedir la suscripción. Es el "cobro" por el gancho inicial.
-**Regla de Disrupción Visual en CTA:** Es OBLIGATORIO ejecutar una interrupción de patrón visual/auditiva. No se puede mantener el mismo plano.
-- **Acción:** Cambiar ángulo de visión (zoom digital agresivo o cambio de cámara), cambiar la música a una más rítmica, o insertar B-roll disruptivo que refuerce la autoridad.
-- **Propósito:** Evitar que el cerebro detecte el CTA como un 'espacio publicitario' y abandone el video.
-- **Script:** *"Antes de darte las 3 reglas de Salomón, suscríbete si estás harto de la motivación barata y quieres el Código real. Los que se quedan hasta el final hoy, son los que dejan de pedir y empiezan a construir."*
+**Timing:** Minuto 1:30 (videos cortos) / Minuto 2:00-2:30 (videos largos).
+**Regla Inviolable:** Interrumpir el video *justo antes* de dar la solución técnica pesada para pedir suscripción, obligando a un cambio de cámara o zoom agresivo para evitar el "espacio publicitario".
+- **Script:** *"Antes de darte las 3 reglas de Salomón, suscríbete si estás harto de la motivación barata y quieres el Código real."*
 
 ### Pilar 4 — Aritmética Brutal (El Núcleo Técnico)
 - **Voz:** Usa términos como "Mayordomía técnica", "Interés compuesto", "Diversificación".
@@ -209,7 +203,7 @@ Para que el algoritmo distribuya masivamente, el objetivo es:
 
 ## Estructura del Micro-Short (15–20s) — EL DEFAULT para canales en fase de crecimiento
 
-> ⛔ **REGLA DE LONGITUD ESTRICTA:** El presupuesto TOTAL de texto para un Micro-Short es de **50 a 60 palabras MÁXIMO**. *(Nota: Este presupuesto se calcula a 150 wpm como techo teórico para asegurar que el guión quepa en 20s. La voz en producción va al 85-90% de velocidad, así que el guión resultante durará entre 15-20 segundos como se busca. No superar las 60 palabras.)*
+> ⛔ **REGLA DE LONGITUD ESTRICTA:** Máximo 60 palabras totales en Micro-Shorts. Sin introducciones largas. Esto garantiza que la voz pueda narrar pausado (85-90%) y termine antes del segundo 20.
 
 Este es el formato diseñado para maximizar el "View-to-Swipe" por encima del 70%. Consta de solo 3 bloques compactos:
 
@@ -227,7 +221,7 @@ Confrontación identitaria + CTA agresivo.
 
 ---
 
-## Estructura del Short Estándar (50–60s) — 5 bloques (Para canales +1K Subs)
+## Estructura del Short Estándar (50–60s) — 5 bloques
 
 > ⛔ **REGLA DE LONGITUD ESTRICTA:** El presupuesto TOTAL de texto para un Short estándar es de **130 a 150 palabras MÁXIMO** (incluyendo etiquetas).
 
@@ -288,14 +282,7 @@ Justo cuando empieza el llamado a la acción, la IA debe indicar un cambio visua
 1. "Comenta de qué país eres." → activa el algoritmo. (El ZOOM entra exactamente en la primera palabra de esta frase).
 2. "El video completo está en el perfil." → mueve tráfico.
 
-**Script de Enlace (Loop Infinito):** El video nunca debe terminar con una conclusión cerrada. El último segundo del Bloque 5 debe terminar con una palabra de enlace o frase inconclusa que conecte gramaticalmente con el segundo 0 del video.
-- **Ejemplos de cierre:** `"...porque este código..."`, `"...y la razón es..."`, `"...entonces..."`.
-- **Propósito:** Forzar al algoritmo a contabilizar una retención superior al 100% al hacer que el usuario reinicie el video sin notar el corte visual o gramatical.
-
-Ejemplo:
-- **Última frase (Bloque 5):** *"...porque este Código..."*
-- **Primera frase (Bloque 1):** *"¿Llevas años atascado en la misma deuda...?"*
-- **Resultado:** El viewer escucha *"...porque este Código... ¿Llevas años atascado...?"* como si fuera una sola idea. Loop infinito de reproducción.
+**Script de Enlace (Loop Infinito):** El último segundo debe terminar con una frase inconclusa que conecte gramaticalmente con el segundo 0 del video. (Ej. Final: `"...porque este Código..."` → Inicio: `"¿Llevas años atascado...?"`). El viewer lo escucha como una sola idea continua, forzando +100% de retención.
 
 ---
 
@@ -317,7 +304,7 @@ Ejemplo:
 | Canal con base estable y un solo principio claro | Short estándar — 5 bloques 50–60s |
 | Tema que requiere contexto histórico bíblico, múltiples principios | Video largo — 7 Pilares |
 | Usuario dice explícitamente "Micro-Short" | Micro-Short — 3 bloques 15–20s |
-| Usuario dice explícitamente "Short" o "Reel" | Depende de la base de subs (por defecto Micro-Short) |
+| Usuario dice explícitamente "Short" o "Reel" | Micro-Short — 3 bloques 15–20s (por defecto) |
 | Usuario dice explícitamente "video largo" | Video largo — 7 Pilares |
 | Tema ambiguo sin señal clara | La IA propone Micro-Short como default y lo justifica |
 
@@ -396,18 +383,7 @@ La IA siempre genera el mismo esqueleto: Intro → Problema → Solución → Ci
 
 ---
 
-## Regla de los 90 segundos — humanización obligatoria
-
-El 100% de la retención se juega en los primeros 90 segundos. Esa zona **requiere reescritura manual** — nunca dejar lo que generó la IA sin editar.
-
-> 📝 **Nota para el Director:** esta sección es una directriz para el humano, no para la IA. La IA genera el borrador; el Director reescribe la apertura.
-
-**Qué agregar en los primeros 90 seg que la IA no puede fingir:**
-- "Siempre pensé que este versículo era sobre generosidad... hasta que lo leí en griego."
-- "Lo que más me sorprende de esto es que nadie en la iglesia lo habla abiertamente."
-- "En el video anterior, varios comentaron que habían diezmado por años sin ver resultados. Eso me hizo repensar algo."
-
-**Regla práctica:** Antes de generar la voz, llevar los primeros 90 segundos del guión a Google Drive y reescribir el inicio con al menos UNA frase personal que ancle la humanidad del canal. La IA genera el borrador bruto — el Director reescribe la apertura.
+> 📝 **NOTA PARA EL CREADOR HUMANO (Regla de los 90s):** La IA solo te da el borrador. El 100% de la retención se juega en los primeros 90 segundos. Llévate el guion a Google Drive y reescribe la apertura con una frase personal ("Lo que me sorprende de esto...", "Siempre pensé que..."). Inyecta tu humanidad antes de grabar.
 
 ---
 

@@ -24,8 +24,8 @@ description: Skill especializado para construir y operar el canal de YouTube "C�
 **Estrategia Macro (El Caballo de Troya y Disonancia Bíblica):** El empaque ataca un dolor secular de la audiencia. Históricamente ocultábamos el lenguaje religioso, pero la data prueba que la **Disonancia Bíblica** ("Jesús condenó al hombre prudente") genera el mayor impacto en todos los formatos. Las palabras religiosas ("Jesús", "Biblia") ESTÁN PERMITIDAS en títulos y ganchos EXCLUSIVAMENTE si se usan para romper una creencia establecida y generar shock. Si suenan a sermón genérico ("¿Dios quiere que seas pobre?"), están prohibidas.
 
 **Estilos visuales:**
-- **A) Estilo "Codex" (Manuscrito Da Vinci)** (default) — personajes estilo cómic latinoamericano, trazos de tinta negra gruesa e intensa, fondo beige texturizado `#E8D5B0`. Contra-señal visual a la basura 3D genérica.
-- **B) Kurzgesagt bíblico** — 2D flat, azul noche + dorado, personajes latinos
+- **A) Estilo "Codex" (Manuscrito Da Vinci)** (default) — 100% personajes stick-figure, trazos de tinta negra gruesa e intensa, fondo beige texturizado `#E8D5B0`. Contra-señal visual a la basura 3D genérica.
+- **B) Kurzgesagt bíblico** — 2D flat, azul noche + dorado.
 
 ---
 

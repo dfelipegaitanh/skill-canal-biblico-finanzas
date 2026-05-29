@@ -47,7 +47,7 @@ La miniatura no repite el título; **amplifica su emoción**.
 A highly legible YouTube thumbnail in a 16:9 aspect ratio.
 Style: Da Vinci manuscript "Codex" fused with Latin American comic style.
 Color Palette: Textured warm beige background (#E8D5B0), thick and intense black ink outlines, single spot color (amber or gold) for emphasis.
-Scene: [Describe the Pain/Asphyxia. E.g. A stressed man holding a broken hourglass dropping gold coins].
+Scene: [Describe the Pain/Asphyxia. E.g. A stick-figure character holding a broken hourglass dropping gold coins].
 Typography: The text "[Insert 2-4 Impact Words]" in massive, bold, distressed red or black letters taking up at least 30% of the space on the left or right side for extreme readability on mobile devices.
 Rule: Zero religious symbols. Zero 3D renders. 100% hand-drawn ink aesthetic.
 ```
