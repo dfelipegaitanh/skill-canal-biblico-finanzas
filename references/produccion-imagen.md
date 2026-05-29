@@ -1,8 +1,8 @@
 # Producción — Imagen, Animación y Edición
 
-## PREREQUISITO ABSOLUTO
-
-> ⛔ No se genera ningún prompt de imagen sin tener el guión final con timestamps. Sin timestamps, no hay prompts.
+## ⛔ 1. EL BLOQUEO ABSOLUTO (TIMESTAMPS)
+La IA tiene estrictamente **PROHIBIDO** generar un solo prompt de imagen si el usuario no ha entregado previamente el guion con los **timestamps exactos del audio editado**. 
+Si el usuario pide imágenes pero solo entrega texto sin tiempos (ej. `(0:00) a (0:05)`), la IA debe detenerse, negarse a generar las imágenes, y responder: *"Para garantizar el pacing y la sincronización con la voz, necesito que me des el guion final con los timestamps del audio editado. Sin tiempos, no puedo generar los prompts."*
 
 ### ⏱️ EL POLICÍA DE TIEMPOS (REGLA DE AUTO-DIVISIÓN)
 La IA debe analizar el timestamp final del guión para detectar el formato, y actuar como un auditor de retención:
