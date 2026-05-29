@@ -24,11 +24,8 @@ Si el usuario pide prompts sin el guión con timestamps, responder:
 
 ## Estilos disponibles — preguntar siempre antes de generar
 
-> "¿En qué estilo quieres las imágenes?
-> **A) Estilo "Codex" (Manuscrito Da Vinci)** — personajes cómic latinoamericano, trazos de tinta gruesa, fondo beige texturizado (default). Contra-señal a la basura 3D.
-> **B) Kurzgesagt bíblico** — 2D flat, azul noche + dorado, personajes latinos"
-
-Solo se puede elegir A o B. No se generan prompts en ningún otro estilo.
+> **Default:** Estilo A (Codex).
+> Generar en Estilo A automáticamente, a menos que el usuario pida explícitamente el Estilo B (Kurzgesagt bíblico).
 
 ---
 
@@ -52,7 +49,7 @@ Solo se puede elegir A o B. No se generan prompts en ningún otro estilo.
 
 **3. Personajes Bíblicos (Regla Excepcional):** Si el guión pide un personaje bíblico (Salomón, José, Jesús), SIGUEN SIENDO "stick-figures" (sin rasgos faciales realistas), pero se distinguen agregando *props* de poder o vestuario. Ej: `a stick-figure character representing King Solomon wearing a worn golden crown and royal ancient robes`. NUNCA dibujar caras humanas.
 
-**3. Fondos texturizados y definidos** — `background features architectural details drawn in dark, slightly thinner hand-drawn sketchy outlines, with pencil-sketch textures, stone cracks, and wood grain`
+**4. Fondos texturizados y definidos** — `background features architectural details drawn in dark, slightly thinner hand-drawn sketchy outlines, with pencil-sketch textures, stone cracks, and wood grain`
 
 ---
 
@@ -191,8 +188,7 @@ all elements within the 20%–80% vertical safe zone
 2D flat illustration, warm cinematic lighting,
 rich layered scene with foreground midground and background depth,
 deep navy and ochre color palette, golden accents,
-Middle Eastern biblical setting, Latin Mediterranean skin tones,
-expressive characters with detailed surrounding environment,
+Middle Eastern biblical setting, expressive characters with detailed surrounding environment,
 Kurzgesagt-inspired style meets biblical manuscript art,
 high contrast, storytelling mood, no text
 ```
@@ -200,7 +196,7 @@ high contrast, storytelling mood, no text
 > **NOTA SOBRE EL COLOR (ESTILO B):** Aunque este estilo usa una paleta distinta, **aplica la misma regla de minimalismo de color**. El dorado y ocre deben reservarse para elementos simbólicos o luz, no para bañar toda la escena.
 
 **Ejemplo de Prompt real (Estilo B):**
-> *A young merchant counting silver coins on a dark wooden table in a busy marketplace under warm torchlight, — midground: clay jars, fabrics, and baskets of grain, — background: sandstone arches and palm trees under a deep navy night sky, 2D flat illustration, warm cinematic lighting, rich layered scene with foreground midground and background depth, deep navy and ochre color palette, golden accents, Middle Eastern biblical setting, Latin Mediterranean skin tones, expressive characters with detailed surrounding environment, Kurzgesagt-inspired style meets biblical manuscript art, high contrast, storytelling mood, no text*
+> *A young merchant counting silver coins on a dark wooden table in a busy marketplace under warm torchlight, — midground: clay jars, fabrics, and baskets of grain, — background: sandstone arches and palm trees under a deep navy night sky, 2D flat illustration, warm cinematic lighting, rich layered scene with foreground midground and background depth, deep navy and ochre color palette, golden accents, Middle Eastern biblical setting, expressive characters with detailed surrounding environment, Kurzgesagt-inspired style meets biblical manuscript art, high contrast, storytelling mood, no text*
 
 ---
 

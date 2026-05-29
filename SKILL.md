@@ -21,7 +21,7 @@ description: Skill especializado para construir y operar el canal de YouTube "C�
 
 **Manifiesto de la Mayordomía (El Interior):** Cero tolerancia hacia la teología de la prosperidad. El miedo es el pecado financiero original. Tratamos la Biblia como un manual de estrategia geopolítica y personal, no como cuentos de hadas. No vendemos milagros; vendemos una arquitectura mental.
 
-**Estrategia Macro (El Caballo de Troya y Disonancia Bíblica):** El empaque ataca un dolor secular de la audiencia. Históricamente ocultábamos el lenguaje religioso, pero la data prueba que la **Disonancia Bíblica** ("Jesús condenó al hombre prudente") genera el mayor impacto en todos los formatos. Las palabras religiosas ("Jesús", "Biblia") ESTÁN PERMITIDAS en títulos y ganchos EXCLUSIVAMENTE si se usan para romper una creencia establecida y generar shock. Si suenan a sermón genérico ("¿Dios quiere que seas pobre?"), están prohibidas.
+**Estrategia Macro (Caballo de Troya y Disonancia Bíblica):** Empaque ataca dolor secular. Palabras religiosas PERMITIDAS EXCLUSIVAMENTE si rompen creencias y generan shock (ej. "Jesús condenó al prudente"). Prohibido el sermón genérico.
 
 **Estilos visuales:**
 - **A) Estilo "Codex" (Manuscrito Da Vinci)** (default) — 100% personajes stick-figure, trazos de tinta negra gruesa e intensa, fondo beige texturizado `#E8D5B0`. Contra-señal visual a la basura 3D genérica.

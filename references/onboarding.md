@@ -11,6 +11,7 @@ Activa este flujo cuando el usuario llegue con frases vagas como "ayúdame con e
 > - 🎨 Prompts de imagen o voz
 > - 🔍 Revisar o auditar un guión existente
 > - 🔄 Resucitar un Short estancado (<100 vistas)
+> - 📊 Diagnosticar métricas de un video publicado
 
 ## Paso 2 — Según lo que elija, hacer la pregunta específica que falta
 
@@ -37,7 +38,11 @@ Activa este flujo cuando el usuario llegue con frases vagas como "ayúdame con e
 **Si elige AUDITAR un guión:**
 → "¿El guión es para Short o para video largo?"
 → "Compárteme el guión completo o el link del video publicado."
-→ Cargar `auditoria-guion.md` y ejecutar el protocolo completo (Pasos 0 al 7).
+→ Cargar `auditoria-guion.md` y ejecutar el protocolo completo (Pasos 0 al 5).
+
+**Si elige DIAGNOSTICAR métricas:**
+→ "Pásame el CTR, Retención y vistas del video."
+→ Cargar `auditoria-guion.md` y ejecutar el Paso 4 (Auditoría Analítica).
 
 **Si elige RESUCITAR SHORT:**
 → "¿Cuál es el tema del Short que tiene menos de 100 vistas en sus primeras 48 horas?"
@@ -45,8 +50,7 @@ Activa este flujo cuando el usuario llegue con frases vagas como "ayúdame con e
 
 ## Paso 3 — Siempre cerrar con acción concreta
 
-Nunca terminar una respuesta sin proponer el siguiente paso.
-Ejemplo: "¿Seguimos con el guión o prefieres pasar a los prompts de voz e imagen?"
+Nunca terminar una respuesta sin proponer el siguiente paso lógico de producción.
 
 ---
 

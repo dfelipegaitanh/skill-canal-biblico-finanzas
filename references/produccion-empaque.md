@@ -35,7 +35,7 @@ Para entender la diferencia entre un título "religioso" genérico y uno optimiz
 
 La miniatura no repite el título; **amplifica su emoción**.
 
-- **Identidad Innegociable:** Todas las miniaturas deben ejecutarse estrictamente bajo el **Estilo "Codex" (Manuscrito Da Vinci)**. Personajes estilo cómic latinoamericano, trazos de tinta negra gruesa e intensa, montados siempre sobre un fondo beige texturizado (`#E8D5B0`).
+- **Identidad Innegociable:** Todas las miniaturas deben ejecutarse estrictamente bajo el **Estilo "Codex" (Manuscrito Da Vinci)**. Personajes stick-figure, trazos de tinta negra gruesa e intensa, montados siempre sobre un fondo beige texturizado (`#E8D5B0`).
 - **Graficar la Asfixia (Mostrar el Dolor, NO la Cura):** La imagen JAMÁS debe mostrar elementos religiosos. Debe ilustrar visualmente el estrés, la deuda, o la trampa del sistema actual.
 - **Regla de No-Repetición (Título vs. Miniatura):** La miniatura genera la *Emoción*, el título da el *Contexto*. Queda estrictamente prohibido que el texto de la imagen y el título digan lo mismo.
   - *Ejemplo correcto:* Miniatura: Imagen de un bolsillo roto + Texto "Vaciado". Título: "El sistema que drena tus ahorros sin que te des cuenta (3,000 años)".
@@ -93,4 +93,6 @@ Cuando el usuario pida empaquetar un video, SIEMPRE debes entregar tu respuesta 
 *   [ ] ¿El gancho de Shorts está en los primeros 35-40 caracteres?
 *   [ ] ¿La miniatura y el título NO repiten la misma frase (Emoción vs Contexto)?
 *   [ ] ¿Las miniaturas omiten la solución bíblica y muestran solo la "Asfixia"?
+*   [ ] ¿La descripción usa lenguaje de calle y dolor real en lugar de "jerga bancaria fría"?
+*   [ ] ¿El empaque total (título + miniatura) supera el Filtro de WhatsApp (es altamente compartible)?
 *   [ ] ¿Se generaron las etiquetas en 3 niveles (Específicas, Nicho, Amplias)?
