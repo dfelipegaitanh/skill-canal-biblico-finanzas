@@ -2,9 +2,25 @@
 
 > ⛔ **REGLA DURA:** Cuando el usuario pida revisar, auditar o mejorar un guión ya escrito (o ya grabado), NUNCA responder con un bloque de texto libre. Ejecutar este protocolo completo.
 
-## Paso 0 — Checkpoints de Supervivencia y Clasificación
+## Paso 0 — Bypass de Auditoría (Reescritura Directa)
 
-Antes de llenar la tabla, verificar estas 12 reglas de oro del canal:
+> ⚠️ **BYPASS:** Si el usuario incluye instrucciones explícitas como *"reescríbelo"*, *"ponlo más humano"*, o *"sin tanta verborrea"*, la IA debe saltarse la evaluación paso a paso y pasar directamente a la solución.
+
+En ese caso, la IA **DEBE ENTREGAR EXACTAMENTE DOS COSAS:**
+1. **El Guion Completo Corregido:** Aplicando todas las reglas Anti-Sermón, el español neutral y eliminando la verborrea.
+2. **Tabla de Cambios Quirúrgicos:** Inmediatamente después del guion, una tabla clara que documente qué cambió y por qué.
+
+**Formato exigido para este atajo:**
+[Guion en Markdown]
+
+**Cambios Aplicados:**
+| Qué se eliminó/cambió | Nueva versión | Por qué (Regla aplicada) |
+|---|---|---|
+| *(Frase original)* | *(Frase nueva)* | *(Ej. Síndrome del Púlpito / Filtro de WhatsApp)* |
+
+## Paso 1 — Checkpoints de Supervivencia y Clasificación
+
+Antes de llenar la tabla, verificar estas 13 reglas de oro generales:
 1. **Primer Segundo de Choque:** ¿El segundo 0 al 1 tiene texto gigante rojo (ej. ERROR, DEUDA) o imagen chocante? Si hay un arranque hablado pasivo → **Error Crítico**.
 2. **Gancho Letal (Power Words en Shorts):** ¿El hook combina una palabra de *Síntoma* (deuda, cuenta en rojo, estancamiento) con una de *Autoridad* (Código, Sistema, 3.000 años)? Si falta alguna de las dos o no hay ninguna → **Error Crítico** (el algoritmo no clasificará el dolor ni la solución).
 3. **Disonancia Bíblica vs. Caballo de Troya (Empaque):** ¿Las palabras religiosas ("Biblia", "Jesús", "Dios") en los primeros 3 segundos se usan para generar shock y disonancia (ej. "Jesús condenó al hombre prudente")? → **CORRECTO** (es la Fórmula de Disonancia Bíblica). ¿Se usan de forma genérica que suena a sermón (ej. "Dios quiere prosperarte")? → **Error Crítico** (mata el CTR). ¿El gancho NO usa disonancia y tampoco se ancla en un dolor secular masivo (deuda, bancos)? → **Error Crítico** (falta hook).
@@ -19,23 +35,19 @@ Antes de llenar la tabla, verificar estas 12 reglas de oro del canal:
 12. **El Filtro de WhatsApp (Métrica Share):** ¿El CTA o el tono general del video provoca que el espectador quiera compartirlo? (Ej. "Mándale esto a tu amigo que sigue endeudado"). ¿Se siente como un video que enviarías a un familiar quebrado? Si el guion no es "compartible" o el CTA solo pide likes aburridos → **Error Crítico** (cambiar el CTA y el tono para fomentar el Share).
 13. **Ingeniería Financiera vs. Escuela Dominical:** Si el guion menciona a un personaje bíblico, ¿lo trata como un "Ingeniero Financiero" (ej. José como creador del Fondo de Reserva) o relata un cuento bíblico tradicional ("Dios lo bendijo")? Si relata la historia como escuela dominical en lugar de traducir su perfil a Wall Street → **Error Crítico** (reescribir usando la Matriz de Ingenieros Financieros).
 
-## Paso 1 — Formato de entrega obligatorio (Tabla por Severidad)
+### Auditoría Estricta para Videos Largos (+3 minutos)
+Si el guion a revisar es para un video largo, sumar estas 4 verificaciones críticas a la lista anterior:
+14. **Regla de los 60 Segundos:** ¿Hay algún llamado a la acción (CTA) en el primer minuto del video? Si lo hay → **Error Crítico** (suena a vendedor barato).
+15. **Micro-CTA de Algoritmo (Pilar 3):** ¿El guion cobra el "peaje" pidiendo suscripción *antes* de entregar el núcleo técnico (Min ~1:30 para videos de 3-5m, Min ~2:00 para >8m)? Si lo omite → **Error Crítico**.
+16. **Aritmética Brutal (Pilar 4):** Si el guion da consejos genéricos sin números reales (inflación, interés bancario, deuda), marcar como **Error Crítico** por sonar a "motivación barata".
+   - *Sub-Regla (Tercero Invisible):* Si el video es de +8 minutos, ¿incluye un CTA orgánico (pedir comentarios sobre su país/tasa) camuflado en esta sección técnica? Si pide otra suscripción explícita aquí → **Error Crítico**.
+17. **CTA de Trascendencia (Pilar 7):** ¿El guion pide suscripción o like al final? Si lo hace → **Error Crítico**. El final es ÚNICAMENTE para mandar tráfico a otro video y crear una sesión larga.
 
-Entregar SIEMPRE la auditoría en una tabla con este formato exacto, una fila por problema detectado, ordenados de mayor a menor severidad:
+## Paso 2 — Herramientas de Reparación (Reglas de "Fixes")
 
-| Severidad | Timestamp | Área | Problema | Fix |
-|-----------|-----------|------|----------|-----|
-| **Crítico** | 00:00–00:05 | Hook | (Descripción del problema) | (Solución concreta) |
-| **Medio** | 00:25–00:29 | Pacing | (Descripción del problema) | (Solución concreta) |
-| **Bajo** | 00:40–00:46 | CTA | (Descripción del problema) | (Solución concreta) |
+Al momento de proponer la solución para un error, la IA debe aplicar obligatoriamente estas tres herramientas:
 
-**Definiciones de Severidad:**
-- **Crítico:** Mata la retención. El viewer hace swipe/cierra el video en ese punto.
-- **Medio:** Aburre o confunde por unos segundos. No mata pero debilita.
-- **Bajo:** Se puede mejorar, pero el video funciona sin el fix.
-
-## Paso 2 — Regla "No Regrabar" (Priorizar Post-Producción)
-
+### 2.1. Regla "No Regrabar" (Priorizar Post-Producción)
 > ⛔ **La primera solución siempre debe ser de post-producción.** Antes de sugerir cambiar el audio o regrabar, proponer arreglarlo con:
 > 1. Texto superpuesto en CapCut (overlay desarmador, ejemplo tangible, promesa visual)
 > 2. Corte visual o cambio de B-roll (sincronizar la imagen con la emoción del audio)
@@ -43,56 +55,46 @@ Entregar SIEMPRE la auditoría en una tabla con este formato exacto, una fila po
 >
 > Solo sugerir regrabar audio si el problema es **estructural** (falta un bloque entero, el orden narrativo está roto, o hay un error teológico).
 
-## Paso 3 — Regla del "Texto Desarmador" (Anti-Defensividad)
-
+### 2.2. Regla del "Texto Desarmador" (Anti-Defensividad)
 > Cuando el guión lanza una verdad incómoda o confrontacional (ej. "Piden mal", "Dios no te rescató"), el viewer cristiano puede ponerse a la defensiva y cerrar el video.
->
 > **Fix obligatorio:** En la columna "Fix" de la auditoría, proponer un texto en pantalla que **desarme la defensividad** antes de que el espectador procese el juicio del audio.
->
 > | Audio (Confronta) | Texto en pantalla (Desarma) |
 > |---|---|
 > | "Porque piden mal" | "No es tu culpa. Nadie te enseñó esto." |
-> | "Dios no lo rescató" | "La historia no termina aquí." |
 > | "Llevas años y sigues igual" | "Y no eres el único." |
 
-## Paso 4 — Regla Anti-Abstracción
-
+### 2.3. Regla Anti-Abstracción
 > Si el audio del guión da un concepto abstracto o un mandato vago (ej. "define para qué vas a usar lo que pides"), la auditoría DEBE proponer un texto en pantalla con **3 ejemplos hiper-tangibles** que anclen el concepto inmediatamente.
->
 > | Audio (Abstracto) | Texto en pantalla (Tangible) |
 > |---|---|
 > | "Escribe para qué usarías eso que pides" | "Ej: pago arriendo, deuda, negocio" |
 > | "Invierte lo que Dios te da" | "Ej: curso, herramienta, inventario" |
-> | "Administra con propósito" | "Ej: fondo de emergencia, educación de tus hijos, capital semilla" |
 
-## Paso 5 — Auditoría Estricta para Videos Largos
+## Paso 3 — Formato de entrega obligatorio (Tabla por Severidad)
 
-Si el guion a revisar es para un video largo (más de 3 minutos), verificar obligatoriamente:
-1. **Regla de los 60 Segundos:** ¿Hay algún llamado a la acción (CTA) en el primer minuto del video? Si lo hay → **Error Crítico** (suena a vendedor barato).
-2. **Micro-CTA de Algoritmo (Pilar 3):** ¿El guion cobra el "peaje" pidiendo suscripción *antes* de entregar el núcleo técnico (Min ~1:30 para videos de 3-5m, Min ~2:00 para >8m)? Si lo omite → **Error Crítico**.
-3. **Aritmética Brutal (Pilar 4):** Si el guion da consejos genéricos sin números reales (inflación, interés bancario, deuda), marcar como **Error Crítico** por sonar a "motivación barata".
-   - *Sub-Regla (Tercero Invisible):* Si el video es de +8 minutos, ¿incluye un CTA orgánico (pedir comentarios sobre su país/tasa) camuflado en esta sección técnica? Si pide otra suscripción explícita aquí → **Error Crítico**.
-4. **CTA de Trascendencia (Pilar 7):** ¿El guion pide suscripción o like al final? Si lo hace → **Error Crítico**. El final es ÚNICAMENTE para mandar tráfico a otro video y crear una sesión larga.
+Habiendo evaluado los Checkpoints (Paso 1) y usando las Herramientas de Reparación (Paso 2), entregar SIEMPRE la auditoría en una tabla con este formato exacto, ordenada de mayor a menor severidad:
 
-## Paso 6 — Auditoría Analítica (Diagnóstico YouTube Studio)
+| Severidad | Timestamp | Área | Problema | Fix (Aplicar Reglas del Paso 2) |
+|-----------|-----------|------|----------|---------------------------------|
+| **Crítico** | 00:00–00:05 | Hook | (Descripción del problema) | (Solución concreta: ej. Texto desarmador) |
+| **Medio** | 00:25–00:29 | Pacing | (Descripción del problema) | (Solución concreta: ej. Corte de B-roll) |
+| **Bajo** | 00:40–00:46 | CTA | (Descripción del problema) | (Solución concreta) |
+
+**Definiciones de Severidad:**
+- **Crítico:** Mata la retención o el Share. El viewer hace swipe/cierra el video en ese punto.
+- **Medio:** Aburre o confunde por unos segundos. No mata pero debilita.
+- **Bajo:** Se puede mejorar, pero el video funciona sin el fix.
+
+## Paso 4 — Auditoría Analítica (Diagnóstico YouTube Studio)
 
 Si el usuario proporciona métricas reales de un video publicado, DEBES diagnosticar la falla algorítmica:
 - **Alta Impresión + Bajo CTR:** El título o la miniatura fallaron. Recomendar un cambio urgente priorizando alto contraste y palabra clave a la izquierda.
 - **Alto CTR + Baja Retención inicial (caída brusca en primeros 30s):** Fuerte desconexión. La promesa del empaque (Caballo de Troya) no coincide con los primeros segundos del video, o la intro fue demasiado lenta. Hay que reempaquetar o cortar la intro desde el editor de YouTube.
 
-## Paso 7 — Veredicto Final
+## Paso 5 — Veredicto Final
 
 Cerrar siempre la auditoría con un bloque de veredicto que incluya:
 1. Qué funciona bien (no todo es negativo)
 2. Cuántos fixes son de post-producción vs regrabar
 3. Tiempo estimado de implementación en CapCut
-4. Si los fixes pueden impactar significativamente la retención
-
-## Paso 8 — Bypass de Auditoría (Reescritura Directa)
-
-> ⛔ **EXCEPCIÓN A LA REGLA DURA:** Si el usuario incluye instrucciones explícitas como *"dame solo el guion"*, *"reescríbelo"*, *"ponlo más humano"*, o *"sin tanta verborrea"*, **SE CANCELA EL PROTOCOLO DE AUDITORÍA (Pasos 1 al 7).**
-
-En ese caso, la IA NO entrega la tabla de errores ni el veredicto. Debe pasar directamente a la acción:
-1. Reescribir el guión completo aplicando las reglas Anti-Sermón, el español neutral y eliminando toda verborrea y tono robótico.
-2. Entregar **ÚNICAMENTE** el bloque de texto del guión corregido.
-3. Cero relleno conversacional ("Aquí tienes el guión mejorado", "Le quité la verborrea como pediste"). **Directo al markdown.**
+4. Si los fixes pueden impactar significativamente la retención o las compartidas (Shares)
