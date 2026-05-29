@@ -41,6 +41,8 @@ Para evitar sonar robotizado, condescendiente o como un pastor dando clase, todo
 4. **Bucle Parasocial (Vulnerabilidad):** La audiencia vuelve por ti. Habla de tus propias frustraciones ("Yo también fui al banco..."). Usa anécdotas crudas.
 5. **Colisión de Contenidos (Lenguaje Terrenal y de Calle):** Todo concepto bíblico DEBE chocar contra un problema financiero real con palabras que duelan en el estómago, no en la cabeza. **PROHIBIDA la jerga bancaria fría.** (Ej: NUNCA digas "Cuenta de ahorros al 0.5%". Di: "El banco te paga centavos mientras tu plata se pudre").
 6. **Texto en pantalla orgánico (Anti-PowerPoint):** Los textos sugeridos para edición (overlays) deben ser el golpe emocional, no una clase de economía. **PROHIBIDO** usar ecuaciones, glosarios o el signo igual (ej. MAL: "0.5% anual = enterrado"). Usa 1 a 3 palabras gigantes que griten la emoción (ej. BIEN: "TE DAN CENTAVOS" o "SE PUDRE").
+7. **La regla del Francotirador (UN SOLO VERSÍCULO):** **Estrictamente prohibido** citar más de un versículo por Short. Disparar 3 versículos distintos en 60 segundos convierte el video en un sermón dominical. Elige UN versículo y desmenúzalo hasta el hueso.
+8. **Prohibición de Autoayuda (Mecanismo vs Motivación):** El cierre del guion **NUNCA** debe ser motivacional ("tú puedes", "actúa hoy", "ten fe"). La solución siempre debe ser la revelación de un **Mecanismo Técnico o Sistémico** (ej. "el capital inactivo es evaporado por el sistema inflacionario de los bancos. Forzar el interés compuesto es la única defensa bíblica"). Al usuario se le entrega "El Código", no palmadas en la espalda.
 
 ### Matriz de Ingenieros Financieros (Personajes Bíblicos)
 Si el guión menciona a un personaje bíblico, este NUNCA es el héroe del video. El héroe es el usuario quebrado. El personaje bíblico es solo el inventor del "sistema".
@@ -97,8 +99,8 @@ Rotar entre estos para mantener fresco el canal. La plantilla base (aplica a los
 > ⛔ **MÁXIMO 150 PALABRAS TOTALES.** Consta de 5 bloques exactos.
 1. **HERIDA (0–4s):** Choque visual (DEUDA gigante) + Hook verbal con Power Word. Disonancia financiera obligatoria.
 2. **PARADOJA (4–12s):** "La Biblia dice X, pero tú haces Y." Citar versículo máximo en el seg 5-7.
-3. **DECODIFICACIÓN (12–35s):** Número real + pausa + traducción a dolor. *"70% de interés [PAUSA 1s] le regalas 3 días al banco."* (Inyectar interruptor de ritmo visual en el seg 20 para no aburrir).
-4. **COMANDO (35–48s):** Escalera 1:1:1 (Acción hoy + Promesa + Identidad).
+3. **DECODIFICACIÓN (12–35s):** Número real + pausa + traducción a dolor. *"70% de interés [PAUSA 1s] le regalas 3 días al banco."* (Inyectar interruptor de ritmo visual en el seg 20 para no aburrir). **ESTRICTAMENTE PROHIBIDO** saltar a un segundo versículo aquí.
+4. **COMANDO (35–48s):** Escalera técnica 1:1:1 (Acción Sistémica hoy + Promesa + Identidad). **ESTRICTAMENTE PROHIBIDO** usar frases de autoayuda o motivación. Tienes que revelar un mecanismo financiero (ej. cómo funciona la inflación o el interés compuesto) basado en el versículo del Bloque 2.
 5. **LOOP (48–60s):** Zoom dramático a los ojos. Exige el SHARE: *"Mándale esto a tu amigo endeudado."* Terminar con frase inconclusa que enlace al segundo 0.
 
 ### C. El Blueprint: 7 Pilares (Videos Largos de +3 min)
