@@ -115,7 +115,7 @@ Nunca digas "adiós" o "bendiciones" (No-Goodbye obligatorio). Tu único objetiv
 
 ---
 
-## Los 6 tipos de hook estratégicos del canal
+## Los 7 tipos de hook estratégicos del canal
 
 Siempre rotar y seleccionar el hook idóneo según el tema para mantener fresco el canal.
 
@@ -148,6 +148,11 @@ Siempre rotar y seleccionar el hook idóneo según el tema para mantener fresco 
 * **Fórmula:** `[Personaje bíblico exitoso/Sabiduría antigua] → [Leyes financieras aplicables a Latinoamérica]`
 * **Ejemplo:** *"Salomón no fue el hombre más rico del mundo por suerte. Él aplicó una serie de leyes financieras que hoy, 3,000 años después, siguen funcionando en Latinoamérica."*
 * **Cuándo usarlo:** Consejos de ahorro prácticos, inversiones sabias y análisis de Proverbios.
+
+### 7. El Hook de Trinchera (Vulnerabilidad Extrema) [Métrica: Shares]
+* **Fórmula:** `[Fracaso financiero personal humillante] + [El descubrimiento del Código]`
+* **Ejemplo:** *"Hace 3 años el banco me llamó para embargar mi carro. Y en medio de ese ataque de pánico, descubrí por qué la Biblia habla más de dinero que de fe."*
+* **Cuándo usarlo:** Cuando necesites crear un pico masivo de suscriptores nuevos. La gente se suscribe y comparte tu dolor, no tu éxito.
 
 ---
 
@@ -279,9 +284,10 @@ Notación exacta: *"70% de interés `[PAUSA 1s — número crece en pantalla]` �
 
 **Loop de Cierre primero:** reformula la pregunta del Bloque 1 como versión más profunda — cierra el círculo antes del CTA.
 
-**Interruptor de Velocidad + CTA inviolable:**
-Justo cuando empieza el llamado a la acción, la IA debe indicar un cambio visual agresivo en CapCut (zoom digital rápido hacia los ojos del personaje, o cambio de ángulo brusco). El zoom agresivo interrumpe la señal de "el video se acabó" y lo obliga a quedarse.
-1. "Comenta de qué país eres." → activa el algoritmo. (El ZOOM entra exactamente en la primera palabra de esta frase).
+**Interruptor de Velocidad + CTA de Trinchera (Shares):**
+Justo cuando empieza el llamado a la acción, la IA debe indicar un cambio visual agresivo en CapCut (zoom digital rápido hacia los ojos).
+La métrica reina es el SHARE (Compartir). En lugar de mendigar likes, exige que compartan el dolor:
+1. *"Mándale este video a ese amigo que le sigue regalando 3 días de sueldo al banco."* → Fuerza el Share en WhatsApp. (El ZOOM entra exactamente en la primera palabra).
 2. "El video completo está en el perfil." → mueve tráfico.
 
 **Script de Enlace (Loop Infinito):** El último segundo debe terminar con una frase inconclusa que conecte gramaticalmente con el segundo 0 del video. (Ej. Final: `"...porque este Código..."` → Inicio: `"¿Llevas años atascado...?"`). El viewer lo escucha como una sola idea continua, forzando +100% de retención.
@@ -329,7 +335,7 @@ Son frases de transición entre Pilares que obligan al viewer a seguir viendo. N
 
 ---
 
-## Reglas Anti-Sermón (La Voz Humana del Canal)
+## Reglas Anti-Sermón (Evitar el Síndrome del Púlpito)
 
 Para evitar sonar robotizado, condescendiente o como un pastor dando clase, el guion debe someterse a esta limpieza rigurosa:
 
@@ -355,7 +361,8 @@ Aplica a ambos formatos. Si alguna respuesta es "no", reescribir antes de produc
 - [ ] ¿La última acción provoca cambio de identidad, no solo de hábito?
 - [ ] ¿Las cifras están en contexto latinoamericano — pesos, tasas reales, países específicos?
 - [ ] ¿El cierre regresa al gancho inicial — el círculo se cerró?
-- [ ] ¿El CTA construye puente en lugar de mendigar interacción?
+- [ ] ¿El CTA construye puente o exige un Share explícito en lugar de mendigar likes?
+- [ ] **Filtro de WhatsApp:** Al leerlo en voz alta, ¿se siente como algo que un latinoamericano le enviaría por WhatsApp a su hermano endeudado diciendo "mira esta locura"? Si no es "compartible", el guion fracasó.
 
 ### Checklist de tono
 - [ ] ¿Suena a decodificación técnica o a sermón dominical? → Si suena a sermón, reescribir.
