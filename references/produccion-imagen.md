@@ -157,6 +157,25 @@ all elements within the 20%–80% vertical safe zone
 
 ---
 
+### 🟢 TERCER PROMPT BASE: El Cierre / Llamado a la Acción (CTA)
+Este prompt se usa EXCLUSIVAMENTE para la última imagen del video (el clímax y comando final). Usa Perspectiva Forzada, luces dramáticas y rompe la cuarta pared para obligar al usuario a tomar acción.
+
+```text
+Dynamic mid-shot from a low angle, stick-figure character leaning forward breaking the fourth wall, intense piercing stare directly at the viewer with furrowed thick bold black eyebrows showing extreme conviction, one arm extended straight toward the camera with forced perspective making the open palm appear huge in the foreground, thick black ink stroke arms, wearing a simple plain shirt with stylized folds,
+— midground: a massive glowing [OBJETO BÍBLICO-FINANCIERO: golden coin / heavy iron key / sealed scroll] floating just millimeters above the oversized open palm, casting a warm amber light on the character's face,
+— background: dark ancient stone walls with deep heavy shadows, completely out of focus to force all attention on the glowing object and the character's intense eyes,
+premium hand-drawn comic book aesthetic with clean precision,
+thick bold hand-drawn black ink outlines with clean crisp and solid edges,
+flat cel-shading but with high-contrast dramatic chiaroscuro lighting,
+color accent rule: floating object in golden yellow (#C9A84C) — main accent,
+intense warm amber wash (#E67E22) illuminating the face and palm — secondary accent,
+everything else in crisp black ink outlines on deep shadows,
+strictly no high-frequency noise, no pencil sketch marks, no dust particles, optimized for video animation,
+optional environmental text in Spanish only,
+all elements within the 20%–80% vertical safe zone
+```
+
+---
 > ⛔ **ANTI-LISTA: Frames que SIEMPRE rinden mal (rechazar y regenerar si aparecen):**
 >
 > | Señal de frame muerto | Por qué falla | Ejemplo real de bajo rendimiento |
