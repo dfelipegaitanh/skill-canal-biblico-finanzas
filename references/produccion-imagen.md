@@ -203,15 +203,25 @@ high contrast, storytelling mood, no text
 
 ---
 
-## Tabla de prompts — formato de entrega obligatorio
+## Formato de entrega obligatorio (Tabla + Bloque Raw)
 
-Entregar SIEMPRE en una sola tabla unificada — una fila por imagen, sin excepciones:
+Entregar SIEMPRE la respuesta en dos partes, sin excepciones:
 
+**PARTE 1: La Tabla Unificada**
+Una fila por imagen para el control del editor.
 | Bloque | Prompt imagen (DALL-E 3) | Prompt video (Kling/Runway) | Prioridad Video | Animación CapCut | Texto en pantalla | Prioridad Texto |
 |--------|--------------------------|-----------------------------|--------------|------------------|-------------------|-----------------|
-| **00:00–00:03** | (prompt completo de fondo según estilo A o B elegido) | N/A (Solo texto inicial) | OPCIONAL | Entrada: Zoom rápido / Salida: Fade | PARA DEUDORES | IDEAL (Visual Hook) |
-| **00:03–00:06** | (prompt completo con personaje) | Fast push-in camera, character violently recoils backward dropping the scroll, heavy dust floating in the air, dramatic flickering amber light | RECOMENDADO | Entrada: Flash Blur / Salida: Wipe-L | ¿Llevas años en quiebra? | RECOMENDADO |
-| **00:06–00:10** | (prompt completo de crisis) | Shaky handheld camera, heavy red chains forcefully wrapping around the figure, dust particles violently swirling | RECOMENDADO | Entrada: Shaky Lens / Salida: Wipe-Down | La deuda te atrapa | OPCIONAL |
+| **00:00–00:03** | (prompt completo) | N/A (Solo texto inicial) | OPCIONAL | Entrada: Zoom rápido / Salida: Fade | PARA DEUDORES | IDEAL (Visual Hook) |
+| **00:03–00:06** | (prompt completo) | Fast push-in camera... | RECOMENDADO | Entrada: Flash Blur / Salida: Wipe-L | ¿Llevas años? | RECOMENDADO |
+
+**PARTE 2: El Bloque Raw para Batch (Copy-Paste)**
+Justo debajo de la tabla, entrega un único bloque de código (`text`) que contenga ÚNICAMENTE los prompts de imagen de DALL-E, uno por línea. Sin viñetas, sin números, sin timestamps. Esto es para que el usuario pueda copiar todo el bloque y pegarlo en una extensión de Chrome para generar en masa.
+
+```text
+(Prompt completo de la imagen 1)
+(Prompt completo de la imagen 2)
+(Prompt completo de la imagen 3)
+```
 
 ### ⛔ REGLA DE TEXTOS AMBIENTALES
 Por regla general, se le permite a DALL-E incluir textos diegéticos (en el fondo, en pergaminos) para mayor inmersión. El sufijo obligatorio es: `optional environmental text in Spanish only`. Si el usuario detecta que DALL-E alucina demasiadas palabras raras, se puede volver al antiguo `no text` de forma manual, pero por defecto se asume libertad creativa en español.
