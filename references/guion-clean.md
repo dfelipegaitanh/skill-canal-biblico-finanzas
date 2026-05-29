@@ -158,7 +158,18 @@ Siempre rotar y seleccionar el hook idóneo según el tema para mantener fresco 
 
 **Regla del personaje bíblico como espejo — nunca como protagonista:**
 
-Los personajes bíblicos (José, Salomón, el siervo de los talentos, el hijo pródigo) son válidos en el canal, pero SOLO como espejo del dolor financiero del viewer — nunca como el tema del video.
+Si el guión menciona a un personaje bíblico, este NUNCA es el héroe del video. El héroe es el usuario quebrado. El personaje bíblico es solo el inventor del "sistema".
+
+> **Matriz de Ingenieros Financieros (Traducción de Personajes):**
+> Nunca relates la historia de escuela dominical del personaje. Tradúcelo a su cargo financiero moderno:
+> *   **José:** No es el esclavo soñador. Es el Ministro de Economía que inventó un Fondo de Reserva Nacional para sobrevivir a una depresión macroeconómica de 7 años.
+> *   **Isaac:** No es un pastor en el desierto. Es el inversor de alto riesgo que hizo *Short Selling* (apostó contra el mercado) invirtiendo capital en plena sequía y sacando 100% de retorno.
+> *   **Job:** No es el símbolo de la paciencia cristiana. Es el manual técnico definitivo sobre Gestión de Riesgo Extremo y reconstrucción de capital desde cero.
+> *   **Salomón:** No es un rey sabio. Es un estratega puro de diversificación de activos y monopolios comerciales.
+> *   **Jesús (en parábolas financieras):** No es un repartidor de milagros. Es un auditor despiadado del capital humano (Talentos) que exige retornos sobre la inversión.
+
+- *Error:* "Hoy vamos a estudiar la vida de José y cómo Dios lo prosperó."
+- *Acierto:* "El sistema de contingencia que usó José en Egipto es exactamente lo que necesitas para sobrevivir la próxima recesión inflacionaria de tu país."
 
 | ❌ Personaje como protagonista | ✅ Personaje como espejo |
 |-------------------------------|------------------------|
