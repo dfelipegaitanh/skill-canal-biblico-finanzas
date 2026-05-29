@@ -15,6 +15,7 @@ Antes de llenar la tabla, verificar estas 10 reglas de oro del canal:
 8. **Frases Muertas (Empaque):** ¿El título usa una frase quemada ("La respuesta te sorprenderá", "No vas a creer")? Si es así → **Error Crítico** (el cerebro lo filtra como spam).
 9. **Ancla de Tensión Económica:** ¿El gancho ancla la curiosidad a una pregunta financiera hiper-específica que necesita resolverse HOY (ej. "salir de una deuda al 89%") o se queda en una paradoja bíblica interesante pero vacía? Si es vacía → **Error Crítico** (el espectador abandonará cuando entre el sermón).
 10. **Bucle Parasocial (Personalidad y Vulnerabilidad):** ¿El guion expone la frustración/personalidad del creador hablando en primera persona ("Yo también fui al banco...", "Mi cuenta estaba en rojo") o usa datos crudos y específicos (CAT del 89%), o es solo un relato distante de hechos? Si el guion es plano, no opina y no tiene vulnerabilidad → **Error Crítico** (no retendrá para un video #2).
+11. **Colisión de Contenidos (Lenguaje Terrenal y Humano):** Al mencionar conceptos bíblicos o sagrados, ¿chocan contra un problema económico real usando lenguaje callejero/humano (ej. "Me subieron el valor a pagar de la TC") o usa jerga fría ("Inflación del 100%")? Si usa jerga técnica aburrida y no exige un contraste agresivo con lenguaje humano → **Error Crítico** (exigir reescritura para acercarlo a la calle).
 
 ## Paso 1 — Formato de entrega obligatorio (Tabla por Severidad)
 

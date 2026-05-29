@@ -34,6 +34,8 @@ Una vez que el usuario confirme o elija su opción, generar el guión completo c
 > **Principio rector:** Primero el dolor. Luego la paradoja. Luego el sistema. Si el guión suena a motivación barata, está mal escrito. Un guión de Código Bíblico del Dinero no predica. No motiva. **Decodifica.**
 *(Aplica para videos de más de 3 minutos de duración)*
 
+> ⛓️ **REGLA DE LA CADENA DE TENSIÓN:** El "Ancla de Tensión" no es solo para el inicio. En los videos largos, CADA VEZ que se pasa de un pilar a otro, el guion debe renovar la tensión con un micro-cliffhanger o una nueva herida financiera. Nunca dejes que el espectador sienta que "ya resolvió el problema" antes del Pilar 6.
+
 ### Distribución de Tiempos (Ejemplo base 10 mins)
 
 | Bloque | Nombre | Propósito | Duración Sugerida |
@@ -336,6 +338,7 @@ Para evitar sonar robotizado, condescendiente o como un pastor dando clase, el g
 3. **Texto en pantalla orgánico, no PowerPoint:** Los textos superpuestos deben apoyar el golpe emocional de la voz. No deben parecer diapositivas aburridas o académicas.
 4. **Español neutral, humano y sin verborrea:** El texto debe ser hiper-eficiente y natural. Cero relleno. Sin palabras rebuscadas. Habla en español neutral, más humano y menos robotizado. Si una oración no avanza la narrativa o el dolor, bórrala.
 5. **Bucle Parasocial (Vulnerabilidad y Especificidad):** La audiencia vuelve por ti, no solo por la Biblia o las finanzas. Al ser un formato animado sin cámara, tu personalidad debe ir en el texto. Habla de tus propias frustraciones económicas ("Yo también fui al banco y me ofrecieron un crédito al 89% anual..."). Sé específico y raro. No digas "las deudas son malas", di "el CAT promedio en México es 89%, eso es ser esclavo". Usa anécdotas personales crudas como detonadores del video.
+6. **Colisión de Contenidos (Sagrado vs Terrenal Humano):** Por cada concepto sagrado (ej. parábola, Jesús), el guion DEBE chocar inmediatamente contra un problema financiero real, exigiendo ese contraste agresivo con lenguaje humano y de la calle. NO digas "Inflación del 100%", di "Ahora todo cuesta el doble en el mercado". NO digas "Tasa de interés de tarjeta", di "Me subieron el valor a pagar de la TC y la deuda no baja". La tensión vive en ese choque entre lo divino y el bolsillo real.
 
 ---
 
