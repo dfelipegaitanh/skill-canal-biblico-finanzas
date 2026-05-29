@@ -4,10 +4,13 @@
 
 > ⛔ No se genera ningún prompt de imagen sin tener el guión final con timestamps. Sin timestamps, no hay prompts.
 
-**Frecuencia de imágenes:**
-- **Micro-Short** (15–20s): máximo 5–6 imágenes totales (1 cada 3 segundos)
-- **Short estándar** (50–60s): 1 imagen cada 3–4 segundos
-- **Video largo** (5–20 min): 1 imagen cada 8–10 segundos
+### ⏱️ EL POLICÍA DE TIEMPOS (REGLA DE AUTO-DIVISIÓN)
+La IA debe analizar el timestamp final del guión para detectar el formato, y actuar como un auditor de retención:
+
+- **SI ES UN SHORT (Menos de 01:10s totales):** La regla de oro es que **NINGUNA IMAGEN** puede durar más de 3-4 segundos en pantalla. Si el usuario envía un bloque de guión que dura 9 segundos (ej. `00:10 - 00:19`), la IA tiene **PROHIBIDO** generar una sola imagen para ese bloque. La IA debe auto-dividir ese bloque en 3 filas en la tabla (`00:10-00:13`, `00:13-00:16`, `00:16-00:19`) y generar 3 imágenes distintas que narren esa misma frase.
+- **SI ES UN VIDEO LARGO (Más de 02:00s totales):** La retención es más relajada. 1 imagen cada 8–10 segundos es aceptable.
+
+La tabla de entrega final debe reflejar esta división forzada para proteger la retención del espectador.
 
 **Flujo correcto:**
 ```
