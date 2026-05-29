@@ -49,6 +49,7 @@ Nunca relates la historia de escuela dominical. Tradúcelo a su cargo financiero
 - **Isaac:** Inversor de alto riesgo que hizo *Short Selling* (invirtió en plena sequía y sacó 100%).
 - **Job:** El manual técnico definitivo sobre Gestión de Riesgo Extremo y reconstrucción de capital desde cero.
 - **Salomón:** Estratega puro de diversificación de activos y monopolios comerciales.
+- **Abraham:** CEO del Patrimonio y la Herencia Generacional. Rompe la mentalidad de escasez (orfanato) para crear imperios de largo plazo.
 - **Jesús (en parábolas financieras):** Auditor despiadado del capital humano (Talentos) que exige retornos.
 *Ejemplo Correcto:* "El sistema de contingencia que usó José en Egipto es exactamente lo que necesitas para sobrevivir la próxima recesión."
 
