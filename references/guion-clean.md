@@ -39,8 +39,8 @@ Para evitar sonar robotizado, condescendiente o como un pastor dando clase, todo
 2. **Cero condescendencia:** El narrador es un amigo que dice la verdad con frustración, NO un profesor iluminado. **Prohibidas:** "Y mira...", "Ahora bien...", "Presta atención...". Golpea directo.
 3. **Español neutral y sin verborrea:** Hiper-eficiente. Sin palabras rebuscadas ni relleno.
 4. **Bucle Parasocial (Vulnerabilidad):** La audiencia vuelve por ti. Habla de tus propias frustraciones ("Yo también fui al banco..."). Usa anécdotas crudas.
-5. **Colisión de Contenidos (Sagrado vs Terrenal):** Todo concepto bíblico DEBE chocar contra un problema financiero real con lenguaje de calle. (Ej: No "Inflación", sino "Ahora todo cuesta el doble").
-6. **Texto en pantalla orgánico:** Los overlays apoyan el golpe emocional de la voz, no son un PowerPoint.
+5. **Colisión de Contenidos (Lenguaje Terrenal y de Calle):** Todo concepto bíblico DEBE chocar contra un problema financiero real con palabras que duelan en el estómago, no en la cabeza. **PROHIBIDA la jerga bancaria fría.** (Ej: NUNCA digas "Cuenta de ahorros al 0.5%". Di: "El banco te paga centavos mientras tu plata se pudre").
+6. **Texto en pantalla orgánico (Anti-PowerPoint):** Los textos sugeridos para edición (overlays) deben ser el golpe emocional, no una clase de economía. **PROHIBIDO** usar ecuaciones, glosarios o el signo igual (ej. MAL: "0.5% anual = enterrado"). Usa 1 a 3 palabras gigantes que griten la emoción (ej. BIEN: "TE DAN CENTAVOS" o "SE PUDRE").
 
 ### Matriz de Ingenieros Financieros (Personajes Bíblicos)
 Si el guión menciona a un personaje bíblico, este NUNCA es el héroe del video. El héroe es el usuario quebrado. El personaje bíblico es solo el inventor del "sistema".
@@ -133,6 +133,8 @@ Antes de que la IA entregue el guion, debe pasarlo por este escáner interno:
 - [ ] ¿Los números son latinos (tasas, deudas, contexto)?
 - [ ] **Filtro de WhatsApp:** ¿El espectador va a querer compartir este video por WhatsApp por puro impacto?
 - [ ] ¿Suena humano, con frustración, sin verborrea ni palabras como "potencial" o "bendición"?
+- [ ] ¿Se eliminó toda "jerga bancaria fría" a favor de un lenguaje de calle que conecte con el dolor real?
+- [ ] ¿Los textos en pantalla sugeridos son emocionales (1-3 palabras) y libres de ecuaciones estilo "PowerPoint"?
 - [ ] ¿Cumple los límites estrictos de palabras (60 para Micro, 150 para Short)?
 - [ ] ¿El CTA de Shorts exige explícitamente el Share?
 
