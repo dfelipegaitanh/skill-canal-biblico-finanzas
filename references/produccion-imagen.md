@@ -5,8 +5,9 @@ La IA tiene estrictamente **PROHIBIDO** generar un solo prompt de imagen si el u
 
 ### ⏱️ EL POLICÍA DE TIEMPOS (REGLA DE AUTO-DIVISIÓN)
 
-- **SHORT (< 01:10s):** **NINGUNA IMAGEN** puede durar más de 3-4 segundos. Auto-dividir bloques largos (ej. 9s → 3 imágenes de 3s).
-- **VIDEO LARGO (> 02:00s):** 1 imagen cada 8–10 segundos es aceptable.
+- **EL GANCHO (Los primeros 0 a ~3s):** Queda ESTRICTAMENTE PROHIBIDO dividir el gancho en múltiples imágenes, sin importar si el audio tiene pausas de microsegundos o texto de impacto inicial (ej. 00:00 - 00:00,600). El Hook completo se cubre con UNA ÚNICA IMAGEN (Frame 0 — Hook visual).
+- **SHORT (< 01:10s):** Después del gancho, **NINGUNA IMAGEN** puede durar más de 3-4 segundos. Auto-dividir bloques largos (ej. 9s → 3 imágenes de 3s).
+- **VIDEO LARGO (> 02:00s):** Después del gancho, 1 imagen cada 8–10 segundos es aceptable.
 
 **Flujo:**
 ```

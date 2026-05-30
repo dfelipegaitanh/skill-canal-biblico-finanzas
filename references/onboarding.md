@@ -11,6 +11,7 @@ Activa este flujo cuando el usuario llegue con frases vagas como "ayúdame con e
 > - 🎨 Prompts de imagen o voz
 > - 🔍 Revisar o auditar un guión existente
 > - 🔄 Resucitar un Short estancado (<100 vistas)
+> - 🧵 Crear un Hilo de Threads para promocionar un video
 > - 📊 Diagnosticar métricas de un video publicado
 
 ## Paso 2 — Según lo que elija, hacer la pregunta específica que falta
@@ -47,6 +48,10 @@ Activa este flujo cuando el usuario llegue con frases vagas como "ayúdame con e
 **Si elige RESUCITAR SHORT:**
 → "¿Cuál es el tema del Short que tiene menos de 100 vistas en sus primeras 48 horas?"
 → Seguir el protocolo de `produccion-empaque.md` y generar un nuevo empaque (Título con Disonancia Bíblica + Miniatura Asfixia) para resubirlo.
+
+**Si elige THREADS:**
+→ "Pásame el tema principal del video o el guión que quieres promocionar."
+→ Seguir el protocolo de `produccion-threads.md` y generar el Hilo de 3 posts (Conflicto + Ruptura + Invitación).
 
 ## Paso 3 — Siempre cerrar con acción concreta
 
