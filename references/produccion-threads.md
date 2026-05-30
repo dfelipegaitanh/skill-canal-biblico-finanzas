@@ -41,6 +41,11 @@ Si un usuario comenta algo inteligente, tienes permiso para romper la regla de n
 - **Regla:** Responde validando la pregunta y da el link directo *al minuto exacto* del video.
 - **Ejemplo:** *"Esa es la pregunta correcta. De hecho, me tomó 3 horas de autopsia bíblica resolver eso. Te paso el enlace directo a ese punto específico del video para que no pierdas tiempo: [Link]."*
 
+### 🗣️ El CTA Público (Hack de Algoritmo)
+Las acciones privadas (ej. "Escribe en tu libreta tus hábitos") no sirven para Threads porque no generan conversación visible.
+- **Regla:** Transforma toda acción de reflexión en una **pregunta incómoda abierta** al final del hilo para forzar respuestas públicas.
+- **Ejemplo:** En vez de *"Escribe 3 hábitos tóxicos"*, usa *"¿Cuál fue el hábito financiero más dañino que copiaste de tu familia? Responde abajo 👇"*.
+
 ---
 
 ## 3. La Trampa (Optimización del Perfil de Threads)
