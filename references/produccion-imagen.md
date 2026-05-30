@@ -124,21 +124,20 @@ optional environmental text in Spanish only
 
 ---
 
-Frame Hook — solo para la primera imagen del Short:
-```
-A stick-figure character with wide alarmed eyes and body recoiling backward in shock, one hand pressing against chest in disbelief, the other hand gripping [OBJETO BÍBLICO-FINANCIERO: ancient scroll / gold coin / iron chains] tightly, thick black ink stroke arms and legs, large round head, expressive cartoon eyes with pupils wide open and thick bold black eyebrows shot up high showing intense shock and disturbed revelation, mouth slightly open, wearing a simple ancient tunic with stylized folds,
-— midground: [ELEMENTO DE CONTEXTO: stone ledge with scrolls / rustic wooden table / iron gate],
+Frame Hook (Stop Stack) — solo para la primera imagen del Short:
+```text
+Dynamic extreme close-up with forced perspective, an intense visual break happening right behind a massive red text, stick-figure character's hands violently smashing or breaking a [OBJETO BÍBLICO-FINANCIERO: ancient scroll / golden coin / iron chain] directly toward the camera, thick black ink stroke arms, action lines emphasizing the sudden violent motion,
+— midground: out-of-focus fragments of the broken object flying toward the viewer,
 — background: dark ancient stone walls with visible cracks and deep dramatic shadows, oppressive enclosed space with no sky visible,
-single oil lamp casting amber side light, high-contrast chiaroscuro lighting,
+single harsh spotlight or oil lamp casting dramatic amber side light, extreme high-contrast chiaroscuro lighting,
 premium hand-drawn comic book aesthetic with clean precision,
-smooth solid warm beige background (#E8D5B0) completely free of paper grain or noise,
 thick bold hand-drawn black ink outlines with clean, crisp and solid edges,
 flat cel-shading and smooth digital color wash for rich volumetric depth,
-color accent rule: [OBJETO PRINCIPAL] in golden yellow (#C9A84C) — main accent,
-dramatic amber oil lamp light (#E67E22) — secondary accent,
-everything else in crisp black ink outlines on smooth warm beige,
-massive bold red text that says "[TEXTO DE CHOQUE: ERROR / DEUDA]" dominating the center,
-strictly no high-frequency noise, optimized for video animation,
+color accent rule: [OBJETO PRINCIPAL] fragments in golden yellow (#C9A84C) — main accent,
+dramatic amber light (#E67E22) — secondary accent,
+everything else in crisp black ink outlines on deep shadows,
+massive bold distressed red text that says "[TEXTO DE CHOQUE: ERROR / MENTIRA]" positioned dead center, with the violent physical action happening around and behind the text to force the viewer's eye to the absolute center,
+strictly no high-frequency noise, no pencil sketch marks, optimized for video animation,
 optional environmental text in Spanish only,
 all elements within the 20%–80% vertical safe zone
 ```
@@ -149,11 +148,12 @@ all elements within the 20%–80% vertical safe zone
 
 > 📊 *Patrón comprobado en analíticas: Short con primer frame optimizado = 1,145 vistas vs 226 vistas (5x de rendimiento). El primer frame detiene el scroll, no el audio.*
 
-*   **Regla 1 — Shock corporal, NUNCA reposo:** El personaje debe mostrar reacción física violenta: retroceder, agarrarse el pecho, soltar algo, inclinarse hacia atrás. NUNCA parado recto, sonriendo, caminando tranquilo ni con las manos a los lados. Prompt obligatorio: `body recoiling backward in shock, eyebrows shot up in alarm, mouth slightly open, one hand pressing against chest`.
+*   **Regla 1 — El Quiebre Visual (Stop Stack):** El primer segundo tiene que asaltar el nervio óptico antes de que el cerebro lea. NUNCA un personaje parado reaccionando. Debe ser un zoom violento, un ángulo contrapicado, o un objeto rompiéndose violentamente en primer plano (Perspectiva forzada).
 *   **Regla 2 — Fondo CERRADO y oscuro (Nunca exterior abierto):** Muros de piedra, cueva, habitación con una sola antorcha. NUNCA desierto, cielo visible, paisaje abierto ni exterior soleado. Prompt obligatorio: `dark enclosed stone walls, oppressive space, no sky, no open landscape, no horizon line`.
-*   **Regla 3 — Zona Segura Vertical (20%–80%):** La UI de YouTube tapa el 20% inferior. Todo elemento relevante (cara, objeto clave) debe estar en la zona central de la pantalla.
-*   **Regla 4 — Texto de ruptura en CapCut (No descriptivo):** Por regla general, el texto no describe el video, golpea una contradicción o herida (ej: `JESÚS LO CONDENÓ` o `ORASTE AÑOS Y SIGUES IGUAL`). Nunca colocar una referencia vacía (ej. "Proverbios 22"). El texto se aplica en CapCut, **excepto en la primerísima imagen del video** donde el texto de choque SÍ va embebido directamente en el prompt de DALL-E (ver "Regla de ORO de Texto: La Excepción del Primer Segundo" más abajo).
-*   **Regla 5 — Color de Ruptura en el texto (solo CapCut):** La palabra más perturbadora del texto superpuesto debe ir en un color de ruptura que rompa el patrón visual del feed: rosa intenso (`#FF2D78`), rojo vivo (`#FF3333`) o naranja neón (`#FF6B00`). El resto del texto va en blanco o negro bold. Este color NUNCA va dentro del prompt de DALL-E, solo en la edición de CapCut.
+*   **Regla 3 — Integración Centro-Pantalla del Texto:** El texto rojo gigante del primer frame va en el **centro absoluto**. La acción violenta (el quiebre) debe ocurrir *detrás o alrededor* de este texto, para obligar al usuario a leer y recibir el impacto visual en el mismo punto focal.
+*   **Regla 4 — Zona Segura Vertical (20%–80%):** La UI de YouTube tapa el 20% inferior. Todo elemento relevante debe estar en la zona central.
+*   **Regla 5 — Texto de ruptura en CapCut (No descriptivo):** Por regla general, el texto no describe el video, golpea una contradicción o herida (ej: `JESÚS LO CONDENÓ` o `ORASTE AÑOS Y SIGUES IGUAL`). Nunca colocar una referencia vacía (ej. "Proverbios 22"). El texto se aplica en CapCut, **excepto en la primerísima imagen del video** donde el texto de choque SÍ va embebido directamente en el prompt de DALL-E (ver "Regla de ORO de Texto: La Excepción del Primer Segundo" más abajo).
+*   **Regla 6 — Color de Ruptura en el texto (solo CapCut):** La palabra más perturbadora del texto superpuesto debe ir en un color de ruptura que rompa el patrón visual del feed: rosa intenso (`#FF2D78`), rojo vivo (`#FF3333`) o naranja neón (`#FF6B00`). El resto del texto va en blanco o negro bold. Este color NUNCA va dentro del prompt de DALL-E, solo en la edición de CapCut.
 
 ---
 

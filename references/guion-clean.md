@@ -67,6 +67,12 @@ Nunca relates la historia de escuela dominical. Tradúcelo a su cargo financiero
 | **Disrupción** | `error`, `mentira`, `prohibido`, `nunca` | Rompe el sermón motivacional |
 *Fórmula Obligatoria:* `[Pregunta de Síntoma] + [Promesa de Autoridad]`.
 
+### ⛔ REGLA DE DISONANCIA ESPECÍFICA (Stop Stack Conceptual)
+La disonancia bíblica (atacar una creencia) JAMÁS debe atacar un concepto abstracto o vago (ej. "oración", "prudencia", "fe").
+Debe atacar **estrictamente una acción física o práctica diaria** del espectador (ej. "el diezmo", "decretar", "pactar", "sembrar").
+*MAL:* "Dios condenó el sistema de oración" (Abstracto, no detiene el scroll).
+*BIEN:* "Jesús nunca dijo decreto" (Ataca una práctica específica que el usuario hizo esta mañana).
+
 ### Los 7 tipos de hook estratégicos
 Rotar entre estos para mantener fresco el canal. La plantilla base (aplica a los 7 tipos):
 `[Pregunta que duele] → [Dato histórico/Personaje] → [Contradicción/Revelación] → [Promesa del sistema]`
