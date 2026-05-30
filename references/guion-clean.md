@@ -61,7 +61,7 @@ Nunca relates la historia de escuela dominical. Tradúcelo a su cargo financiero
 | Categoría | Palabras Clave | Función en el Hook |
 |-----------|----------------|-------------------|
 | **Autoridad** | `código`, `sistema`, `3,000 años`, `decodificar` | Curiosidad técnica y misterio ancestral |
-| **Síntoma** | `bolsillo vacío`, `deuda`, `estancamiento`, `miedo` | Identificación inmediata con el dolor |
+| **Síntoma** | `bolsillo vacío`, `herencia`, `trauma`, `deuda` | Identificación inmediata con el dolor |
 | **Disrupción** | `error`, `mentira`, `prohibido`, `nunca` | Rompe el sermón motivacional |
 *Fórmula Obligatoria:* `[Pregunta de Síntoma] + [Promesa de Autoridad]`.
 
@@ -75,8 +75,8 @@ Debe atacar **estrictamente una acción física o práctica diaria** del especta
 Rotar entre estos para mantener fresco el canal. La plantilla base (aplica a los 7 tipos):
 `[Pregunta que duele] → [Dato histórico/Personaje] → [Contradicción/Revelación] → [Promesa del sistema]`
 
-1. **El Hook de Identidad:** `¿Sigues con [Síntoma] a pesar de [esfuerzo]? → [Mecanismo] de hace [Tiempo] ignorado`
-2. **El Hook de Disrupción:** `El mayor [Error] es [Creencia] → [Mecanismo] a revelar`
+1. **El Hook de Trauma Generacional (NUEVO DEFAULT):** `[Falsa herencia financiera: ej. Tu papá te enseñó a trabajar duro] → [Consecuencia de escasez] → [El código antiguo que lo rompe]`
+2. **El Hook de Identidad:** `¿Sigues con [Síntoma] a pesar de [esfuerzo]? → [Mecanismo] de hace [Tiempo] ignorado`
 3. **El Hook de Confrontación:** `Tu falta de dinero no es por [Mito] → es por ignorar [Sistema]`
 4. **El Hook de Confrontación Empática:** `[Validación de esfuerzo inútil] → [Ignoraste el sistema antiguo]`
 5. **El Hook de Mito-Realidad:** `Te enseñaron [Mito moral] → Pero el manual tiene [Dato capitalista]`
@@ -95,8 +95,8 @@ Rotar entre estos para mantener fresco el canal. La plantilla base (aplica a los
 
 ### A. El Micro-Short (15–20s) — EL DEFAULT DE CRECIMIENTO
 > ⛔ **MÁXIMO 50–60 PALABRAS TOTALES.** Solo 3 bloques.
-1. **GOLPE (0–3s):** Disonancia pura. *"Jesús condenó al hombre prudente."*
-2. **DECODIFICACIÓN (3–14s):** Versículo citado + dato técnico brutal. *"Proverbios 22:7. Trabajas 60h pero el banco se traga el 70%."*
+1. **GOLPE (0–3s):** Disonancia pura enfocada en el trauma. *"Tu papá te enseñó a trabajar duro. Pero nunca te enseñó a construir activos."*
+2. **DECODIFICACIÓN (3–14s):** Versículo citado + dato técnico brutal que rompe la creencia. *"Y Salomón explicó por qué hace 3.000 años. Si tu dinero no produce mientras duermes..."*
 3. **CIERRE (14–20s):** Confrontación identitaria + CTA agresivo. *"¿Trabajas para Dios o para el banco? El video completo en el perfil."*
 
 ### B. El Short Estándar (50–60s)

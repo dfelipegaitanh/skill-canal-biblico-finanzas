@@ -122,7 +122,7 @@ optional environmental text in Spanish only
 
 Frame Hook (Stop Stack) — solo para la primera imagen del Short:
 ```text
-Dynamic extreme close-up with forced perspective, an intense visual break happening right behind a massive red text, stick-figure character with large round unfilled white head with thick black outlines, hands violently smashing or breaking a [OBJETO BÍBLICO-FINANCIERO: ancient scroll / golden coin / iron chain] directly toward the camera, thick black ink stroke arms, action lines emphasizing the sudden violent motion,
+Dynamic extreme close-up with forced perspective, an intense visual break happening right behind a massive red text, stick-figure character with large round unfilled white head with thick black outlines, expressive cartoon eyes with pupils and thick bold black eyebrows showing [EMOCIÓN], hands violently smashing or breaking a [OBJETO BÍBLICO-FINANCIERO: ancient scroll / golden coin / iron chain] directly toward the camera, thick black ink stroke arms, action lines emphasizing the sudden violent motion,
 — midground: out-of-focus fragments of the broken object flying toward the viewer,
 — background: dark ancient stone walls with visible cracks and deep dramatic shadows, oppressive enclosed space with no sky visible,
 single harsh spotlight or oil lamp casting dramatic amber side light, extreme high-contrast chiaroscuro lighting,
