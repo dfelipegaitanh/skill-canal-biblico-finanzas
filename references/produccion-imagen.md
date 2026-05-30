@@ -43,12 +43,16 @@ Si el usuario pide prompts sin el guión con timestamps, responder:
 
 **3 elementos obligatorios en cada personaje:**
 
-**1. Micro-expresiones y Ojos Expresivos** — `large round head, expressive cartoon eyes (white circles with black pupils) and thick bold black eyebrows showing [EMOCIÓN]`
+**1. Micro-expresiones y Ojos Expresivos** — `large round solid black head, expressive cartoon eyes (white circles with black pupils) and thick bold black eyebrows showing [EMOCIÓN]`
 - Cejas inclinadas hacia el centro, boca curvada hacia abajo = preocupación / culpa intensa
 - Cejas arqueadas altas, ojos abiertos = sorpresa / revelación
 - Cejas rectas, mirada firme = calma / autoridad / seriedad
 
 **2. Silueta monigote con túnica** — `stick-figure character with thick black ink stroke arms and legs, torso wearing a simple flowing ancient tunic or shirt with stylized folds and volume`
+
+> **Variaciones de la Cabeza del Personaje:**
+> *   **PREDETERMINADO (Cabeza Negra Sólida):** Usar siempre por defecto. Prompt: `large round solid black head`.
+> *   **OPCIONAL (Cabeza Blanca):** Usar SOLO si el usuario pide explícitamente "el monigote blanco" o "cabeza iluminada". Prompt: `large round unfilled white head with thick black outlines`.
 
 **3. Personajes Bíblicos (Regla Excepcional):** Si el guión pide un personaje bíblico (Salomón, José, Jesús), SIGUEN SIENDO "stick-figures" (sin rasgos faciales realistas), pero se distinguen agregando *props* de poder o vestuario. Ej: `a stick-figure character representing King Solomon wearing a worn golden crown and royal ancient robes`. NUNCA dibujar caras humanas.
 
@@ -104,7 +108,7 @@ Si el usuario pide prompts sin el guión con timestamps, responder:
 **Prompt base (sustituir campos en MAYÚSCULAS):**
 ```
 [DESCRIPCIÓN DEL PERSONAJE Y ACCIÓN EN EL PRIMER PLANO],
-stick-figure character with thick black ink stroke arms and legs, large round head, expressive cartoon eyes with pupils and thick bold black eyebrows showing [EMOCIÓN],
+stick-figure character with thick black ink stroke arms and legs, large round solid black head, expressive cartoon eyes with pupils and thick bold black eyebrows showing [EMOCIÓN],
 wearing a simple ancient [flowing tunic / plain shirt] with stylized folds,
 — midground: [objeto secundario o figura de contexto en trazos medianos de tinta],
 — background: [ELEMENTO CONTEXTUAL] drawn in dark, slightly thinner hand-drawn sketchy outlines, with pencil-sketch textures, stone cracks, and wood grain,
@@ -120,7 +124,7 @@ optional environmental text in Spanish only
 ```
 
 **Ejemplo de Prompt real (Estilo A):**
-> *A stick-figure character kneeling in distress, holding an empty small leather pouch with both hands, thick black ink stroke arms and legs, large round head, expressive cartoon eyes with pupils and thick bold black eyebrows showing intense guilt and worry, wearing a simple flowing ancient tunic with stylized folds, — midground: a simple rustic wooden table drawn in sketchy outlines, — background: an ancient stone temple wall with deep shadows drawn in crisp outlines, premium hand-drawn comic book aesthetic with clean precision, smooth solid warm beige background (#E8D5B0) completely free of paper grain or noise, thick bold hand-drawn black ink outlines with clean, crisp and solid edges, flat cel-shading and smooth digital color wash for rich volumetric depth, color accent rule: empty leather pouch in dark brown (#C4956A) — main accent, everything else in crisp black ink outlines on smooth warm beige, strictly no high-frequency noise, optimized for video animation, optional environmental text in Spanish only*
+> *A stick-figure character kneeling in distress, holding an empty small leather pouch with both hands, thick black ink stroke arms and legs, large round solid black head, expressive cartoon eyes with pupils and thick bold black eyebrows showing intense guilt and worry, wearing a simple flowing ancient tunic with stylized folds, — midground: a simple rustic wooden table drawn in sketchy outlines, — background: an ancient stone temple wall with deep shadows drawn in crisp outlines, premium hand-drawn comic book aesthetic with clean precision, smooth solid warm beige background (#E8D5B0) completely free of paper grain or noise, thick bold hand-drawn black ink outlines with clean, crisp and solid edges, flat cel-shading and smooth digital color wash for rich volumetric depth, color accent rule: empty leather pouch in dark brown (#C4956A) — main accent, everything else in crisp black ink outlines on smooth warm beige, strictly no high-frequency noise, optimized for video animation, optional environmental text in Spanish only*
 
 ---
 
@@ -161,7 +165,7 @@ all elements within the 20%–80% vertical safe zone
 Este prompt se usa EXCLUSIVAMENTE para la última imagen del video (el clímax y comando final). Usa Perspectiva Forzada, luces dramáticas y rompe la cuarta pared para obligar al usuario a tomar acción.
 
 ```text
-Dynamic mid-shot from a low angle, stick-figure character leaning forward breaking the fourth wall, intense piercing stare directly at the viewer with furrowed thick bold black eyebrows showing extreme conviction, one arm extended straight toward the camera with forced perspective making the open palm appear huge in the foreground, thick black ink stroke arms, wearing a simple plain shirt with stylized folds,
+Dynamic mid-shot from a low angle, stick-figure character leaning forward breaking the fourth wall, large round solid black head, intense piercing stare directly at the viewer with furrowed thick bold black eyebrows showing extreme conviction, one arm extended straight toward the camera with forced perspective making the open palm appear huge in the foreground, thick black ink stroke arms, wearing a simple plain shirt with stylized folds,
 — midground: a massive glowing [OBJETO BÍBLICO-FINANCIERO: golden coin / heavy iron key / sealed scroll] floating just millimeters above the oversized open palm, casting a warm amber light on the character's face,
 — background: dark ancient stone walls with deep heavy shadows, completely out of focus to force all attention on the glowing object and the character's intense eyes,
 premium hand-drawn comic book aesthetic with clean precision,
