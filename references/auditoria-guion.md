@@ -26,9 +26,10 @@ Antes de llenar la tabla, verificar estas 13 reglas de oro generales:
 3. **Disonancia Bíblica vs. Caballo de Troya (Empaque):** ¿Las palabras religiosas ("Biblia", "Jesús", "Dios") en los primeros 3 segundos se usan para generar shock y disonancia (ej. "Jesús condenó al hombre prudente")? → **CORRECTO** (es la Fórmula de Disonancia Bíblica). ¿Se usan de forma genérica que suena a sermón (ej. "Dios quiere prosperarte")? → **Error Crítico** (mata el CTR). ¿El gancho NO usa disonancia y tampoco se ancla en un dolor secular masivo (deuda, bancos)? → **Error Crítico** (falta hook).
 4. **Límite de Palabras (Shorts):** ¿El guión supera el presupuesto (60 para Micro-Short, 150 para estándar)? Si sí, durará más de la retención meta → **Error Crítico** (exigir recortes).
 5. **Diagnóstico del Síndrome del Púlpito:** ¿El narrador usa preguntas retóricas de iglesia abstractas, muletillas condescendientes ("Y mira...", "Aquí está el sistema"), o suena a un pastor regañando desde un altar en lugar de un amigo en el barro? Si es así → **Error Crítico** (exigir reescritura en español neutral, hiper-eficiente, directo y desde la frustración de las trincheras).
-6. **Hashtags en el Título (Empaque):** ¿El título tiene hashtags (#)? Si es así → **Error Crítico** (desperdician espacio valioso, moverlos a la descripción).
-7. **Power Words en el Título (Empaque Shorts):** ¿El título del Short contiene al menos 1 Power Word de la matriz? Si no → **Error Crítico** (baja CTR).
-8. **Frases Muertas (Empaque):** ¿El título usa una frase quemada ("La respuesta te sorprenderá", "No vas a creer")? Si es así → **Error Crítico** (el cerebro lo filtra como spam).
+### Checkpoints de Empaque (si el usuario también proporcionó título/miniatura)
+6. **Hashtags en el Título:** ¿El título tiene hashtags (#)? Si es así → **Error Crítico** (moverlos a la descripción).
+7. **Power Words en el Título:** ¿El título contiene al menos 1 Power Word de la matriz? Si no → **Error Crítico**.
+8. **Frases Muertas:** ¿El título usa una frase quemada ("La respuesta te sorprenderá", "No vas a creer")? Si es así → **Error Crítico**.
 9. **Ancla de Tensión Económica:** ¿El gancho ancla la curiosidad a una pregunta financiera hiper-específica que necesita resolverse HOY (ej. "salir de una deuda al 89%") o se queda en una paradoja bíblica interesante pero vacía? Si es vacía → **Error Crítico** (el espectador abandonará cuando entre el sermón).
 10. **Bucle Parasocial (Personalidad y Vulnerabilidad):** ¿El guion expone la frustración/personalidad del creador hablando en primera persona ("Yo también fui al banco...", "Mi cuenta estaba en rojo") o usa datos crudos y específicos (CAT del 89%), o es solo un relato distante de hechos? Si el guion es plano, no opina y no tiene vulnerabilidad → **Error Crítico** (no retendrá para un video #2).
 11. **Colisión de Contenidos (Lenguaje Terrenal y Humano):** Al mencionar conceptos bíblicos o sagrados, ¿chocan contra un problema económico real usando lenguaje callejero/humano (ej. "Me subieron el valor a pagar de la TC") o usa jerga fría ("Inflación del 100%")? Si usa jerga técnica aburrida y no exige un contraste agresivo con lenguaje humano → **Error Crítico** (exigir reescritura para acercarlo a la calle).
@@ -87,7 +88,7 @@ Habiendo evaluado los Checkpoints (Paso 1) y usando las Herramientas de Reparaci
 
 ## Paso 4 — Auditoría Analítica (Diagnóstico YouTube Studio)
 
-Si el usuario proporciona métricas reales de un video publicado, DEBES diagnosticar la falla algorítmica:
+Si el usuario proporciona métricas reales de un video publicado, DEBES diagnosticar la falla algorítmica. Si NO proporciona métricas, omitir este paso y pasar al Veredicto Final.
 - **Alta Impresión + Bajo CTR:** El título o la miniatura fallaron. Recomendar un cambio urgente priorizando alto contraste y palabra clave a la izquierda.
 - **Alto CTR + Baja Retención inicial (caída brusca en primeros 30s):** Fuerte desconexión. La promesa del empaque (Caballo de Troya) no coincide con los primeros segundos del video, o la intro fue demasiado lenta. Hay que reempaquetar o cortar la intro desde el editor de YouTube.
 

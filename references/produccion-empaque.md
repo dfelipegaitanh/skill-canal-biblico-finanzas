@@ -1,6 +1,6 @@
 # Producción — Títulos, Miniaturas y Metadatos (El Empaque)
 
-Este documento es el cerebro exclusivo para la creación del **Caballo de Troya** y la **Disonancia Bíblica**. La estrategia de empaque no es un truco, es la arquitectura completa del canal: lo que pones por fuera determina si el espectador hace clic; lo que pones por dentro es la transformación.
+Skill para creación de títulos, miniaturas y metadatos.
 
 > ⛔ **REGLA DE CONFIANZA DEL CABALLO DE TROYA:** Para que la estrategia funcione, el espectador no debe sentirse engañado al hacer clic, sino iluminado al ver el contenido.
 
@@ -11,7 +11,7 @@ Este documento es el cerebro exclusivo para la creación del **Caballo de Troya*
 El título no es un resumen teológico del video. Es el agravio personal o la queja financiera que le sirve de vehículo al espectador para entrar.
 
 - **Fórmula de Disonancia Bíblica (NUEVA REGLA MAESTRA):** Las palabras como *"Jesús", "Biblia", "Dios"* ESTÁN PERMITIDAS EXCLUSIVAMENTE si se usan para romper una creencia establecida y generar shock (ej. "Jesús condenó al hombre prudente").
-- **Disonancia Específica (Stop Stack):** El título JAMÁS debe atacar un concepto abstracto o vago (ej. "oración", "prudencia", "fe"). Debe atacar estrictamente una acción física o práctica diaria del espectador (ej. "el diezmo", "decretar", "pactar", "sembrar"). Queda terminantemente PROHIBIDO atacar conceptos teológicos abstractos. Debes apuntar directo a las acciones físicas. (Ej. "Jesús nunca dijo decreto" es letal; "Dios condenó la oración" es débil y abstracto).
+- **Disonancia Específica (Stop Stack):** Aplica la Regla de Disonancia Específica de `guion-clean.md` (JAMÁS atacar conceptos abstractos, DEBE atacar acciones físicas del espectador).
 - **La Regla de Oro (Prioridad Izquierda):** *El shock va primero, la explicación va después.* La Disonancia Bíblica o la Power Word DEBEN estar en la extrema izquierda del título (las primeras 3 palabras). Si lo pones al final, la interfaz lo cortará.
 - **Ataque al Dolor y "Stakes" (Urgencia):** El título debe implicar que el espectador está perdiendo algo AHORA. (Ej. "Por qué tu ahorro se está pudriendo" > "Cómo ahorrar").
 - **El "Tú" Directo:** Usa la segunda persona obligatoriamente ("Tu", "Tus", "Te"). El canal es un diálogo confrontacional.

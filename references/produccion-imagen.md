@@ -1,34 +1,25 @@
 # Producción — Imagen, Animación y Edición
 
 ## ⛔ 1. EL BLOQUEO ABSOLUTO (TIMESTAMPS)
-La IA tiene estrictamente **PROHIBIDO** generar un solo prompt de imagen si el usuario no ha entregado previamente el guion con los **timestamps exactos del audio editado**. 
-Si el usuario pide imágenes pero solo entrega texto sin tiempos (ej. `(0:00) a (0:05)`), la IA debe detenerse, negarse a generar las imágenes, y responder: *"Para garantizar el pacing y la sincronización con la voz, necesito que me des el guion final con los timestamps del audio editado. Sin tiempos, no puedo generar los prompts."*
+La IA tiene estrictamente **PROHIBIDO** generar un solo prompt de imagen si el usuario no ha entregado previamente el guion con los **timestamps exactos del audio editado**. Sin timestamps, responder: *"Para generar los prompts necesito el guión final con timestamps. ¿Me lo compartes?"*
 
 ### ⏱️ EL POLICÍA DE TIEMPOS (REGLA DE AUTO-DIVISIÓN)
-La IA debe analizar el timestamp final del guión para detectar el formato, y actuar como un auditor de retención:
 
-- **SI ES UN SHORT (Menos de 01:10s totales):** La regla de oro es que **NINGUNA IMAGEN** puede durar más de 3-4 segundos en pantalla. Si el usuario envía un bloque de guión que dura 9 segundos (ej. `00:10 - 00:19`), la IA tiene **PROHIBIDO** generar una sola imagen para ese bloque. La IA debe auto-dividir ese bloque en 3 filas en la tabla (`00:10-00:13`, `00:13-00:16`, `00:16-00:19`) y generar 3 imágenes distintas que narren esa misma frase.
-- **SI ES UN VIDEO LARGO (Más de 02:00s totales):** La retención es más relajada. 1 imagen cada 8–10 segundos es aceptable.
+- **SHORT (< 01:10s):** **NINGUNA IMAGEN** puede durar más de 3-4 segundos. Auto-dividir bloques largos (ej. 9s → 3 imágenes de 3s).
+- **VIDEO LARGO (> 02:00s):** 1 imagen cada 8–10 segundos es aceptable.
 
-La tabla de entrega final debe reflejar esta división forzada para proteger la retención del espectador.
-
-**Flujo correcto:**
+**Flujo:**
 ```
 1. Guión con timestamps ✓
-2. Contar bloques → calcular número exacto de imágenes ✓
-3. Preguntar estilo (A o B) ✓
-4. Generar prompts uno por uno en orden ✓
+2. Contar bloques → número exacto de imágenes ✓
+3. Generar prompts en orden (Estilo A por defecto) ✓
 ```
-
-Si el usuario pide prompts sin el guión con timestamps, responder:
-> *"Para generar los prompts necesito el guión final con timestamps. ¿Me lo compartes?"*
 
 ---
 
-## Estilos disponibles — preguntar siempre antes de generar
+## Estilos disponibles
 
-> **Default:** Estilo A (Codex).
-> Generar en Estilo A automáticamente, a menos que el usuario pida explícitamente el Estilo B (Kurzgesagt bíblico).
+> **Default:** Estilo A (Codex). Generar automáticamente en Estilo A, a menos que el usuario pida explícitamente el Estilo B (Kurzgesagt bíblico).
 
 ---
 
@@ -41,9 +32,9 @@ Si el usuario pide prompts sin el guión con timestamps, responder:
 | Personajes | `#1A1A1A` |
 | Acento cálido | `#C4956A` |
 
-**3 elementos obligatorios en cada personaje:**
+**4 elementos obligatorios en cada personaje:**
 
-**1. Micro-expresiones y Ojos Expresivos** — `large round solid black head, expressive cartoon eyes (white circles with black pupils) and thick bold black eyebrows showing [EMOCIÓN]`
+**1. Micro-expresiones y Ojos Expresivos** — `large round unfilled white head with thick black outlines, expressive cartoon eyes (white circles with black pupils) and thick bold black eyebrows showing [EMOCIÓN]`
 - Cejas inclinadas hacia el centro, boca curvada hacia abajo = preocupación / culpa intensa
 - Cejas arqueadas altas, ojos abiertos = sorpresa / revelación
 - Cejas rectas, mirada firme = calma / autoridad / seriedad
@@ -51,8 +42,8 @@ Si el usuario pide prompts sin el guión con timestamps, responder:
 **2. Silueta monigote con túnica** — `stick-figure character with thick black ink stroke arms and legs, torso wearing a simple flowing ancient tunic or shirt with stylized folds and volume`
 
 > **Variaciones de la Cabeza del Personaje:**
-> *   **PREDETERMINADO (Cabeza Negra Sólida):** Usar siempre por defecto. Prompt: `large round solid black head`.
-> *   **OPCIONAL (Cabeza Blanca):** Usar SOLO si el usuario pide explícitamente "el monigote blanco" o "cabeza iluminada". Prompt: `large round unfilled white head with thick black outlines`.
+> *   **PREDETERMINADO (Cabeza Blanca):** Usar siempre por defecto. Prompt: `large round unfilled white head with thick black outlines`.
+> *   **OPCIONAL (Cabeza Negra Sólida):** Usar SOLO si el usuario pide explícitamente "el monigote negro" o "cabeza negra". Prompt: `large round solid black head`.
 
 **3. Personajes Bíblicos (Regla Excepcional):** Si el guión pide un personaje bíblico (Salomón, José, Jesús), SIGUEN SIENDO "stick-figures" (sin rasgos faciales realistas), pero se distinguen agregando *props* de poder o vestuario. Ej: `a stick-figure character representing King Solomon wearing a worn golden crown and royal ancient robes`. NUNCA dibujar caras humanas.
 
@@ -85,7 +76,7 @@ Si el usuario pide prompts sin el guión con timestamps, responder:
 
 **Modos de Iluminación por Bloque Narrativo:**
 
-*   **Modo Normal (Beige Cálido):** Para bloques de calma, enseñanza o aplicación LATAM. Fondo beige con textura gruesa de papel y luz cálida difusa.
+*   **Modo Normal (Beige Cálido):** Para bloques de calma, enseñanza o aplicación LATAM. Fondo beige cálido sólido y limpio, luz cálida difusa. Sin grano ni textura de papel.
 *   **Modo Contraste Alto (Fondo Oscuro - Tensión):** Para bloques de Gancho, Deuda o Crisis. Forzar a DALL-E a usar sombras dramáticas: `dark rustic stone backgrounds with deep atmospheric shadows, soft focal amber light from oil lamps illuminating the main figure, creating a high-contrast printed comic book look`.
 
 ---
@@ -108,7 +99,7 @@ Si el usuario pide prompts sin el guión con timestamps, responder:
 **Prompt base (sustituir campos en MAYÚSCULAS):**
 ```
 [DESCRIPCIÓN DEL PERSONAJE Y ACCIÓN EN EL PRIMER PLANO],
-stick-figure character with thick black ink stroke arms and legs, large round solid black head, expressive cartoon eyes with pupils and thick bold black eyebrows showing [EMOCIÓN],
+stick-figure character with thick black ink stroke arms and legs, large round unfilled white head with thick black outlines, expressive cartoon eyes with pupils and thick bold black eyebrows showing [EMOCIÓN],
 wearing a simple ancient [flowing tunic / plain shirt] with stylized folds,
 — midground: [objeto secundario o figura de contexto en trazos medianos de tinta],
 — background: [ELEMENTO CONTEXTUAL] drawn in dark, slightly thinner hand-drawn sketchy outlines, with pencil-sketch textures, stone cracks, and wood grain,
@@ -124,13 +115,13 @@ optional environmental text in Spanish only
 ```
 
 **Ejemplo de Prompt real (Estilo A):**
-> *A stick-figure character kneeling in distress, holding an empty small leather pouch with both hands, thick black ink stroke arms and legs, large round solid black head, expressive cartoon eyes with pupils and thick bold black eyebrows showing intense guilt and worry, wearing a simple flowing ancient tunic with stylized folds, — midground: a simple rustic wooden table drawn in sketchy outlines, — background: an ancient stone temple wall with deep shadows drawn in crisp outlines, premium hand-drawn comic book aesthetic with clean precision, smooth solid warm beige background (#E8D5B0) completely free of paper grain or noise, thick bold hand-drawn black ink outlines with clean, crisp and solid edges, flat cel-shading and smooth digital color wash for rich volumetric depth, color accent rule: empty leather pouch in dark brown (#C4956A) — main accent, everything else in crisp black ink outlines on smooth warm beige, strictly no high-frequency noise, optimized for video animation, optional environmental text in Spanish only*
+> *A stick-figure character kneeling in distress, holding an empty small leather pouch with both hands, thick black ink stroke arms and legs, large round unfilled white head with thick black outlines, expressive cartoon eyes with pupils and thick bold black eyebrows showing intense guilt and worry, wearing a simple flowing ancient tunic with stylized folds, — midground: a simple rustic wooden table drawn in sketchy outlines, — background: an ancient stone temple wall with deep shadows drawn in crisp outlines, premium hand-drawn comic book aesthetic with clean precision, smooth solid warm beige background (#E8D5B0) completely free of paper grain or noise, thick bold hand-drawn black ink outlines with clean, crisp and solid edges, flat cel-shading and smooth digital color wash for rich volumetric depth, color accent rule: empty leather pouch in dark brown (#C4956A) — main accent, everything else in crisp black ink outlines on smooth warm beige, strictly no high-frequency noise, optimized for video animation, optional environmental text in Spanish only*
 
 ---
 
 Frame Hook (Stop Stack) — solo para la primera imagen del Short:
 ```text
-Dynamic extreme close-up with forced perspective, an intense visual break happening right behind a massive red text, stick-figure character's hands violently smashing or breaking a [OBJETO BÍBLICO-FINANCIERO: ancient scroll / golden coin / iron chain] directly toward the camera, thick black ink stroke arms, action lines emphasizing the sudden violent motion,
+Dynamic extreme close-up with forced perspective, an intense visual break happening right behind a massive red text, stick-figure character with large round unfilled white head with thick black outlines, hands violently smashing or breaking a [OBJETO BÍBLICO-FINANCIERO: ancient scroll / golden coin / iron chain] directly toward the camera, thick black ink stroke arms, action lines emphasizing the sudden violent motion,
 — midground: out-of-focus fragments of the broken object flying toward the viewer,
 — background: dark ancient stone walls with visible cracks and deep dramatic shadows, oppressive enclosed space with no sky visible,
 single harsh spotlight or oil lamp casting dramatic amber side light, extreme high-contrast chiaroscuro lighting,
@@ -148,16 +139,15 @@ all elements within the 20%–80% vertical safe zone
 
 **Reglas de Oro del Primer Frame (Visual Hook — Detener el Scroll):**
 
-> ⛔ **GRAFICAR LA ASFIXIA (Mostrar el Dolor, NO la Cura):** Esta es la única imagen de todo el video donde NUNCA se ilustra la mayordomía bíblica ni la solución. El Visual Hook (0-3s) DEBE mostrar angustia financiera cruda. Para todas las imágenes posteriores del interior del video, sí se ilustra la sabiduría de Dios.
+> ⛔ **GRAFICAR LA ASFIXIA (Mostrar el Dolor, NO la Cura):** El Visual Hook (0-3s) DEBE mostrar angustia financiera cruda. NUNCA ilustrar la solución en el primer frame.
 
-> 📊 *Patrón comprobado en analíticas: Short con primer frame optimizado = 1,145 vistas vs 226 vistas (5x de rendimiento). El primer frame detiene el scroll, no el audio.*
-
-*   **Regla 1 — El Quiebre Visual (Stop Stack):** El primer segundo tiene que asaltar el nervio óptico antes de que el cerebro lea. NUNCA un personaje parado reaccionando. Debe ser un zoom violento, un ángulo contrapicado, o un objeto rompiéndose violentamente en primer plano (Perspectiva forzada).
-*   **Regla 2 — Fondo CERRADO y oscuro (Nunca exterior abierto):** Muros de piedra, cueva, habitación con una sola antorcha. NUNCA desierto, cielo visible, paisaje abierto ni exterior soleado. Prompt obligatorio: `dark enclosed stone walls, oppressive space, no sky, no open landscape, no horizon line`.
-*   **Regla 3 — Integración Centro-Pantalla del Texto:** El texto rojo gigante del primer frame va en el **centro absoluto**. La acción violenta (el quiebre) debe ocurrir *detrás o alrededor* de este texto, para obligar al usuario a leer y recibir el impacto visual en el mismo punto focal.
-*   **Regla 4 — Zona Segura Vertical (20%–80%):** La UI de YouTube tapa el 20% inferior. Todo elemento relevante debe estar en la zona central.
-*   **Regla 5 — Texto de ruptura en CapCut (No descriptivo):** Por regla general, el texto no describe el video, golpea una contradicción o herida (ej: `JESÚS LO CONDENÓ` o `ORASTE AÑOS Y SIGUES IGUAL`). Nunca colocar una referencia vacía (ej. "Proverbios 22"). El texto se aplica en CapCut, **excepto en la primerísima imagen del video** donde el texto de choque SÍ va embebido directamente en el prompt de DALL-E (ver "Regla de ORO de Texto: La Excepción del Primer Segundo" más abajo).
-*   **Regla 6 — Color de Ruptura en el texto (solo CapCut):** La palabra más perturbadora del texto superpuesto debe ir en un color de ruptura que rompa el patrón visual del feed: rosa intenso (`#FF2D78`), rojo vivo (`#FF3333`) o naranja neón (`#FF6B00`). El resto del texto va en blanco o negro bold. Este color NUNCA va dentro del prompt de DALL-E, solo en la edición de CapCut.
+*   **Regla 1 — El Quiebre Visual (Stop Stack):** NUNCA un personaje parado reaccionando. Debe ser un zoom violento, un ángulo contrapicado, o un objeto rompiéndose violentamente en primer plano (Perspectiva forzada).
+*   **Regla 2 — Fondo CERRADO y oscuro:** NUNCA desierto, cielo visible ni exterior soleado. Prompt obligatorio: `dark enclosed stone walls, oppressive space, no sky, no open landscape, no horizon line`.
+*   **Regla 3 — Texto rojo en el centro absoluto:** La acción violenta ocurre *detrás o alrededor* del texto para forzar un solo punto focal.
+*   **Regla 4 — Zona Segura Vertical (20%–80%):** La UI de YouTube tapa el 20% inferior.
+*   **Regla 5 — Texto en CapCut vs Texto en DALL-E:**
+    - **Primer frame (00:00–00:03):** El texto de choque va embebido directamente en el prompt de DALL-E (`massive bold red text that says "[TEXTO]" positioned dead center`).
+    - **Resto del video:** El texto va superpuesto en CapCut. Debe golpear una contradicción, nunca describir el video. La palabra más perturbadora va en color de ruptura: rosa (`#FF2D78`), rojo (`#FF3333`) o naranja neón (`#FF6B00`). Este color NUNCA va dentro del prompt de DALL-E.
 
 ---
 
@@ -165,7 +155,7 @@ all elements within the 20%–80% vertical safe zone
 Este prompt se usa EXCLUSIVAMENTE para la última imagen del video (el clímax y comando final). Usa Perspectiva Forzada, luces dramáticas y rompe la cuarta pared para obligar al usuario a tomar acción.
 
 ```text
-Dynamic mid-shot from a low angle, stick-figure character leaning forward breaking the fourth wall, large round solid black head, intense piercing stare directly at the viewer with furrowed thick bold black eyebrows showing extreme conviction, one arm extended straight toward the camera with forced perspective making the open palm appear huge in the foreground, thick black ink stroke arms, wearing a simple plain shirt with stylized folds,
+Dynamic mid-shot from a low angle, stick-figure character leaning forward breaking the fourth wall, large round unfilled white head with thick black outlines, intense piercing stare directly at the viewer with furrowed thick bold black eyebrows showing extreme conviction, one arm extended straight toward the camera with forced perspective making the open palm appear huge in the foreground, thick black ink stroke arms, wearing a simple plain shirt with stylized folds,
 — midground: a massive glowing [OBJETO BÍBLICO-FINANCIERO: golden coin / heavy iron key / sealed scroll] floating just millimeters above the oversized open palm, casting a warm amber light on the character's face,
 — background: dark ancient stone walls with deep heavy shadows, completely out of focus to force all attention on the glowing object and the character's intense eyes,
 premium hand-drawn comic book aesthetic with clean precision,
@@ -224,6 +214,8 @@ high contrast, storytelling mood, no text
 
 > **NOTA SOBRE EL COLOR (ESTILO B):** Aunque este estilo usa una paleta distinta, **aplica la misma regla de minimalismo de color**. El dorado y ocre deben reservarse para elementos simbólicos o luz, no para bañar toda la escena.
 
+> **NOTA SOBRE EL PERSONAJE (ESTILO B):** Las **Variaciones de la Cabeza del Personaje** (cabeza blanca por defecto / cabeza negra opcional) aplican a ambos estilos. Si el usuario usa Estilo B, el personaje sigue siendo un stick-figure con `large round unfilled white head with thick black outlines` a menos que se indique lo contrario.
+
 **Ejemplo de Prompt real (Estilo B):**
 > *A young merchant counting silver coins on a dark wooden table in a busy marketplace under warm torchlight, — midground: clay jars, fabrics, and baskets of grain, — background: sandstone arches and palm trees under a deep navy night sky, 2D flat illustration, warm cinematic lighting, rich layered scene with foreground midground and background depth, deep navy and ochre color palette, golden accents, Middle Eastern biblical setting, expressive characters with detailed surrounding environment, Kurzgesagt-inspired style meets biblical manuscript art, high contrast, storytelling mood, no text*
 
@@ -259,10 +251,14 @@ Justo debajo de la tabla, entrega un único bloque de código (`text`) que conte
 (Prompt completo de la imagen 3)
 ```
 
-### ⛔ REGLA DE TEXTOS AMBIENTALES
-Por regla general, se le permite a DALL-E incluir textos diegéticos (en el fondo, en pergaminos) para mayor inmersión. El sufijo obligatorio es: `optional environmental text in Spanish only`. Si el usuario detecta que DALL-E alucina demasiadas palabras raras, se puede volver al antiguo `no text` de forma manual, pero por defecto se asume libertad creativa en español.
+### ⛔ REGLA DE TEXTOS EN PANTALLA (Dos tipos — no confundir)
 
-**LA ÚNICA REGLA FIJA (EL PRIMER SEGUNDO DE CHOQUE):** La primerísima imagen del video (Bloque 00:00–00:03) **SIEMPRE LLEVA UN TEXTO GIGANTE**. El prompt de DALL-E para esta primera imagen debe incluir explícitamente la orden de integrar el "Primer Segundo de Choque" gigante y en rojo directamente en la ilustración (ej. "huge bold red text that says 'ERROR' dominating the center").
+| Tipo | Qué es | Dónde va | Ejemplo |
+|------|--------|----------|---------|
+| **Texto Ambiental** | Decoración diegética (en pergaminos, paredes, carteles del fondo) | En el prompt de DALL-E con sufijo: `optional environmental text in Spanish only` | Texto en un calendario de fondo |
+| **Texto de Choque** | Texto gigante rojo de impacto que domina la pantalla | SOLO en el primer frame (00:00–00:03), embebido en el prompt de DALL-E | `massive bold red text that says "ERROR" positioned dead center` |
+
+Si DALL-E alucina demasiado texto ambiental, reemplazar el sufijo por `no text`.
 
 ### 🎬 REGLA DE ANIMACIÓN DE VIDEO: LAS 3 CAPAS DE MOVIMIENTO (KLING/RUNWAY)
 Las IA de video (Kling, Runway) tienden a ser estáticas si no se les exige acción intensa. Para evitar videos congelados, el **Prompt video (Kling/Runway)** debe forzar obligatoriamente tres capas de movimiento dinámico simultáneo, siempre en inglés:
@@ -283,17 +279,17 @@ Las IA de video (Kling, Runway) tienden a ser estáticas si no se les exige acci
 
 ## Tabla de animaciones CapCut por tipo de escena
 
-| Tipo de escena | Entrada (IN) | Salida (OUT) | Combo |
-|---------------|-------------|-------------|-------|
-| Hook / impacto emocional | Flash Blur | Dark Wipe-L | Flash Shot |
-| Enseñanza / revelación | Fade In | Dark Wipe-L | Swing Slide |
-| Crisis / decisión | Forceful Pull | Dark Wipe-Up | Dynamic Shake |
-| Transformación / esperanza | Slide Up | Vision Shrink | Bounce Up |
-| Deuda / trampa | Shaky Lens | Dark Wipe-Down | Jelly Resistance |
-| Familia / empatía | Fade-In Wipe | Vision Shrink | Bouncy Pan |
-| Cierre / CTA (Interruptor de Velocidad) | Forceful Pull | Dark Wipe-Up | Dynamic Shake |
-| Giro / revelación dramática | Flash Flip-In | Slice Shrink | Grid Spin |
-| Tensión acumulada | Wavy Wash-Up | Dark Wipe-Up | Wave Amplification |
+| Tipo de escena | Entrada (IN) | Salida (OUT) |
+|---------------|-------------|-------------|
+| Hook / impacto emocional | Flash Blur | Dark Wipe-L |
+| Enseñanza / revelación | Fade In | Dark Wipe-L |
+| Crisis / decisión | Forceful Pull | Dark Wipe-Up |
+| Transformación / esperanza | Slide Up | Vision Shrink |
+| Deuda / trampa | Shaky Lens | Dark Wipe-Down |
+| Familia / empatía | Fade-In Wipe | Vision Shrink |
+| Cierre / CTA | Forceful Pull | Dark Wipe-Up |
+| Giro / revelación dramática | Flash Flip-In | Slice Shrink |
+| Tensión acumulada | Wavy Wash-Up | Dark Wipe-Up |
 
 ## Fuentes de recursos
 

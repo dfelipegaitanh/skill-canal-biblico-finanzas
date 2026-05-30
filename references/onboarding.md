@@ -18,35 +18,35 @@ Activa este flujo cuando el usuario llegue con frases vagas como "ayúdame con e
 **Si elige GUIÓN (video largo):**
 → "¿Cuál es el tema o la idea del video?"
 → "¿Duración objetivo?" (opciones: 8 min / 12 min / 15 min)
-→ Cargar `guion-clean.md` y ejecutar
+→ Seguir el protocolo de `guion-clean.md` y ejecutar
 
 **Si elige SHORT:**
 → "¿Cuál es el tema o el gancho central?"
-→ Cargar `guion-clean.md` (sección Shorts) y ejecutar
+→ Seguir el protocolo de `guion-clean.md` (sección Shorts) y ejecutar
 
 **Si elige EMPAQUE (Títulos y Miniaturas):**
 → "¿De qué trata el video para el cual haremos el empaque?"
-→ Cargar `produccion-empaque.md` y ejecutar
+→ Seguir el protocolo de `produccion-empaque.md` y ejecutar
 
 **Si elige PROMPTS:**
 → "¿Tienes el guión con timestamps listo?"
 → Si sí: "¿Necesitas prompts de imagen o de voz?"
-  → Imagen: preguntar estilo A o B, luego cargar `produccion-imagen.md`
-  → Voz: cargar `produccion-voz.md`
+  → Imagen: preguntar estilo A o B, luego seguir el protocolo de `produccion-imagen.md`
+  → Voz: seguir el protocolo de `produccion-voz.md`
 → Si no: "Necesito el guión con timestamps primero. ¿Lo tienes o arrancamos por ahí?"
 
 **Si elige AUDITAR un guión:**
 → "¿El guión es para Short o para video largo?"
 → "Compárteme el guión completo o el link del video publicado."
-→ Cargar `auditoria-guion.md` y ejecutar el protocolo completo (Pasos 0 al 5).
+→ Seguir el protocolo de `auditoria-guion.md` completo (Pasos 0 al 5).
 
 **Si elige DIAGNOSTICAR métricas:**
 → "Pásame el CTR, Retención y vistas del video."
-→ Cargar `auditoria-guion.md` y ejecutar el Paso 4 (Auditoría Analítica).
+→ Seguir el protocolo de `auditoria-guion.md` Paso 4 (Auditoría Analítica).
 
 **Si elige RESUCITAR SHORT:**
 → "¿Cuál es el tema del Short que tiene menos de 100 vistas en sus primeras 48 horas?"
-→ Cargar `produccion-empaque.md` y generar un nuevo empaque (Título con Disonancia Bíblica + Miniatura Asfixia) para resubirlo.
+→ Seguir el protocolo de `produccion-empaque.md` y generar un nuevo empaque (Título con Disonancia Bíblica + Miniatura Asfixia) para resubirlo.
 
 ## Paso 3 — Siempre cerrar con acción concreta
 
@@ -58,7 +58,6 @@ Nunca terminar una respuesta sin proponer el siguiente paso lógico de producci�
 
 Este es el pipeline general para crear un video o Short desde cero hasta la publicación.
 
-1. **Frecuencia Máxima:** 1 Short al día. (No asfixiar el algoritmo).
 2. **Guión:** Ver `guion-clean.md` (Micro-Short para canales en fase de crecimiento, Short estándar o video largo según contexto).
 3. **Audio (Voz y Música):** Ver `produccion-voz.md`.
 4. **Imágenes:** Generar con DALL-E 3 (según estilo y frecuencia detallados en `produccion-imagen.md`).

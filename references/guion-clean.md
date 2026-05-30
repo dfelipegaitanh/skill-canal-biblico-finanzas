@@ -25,8 +25,7 @@ Antes de redactar una sola línea del guión, la IA debe presentar esta tabla y 
 Una vez el usuario confirme el enfoque, la IA debe:
 1. Definir versículo ancla y vocabulario (según SKILL.md).
 2. Construir los bloques estrictos del formato elegido.
-3. Entregar **ÚNICAMENTE** el guión completo con tiempos exactos y prompts visuales/emocionales. Cero relleno conversacional ("Aquí tienes el guión"). Directo al markdown.
-4. Al final preguntar: "¿Quieres los prompts de voz para Google AI Studio o pasamos a los prompts de imagen?"
+3. Entregar **ÚNICAMENTE** el guión completo con tiempos exactos y prompts visuales/emocionales. Cero relleno conversacional. Directo al markdown.
 
 ---
 
@@ -53,7 +52,6 @@ Nunca relates la historia de escuela dominical. Tradúcelo a su cargo financiero
 - **Salomón:** Estratega puro de diversificación de activos y monopolios comerciales.
 - **Abraham:** CEO del Patrimonio y la Herencia Generacional. Rompe la mentalidad de escasez (orfanato) para crear imperios de largo plazo.
 - **Jesús (en parábolas financieras):** Auditor despiadado del capital humano (Talentos) que exige retornos.
-*Ejemplo Correcto:* "El sistema de contingencia que usó José en Egipto es exactamente lo que necesitas para sobrevivir la próxima recesión."
 
 ---
 
@@ -96,7 +94,7 @@ Rotar entre estos para mantener fresco el canal. La plantilla base (aplica a los
 **Benchmark:** Mínimo 50% retención. Viralidad: 70% View-to-Swipe.
 
 ### A. El Micro-Short (15–20s) — EL DEFAULT DE CRECIMIENTO
-> ⛔ **MÁXIMO 60 PALABRAS TOTALES.** Velocidad pausada (85-90%). Solo 3 bloques.
+> ⛔ **MÁXIMO 50–60 PALABRAS TOTALES.** Solo 3 bloques.
 1. **GOLPE (0–3s):** Disonancia pura. *"Jesús condenó al hombre prudente."*
 2. **DECODIFICACIÓN (3–14s):** Versículo citado + dato técnico brutal. *"Proverbios 22:7. Trabajas 60h pero el banco se traga el 70%."*
 3. **CIERRE (14–20s):** Confrontación identitaria + CTA agresivo. *"¿Trabajas para Dios o para el banco? El video completo en el perfil."*
@@ -138,13 +136,11 @@ Para que el canal no se vea robótico, usa estas "máscaras" narrativas. **OJO: 
 
 Antes de que la IA entregue el guion, debe pasarlo por este escáner interno:
 - [ ] ¿Hay una afirmación que contradice la creencia cristiana popular?
-- [ ] ¿El sistema bíblico fue traducido a Ingeniería Financiera (Wall Street/Economía)?
+- [ ] ¿El sistema bíblico fue traducido a Ingeniería Financiera?
 - [ ] ¿Los números son latinos (tasas, deudas, contexto)?
-- [ ] **Filtro de WhatsApp:** ¿El espectador va a querer compartir este video por WhatsApp por puro impacto?
-- [ ] ¿Suena humano, con frustración, sin verborrea ni palabras como "potencial" o "bendición"?
-- [ ] ¿Se eliminó toda "jerga bancaria fría" a favor de un lenguaje de calle que conecte con el dolor real?
-- [ ] ¿Los textos en pantalla sugeridos son emocionales (1-3 palabras) y libres de ecuaciones estilo "PowerPoint"?
-- [ ] ¿Cumple los límites estrictos de palabras (60 para Micro, 150 para Short)?
+- [ ] **Filtro de WhatsApp:** ¿El espectador va a querer compartir este video?
+- [ ] ¿Suena humano, con frustración, sin verborrea?
+- [ ] ¿Se eliminó toda "jerga bancaria fría" a favor de lenguaje de calle?
+- [ ] ¿Los textos son emocionales (1-3 palabras) y sin ecuaciones?
+- [ ] ¿Cumple los límites estrictos de palabras (50-60 para Micro, 150 para Short)?
 - [ ] ¿El CTA de Shorts exige explícitamente el Share?
-
-> 📝 **NOTA PARA EL CREADOR HUMANO (Regla de los 90s):** La IA solo te da el borrador táctico. El 100% de la retención se juega en tu energía de los primeros 90 segundos. Llévate el guion a Google Docs y reescribe la primera frase inyectándole tu propia humanidad ("Siempre creí que...") antes de grabar.

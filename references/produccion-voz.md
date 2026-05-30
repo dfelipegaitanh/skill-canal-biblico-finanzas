@@ -9,7 +9,7 @@ El output se entrega en **un solo bloque con 3 campos**. El usuario lo copia com
 ### Los 3 campos del bloque único
 
 **SCENE**
-Describe en inglés el arco visual completo del video — todas las escenas en orden, de corrido. Qué aparece en pantalla, qué texto aparece superpuesto, qué hace cada personaje, cómo evoluciona el mood visual de inicio a fin. Extenso y cinematográfico. *(Nota: Los primeros 3 segundos del arco visual aplican la Disonancia Bíblica: si el guión empieza con "Jesús condenó..." o similar, el arco visual debe reflejarlo con shock inmediato — personaje reaccionando, objeto impactante. Si el guión inicia con dolor secular puro, aplicar el enfoque del Caballo de Troya sin lenguaje religioso. El arco visual siempre sigue al guión, no lo contradice.)*
+Describe en inglés el arco visual completo del video — todas las escenas en orden, de corrido. Qué aparece en pantalla, qué texto aparece superpuesto, qué hace cada personaje, cómo evoluciona el mood visual de inicio a fin. Extenso y cinematográfico. El arco visual siempre sigue al guión, no lo contradice.
 
 **SAMPLE CONTEXT**
 Describe en inglés al viewer, el arco emocional del video completo, el tono del narrador y las pausas críticas. Incluye:
@@ -45,7 +45,7 @@ Usar la etiqueta `[pause]` ÚNICAMENTE cuando el guion exige explícitamente "1 
 - **El Tono Exacto:** Hombre, voz medio-grave. Suena como un "amigo que sabe algo importante" o un consultor financiero. **NO es un predicador, NO es un coach motivacional.** El tono es de autoridad técnica (decodificador) pero empático.
 - **Velocidad:** Ritmo deliberado, 85–90% de la velocidad natural de habla humano (pausado, con peso). Las palabras clave deben tener peso.
 - **Pausas Estratégicas:** Las pausas después de preguntas directas o números de "Aritmética Brutal" valen más que seguir hablando.
-- **Shorts:** Duración estricta de **15–20 segundos** para Micro-Shorts (presupuesto **50–60 palabras**) o **50–60 segundos** para Shorts estándar (presupuesto **130–150 palabras**, incluyendo etiquetas de pausa).
+- **Shorts:** Duración estricta de **15–20 segundos** para Micro-Shorts (presupuesto **50–60 palabras**) o **50–60 segundos** para Shorts estándar (presupuesto **máximo 150 palabras**). Las etiquetas de emoción ([pause], [somber]) NO cuentan en el presupuesto de palabras.
 - **Videos largos:** Duración de 5–20 minutos.
 
 ---
@@ -96,9 +96,7 @@ TEXT
 
 **Estilo base:** Acústico cálido — guitarra española o clásica como instrumento principal, piano suave o cuerdas de fondo opcionales.
 
-**Regla absoluta: siempre instrumental.** La música NUNCA tiene voces, coros, ni samples vocales. La voz del narrador es el único elemento vocal del video.
-
-**Nunca:** voces, beats de hip-hop o trap, electrónica prominente, percusión fuerte, tempo rápido (+100 BPM).
+**Regla absoluta: siempre instrumental.** La música NUNCA tiene voces, coros, ni samples vocales. Tampoco beats de hip-hop/trap, electrónica prominente, percusión fuerte ni tempo rápido (+100 BPM). La voz del narrador es el único elemento vocal del video.
 
 ---
 
@@ -143,10 +141,3 @@ Style references: background music in documentaries about spirituality or person
 clean mix, no reverb excess, suitable to play under a narrator's voice at 15–20% volume
 ```
 
-### Cómo la IA genera el prompt de música
-
-1. Lee el guión completo
-2. Identifica el tipo de video (Short o largo, con o sin giro dramático)
-3. Selecciona el arco dinámico de la tabla de arco global
-4. Si es video largo, ajusta el mood interno con la tabla de bloques
-5. Llena el prompt base y entrega listo para copiar en Suno AI
