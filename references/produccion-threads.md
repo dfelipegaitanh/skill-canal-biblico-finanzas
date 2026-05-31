@@ -15,7 +15,7 @@ TODO hilo para promocionar un video debe tener **ESTRICTAMENTE 3 POSTS**, siguie
 ### Post 1: El Conflicto (Disrupción)
 - **Objetivo:** Atacar un dolor silencioso secular o el "yo ideal" de la audiencia (ej. su creencia de que ahorrar dinero en el banco es ser "prudente"). 
 - **Regla:** Convierte la explicación del video en una duda o queja que duela. NUNCA usar lenguaje religioso aquí.
-- **Ejemplo:** *"Llevas años orando y decretando prosperidad, pero tu cuenta sigue en cero. Si el 'secreto' fuera hablar, los que más hablan serían millonarios."*
+- **Ejemplo:** *"Llevas años intentando ahorrar, pero cada mes terminas igual. ¿Y si el problema no es cuánto ganas?"*
 
 ### Post 2: La Ruptura (El Código / Aritmética Brutal)
 - **Objetivo:** Usar la Aritmética Brutal o un versículo específico para destruir la lógica secular o la creencia religiosa falsa del Post 1.

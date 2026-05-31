@@ -63,6 +63,7 @@ Nunca terminar una respuesta sin proponer el siguiente paso lógico de producci�
 
 Este es el pipeline general para crear un video o Short desde cero hasta la publicación.
 
+1. **Tema:** Definir tema y enfoque (ver `onboarding.md`).
 2. **Guión:** Ver `guion-clean.md` (Micro-Short para canales en fase de crecimiento, Short estándar o video largo según contexto).
 3. **Audio (Voz y Música):** Ver `produccion-voz.md`.
 4. **Imágenes:** Generar con DALL-E 3 (según estilo y frecuencia detallados en `produccion-imagen.md`).

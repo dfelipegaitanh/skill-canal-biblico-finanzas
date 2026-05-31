@@ -18,7 +18,7 @@ El título no es un resumen teológico del video. Es el agravio personal o la qu
 - **Power Words (OBLIGATORIO):** TODO título debe contener al menos una Power Word de nuestra matriz (código, sistema, condenó, decodificar, 3.000 años).
 - **Frases Muertas (BLACKLIST):** PROHIBIDO usar frases quemadas ("La respuesta te sorprenderá", "El secreto de...").
 - **Hashtags:** NUNCA usar hashtags (#) en el título. Desperdician espacio valioso y van en la descripción.
-- **Regla de Longitud (40 Caracteres para Shorts):** En Shorts, el gancho principal y la disonancia DEBEN estar en los primeros 35-40 caracteres, porque YouTube corta el resto o lo tapa. Para videos largos, máximo 50-60 caracteres.
+- **Regla de Longitud (40 Caracteres para Shorts):** En Shorts, el gancho principal y la disonancia DEBEN estar en los primeros 40 caracteres, porque YouTube corta el resto o lo tapa. Para videos largos, máximo 50-60 caracteres.
 
 ### Análisis de Referencias (Antes vs Después)
 
@@ -91,9 +91,9 @@ Cuando el usuario pida empaquetar un video, SIEMPRE debes entregar tu respuesta 
 *   [ ] ¿La Disonancia Bíblica o Power Word está en las primeras 3 palabras (Prioridad Izquierda)?
 *   [ ] ¿El título implica "Urgencia o Pérdida" e incluye el "Tú" directo?
 *   [ ] ¿El título NO contiene hashtags ni Frases Muertas?
-*   [ ] ¿El gancho de Shorts está en los primeros 35-40 caracteres?
+*   [ ] ¿El gancho de Shorts está en los primeros 40 caracteres?
 *   [ ] ¿La miniatura y el título NO repiten la misma frase (Emoción vs Contexto)?
 *   [ ] ¿Las miniaturas omiten la solución bíblica y muestran solo la "Asfixia"?
-*   [ ] ¿La descripción usa lenguaje de calle y dolor real en lugar de "jerga bancaria fría"?
+*   [ ] ¿La descripción usa lenguaje de calle (sin jerga financiera de banco) y dolor real?
 *   [ ] ¿El empaque total (título + miniatura) supera el Filtro de WhatsApp (es altamente compartible)?
 *   [ ] ¿Se generaron las etiquetas en 3 niveles (Específicas, Nicho, Amplias)?

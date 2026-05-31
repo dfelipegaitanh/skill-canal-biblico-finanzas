@@ -42,7 +42,7 @@ Usar `,` o `.` para marcar micropausas de respiración naturales.
 Usar la etiqueta `[pause]` ÚNICAMENTE cuando el guion exige explícitamente "1 segundo de silencio intencional" (ej. en la Decodificación).
 
 **Identidad del Narrador y Configuración de Voz:**
-- **El Tono Exacto:** Hombre, voz medio-grave. Suena como un "amigo que sabe algo importante" o un consultor financiero. **NO es un predicador, NO es un coach motivacional.** El tono es de autoridad técnica (decodificador) pero empático.
+- **El Tono Exacto:** Hombre, voz medio-grave. Tono según SKILL.md (Confrontacional-empático). **NO es un predicador, NO es un coach motivacional.** El tono es de autoridad técnica pero empático.
 - **Velocidad:** Ritmo deliberado, 85–90% de la velocidad natural de habla humano (pausado, con peso). Las palabras clave deben tener peso.
 - **Pausas Estratégicas:** Las pausas después de preguntas directas o números de "Aritmética Brutal" valen más que seguir hablando.
 - **Shorts:** Duración estricta de **15–20 segundos** para Micro-Shorts (presupuesto **50–60 palabras**) o **50–60 segundos** para Shorts estándar (presupuesto **máximo 150 palabras**). Las etiquetas de emoción ([pause], [somber]) NO cuentan en el presupuesto de palabras.
@@ -111,6 +111,7 @@ TEXT
 | Video de esperanza / transformación | starts contemplative, gradually becomes warmer and brighter, ends with hopeful resolution |
 
 ### Mood por bloque interno (videos largos)
+*(Nota: Los nombres de los pilares están definidos en guion-clean.md § 4.C)*
 
 | Pilar del guion | Mood musical |
 |-----------------|--------------|

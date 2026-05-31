@@ -4,10 +4,12 @@
 
 ## Paso 0 — Bypass de Auditoría (Reescritura Directa)
 
-> ⚠️ **BYPASS:** Si el usuario incluye instrucciones explícitas como *"reescríbelo"*, *"ponlo más humano"*, o *"sin tanta verborrea"*, la IA debe saltarse la evaluación paso a paso y pasar directamente a la solución.
+> ⚠️ **BYPASS:** Si el usuario pide **exclusivamente** reescritura sin diagnóstico (ej. *"reescríbelo"*, *"ponlo más humano"*, *"sin tanta verborrea"*), la IA debe saltarse la evaluación paso a paso y pasar directamente a la solución. Si el usuario pide *"revisa"* o *"audita"*, ejecutar la auditoría completa (Pasos 1-5) Y entregar el guion corregido al final.
+
+> ⛔ **REGLA DE REESCRITURA OBLIGATORIA:** Siempre que la IA proponga reescribir un bloque de texto o el guion completo (sea por Bypass o por Fix), DEBE cargar y aplicar estrictamente las "Reglas Anti-Sermón" y la "Arquitectura de Retención" definidas en `references/guion-clean.md`.
 
 En ese caso, la IA **DEBE ENTREGAR EXACTAMENTE DOS COSAS:**
-1. **El Guion Completo Corregido:** Aplicando todas las reglas Anti-Sermón, el español neutral y eliminando la verborrea.
+1. **El Guion Completo Corregido:** Aplicando la regla de reescritura, el español neutral y eliminando la verborrea.
 2. **Tabla de Cambios Quirúrgicos:** Inmediatamente después del guion, una tabla clara que documente qué cambió y por qué.
 
 **Formato exigido para este atajo:**
@@ -20,21 +22,25 @@ En ese caso, la IA **DEBE ENTREGAR EXACTAMENTE DOS COSAS:**
 
 ## Paso 1 — Checkpoints de Supervivencia y Clasificación
 
-Antes de llenar la tabla, verificar estas 13 reglas de oro generales:
+Antes de llenar la tabla, verificar estas reglas de oro generales:
 1. **Primer Segundo de Choque:** ¿El segundo 0 al 1 tiene texto gigante rojo (ej. ERROR, DEUDA) o imagen chocante? Si hay un arranque hablado pasivo → **Error Crítico**.
 2. **Gancho Letal (Power Words en Shorts):** ¿El hook combina una palabra de *Síntoma* (deuda, cuenta en rojo, estancamiento) con una de *Autoridad* (Código, Sistema, 3.000 años)? Si falta alguna de las dos o no hay ninguna → **Error Crítico** (el algoritmo no clasificará el dolor ni la solución).
-3. **Disonancia Bíblica vs. Caballo de Troya (Empaque):** ¿Las palabras religiosas ("Biblia", "Jesús", "Dios") en los primeros 3 segundos se usan para generar shock y disonancia (ej. "Jesús condenó al hombre prudente")? → **CORRECTO** (es la Fórmula de Disonancia Bíblica). ¿Se usan de forma genérica que suena a sermón (ej. "Dios quiere prosperarte")? → **Error Crítico** (mata el CTR). ¿El gancho NO usa disonancia y tampoco se ancla en un dolor secular masivo (deuda, bancos)? → **Error Crítico** (falta hook).
+3. **Disonancia Bíblica vs. Caballo de Troya (Empaque):** Evaluar las 3 condiciones por separado:
+   - 3a: ¿Las palabras religiosas en los primeros 3s generan shock/disonancia (ej. "Jesús condenó al hombre prudente")? → **CORRECTO**.
+   - 3b: ¿Se usan de forma genérica que suena a sermón (ej. "Dios quiere prosperarte")? → **Error Crítico** (mata el CTR).
+   - 3c: ¿El gancho NO usa disonancia y tampoco se ancla en un dolor secular masivo (deuda, bancos)? → **Error Crítico** (falta hook).
 4. **Límite de Palabras (Shorts):** ¿El guión supera el presupuesto (60 para Micro-Short, 150 para estándar)? Si sí, durará más de la retención meta → **Error Crítico** (exigir recortes).
-5. **Diagnóstico del Síndrome del Púlpito:** ¿El narrador usa preguntas retóricas de iglesia abstractas, muletillas condescendientes ("Y mira...", "Aquí está el sistema"), o suena a un pastor regañando desde un altar en lugar de un amigo en el barro? Si es así → **Error Crítico** (exigir reescritura en español neutral, hiper-eficiente, directo y desde la frustración de las trincheras).
+5. **PROHIBICIÓN TÉCNICA (Lenguaje de Calle):** ¿El guion usa jerga financiera de banco (ej. CDT, ETF, Inflación, Tasa de Interés, CAT) o términos complejos? Si es así → **Error Crítico INMEDIATO**. La IA DEBE reescribir la frase usando lenguaje 100% humano, visceral y de la calle (ej. cambiar "CDT al 5%" por "un lugar seguro que te pague intereses"). Si suena a profesor de economía, el guion fracasa.
+6. **Diagnóstico del Síndrome del Púlpito:** ¿El narrador usa preguntas retóricas de iglesia abstractas, muletillas condescendientes ("Y mira...", "Aquí está el sistema"), o suena a un pastor regañando desde un altar en lugar de un amigo en el barro? Si es así → **Error Crítico** (exigir reescritura en español neutral, hiper-eficiente, directo y desde la frustración de las trincheras).
+7. **Ancla de Tensión Económica:** ¿El gancho ancla la curiosidad a una pregunta financiera hiper-específica que necesita resolverse HOY (ej. "salir de una deuda al 89%") o se queda en una paradoja bíblica interesante pero vacía? Si es vacía → **Error Crítico** (el espectador abandonará cuando entre el sermón).
+8. **Bucle Parasocial (Personalidad y Vulnerabilidad):** ¿El guion expone la frustración/personalidad del creador hablando en primera persona ("Yo también fui al banco...", "Mi cuenta estaba en rojo") o usa datos crudos y específicos ("el banco te cobra casi el doble"), o es solo un relato distante de hechos? Si el guion es plano, no opina y no tiene vulnerabilidad → **Error Crítico** (no retendrá para un video #2).
+9. **El Filtro de WhatsApp (Métrica Share):** ¿El CTA o el tono general del video provoca que el espectador quiera compartirlo? (Ej. "Mándale esto a tu amigo que sigue endeudado"). ¿Se siente como un video que enviarías a un familiar quebrado? Si el guion no es "compartible" o el CTA solo pide likes aburridos → **Error Crítico** (cambiar el CTA y el tono para fomentar el Share).
+10. **Ingeniería Financiera vs. Escuela Dominical:** Si el guion menciona a un personaje bíblico, ¿lo trata como un "Ingeniero Financiero" (ej. José como creador del Fondo de Reserva) o relata un cuento bíblico tradicional ("Dios lo bendijo")? Si relata la historia como escuela dominical en lugar de traducir su perfil a Wall Street → **Error Crítico** (reescribir usando la Matriz de Ingenieros Financieros).
+
 ### Checkpoints de Empaque (si el usuario también proporcionó título/miniatura)
-6. **Hashtags en el Título:** ¿El título tiene hashtags (#)? Si es así → **Error Crítico** (moverlos a la descripción).
-7. **Power Words en el Título:** ¿El título contiene al menos 1 Power Word de la matriz? Si no → **Error Crítico**.
-8. **Frases Muertas:** ¿El título usa una frase quemada ("La respuesta te sorprenderá", "No vas a creer")? Si es así → **Error Crítico**.
-9. **Ancla de Tensión Económica:** ¿El gancho ancla la curiosidad a una pregunta financiera hiper-específica que necesita resolverse HOY (ej. "salir de una deuda al 89%") o se queda en una paradoja bíblica interesante pero vacía? Si es vacía → **Error Crítico** (el espectador abandonará cuando entre el sermón).
-10. **Bucle Parasocial (Personalidad y Vulnerabilidad):** ¿El guion expone la frustración/personalidad del creador hablando en primera persona ("Yo también fui al banco...", "Mi cuenta estaba en rojo") o usa datos crudos y específicos (CAT del 89%), o es solo un relato distante de hechos? Si el guion es plano, no opina y no tiene vulnerabilidad → **Error Crítico** (no retendrá para un video #2).
-11. **Colisión de Contenidos (Lenguaje Terrenal y Humano):** Al mencionar conceptos bíblicos o sagrados, ¿chocan contra un problema económico real usando lenguaje callejero/humano (ej. "Me subieron el valor a pagar de la TC") o usa jerga fría ("Inflación del 100%")? Si usa jerga técnica aburrida y no exige un contraste agresivo con lenguaje humano → **Error Crítico** (exigir reescritura para acercarlo a la calle).
-12. **El Filtro de WhatsApp (Métrica Share):** ¿El CTA o el tono general del video provoca que el espectador quiera compartirlo? (Ej. "Mándale esto a tu amigo que sigue endeudado"). ¿Se siente como un video que enviarías a un familiar quebrado? Si el guion no es "compartible" o el CTA solo pide likes aburridos → **Error Crítico** (cambiar el CTA y el tono para fomentar el Share).
-13. **Ingeniería Financiera vs. Escuela Dominical:** Si el guion menciona a un personaje bíblico, ¿lo trata como un "Ingeniero Financiero" (ej. José como creador del Fondo de Reserva) o relata un cuento bíblico tradicional ("Dios lo bendijo")? Si relata la historia como escuela dominical en lugar de traducir su perfil a Wall Street → **Error Crítico** (reescribir usando la Matriz de Ingenieros Financieros).
+11. **Hashtags en el Título:** ¿El título tiene hashtags (#)? Si es así → **Error Crítico** (moverlos a la descripción).
+12. **Power Words en el Título:** ¿El título contiene al menos 1 Power Word de la matriz? Si no → **Error Crítico**.
+13. **Frases Muertas:** ¿El título usa una frase quemada ("La respuesta te sorprenderá", "No vas a creer")? Si es así → **Error Crítico**.
 
 ### Auditoría Estricta para Videos Largos (+3 minutos)
 Si el guion a revisar es para un video largo, sumar estas 4 verificaciones críticas a la lista anterior:
