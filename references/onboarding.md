@@ -19,11 +19,11 @@ Activa este flujo cuando el usuario llegue con frases vagas como "ayúdame con e
 **Si elige GUIÓN (video largo):**
 → "¿Cuál es el tema o la idea del video?"
 → "¿Duración objetivo?" (opciones: 8 min / 12 min / 15 min)
-→ Seguir el protocolo de `guion-clean.md` y ejecutar
+→ Seguir el protocolo de `guion-reglas-obligatorias.md` + `guion-reglas-largo.md` y ejecutar
 
 **Si elige SHORT:**
 → "¿Cuál es el tema o el gancho central?"
-→ Seguir el protocolo de `guion-clean.md` (sección Shorts) y ejecutar
+→ Seguir el protocolo de `guion-reglas-obligatorias.md` + `guion-reglas-shorts.md` y ejecutar
 
 **Si elige EMPAQUE (Títulos y Miniaturas):**
 → "¿De qué trata el video para el cual haremos el empaque?"
@@ -64,7 +64,7 @@ Nunca terminar una respuesta sin proponer el siguiente paso lógico de producci�
 Este es el pipeline general para crear un video o Short desde cero hasta la publicación.
 
 1. **Tema:** Definir tema y enfoque (ver `onboarding.md`).
-2. **Guión:** Ver `guion-clean.md` (Micro-Short para canales en fase de crecimiento, Short estándar o video largo según contexto).
+2. **Guión:** Cargar `guion-reglas-obligatorias.md` y sumar `guion-reglas-shorts.md` o `guion-reglas-largo.md` según el formato.
 3. **Audio (Voz y Música):** Ver `produccion-voz.md`.
 4. **Imágenes:** Generar con DALL-E 3 (según estilo y frecuencia detallados en `produccion-imagen.md`).
 5. **Empaque (Título, Descripción, Tags y Miniatura):** Ver `produccion-empaque.md`. (Obligatorio aplicar Disonancia Bíblica en Shorts).

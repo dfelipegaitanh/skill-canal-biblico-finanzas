@@ -111,7 +111,7 @@ TEXT
 | Video de esperanza / transformación | starts contemplative, gradually becomes warmer and brighter, ends with hopeful resolution |
 
 ### Mood por bloque interno (videos largos)
-*(Nota: Los nombres de los pilares están definidos en guion-clean.md § 4.C)*
+*(Nota: Los nombres de los pilares están definidos en guion-reglas-largo.md)*
 
 | Pilar del guion | Mood musical |
 |-----------------|--------------|
