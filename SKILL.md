@@ -23,9 +23,7 @@ description: Skill especializado para construir y operar el canal de YouTube "C�
 
 **Estrategia Macro (Caballo de Troya y Disonancia Bíblica):** Empaque ataca dolor secular. Palabras religiosas PERMITIDAS EXCLUSIVAMENTE si rompen creencias y generan shock (ej. "Jesús condenó al prudente"). Prohibido el sermón genérico.
 
-**Estilos visuales:**
-- **A) Estilo "Codex" (Manuscrito Da Vinci)** (default) — 100% personajes stick-figure, trazos de tinta negra gruesa e intensa, fondo beige texturizado `#E8D5B0`. Contra-señal visual a la basura 3D genérica.
-- **B) Kurzgesagt bíblico** — 2D flat, azul noche + dorado.
+**Estilo visual:** Estilo "Codex" (Manuscrito Da Vinci) — 100% personajes stick-figure, trazos de tinta negra gruesa e intensa, fondo beige texturizado `#E8D5B0`.
 
 ---
 
