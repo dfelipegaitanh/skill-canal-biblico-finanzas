@@ -71,7 +71,7 @@ TEXT
 
 **Estilo base:** Acústico cálido — guitarra española o clásica como instrumento principal, piano suave o cuerdas de fondo opcionales.
 
-**Regla absoluta: siempre instrumental.** La música NUNCA tiene voces, coros ni samples vocales. Quedan excluidos los beats de hip-hop/trap, la electrónica prominente, la percusión fuerte, los tempos rápidos (+100 BPM) y los ritmos tristes, pesados o dramáticos. La instrumentación debe ser armoniosa, dejando a la voz del narrador como el único elemento vocal del video.
+**Regla absoluta: siempre instrumental.** La música NUNCA tiene voces, coros ni samples vocales. Quedan excluidos los beats de hip-hop/trap, la electrónica prominente, la percusión fuerte, los tempos rápidos (+100 BPM) y los ritmos tristes, pesados o dramáticos. La instrumentación debe ser armoniosa, dejando a la voz del narrador como el único elemento vocal del video.  La música debe ser tensa e incómoda UNICAMENTE al inicio del video.
 
 ---
 
@@ -79,11 +79,11 @@ TEXT
 
 | Tipo de video | Dynamic arc |
 |--------------|-------------|
-| Short de impacto emocional | starts with tension, brief resolution at the end |
-| Short de revelación bíblica | starts calm, subtle crescendo in the middle, soft resolution |
-| Video largo de enseñanza | starts calm and warm, maintains steady low energy, gentle fade out |
-| Video largo con giro dramático | starts with mild tension, drops to minimal in the middle, subtle crescendo before close, clean resolution |
-| Video de esperanza / transformación | starts contemplative, gradually becomes warmer and brighter, ends with hopeful resolution |
+| Short de impacto emocional | starts with sharp uncomfortable tension, quickly drops to calm, brief resolution at the end |
+| Short de revelación bíblica | starts with uncomfortable tension, quickly transitions to calm, subtle crescendo in the middle, soft resolution |
+| Video largo de enseñanza | starts with uncomfortable tension, transitions to calm and warm, maintains steady low energy, gentle fade out |
+| Video largo con giro dramático | starts with sharp uncomfortable tension, drops to minimal in the middle, subtle crescendo before close, clean resolution |
+| Video de esperanza / transformación | starts with uncomfortable tension, quickly transitions to contemplative, gradually becomes warmer and brighter |
 
 ### Mood por bloque interno (videos largos)
 *(Nota: Los nombres de los pilares están definidos en guion-reglas-largo.md)*
@@ -102,20 +102,19 @@ TEXT
 
 ### Prompt base de música
 
-```
+```text
 Acoustic instrumental music for a Spanish-language YouTube channel
 about biblical principles and personal finance for Latin American Christians aged 28–45.
 
-Mood: [INSERTAR: contemplative / hopeful / tense / warm / reflective] — must remain harmonious
+Mood: starts tense and uncomfortable for the first 5 seconds, then strictly transitions into [INSERTAR: contemplative / hopeful / warm / reflective] and remains highly harmonious
 Tempo: slow to mid — between 55 and 75 BPM
 Instruments: classical or Spanish acoustic guitar as the main instrument,
 optionally supported by soft piano or gentle strings in the background.
 Exclusions: strictly no vocals or choirs of any kind, no hip-hop/trap beats,
 no electronic elements, no heavy percussion or drums, 
-no sad, heavy, or dramatic rhythms.
-Texture: intimate, warm, and highly harmonious — like a private conversation, not a concert
+no sad, heavy, or dramatic rhythms AFTER the first 5 seconds.
+Texture: intimate, warm, and highly harmonious (after initial tension) — like a private conversation, not a concert
 Dynamic arc: [INSERTAR desde tabla de arco global]
 Style references: background music in documentaries about spirituality or personal growth,
 clean mix, no reverb excess, suitable to play under a narrator's voice at 15–20% volume
 ```
-

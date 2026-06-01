@@ -17,10 +17,21 @@ Para evitar sonar robotizado, condescendiente o como un pastor dando clase, todo
 6. **Texto en pantalla orgánico (Anti-PowerPoint):** Los textos sugeridos para edición (overlays) deben ser el golpe emocional, no una clase de economía. **PROHIBIDO** usar ecuaciones, glosarios o el signo igual (ej. MAL: "0.5% anual = enterrado"). Usa 1 a 3 palabras gigantes que griten la emoción (ej. BIEN: "TE DAN CENTAVOS" o "SE PUDRE").
 7. **La Regla de la Sola Fuente:** Para evitar que el video se convierta en un sermón de escuela dominical, elige UNA SOLA fuente bíblica (un versículo o pasaje corto). Puedes desglosar ese mismo texto en 2 o 3 partes a lo largo del video para exprimir su ingeniería, pero **ESTRICTAMENTE PROHIBIDO** saltar y añadir versículos de otros libros o historias distintas.
 8. **Prohibición de Autoayuda (Implicación Técnica Obligatoria):** El cierre del guion **NUNCA** debe ser motivacional ("tú puedes", "actúa hoy", "ten fe"). La solución debe ser la revelación de un Mecanismo concreto y su implicación técnica. (Ej: "Tu plata quieta se pudre. Ahora que conoces la ley de la multiplicación, tu riesgo de seguir perdiendo poder adquisitivo se reduce a cero"). Al usuario se le entrega "El Código", no palmadas en la espalda.
+9. **Metáfora sobre Explicación (La Regla del Dolor Visual):** Prohibido "explicar" un concepto abstracto como la inflación o la deuda. Se debe exigir una metáfora visual cruda en los prompts de imagen (ej. no muestres un banco, muestra a alguien ahogándose en facturas o un títere controlado por tarjetas de crédito).
+10. **CTA de Transformación (Prohibición Transaccional):** Queda estrictamente **PROHIBIDO** pedir likes o suscripciones a mitad o final del video. El cierre debe obligar a la audiencia a abrirse en los comentarios con una pregunta confrontacional y personal (Ej: "¿Qué gasto te está drenando más hoy? Ponlo en los comentarios y te digo cómo cortarlo según la Biblia").
+---
+
+## 2. ESTRATEGIA TEMÁTICA (Niche Bending)
+
+La IA tiene estrictamente prohibido redactar guiones sobre "temas generales" (ej. "La importancia de ahorrar" o "Por qué no endeudarse"). Todo guion debe ser concebido como un **Caso de Estudio Técnico** que encaje obligatoriamente en uno de estos tres pilares:
+
+1. **Autopsia de Personajes:** Cómo hicieron dinero o cómo estructuraron su capital. (Ej. *"Por qué José no fue pobre en Egipto"*).
+2. **Disonancia Bíblica:** Romper mitos religiosos con datos. (Ej. *"Jesús no predicaba el diezmo, esto es lo que hacía"*).
+3. **Aritmética Brutal:** Aplicación moderna de las leyes bíblicas a la inflación, deudas y tasas de interés. (Ej. *"La inflación de Egipto y cómo la evitó José"*).
 
 ---
 
-## APÉNDICES DE CONTEXTO
+## 3. APÉNDICES DE CONTEXTO
 *(Estas matrices son el contexto que la IA debe interiorizar como leyes del mundo, no son pasos de redacción).*
 
 ### Apéndice A: Matriz de Ingenieros Financieros (Personajes Bíblicos)

@@ -238,6 +238,16 @@ Las IA de video tienden a ser estáticas si no se les exige acción intensa. Par
 
 ---
 
+## Directrices de Edición Pacing (CapCut)
+
+Para evitar que una edición plana destruya la retención del video, exige siempre este pacing de "Frenar y Apilar":
+
+1. **Frenado Visual (0.0s - 1.5s):** Edición rápida y cortes agresivos. No dejes que la imagen respire. La música debe ser tensa e incómoda. El texto en pantalla (generado en CapCut) debe aparecer **palabra por palabra** obligando al cerebro a leer ("Secuestro de la mente").
+2. **Apilado Visual (1.5s - 5.0s):** Baja el ritmo ligeramente para que la autoridad técnica se asiente. Usa un zoom lento (15% zoom in) o un cambio drástico de color (ej. un tono magenta) para señalar que la información es crítica.
+3. **Ruptura Visual (0:20 - 0:30):** Introduce un "swell" musical (subida repentina) y ejecuta un cambio drástico de plano (zoom 15% rápido o ruptura visual del personaje) para sacudir de nuevo al espectador y evitar el desgaste.
+
+---
+
 ## Tabla de animaciones CapCut por tipo de escena
 
 | Tipo de escena | Entrada (IN) | Salida (OUT) |

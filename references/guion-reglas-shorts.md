@@ -19,15 +19,15 @@ La disonancia bíblica (atacar una creencia) JAMÁS debe atacar un concepto abst
 *MAL:* "Dios condenó el sistema de oración" (Abstracto, no detiene el scroll).
 *BIEN:* "Jesús nunca dijo decreto" (Ataca una práctica específica que el usuario hizo esta mañana).
 
-### Los 5 tipos de hook estratégicos
-Rotar entre estos para mantener fresco el canal. La plantilla base:
-`[Pregunta que duele] → [Dato histórico/Personaje] → [Contradicción/Revelación] → [Promesa del sistema]`
+### Los 5 tipos de hook estratégicos (Frenar y Apilar)
+Rotar entre estos para mantener fresco el canal. La plantilla base obliga a una disrupción violenta en los primeros 1.5 segundos:
+`[FRENADO: Paradoja dolorosa que ataca la fe] → [APILADO: Inyección de autoridad milenaria] → [DECODIFICACIÓN]`
 
-1. **El Hook de Trauma Generacional (DEFAULT):** `[Falsa herencia financiera: ej. Tu papá te enseñó a trabajar duro] → [Consecuencia de escasez] → [El código antiguo que lo rompe]`
-2. **El Hook de Identidad:** `¿Sigues con [Síntoma] a pesar de [esfuerzo]? → [Mecanismo] de hace [Tiempo] ignorado`
-3. **El Hook de Confrontación Empática:** `[Validación de esfuerzo inútil] → Tu falta de dinero no es por [Mito] → es por ignorar [Sistema antiguo]`
-4. **El Hook de Mito-Realidad:** `Te enseñaron [Mito moral] → Pero el manual tiene [Dato opuesto]`
-5. **El Hook de Trinchera (Shares):** `[Fracaso financiero humillante personal] + [Descubrimiento del Código]`
+1. **El Hook de Trauma Generacional (DEFAULT):** `[Frenado: Falsa herencia financiera] → [Apilado: El código antiguo que lo rompe]`
+2. **El Hook de Identidad:** `[Frenado: ¿Sigues con síntoma a pesar de orar/esfuerzo?] → [Apilado: Mecanismo de hace 3,000 años ignorado]`
+3. **El Hook de Confrontación Empática:** `[Frenado: Tu falta de dinero no es por X mito] → [Apilado: Es por ignorar este sistema antiguo]`
+4. **El Hook de Mito-Realidad:** `[Frenado: Te enseñaron este mito religioso y te empobreció] → [Apilado: El manual tiene el dato técnico opuesto]`
+5. **El Hook de Trinchera:** `[Frenado: Fracaso financiero crudo] → [Apilado: Descubrimiento de la regla]`
 
 ### Estructura visual de los 3 segundos (Sincronización)
 - **0–2s:** Audio lee el hook. Visual muestra texto gigante dinámico (máx 5 palabras: DEUDA, CÓDIGO, ERROR). Nunca decorativo.
@@ -40,15 +40,16 @@ Rotar entre estos para mantener fresco el canal. La plantilla base:
 **Benchmark:** Mínimo 50% retención. Viralidad: 70% View-to-Swipe.
 
 ### A. El Micro-Short (15–20s) — EL DEFAULT DE CRECIMIENTO
-> ⛔ **MÁXIMO 50–60 PALABRAS TOTALES.** Solo 3 bloques.
-1. **GOLPE (0–3s):** Disonancia pura enfocada en el trauma. *"Tu papá te enseñó a trabajar duro. Pero nunca te enseñó a construir activos."*
-2. **DECODIFICACIÓN (3–14s):** Versículo citado + dato técnico brutal que rompe la creencia. *"Y Salomón explicó por qué hace 3.000 años. Si tu dinero no produce mientras duermes..."*
-3. **CIERRE (14–20s):** Confrontación identitaria + CTA agresivo. *"¿Trabajas para Dios o para el banco? El video completo en el perfil."*
+> ⛔ **MÁXIMO 50–60 PALABRAS TOTALES.** Consta de 4 bloques exactos.
+1. **FRENADO (0.0s – 1.5s):** Paradoja dolorosa brutal y directa. Prohibido arrancar con explicaciones. *Ej: "Tu oración te está dejando pobre."*
+2. **APILADO (1.5s – 5.0s):** Autoridad técnica inmediata. Prohibido decir "La Biblia dice...". Usa *"Hace 3,000 años, el sistema decodificó tu error..."*. **Obligatorio añadir una [PAUSA 1s] aquí para procesar la disonancia.**
+3. **DECODIFICACIÓN (5.0s – 14.0s):** Versículo citado + dato técnico brutal que rompe la creencia.
+4. **CTA DE TRANSFORMACIÓN (14.0s – 20.0s):** Pregunta confrontacional para comentarios. Prohibido pedir sub/like. *"¿Qué gasto te drena más hoy? Ponlo en los comentarios y te doy el Código."*
 
 ### B. El Short Estándar (50–60s)
 > ⛔ **MÁXIMO 150 PALABRAS TOTALES.** Consta de 5 bloques exactos.
-1. **HERIDA (0–4s):** Choque visual (DEUDA gigante) + Hook verbal con Power Word. Disonancia financiera obligatoria.
-2. **PARADOJA (4–12s):** "La Biblia dice X, pero tú haces Y." Citar versículo máximo en el seg 5-7.
-3. **DECODIFICACIÓN (12–35s):** Número real + pausa + traducción a dolor. *"70% de interés [PAUSA 1s] le regalas 3 días al banco."* (Inyectar interruptor de ritmo visual en el seg 20 para no aburrir). **ESTRICTAMENTE PROHIBIDO** saltar a un segundo versículo bíblico aquí.
-4. **COMANDO (35–48s):** Escalera técnica 1:1:1 (Acción Sistémica hoy + Promesa + Identidad). **ESTRICTAMENTE PROHIBIDO** usar frases de autoayuda o motivación. Revela un mecanismo financiero basado en el versículo del Bloque 2.
-5. **LOOP (48–60s):** Zoom dramático a los ojos. Exige el SHARE: *"Mándale esto a tu amigo endeudado."* Terminar con frase inconclusa que enlace al segundo 0.
+1. **FRENADO (0.0s – 1.5s):** Metáfora visual cruda + Paradoja dolorosa verbal. Cero contexto. *Ej: "Tu oración te está dejando pobre."*
+2. **APILADO (1.5s – 5.0s):** Apilar autoridad técnica pesada. *"Hace 3,000 años, el sistema financiero que ignoras decodificó exactamente tu error"*. **Obligatorio añadir una [PAUSA 1s] aquí.**
+3. **DECODIFICACIÓN Y ARITMÉTICA (5.0s – 35.0s):** Mostrar el número real, el daño (inflación, deudas) respaldado por la fuente bíblica. (Inyectar interruptor de ritmo visual en el seg 20 para no aburrir). **ESTRICTAMENTE PROHIBIDO** saltar a un segundo versículo bíblico.
+4. **COMANDO (35.0s – 48.0s):** Escalera técnica 1:1:1. Revela el mecanismo financiero. **ESTRICTAMENTE PROHIBIDO** usar motivación.
+5. **LOOP Y CTA DE TRANSFORMACIÓN (48.0s – 60.0s):** Pregunta a la caja de comentarios (Ej. *"¿Qué gasto absurdo copiaste de tu familia? Escríbelo abajo"*). Terminar con frase inconclusa que enlace al segundo 0.
