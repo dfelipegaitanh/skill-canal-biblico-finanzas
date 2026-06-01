@@ -34,11 +34,11 @@ description: Skill especializado para construir y operar el canal de YouTube "C�
 | Tarea solicitada | Cargar (Máx. 1 módulo) |
 |-----------------|-------------------------|
 | Títulos, Miniaturas y Metadatos SEO (El Empaque) | `references/produccion-empaque.md` |
-| Guiones nuevos, estructura narrativa, hooks | `references/guion-clean.md` |
+| Guiones nuevos, estructura narrativa, hooks, shorts o guión largo | `references/guion-reglas-obligatorias.md` (+ `references/guion-reglas-shorts.md` o `references/guion-reglas-largo.md`) |
 | Revisar, auditar o mejorar un guión existente | `references/auditoria-guion.md` |
 | Prompts de imagen, animación visual | `references/produccion-imagen.md` |
 | Generación de voz, música, audio | `references/produccion-voz.md` |
-| Threads | `references/threads.md`
+| Threads | `references/produccion-threads.md` |
 | Sin contexto claro, onboarding o primer contacto | `references/onboarding.md` |
 
 **Regla:** Cargar SOLO la referencia que aplica (máximo 1 archivo a la vez). Nunca cargar todas.

@@ -25,6 +25,9 @@ Activa este flujo cuando el usuario llegue con frases vagas como "ayúdame con e
 → "¿Cuál es el tema o el gancho central?"
 → Seguir el protocolo de `guion-reglas-obligatorias.md` + `guion-reglas-shorts.md` y ejecutar
 
+**Si no dice qué tipo de video:**
+→ Asumir el formato de SHORT, por defecto
+
 **Si elige EMPAQUE (Títulos y Miniaturas):**
 → "¿De qué trata el video para el cual haremos el empaque?"
 → Seguir el protocolo de `produccion-empaque.md` y ejecutar
@@ -65,9 +68,7 @@ Este es el pipeline general para crear un video o Short desde cero hasta la publ
 
 1. **Tema:** Definir tema y enfoque (ver `onboarding.md`).
 2. **Guión:** Cargar `guion-reglas-obligatorias.md` y sumar `guion-reglas-shorts.md` o `guion-reglas-largo.md` según el formato.
-3. **Audio (Voz y Música):** Ver `produccion-voz.md`.
-4. **Imágenes:** Generar con DALL-E 3 (según estilo y frecuencia detallados en `produccion-imagen.md`).
+3. **Imágenes:** Ver `produccion-imagen.md`.
+4. **Audio (Voz y Música):** Ver `produccion-voz.md`.
 5. **Empaque (Título, Descripción, Tags y Miniatura):** Ver `produccion-empaque.md`. (Obligatorio aplicar Disonancia Bíblica en Shorts).
-6. **Animación:** Kling/Runway (recomendado) o efectos en CapCut.
-7. **Edición:** Regla de los 3 segundos sin corte. Orden: Voz → Imágenes → SFX → Música → Texto.
-8. **Autenticidad:** B-roll demostrativo (Scholar, noticias, capturas).
+6. **Threads:** Ver `produccion-threads.md`.
