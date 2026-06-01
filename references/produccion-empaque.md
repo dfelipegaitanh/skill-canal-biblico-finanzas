@@ -12,7 +12,7 @@ El título no es un resumen teológico del video. Es el agravio personal o la qu
 
 - **Fórmula de Disonancia Bíblica (NUEVA REGLA MAESTRA):** Las palabras como *"Jesús", "Biblia", "Dios"* ESTÁN PERMITIDAS EXCLUSIVAMENTE si se usan para romper una creencia establecida y generar shock (ej. "Jesús condenó al hombre prudente").
 - **Disonancia Específica (Stop Stack):** Aplica la Regla de Disonancia Específica de `guion-clean.md` (JAMÁS atacar conceptos abstractos, DEBE atacar acciones físicas del espectador).
-- **La Regla de Oro (Prioridad Izquierda):** *El shock va primero, la explicación va después.* La Disonancia Bíblica o la Power Word DEBEN estar en la extrema izquierda del título (las primeras 3 palabras). Si lo pones al final, la interfaz lo cortará.
+- **La Regla de Oro (Prioridad Izquierda - El Personaje Primero):** *El shock va primero, la explicación va después.* La **PRIMERA PALABRA ABSOLUTA** del título DEBE ser el nombre del personaje bíblico (Jesús, Dios, Salomón, José, etc.). Si lo pones al final o en medio, la interfaz lo cortará y perderás el enganche de autoridad.
 - **Ataque al Dolor y "Stakes" (Urgencia):** El título debe implicar que el espectador está perdiendo algo AHORA. (Ej. "Por qué tu ahorro se está pudriendo" > "Cómo ahorrar").
 - **El "Tú" Directo:** Usa la segunda persona obligatoriamente ("Tu", "Tus", "Te"). El canal es un diálogo confrontacional.
 - **Power Words (OBLIGATORIO):** TODO título debe contener al menos una Power Word de nuestra matriz (código, sistema, condenó, decodificar, 3.000 años).

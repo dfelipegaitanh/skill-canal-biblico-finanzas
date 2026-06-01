@@ -191,13 +191,13 @@ Presenta cada bloque de imagen como una tarjeta vertical y fácil de leer.
 *   🖼️ **DALL-E:** `(Prompt visual completo)`
 *   🎥 **Kling/Runway:** `(Prompt de movimiento en inglés)` [OPCIONAL / RECOMENDADO]
 *   ✨ **CapCut:** Entrada: Zoom rápido / Salida: Fade
-*   📝 **Texto en Pantalla:** "PARA DEUDORES" [IDEAL / OPCIONAL]
+*   📝 **Texto en Pantalla:** "PARA DEUDORES" (Fuente Blanca, palabra clave en Rojo `#FF3333` o Amarillo `#C9A84C`) [IDEAL / OPCIONAL]
 
 **🎬 BLOQUE [00:03 – 00:06]**
 *   🖼️ **DALL-E:** `(Prompt visual completo)`
 *   🎥 **Kling/Runway:** `Fast push in camera, heavy dust...` [RECOMENDADO]
 *   ✨ **CapCut:** Entrada: Flash Blur / Salida: Wipe-L
-*   📝 **Texto en Pantalla:** "¿Llevas años?" [RECOMENDADO]
+*   📝 **Texto en Pantalla:** "¿Llevas años?" (Fuente Blanca, palabra clave en Rojo `#FF3333` o Amarillo `#C9A84C`) [RECOMENDADO]
 
 *(Repetir para todos los bloques...)*
 
@@ -242,7 +242,7 @@ Las IA de video tienden a ser estáticas si no se les exige acción intensa. Par
 
 Para evitar que una edición plana destruya la retención del video, exige siempre este pacing de "Frenar y Apilar":
 
-1. **Frenado Visual (0.0s - 1.5s):** Edición rápida y cortes agresivos. No dejes que la imagen respire. La música debe ser tensa e incómoda. El texto en pantalla (generado en CapCut) debe aparecer **palabra por palabra** obligando al cerebro a leer ("Secuestro de la mente").
+1. **Frenado Visual (0.0s - 1.5s):** Edición rápida y cortes agresivos. No dejes que la imagen respire. La música debe ser tensa e incómoda. El texto en pantalla (generado en CapCut) debe aparecer **palabra por palabra** obligando al cerebro a leer ("Secuestro de la mente"). Siempre especifica el color de ruptura para la palabra clave (Rojo `#FF3333` o Amarillo Oro `#C9A84C`).
 2. **Apilado Visual (1.5s - 5.0s):** Baja el ritmo ligeramente para que la autoridad técnica se asiente. Usa un zoom lento (15% zoom in) o un cambio drástico de color (ej. un tono magenta) para señalar que la información es crítica.
 3. **Ruptura Visual (0:20 - 0:30):** Introduce un "swell" musical (subida repentina) y ejecuta un cambio drástico de plano (zoom 15% rápido o ruptura visual del personaje) para sacudir de nuevo al espectador y evitar el desgaste.
 
