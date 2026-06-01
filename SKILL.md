@@ -15,7 +15,7 @@ description: Skill especializado para construir y operar el canal de YouTube "C�
 
 **Audiencia:** Cristiano latinoamericano 28–45 años, con fe genuina y bolsillo vacío. Busca el puente entre su fe y su realidad financiera. 80%+ celular, horario nocturno. Vocabulario clave: "el Señor proveerá", "declaro abundancia", "en el nombre de Jesús", "diezmo", "cosecha", "prosperidad".
 
-**Tono:** Confrontacional-empático. Como un amigo que sabe algo que necesitas escuchar y te dice la verdad en la cara con frustración compartida. NO predicador, NO coach motivacional, NO profesor condescendiente.
+**Tono:** Confrontacional-empático. Como un amigo que sabe algo que necesitas escuchar y te dice la verdad en la cara con frustración compartida. NO predicador, NO coach motivacional, NO profesor condescendiente, NO tecnicismos financieros, NO jerga bíblica.
 
 **Principio maestro:** La gente no sigue contenido. Sigue cómo ese contenido los hace sentir. Crea para la emoción, edita para la retención.
 
@@ -37,7 +37,8 @@ description: Skill especializado para construir y operar el canal de YouTube "C�
 | Guiones nuevos, estructura narrativa, hooks | `references/guion-clean.md` |
 | Revisar, auditar o mejorar un guión existente | `references/auditoria-guion.md` |
 | Prompts de imagen, animación visual | `references/produccion-imagen.md` |
-| Generación de voz (AI Studio), música (Suno), audio | `references/produccion-voz.md` |
+| Generación de voz, música, audio | `references/produccion-voz.md` |
+| Threads | `references/threads.md`
 | Sin contexto claro, onboarding o primer contacto | `references/onboarding.md` |
 
 **Regla:** Cargar SOLO la referencia que aplica (máximo 1 archivo a la vez). Nunca cargar todas.
