@@ -39,38 +39,13 @@ El guión completo en español, de corrido, con etiquetas de emoción intercalad
 #### Pausas
 
 Usar `,` o `.` para marcar micropausas de respiración naturales.
-Usar la etiqueta `[pause]` ÚNICAMENTE cuando el guion exige explícitamente "1 segundo de silencio intencional" (ej. en la Decodificación).
+NO usar la etiqueta `[pause]`, ni `...` ni ningun otro recurso para marcar pausas.
 
 **Identidad del Narrador y Configuración de Voz:**
 - **El Tono Exacto:** Hombre, voz medio-grave. Tono según SKILL.md (Confrontacional-empático). **NO es un predicador, NO es un coach motivacional.** El tono es de autoridad técnica pero empático.
 - **Velocidad:** Ritmo deliberado, 85–90% de la velocidad natural de habla humano (pausado, con peso). Las palabras clave deben tener peso.
-- **Pausas Estratégicas:** Las pausas después de preguntas directas o números de "Aritmética Brutal" valen más que seguir hablando.
-- **Shorts:** Duración estricta de **15–20 segundos** para Micro-Shorts (presupuesto **50–60 palabras**) o **50–60 segundos** para Shorts estándar (presupuesto **máximo 150 palabras**). Las etiquetas de emoción ([pause], [somber]) NO cuentan en el presupuesto de palabras.
+- **Shorts:** Duración estricta de **15–20 segundos** para Micro-Shorts (presupuesto **50–60 palabras**) o **50–60 segundos** para Shorts estándar (presupuesto **máximo 150 palabras**). 
 - **Videos largos:** Duración de 5–20 minutos.
-
----
-
-### Pausas acústicas en el guión — humanización de la voz
-
-Los humanos hablan de forma errática: tosen, pausan, cambian el ritmo. Para que Google AI Studio suene menos mecánico, usar estas convenciones en el texto del guión:
-
-| Recurso | Cómo escribirlo | Efecto |
-|---------|----------------|--------|
-| Pausa corta | `...` | Micro-pausa natural, como pensando |
-| Énfasis brusco | `¡` al inicio de frase | Sube la intensidad de golpe |
-| Pausa intencional | `[pause]` | 1 segundo de silencio intencional |
-| Ritmo deliberado | Frases cortas. Punto. Seguido. | Obliga a la voz a frenar |
-
-**Ejemplo aplicado:**
-```
-¿Cuántos años llevas guardando lo poco que tienes... por miedo a perderlo?
-[pause]
-Hay un hombre en la Biblia que hizo exactamente eso.
-Guardó. Protegió. No arriesgó nada.
-¡Y Jesús lo condenó por eso.
-```
-
----
 
 ### Formato de entrega
 
@@ -96,7 +71,7 @@ TEXT
 
 **Estilo base:** Acústico cálido — guitarra española o clásica como instrumento principal, piano suave o cuerdas de fondo opcionales.
 
-**Regla absoluta: siempre instrumental.** La música NUNCA tiene voces, coros, ni samples vocales. Tampoco beats de hip-hop/trap, electrónica prominente, percusión fuerte ni tempo rápido (+100 BPM). La voz del narrador es el único elemento vocal del video.
+**Regla absoluta: siempre instrumental.** La música NUNCA tiene voces, coros ni samples vocales. Quedan excluidos los beats de hip-hop/trap, la electrónica prominente, la percusión fuerte, los tempos rápidos (+100 BPM) y los ritmos tristes, pesados o dramáticos. La instrumentación debe ser armoniosa, dejando a la voz del narrador como el único elemento vocal del video.
 
 ---
 
@@ -125,18 +100,20 @@ TEXT
 
 ---
 
-### Prompt base de música (para Suno AI)
+### Prompt base de música
 
 ```
 Acoustic instrumental music for a Spanish-language YouTube channel
 about biblical principles and personal finance for Latin American Christians aged 28–45.
 
-Mood: [INSERTAR: contemplative / hopeful / tense / warm / reflective]
+Mood: [INSERTAR: contemplative / hopeful / tense / warm / reflective] — must remain harmonious
 Tempo: slow to mid — between 55 and 75 BPM
 Instruments: classical or Spanish acoustic guitar as the main instrument,
-optionally supported by soft piano or gentle strings in the background,
-strictly no drums, no electronic elements, no vocals of any kind
-Texture: intimate and warm — like a private conversation, not a concert
+optionally supported by soft piano or gentle strings in the background.
+Exclusions: strictly no vocals or choirs of any kind, no hip-hop/trap beats,
+no electronic elements, no heavy percussion or drums, 
+no sad, heavy, or dramatic rhythms.
+Texture: intimate, warm, and highly harmonious — like a private conversation, not a concert
 Dynamic arc: [INSERTAR desde tabla de arco global]
 Style references: background music in documentaries about spirituality or personal growth,
 clean mix, no reverb excess, suitable to play under a narrator's voice at 15–20% volume
