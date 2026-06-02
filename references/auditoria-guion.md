@@ -43,12 +43,10 @@ Antes de llenar la tabla, verificar estas reglas de oro generales:
 13. **Frases Muertas:** ¿El título usa una frase quemada ("La respuesta te sorprenderá", "No vas a creer")? Si es así → **Error Crítico**.
 
 ### Auditoría Estricta para Videos Largos (+3 minutos)
-Si el guion a revisar es para un video largo, sumar estas 4 verificaciones críticas a la lista anterior:
-14. **Regla de los 60 Segundos:** ¿Hay algún llamado a la acción (CTA) en el primer minuto del video? Si lo hay → **Error Crítico** (suena a vendedor barato).
-15. **Micro-CTA de Algoritmo (Pilar 3):** ¿El guion cobra el "peaje" pidiendo suscripción *antes* de entregar el núcleo técnico (Min ~1:30 para videos de 3-5m, Min ~2:00 para >8m)? Si lo omite → **Error Crítico**.
-16. **Aritmética Brutal (Pilar 4):** Si el guion da consejos genéricos sin números reales (inflación, interés bancario, deuda), marcar como **Error Crítico** por sonar a "motivación barata".
-   - *Sub-Regla (Tercero Invisible):* Si el video es de +8 minutos, ¿incluye un CTA orgánico (pedir comentarios sobre su país/tasa) camuflado en esta sección técnica? Si pide otra suscripción explícita aquí → **Error Crítico**.
-17. **CTA de Trascendencia (Pilar 7):** ¿El guion pide suscripción o like al final? Si lo hace → **Error Crítico**. El final es ÚNICAMENTE para mandar tráfico a otro video y crear una sesión larga.
+Si el guion a revisar es para un video largo, sumar estas verificaciones a la lista anterior:
+14. **Micro-CTA Temprano (Pilar 3):** ¿El guion pide suscripción justo después del primer "mind-blow" (Pilar 2)? Si lo omite o lo pone demasiado tarde → **Error Crítico**.
+15. **Aritmética Brutal (Pilar 6):** ¿Hay números reales y crudos (inflación, deuda, interés) o solo consejos genéricos? Si no hay cifras → **Error Crítico** por sonar a "motivación barata".
+16. **Oración de Cierre (Pilar 10):** ¿El guion pide suscripción o like al final? Si lo hace → **Error Crítico**. El Pilar 10 es ÚNICAMENTE la oración de activación + redirección al siguiente video.
 
 ## Paso 2 — Herramientas de Reparación (Reglas de "Fixes")
 

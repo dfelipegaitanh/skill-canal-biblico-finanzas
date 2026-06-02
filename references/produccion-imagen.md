@@ -30,9 +30,7 @@ La IA tiene estrictamente **PROHIBIDO** generar un solo prompt de imagen si el u
 **4 elementos obligatorios en cada personaje:**
 
 **1. Micro-expresiones y Ojos Expresivos** — `large round unfilled white head with thick black outlines, expressive cartoon eyes (white circles with black pupils) and thick bold black eyebrows showing [EMOCIÓN]`
-- Cejas inclinadas hacia el centro, boca curvada hacia abajo = preocupación / culpa intensa
-- Cejas arqueadas altas, ojos abiertos = sorpresa / revelación
-- Cejas rectas, mirada firme = calma / autoridad / seriedad
+- Emociones clave: preocupación/culpa (cejas al centro, boca abajo), sorpresa/revelación (cejas altas, ojos abiertos), autoridad/seriedad (cejas rectas, mirada firme).
 
 **2. Silueta monigote con túnica** — `stick-figure character with thick black ink stroke arms and legs, torso wearing a simple flowing ancient tunic or shirt with stylized folds and volume`
 
@@ -161,14 +159,14 @@ all elements within the 20%–80% vertical safe zone
 ```
 
 ---
-> ⛔ **ANTI-LISTA: Frames que SIEMPRE rinden mal (rechazar y regenerar si aparecen):**
+> ⛔ **ANTI-LISTA: Frames que SIEMPRE rinden mal (rechazar y regenerar):**
 >
-> | Señal de frame muerto | Por qué falla | Ejemplo real de bajo rendimiento |
-> |----------------------|---------------|----------------------------------|
-> | Personaje sonriendo o neutral | No hay tensión = no hay razón para detenerse | Figura parada en desierto con sonrisa (226 vistas) |
-> | Exterior abierto (desierto, campo, cielo) | Se pierde en el feed, sin contraste visual | Paisaje soleado con personaje pequeño al centro |
-> | Personaje de pie con brazos a los lados | Parece ilustración de libro infantil, no urgencia | Figura estática sin interacción con ningún objeto |
-> | Sin objeto bíblico-financiero en manos | No hay anclaje visual = la mirada del espectador no sabe a dónde ir | Solo personaje sin contexto de lo que descubrió |
+> | Señal de frame muerto | Por qué falla |
+> |----------------------|---------------|
+> | Personaje sonriendo o neutral | No hay tensión = no detiene el scroll |
+> | Exterior abierto (desierto, campo, cielo) | Se pierde en el feed, sin contraste |
+> | Personaje de pie con brazos a los lados | Parece libro infantil, no urgencia |
+> | Sin objeto bíblico-financiero en manos | No hay anclaje visual |
 
 **Checklist rápido para la Primera Imagen (Hook Visual) (Validar antes de entregar):**
 * [ ] ¿El personaje muestra shock físico (retrocede, se agarra el pecho, ojos desorbitados)?
@@ -266,5 +264,5 @@ Para evitar que una edición plana destruya la retención del video, exige siemp
 
 | Recurso | Uso |
 |---------|-----|
-| MixKit | SFX y efectos de transición — gratuito, arsenal principal |
+| MixKit | SFX y transiciones (gratuito) |
 | Coverr | Videos cinemáticos en bucle para fondos (opcional) |

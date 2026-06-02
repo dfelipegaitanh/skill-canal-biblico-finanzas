@@ -8,7 +8,6 @@ Skill para creación de títulos, miniaturas y metadatos.
 
 ## 1. La Arquitectura del Título (El Vehículo)
 
-El título no es un resumen teológico del video. Es el agravio personal o la queja financiera que le sirve de vehículo al espectador para entrar.
 
 - **La Fórmula Maestra (3 Bloques):** `[Personaje Bíblico / Concepto de Shock] | [Keyword Long-Tail Secular] | [Power Word]`.
     * **Bloque 1 (Izquierda):** El "gancho de autoridad". Debe ser la disonancia cognitiva o el personaje bíblico que rompe creencias. Es el ancla de CTR.
@@ -41,7 +40,7 @@ La miniatura no repite el título; **amplifica su emoción**.
 - **Graficar la Asfixia (Mostrar el Dolor, NO la Cura):** La imagen JAMÁS debe mostrar elementos religiosos. Debe ilustrar visualmente el estrés, la deuda, o la trampa del sistema actual.
 - **Regla de No-Repetición (Título vs. Miniatura):** La miniatura genera la *Emoción*, el título da el *Contexto*. Queda estrictamente prohibido que el texto de la imagen y el título digan lo mismo.
   - *Ejemplo correcto:* Miniatura: Imagen de un bolsillo roto + Texto "Vaciado". Título: "El sistema que drena tus ahorros sin que te des cuenta (3,000 años)".
-- **Texto de Impacto (Priorizar Trauma):** Máximo 2 a 4 palabras gigantes que ataquen directamente la identidad o la herencia del espectador (ej. "NO HEREDASTE POBREZA", "ESTÁS PROGRAMADO", "HEREDASTE ESTE ERROR"). Evitar descripciones tibias. NUNCA repetir el título.
+- **Texto de Impacto (Priorizar Trauma):** Máximo 2 a 4 palabras gigantes que ataquen la identidad o herencia del espectador (ej. \"NO HEREDASTE POBREZA\", \"ESTÁS PROGRAMADO\"). NUNCA repetir el título.
 
 ### Prompt Base para DALL-E (Miniaturas 16:9)
 
@@ -83,7 +82,7 @@ Cuando el usuario pida empaquetar un video, SIEMPRE debes entregar tu respuesta 
     *   **Texto de Impacto** para la miniatura (2 a 4 palabras gigantes).
     *   **Concepto visual** breve de la miniatura (Graficar la asfixia).
 
-2.  **Bloque de Metadatos:**
+3.  **Bloque de Metadatos:**
     *   Un párrafo de 150-200 caracteres con la palabra clave y el gancho fuerte.
     *   3 Hashtags estratégicos.
     *   Etiquetas en los 3 niveles requeridos.

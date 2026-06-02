@@ -91,17 +91,20 @@ TEXT
 | Video de esperanza / transformación | starts with uncomfortable tension, quickly transitions to contemplative, gradually becomes warmer and brighter |
 
 ### Mood por bloque interno (videos largos)
-*(Nota: Los nombres de los pilares están definidos en guion-reglas-largo.md)*
+*(Los nombres de los pilares están definidos en `guion-reglas-largo.md`)*
 
 | Pilar del guion | Mood musical |
 |-----------------|--------------|
-| 1. El Gancho de Herida | Tensión contenida — nota sostenida o arpeggio lento |
-| 2. La Autopsia Bíblica | Peso emocional — tempo lento, acordes menores |
-| 3. Micro-CTA de Algoritmo | Disrupción — subida rítmica breve |
-| 4. Aritmética Brutal | Autoridad y crescendo — subida progresiva de intensidad |
-| 5. El Puente Emocional | Empatía — acordes mayores suaves, tempo íntimo |
-| 6. Escalera de Acción | Esperanza activa — acordes mayores, tempo estable |
-| 7. CTA de Trascendencia | Resolución — nota final limpia, fade out natural |
+| 1. El Contraste de Avatares (Intro) | Tensión contenida — nota sostenida o arpeggio lento |
+| 2. El Secreto Mal Interpretado | Peso emocional — tempo lento, acordes menores |
+| 3. Micro-CTA Algoritmo (Temprano) | Disrupción breve — subida rítmica corta |
+| 4. El Arquitecto Bíblico | Autoridad — crescendo progresivo de intensidad |
+| 5. Contexto Histórico / Secular | Documental — cuerdas amplias, tempo estable |
+| 6. La Aritmética Brutal a 10 Años | Tensión matemática — crescendo con peso |
+| 7. La Escalera de Acción Práctica | Esperanza activa — acordes mayores, tempo estable |
+| 8. El Principio del Descanso (Shabbat) | Calma reflexiva — guitarra suave, tempo íntimo |
+| 9. El Plan de Acción a 7 Días | Urgencia controlada — ritmo firme |
+| 10. La Oración de Activación (Cierre) | Resolución — nota final limpia, fade out natural |
 
 ---
 

@@ -35,9 +35,9 @@ Activa este flujo cuando el usuario llegue con frases vagas como "ayúdame con e
 **Si elige PROMPTS:**
 → "¿Tienes el guión con timestamps listo?"
 → Si sí: "¿Necesitas prompts de imagen o de voz?"
-  → Imagen: preguntar estilo A o B, luego seguir el protocolo de `produccion-imagen.md`
   → Voz: seguir el protocolo de `produccion-voz.md`
-→ Si no: "Necesito el guión con timestamps primero. ¿Lo tienes o arrancamos por ahí?"
+  → Imagen: seguir el protocolo de `produccion-imagen.md` (Estilo Codex)
+→ Si no: "Necesito el guión con timestamps primero. ¿Lo tienes o arrancamos por ahí?" (Mientras el guion no tenga timestamps, no se pueden generar prompts de imagen)
 
 **Si elige AUDITAR un guión:**
 → "¿El guión es para Short o para video largo?"

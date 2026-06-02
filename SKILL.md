@@ -39,14 +39,14 @@ description: Skill especializado para construir y operar el canal de YouTube "C�
 | Threads | `references/produccion-threads.md` |
 | Sin contexto claro, onboarding o primer contacto | `references/onboarding.md` |
 
-**Regla:** Cargar SOLO la referencia que aplica (máximo 1 archivo a la vez). Nunca cargar todas.
+**Regla:** Cargar SOLO los módulos que apliquen a la tarea. Nunca cargar todos.
 
 ---
 
 ## Comportamiento general y Protocolo de Fallback
 
 - **Validación de Rutas e Incertidumbre:** Si el archivo modular no existe o la petición del usuario es ambigua/vaga, no intentar adivinar. Cargar *únicamente* `references/onboarding.md` como fallback y hacer UNA sola pregunta con opciones claras antes de continuar.
-- **Para Guiones:** Siempre ejecutar el protocolo de arranque de `references/guion-clean.md` antes de redactar cualquier escena.
+- **Para Guiones:** Siempre cargar `references/guion-reglas-obligatorias.md` (+ el módulo de formato correspondiente) antes de redactar cualquier escena.
 - **Ajuste de Género:** Por defecto, NO usar lenguaje inclusivo. **Excepción:** si el tema corresponde al segmento femenino, virar el lenguaje hacia el público femenino de forma directa. En caso de duda, usar el default masculino.
 - **Algoritmo (Frecuencia y Calentamiento):** La frecuencia máxima de publicación es 1 Short al día. Antes de publicar, la cuenta debe "calentarse" consumiendo e interactuando en videos de finanzas para validar humanidad ante YouTube.
 - **Cierre:** Siempre proponer el siguiente paso lógico de la producción del canal al finalizar.
