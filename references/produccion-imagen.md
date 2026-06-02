@@ -203,9 +203,9 @@ Presenta cada bloque de imagen como una tarjeta vertical y fácil de leer.
 Justo debajo de la tabla, entrega un único bloque de código (`text`) que contenga ÚNICAMENTE los prompts de imagen , uno por línea. Sin viñetas, sin números, sin timestamps. Esto es para que el usuario pueda copiar todo el bloque y pegarlo en una extensión de Chrome para generar en masa.
 
 ```text
-(Prompt completo de la imagen 1)
-(Prompt completo de la imagen 2)
-(Prompt completo de la imagen 3)
+Create an image of (Prompt completo de la imagen 1)
+Create an image of (Prompt completo de la imagen 2)
+Create an image of (Prompt completo de la imagen 3)
 ```
 
 ### ⛔ REGLA DE TEXTOS EN PANTALLA (Dos tipos — no confundir)

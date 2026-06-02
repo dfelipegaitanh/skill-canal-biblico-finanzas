@@ -44,7 +44,7 @@ Rotar entre estos para mantener fresco el canal. La plantilla base obliga a una 
 1. **FRENADO (0.0s – 1.5s):** Paradoja dolorosa brutal y directa. Prohibido arrancar con explicaciones. *Ej: "Tu oración te está dejando pobre."*
 2. **APILADO (1.5s – 5.0s):** Autoridad técnica inmediata. Prohibido decir "La Biblia dice...". Usa *"Hace 3,000 años, el sistema decodificó tu error..."*. **Obligatorio añadir una [PAUSA 1s] aquí para procesar la disonancia.**
 3. **DECODIFICACIÓN (5.0s – 14.0s):** Versículo citado + dato técnico brutal que rompe la creencia.
-4. **CTA DE TRANSFORMACIÓN (14.0s – 20.0s):** Pregunta confrontacional para comentarios. Prohibido pedir sub/like. *"¿Qué gasto te drena más hoy? Ponlo en los comentarios y te doy el Código."*
+4. **CTA DE TRANSFORMACIÓN (14.0s – 20.0s):** Comando para compartir o pregunta confrontacional. Prohibido pedir sub/like o "comenta la palabra X". *Ej: "¿Qué gasto te drena más hoy? Ponlo en los comentarios" o "Mándale esto al amigo que arruina todo por hablar".*
 
 ### B. El Short Estándar (50–60s)
 > ⛔ **MÁXIMO 150 PALABRAS TOTALES.** Consta de 5 bloques exactos.
@@ -52,4 +52,4 @@ Rotar entre estos para mantener fresco el canal. La plantilla base obliga a una 
 2. **APILADO (1.5s – 5.0s):** Apilar autoridad técnica pesada. *"Hace 3,000 años, el sistema financiero que ignoras decodificó exactamente tu error"*. **Obligatorio añadir una [PAUSA 1s] aquí.**
 3. **DECODIFICACIÓN Y ARITMÉTICA (5.0s – 35.0s):** Mostrar el número real, el daño (inflación, deudas) respaldado por la fuente bíblica. (Inyectar interruptor de ritmo visual en el seg 20 para no aburrir). **ESTRICTAMENTE PROHIBIDO** saltar a un segundo versículo bíblico.
 4. **COMANDO (35.0s – 48.0s):** Escalera técnica 1:1:1. Revela el mecanismo financiero. **ESTRICTAMENTE PROHIBIDO** usar motivación.
-5. **LOOP Y CTA DE TRANSFORMACIÓN (48.0s – 60.0s):** Pregunta a la caja de comentarios (Ej. *"¿Qué gasto absurdo copiaste de tu familia? Escríbelo abajo"*). Terminar con frase inconclusa que enlace al segundo 0.
+5. **LOOP Y CTA DE TRANSFORMACIÓN (48.0s – 60.0s):** Comando agresivo para compartir o comentar (Filtro WhatsApp). (Ej. *"¿Qué gasto absurdo copiaste de tu familia? Escríbelo abajo"* o *"Mándale esto al... "*). Terminar con frase inconclusa que enlace al segundo 0.
