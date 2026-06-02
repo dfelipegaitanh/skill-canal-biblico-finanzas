@@ -14,10 +14,10 @@ Describe en inglés el arco visual completo del video — todas las escenas en o
 **SAMPLE CONTEXT**
 Describe en inglés al viewer, el arco emocional del video completo, el tono del narrador y las pausas críticas. Incluye:
 - Quién es el viewer (edad, situación emocional, qué carga)
-- Cómo suena el narrador (no predicador, no coach — amigo que sabe algo)
-- El arco emocional bloque por bloque
-- Las pausas críticas explícitas — qué frases deben respirar y por qué
-- Qué NO debe hacer la voz
+- Cómo suena el narrador (urgente, intenso, ágil — amigo que te advierte de un peligro inminente)
+- El arco emocional bloque por bloque (manteniendo siempre alta energía y tensión)
+- Las pausas críticas explícitas — enfocarse en la pausa obligatoria de 1 segundo
+- Qué NO debe hacer la voz (PROHIBIDO hablar lento, relajado, calmado o como un locutor de meditación)
 
 **TEXT**
 El guión completo en español, de corrido, con etiquetas de emoción intercaladas. Sin títulos de bloque, sin separadores. Solo el texto que se narra.
@@ -29,12 +29,12 @@ El guión completo en español, de corrido, con etiquetas de emoción intercalad
 | Etiqueta | Cuándo usarla |
 |----------|---------------|
 | `[somber]` | Momentos graves, peso emocional, diagnóstico duro |
-| `[calm]` | Explicaciones, transiciones, credibilidad |
+| `[urgent]` | Ritmo rápido, advertencia inminente, no hay tiempo |
 | `[warm]` | Empatía, conexión, "te entiendo" |
-| `[serious]` | Afirmaciones directas, condenas bíblicas |
+| `[intense]` | Fuerza sin gritar, confrontación directa |
 | `[emphatic]` | El golpe clave, la frase que más importa |
-| `[soft]` | Íntimo, casi susurro, reflexión profunda |
-| `[measured]` | Cada palabra pesa, ritmo deliberado |
+| `[sharp]` | Cortante, directo al punto, revelación cruda |
+| `[fast]` | Velocidad máxima, avalancha de datos técnicos |
 
 #### Pausas
 
@@ -43,7 +43,7 @@ NO usar la etiqueta `[pause]`, ni `...` ni ningun otro recurso para marcar pausa
 
 **Identidad del Narrador y Configuración de Voz:**
 - **El Tono Exacto:** Hombre, voz medio-grave. Tono según SKILL.md (Confrontacional-empático). **NO es un predicador, NO es un coach motivacional.** El tono es de autoridad técnica pero empático.
-- **Velocidad:** Ritmo deliberado, 85–90% de la velocidad natural de habla humano (pausado, con peso). Las palabras clave deben tener peso.
+- **Velocidad:** **Fast-Pace estricto (110–115% de velocidad natural).** Ritmo ágil, urgente y fluido. No hay tiempo para respirar, el espectador debe sentir que la revelación lo asfixia hasta la pausa.
 - **Shorts:** Duración estricta de **15–20 segundos** para Micro-Shorts (presupuesto **50–60 palabras**) o **50–60 segundos** para Shorts estándar (presupuesto **máximo 150 palabras**). 
 - **Videos largos:** Duración de 5–20 minutos.
 
@@ -54,8 +54,8 @@ SCENE
 [Descripción cinematográfica en inglés del arco visual completo.]
 
 SAMPLE CONTEXT
-[Descripción del viewer, el narrador, el arco emocional bloque por bloque,
-las pausas críticas con sus frases exactas, y lo que la voz NO debe hacer.]
+[Descripción del viewer, narrador con tono urgente, arco emocional con alta energía,
+las pausas críticas y la instrucción explícita: "urgent delivery, fast-paced pacing, no slow meditation".]
 
 TEXT
 [Guión completo en español con etiquetas de emoción. De corrido. Sin separadores.]
