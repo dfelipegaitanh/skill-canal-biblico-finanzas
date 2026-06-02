@@ -45,11 +45,13 @@ NO usar la etiqueta `[pause]`, ni `...` ni ningun otro recurso para marcar pausa
 - **El Tono Exacto:** Hombre, voz medio-grave. Tono según SKILL.md (Confrontacional-empático). **NO es un predicador, NO es un coach motivacional.** El tono es de autoridad técnica pero empático.
 - **Velocidad:** **Fast-Pace estricto (110–115% de velocidad natural).** Ritmo ágil, urgente y fluido. No hay tiempo para respirar, el espectador debe sentir que la revelación lo asfixia hasta la pausa.
 - **Shorts:** Duración estricta de **15–20 segundos** para Micro-Shorts (presupuesto **50–60 palabras**) o **50–60 segundos** para Shorts estándar (presupuesto **máximo 150 palabras**). 
-- **Videos largos:** Duración de 5–20 minutos.
+- **Videos largos:** Duración de 5–20 minutos. **OBLIGATORIO FRAGMENTAR:** Para evitar que la IA de voz colapse por exceso de texto, el guion largo DEBE entregarse dividido en bloques lógicos (ej. agrupando 2 o 3 Pilares por bloque). Cada bloque debe entregarse como un prompt de voz independiente con su propia estructura completa.
 
 ### Formato de entrega
 
-```
+```text
+[BLOQUE 1 - Pilares 1 al 3] (Solo necesario si es video largo)
+
 SCENE
 [Descripción cinematográfica en inglés del arco visual completo.]
 
@@ -59,6 +61,9 @@ las pausas críticas y la instrucción explícita: "urgent delivery, fast-paced 
 
 TEXT
 [Guión completo en español con etiquetas de emoción. De corrido. Sin separadores.]
+
+---
+*(Si es un video largo, repetir esta estructura exacta para el BLOQUE 2, BLOQUE 3, etc.)*
 ```
 
 ---

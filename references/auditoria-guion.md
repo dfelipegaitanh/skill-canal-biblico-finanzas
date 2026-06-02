@@ -95,7 +95,7 @@ Habiendo evaluado los Checkpoints (Paso 1) y usando las Herramientas de Reparaci
 ## Paso 4 — Auditoría Analítica (Diagnóstico YouTube Studio)
 
 Si el usuario proporciona métricas reales de un video publicado, DEBES diagnosticar la falla algorítmica. Si NO proporciona métricas, omitir este paso y pasar al Veredicto Final.
-- **Alta Impresión + Bajo CTR:** El título o la miniatura fallaron. Recomendar un cambio urgente priorizando alto contraste y palabra clave a la izquierda.
+- **Alta Impresión + Bajo CTR:** El título o la miniatura fallaron. Recomendar un cambio urgente priorizando alto contraste visual y el **Gancho Bíblico (Personaje) a la izquierda** (CTR | SEO).
 - **Alto CTR + Baja Retención inicial (caída brusca en primeros 30s):** Fuerte desconexión. La promesa del empaque (Caballo de Troya) no coincide con los primeros segundos del video, o la intro fue demasiado lenta. Hay que reempaquetar o cortar la intro desde el editor de YouTube.
 
 ## Paso 5 — Veredicto Final

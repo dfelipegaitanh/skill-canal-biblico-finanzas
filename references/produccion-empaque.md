@@ -10,25 +10,26 @@ Skill para creación de títulos, miniaturas y metadatos.
 
 El título no es un resumen teológico del video. Es el agravio personal o la queja financiera que le sirve de vehículo al espectador para entrar.
 
-- **Fórmula de Disonancia Bíblica (NUEVA REGLA MAESTRA):** Las palabras como *"Jesús", "Biblia", "Dios"* ESTÁN PERMITIDAS EXCLUSIVAMENTE si se usan para romper una creencia establecida y generar shock (ej. "Jesús condenó al hombre prudente").
-- **Disonancia Específica (Stop Stack):** Aplica la Regla de Disonancia Específica de `guion-clean.md` (JAMÁS atacar conceptos abstractos, DEBE atacar acciones físicas del espectador).
-- **La Regla de Oro (Prioridad Izquierda - El Personaje Primero):** *El shock va primero, la explicación va después.* La **PRIMERA PALABRA ABSOLUTA** del título DEBE ser el nombre del personaje bíblico (Jesús, Dios, Salomón, José, etc.). Si lo pones al final o en medio, la interfaz lo cortará y perderás el enganche de autoridad.
-- **Ataque al Dolor y "Stakes" (Urgencia):** El título debe implicar que el espectador está perdiendo algo AHORA. (Ej. "Por qué tu ahorro se está pudriendo" > "Cómo ahorrar").
-- **El "Tú" Directo:** Usa la segunda persona obligatoriamente ("Tu", "Tus", "Te"). El canal es un diálogo confrontacional.
-- **Power Words (OBLIGATORIO):** TODO título debe contener al menos una Power Word de nuestra matriz (código, sistema, condenó, decodificar, 3.000 años).
-- **Frases Muertas (BLACKLIST):** PROHIBIDO usar frases quemadas ("La respuesta te sorprenderá", "El secreto de...").
-- **Hashtags:** NUNCA usar hashtags (#) en el título. Desperdician espacio valioso y van en la descripción.
-- **Regla de Longitud (40 Caracteres para Shorts):** En Shorts, el gancho principal y la disonancia DEBEN estar en los primeros 40 caracteres, porque YouTube corta el resto o lo tapa. Para videos largos, máximo 50-60 caracteres.
+- **La Fórmula Maestra (3 Bloques):** `[Personaje Bíblico / Concepto de Shock] | [Keyword Long-Tail Secular] | [Power Word]`.
+    * **Bloque 1 (Izquierda):** El "gancho de autoridad". Debe ser la disonancia cognitiva o el personaje bíblico que rompe creencias. Es el ancla de CTR.
+    * **Bloque 2 (Centro):** El dolor secular (lo que el usuario busca). Aquí metemos el SEO.
+    * **Bloque 3 (Derecha):** El Power Word o indicador de urgencia.
+- **Reglas de Hierro:**
+    * **Prioridad absoluta:** El shock/personaje SIEMPRE va primero (izquierda). Si el keyword no cabe sin sacrificar el gancho, el keyword se mueve a la segunda parte o se sacrifica. CTR > SEO.
+    * **Longitud:** 50-60 caracteres máximo.
+    * **Prohibido:** Hashtags, frases de clickbait barato (ej: "No creerás lo que pasó"), jerga motivacional ("sueños", "bendición").
+    * **Disonancia:** Usar términos religiosos SÓLO para atacar, no para predicar (ej: "Jesús condenó al prudente").
+    * **Carácter especial:** Usar siempre `|` para separar bloques.
 
 ### Análisis de Referencias (Antes vs Después)
 
 Para entender la diferencia entre un título "religioso" genérico y uno optimizado para CTR, usa esta matriz:
 
-| Título Religioso (PROHIBIDO) | Título Optimizado | Razón del Cambio |
-|-----------------------------|-------------------|------------------|
-| "¿Oras por dinero pero sigues igual?" | "La razón por la que tus oraciones no pagan tus deudas" | **Story-led:** Cambia una pregunta abstracta por un síntoma externo específico y doloroso. |
-| "¿Dios quiere que seas pobre? La respuesta te sorprenderá" | "Jesús condenó al hombre prudente" | **Disonancia Bíblica:** Usa a Jesús para romper el cerebro ("condenó la prudencia"), no para dar un sermón predecible. Elimina la frase muerta. |
-| "¿Por qué le vendieron sus hermanos?" | "Cómo detectar la envidia antes de que destruya tu negocio" | **News-jacking:** Empaqueta un relato bíblico como un manual de supervivencia empresarial moderna. |
+| Intención | Título Anterior (Prohibido) | Nuevo Título (SOP) |
+|-----------|-----------------------------|--------------------|
+| Deuda | Cómo salir de deudas rápido | Salomón \| Cómo pagar deudas hoy \| Sistema |
+| Inflación | La Biblia y la economía | Jesús \| Sobrevive a la inflación \| Código |
+| Ahorro | ¿Es malo ahorrar dinero? | El Siervo Malo \| Por qué tu ahorro es pérdida \| 3,000 años |
 
 ---
 
@@ -66,17 +67,19 @@ No desperdicies los metadatos del video. Son herramientas críticas para el algo
 - **Sistema de Etiquetas (Tags) de 3 Niveles:** La IA siempre debe generar:
   1.  **Específicas del video (3-4):** tema exacto (ej. "parábola de los talentos", "inflación").
   2.  **Específicas del nicho (3-4):** sector (ej. "finanzas personales", "educación financiera bíblica").
-  3.  **Amplias (2-3):** genéricas (ej. "shorts", "viral", "dinero").
+  3.  **Amplias de Nicho (Long-Tails) (2-3):** PROHIBIDO usar buzzwords inútiles como "shorts", "viral" o "dinero". Usa frases amplias pero ancladas a la temática (ej. "educación financiera cristiana", "biblia y dinero", "prosperidad biblica").
 - **Protocolo de Resurrección (Shorts):** Si un Short no pasa de las 100 vistas en sus primeros dos días (48h), el algoritmo no lo captó. Se debe borrar, cambiar el título (manteniendo la Disonancia Bíblica), y resubir otro día.
 
 ---
 
 ## Formato de Entrega y Checklist de Empaque
 
-Cuando el usuario pida empaquetar un video, SIEMPRE debes entregar tu respuesta en este formato:
+Cuando el usuario pida empaquetar un video, SIEMPRE debes entregar tu respuesta en este formato y orden estricto:
 
-1.  **Tres (3) opciones completas de Empaque** en formato de tabla. Cada opción debe incluir:
-    *   **Título del video** (Aplicando Disonancia Bíblica, Power Words, sin hashtags, y Máx 40 caracteres para Shorts o 60 para largos).
+1.  **Definir el Término de Búsqueda (SEO):** Antes de generar opciones, la IA debe declarar explícitamente cuál es el dolor secular que la gente está buscando en YouTube en relación al video (ej. *"Término Objetivo SEO: Cómo ganarle a la inflación"*).
+
+2.  **Cinco (5) opciones completas de Empaque** en formato de tabla. Cada opción debe incluir:
+    *   **Título del video (Híbrido)** (Aplicando la Fórmula Maestra de 3 bloques: `[Personaje Bíblico] | [Keyword SEO] | [Power Word]`).
     *   **Texto de Impacto** para la miniatura (2 a 4 palabras gigantes).
     *   **Concepto visual** breve de la miniatura (Graficar la asfixia).
 
@@ -88,10 +91,11 @@ Cuando el usuario pida empaquetar un video, SIEMPRE debes entregar tu respuesta 
 3.  **Prompt de DALL-E:** Después de que el usuario elija su opción favorita, genera el prompt en inglés usando el **Prompt Base para DALL-E (Miniaturas 16:9)**.
 
 **Checklist Final (Validar antes de sugerir opciones):**
-*   [ ] ¿La Disonancia Bíblica o Power Word está en las primeras 3 palabras (Prioridad Izquierda)?
-*   [ ] ¿El título implica "Urgencia o Pérdida" e incluye el "Tú" directo?
-*   [ ] ¿El título NO contiene hashtags ni Frases Muertas?
-*   [ ] ¿El gancho de Shorts está en los primeros 40 caracteres?
+*   [ ] ¿El título empieza con una figura bíblica o una declaración que rompe creencias?
+*   [ ] ¿Incluye un Power Word obligatorio (Código, Sistema, Bolsillo vacío, 3,000 años, Decodificar)?
+*   [ ] ¿El dolor secular está incluido para captar tráfico de búsqueda (SEO)?
+*   [ ] ¿Cumple los 50-60 caracteres?
+*   [ ] ¿Sustituiste el separador por `|` entre bloques?
 *   [ ] ¿La miniatura y el título NO repiten la misma frase (Emoción vs Contexto)?
 *   [ ] ¿Las miniaturas omiten la solución bíblica y muestran solo la "Asfixia"?
 *   [ ] ¿La descripción usa lenguaje de calle (sin jerga financiera de banco) y dolor real?
