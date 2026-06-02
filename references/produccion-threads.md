@@ -56,3 +56,33 @@ Si el usuario llega a tu perfil después de leer el Hilo, el perfil debe estar b
   - *MAL:* "Hablo de finanzas y Biblia."
   - *BIEN:* "Decodifico el sistema financiero bíblico. No vengo a motivarte, vengo a enseñarte a operar. Tu hoja de ruta, abajo 👇"
 - **El Post Fijado:** El mejor hilo (el más agresivo y con mayor interacción) debe estar siempre fijado en el perfil de Threads, sirviendo como la puerta de entrada principal al canal de YouTube.
+
+---
+
+## 4. El Empaque Visual (La Imagen del Hilo)
+
+Para maximizar el Stop-Stacking en Threads, el hilo debe acompañarse OBLIGATORIAMENTE de un prompt de generación de imagen para acompañar el primer post.
+
+- **Regla del Personaje en el Texto:** El texto rojo gigante de impacto dentro de la imagen DEBE empezar con el nombre del personaje bíblico del que trata el guión (ej. "DIOS DIO EL CÓDIGO", "JESÚS DIO EL CÓDIGO", "SALOMÓN DIO EL CÓDIGO").
+- **Identidad Visual:** Mantenemos la identidad "Codex" (stick-figure, trazos negros gruesos, fondo beige).
+
+### Prompt Base de Imagen para Threads
+La IA siempre debe entregar este prompt ya rellenado con el nombre correcto del personaje.
+
+```text
+A highly legible image in a 16:9 aspect ratio.
+Dynamic mid-shot, stick-figure character with large round unfilled white head with thick black outlines, expressive cartoon eyes with pupils and thick bold black eyebrows showing profound realization and calm, standing confidently, holding a single heavy glowing golden coin safely in one hand while letting a pile of useless paper bills turn into dust from the other hand, thick black ink stroke arms, wearing a simple flowing ancient tunic with stylized folds,
+— midground: an ancient wooden table,
+— background: dark ancient stone walls drawn in dark, slightly thinner hand-drawn sketchy outlines, with pencil-sketch textures, stone cracks,
+premium hand-drawn comic book aesthetic with clean precision,
+smooth solid warm beige background (#E8D5B0) completely free of paper grain or noise,
+thick bold hand-drawn black ink outlines with clean, crisp and solid edges,
+flat cel-shading and smooth digital color wash for rich volumetric depth,
+color accent rule: the single glowing golden coin in golden yellow (#C9A84C) — main accent,
+warm ambient light illuminating the character's face (#E67E22) — secondary accent,
+everything else in crisp black ink outlines on smooth warm beige,
+massive bold distressed red text that says "[NOMBRE DEL PERSONAJE BÍBLICO] DIO EL CÓDIGO" positioned on the left side taking up at least 30% of the space for extreme readability on mobile devices,
+strictly no high-frequency noise, no pencil sketch marks, no religious symbols, optimized for video animation,
+optional environmental text in Spanish only,
+all elements within the 20%–80% vertical safe zone
+```
