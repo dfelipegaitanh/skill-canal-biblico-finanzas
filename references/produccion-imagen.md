@@ -186,13 +186,13 @@ Entregar SIEMPRE la respuesta en dos partes, sin excepciones. Queda estrictament
 Presenta cada bloque de imagen como una tarjeta vertical y fácil de leer.
 
 **🎬 BLOQUE [00:00 – 00:03]**
-*   🖼️ **DALL-E:** `(Prompt visual completo)`
+*   🖼️ **DALL-E:** `(Prompt visual completo)` [OBLIGATORIO]
 *   🎥 **Kling/Runway:** `(Prompt de movimiento en inglés)` [OPCIONAL / RECOMENDADO]
 *   ✨ **CapCut:** Entrada: Zoom rápido / Salida: Fade
 *   📝 **Texto en Pantalla:** "PARA DEUDORES" (Fuente Blanca, palabra clave en Rojo `#FF3333` o Amarillo `#C9A84C`) [IDEAL / OPCIONAL]
 
 **🎬 BLOQUE [00:03 – 00:06]**
-*   🖼️ **DALL-E:** `(Prompt visual completo)`
+*   🖼️ **DALL-E:** `(Prompt visual completo)` [OBLIGATORIO]
 *   🎥 **Kling/Runway:** `Fast push in camera, heavy dust...` [RECOMENDADO]
 *   ✨ **CapCut:** Entrada: Flash Blur / Salida: Wipe-L
 *   📝 **Texto en Pantalla:** "¿Llevas años?" (Fuente Blanca, palabra clave en Rojo `#FF3333` o Amarillo `#C9A84C`) [RECOMENDADO]
@@ -203,9 +203,9 @@ Presenta cada bloque de imagen como una tarjeta vertical y fácil de leer.
 Justo debajo de la tabla, entrega un único bloque de código (`text`) que contenga ÚNICAMENTE los prompts de imagen , uno por línea. Sin viñetas, sin números, sin timestamps. Esto es para que el usuario pueda copiar todo el bloque y pegarlo en una extensión de Chrome para generar en masa.
 
 ```text
-Create an image of (Prompt completo de la imagen 1)
-Create an image of (Prompt completo de la imagen 2)
-Create an image of (Prompt completo de la imagen 3)
+(Prompt completo de la imagen 1)
+(Prompt completo de la imagen 2)
+(Prompt completo de la imagen 3)
 ```
 
 ### ⛔ REGLA DE TEXTOS EN PANTALLA (Dos tipos — no confundir)
