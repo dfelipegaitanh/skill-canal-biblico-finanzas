@@ -19,15 +19,10 @@ La disonancia bíblica (atacar una creencia) JAMÁS debe atacar un concepto abst
 *MAL:* "Dios condenó el sistema de oración" (Abstracto, no detiene el scroll).
 *BIEN:* "Jesús nunca dijo decreto" (Ataca una práctica específica que el usuario hizo esta mañana).
 
-### Los 5 tipos de hook estratégicos (Frenar y Apilar)
-Rotar entre estos para mantener fresco el canal. La plantilla base obliga a una disrupción violenta en los primeros 1.5 segundos:
-`[FRENADO: Paradoja dolorosa que ataca la fe] → [APILADO: Inyección de autoridad milenaria] → [DECODIFICACIÓN]`
-
-1. **El Hook de Trauma Generacional (DEFAULT):** `[Frenado: Falsa herencia financiera] → [Apilado: El código antiguo que lo rompe]`
-2. **El Hook de Identidad:** `[Frenado: ¿Sigues con síntoma a pesar de orar/esfuerzo?] → [Apilado: Mecanismo de hace 3,000 años ignorado]`
-3. **El Hook de Confrontación Empática:** `[Frenado: Tu falta de dinero no es por X mito] → [Apilado: Es por ignorar este sistema antiguo]`
-4. **El Hook de Mito-Realidad:** `[Frenado: Te enseñaron este mito religioso y te empobreció] → [Apilado: El manual tiene el dato técnico opuesto]`
-5. **El Hook de Trinchera:** `[Frenado: Fracaso financiero crudo] → [Apilado: Descubrimiento de la regla]`
+### Estrategia de Hook (Fusión CTR/Retención)
+La estructura de los primeros segundos exige una disrupción violenta y específica:
+1. **Pregunta Dolorosa:** Ataca el síntoma exacto del espectador ("¿Llevas años orando y la cuenta sigue en cero?").
+2. **Reencuadre Rápido:** Invalida la culpa y da autoridad técnica ("No es falta de fe, es falta de un sistema").
 
 ### Estructura visual de los 3 segundos (Sincronización)
 - **0–2s:** Audio lee el hook. Visual muestra texto gigante dinámico (máx 5 palabras: DEUDA, CÓDIGO, ERROR). Nunca decorativo.

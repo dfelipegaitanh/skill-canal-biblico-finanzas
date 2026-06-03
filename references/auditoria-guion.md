@@ -4,49 +4,24 @@
 
 ## Paso 0 — Bypass de Auditoría (Reescritura Directa)
 
-> ⚠️ **BYPASS:** Si el usuario pide **exclusivamente** reescritura sin diagnóstico (ej. *"reescríbelo"*, *"ponlo más humano"*, *"sin tanta verborrea"*), la IA debe saltarse la evaluación paso a paso y pasar directamente a la solución. Si el usuario pide *"revisa"* o *"audita"*, ejecutar la auditoría completa (Pasos 1-5) Y entregar el guion corregido al final.
+> ⚠️ **BYPASS:** Si el usuario pide **exclusivamente** reescritura sin diagnóstico (ej. *"reescríbelo"*, *"ponlo más humano"*), pasa directamente a la solución. Entrega el guion corregido usando `guion-reglas-obligatorias.md` y una tabla breve de cambios quirúrgicos.
 
-> ⛔ **REGLA DE REESCRITURA OBLIGATORIA:** Siempre que la IA proponga reescribir un bloque de texto o el guion completo (sea por Bypass o por Fix), DEBE cargar y aplicar estrictamente las reglas definidas en `references/guion-reglas-obligatorias.md`, más el módulo de formato correspondiente (`guion-reglas-shorts.md` o `guion-reglas-largo.md`).
+## Paso 1 — Checkpoints de Supervivencia (Las 5 Reglas de Oro)
 
-En ese caso, la IA **DEBE ENTREGAR EXACTAMENTE DOS COSAS:**
-1. **El Guion Completo Corregido:** Aplicando la regla de reescritura, el español neutral y eliminando la verborrea.
-2. **Tabla de Cambios Quirúrgicos:** Inmediatamente después del guion, una tabla clara que documente qué cambió y por qué.
-
-**Formato exigido para este atajo:**
-[Guion en Markdown]
-
-**Cambios Aplicados:**
-| Qué se eliminó/cambió | Nueva versión | Por qué (Regla aplicada) |
-|---|---|---|
-| *(Frase original)* | *(Frase nueva)* | *(Ej. Síndrome del Púlpito / Filtro de WhatsApp)* |
-
-## Paso 1 — Checkpoints de Supervivencia y Clasificación
-
-Antes de llenar la tabla, verificar estas reglas de oro generales:
-1. **Primer Segundo de Choque:** ¿El segundo 0 al 1 tiene texto gigante rojo (ej. ERROR, DEUDA) o imagen chocante? Si hay un arranque hablado pasivo → **Error Crítico**.
-2. **Gancho Letal (Power Words en Shorts):** ¿El hook combina una palabra de *Síntoma* (deuda, cuenta en rojo, estancamiento) con una de *Autoridad* (Código, Sistema, 3.000 años)? Si falta alguna de las dos o no hay ninguna → **Error Crítico** (el algoritmo no clasificará el dolor ni la solución).
-3. **Disonancia Bíblica vs. Caballo de Troya (Empaque):** Evaluar las 3 condiciones por separado:
-   - 3a: ¿Las palabras religiosas en los primeros 3s generan shock/disonancia (ej. "Jesús condenó al hombre prudente")? → **CORRECTO**.
-   - 3b: ¿Se usan de forma genérica que suena a sermón (ej. "Dios quiere prosperarte")? → **Error Crítico** (mata el CTR).
-   - 3c: ¿El gancho NO usa disonancia y tampoco se ancla en un dolor secular masivo (deuda, bancos)? → **Error Crítico** (falta hook).
-4. **Límite de Palabras (Shorts):** ¿El guión supera el presupuesto (60 para Micro-Short, 150 para estándar)? Si sí, durará más de la retención meta → **Error Crítico** (exigir recortes).
-5. **PROHIBICIÓN TÉCNICA (Lenguaje de Calle):** ¿El guion usa jerga financiera de banco (ej. CDT, ETF, Inflación, Tasa de Interés, CAT) o términos complejos? Si es así → **Error Crítico INMEDIATO**. La IA DEBE reescribir la frase usando lenguaje 100% humano, visceral y de la calle (ej. cambiar "CDT al 5%" por "un lugar seguro que te pague intereses"). Si suena a profesor de economía, el guion fracasa.
-6. **Diagnóstico del Síndrome del Púlpito:** ¿El narrador usa preguntas retóricas de iglesia abstractas, muletillas condescendientes ("Y mira...", "Aquí está el sistema"), o suena a un pastor regañando desde un altar en lugar de un amigo en el barro? Si es así → **Error Crítico** (exigir reescritura en español neutral, hiper-eficiente, directo y desde la frustración de las trincheras).
-7. **Regla de la Sola Fuente:** ¿El guion cita un solo versículo/pasaje para exprimir su ingeniería, o salta disparando múltiples versículos de distintos libros como si fuera un sermón probatorio? Si usa más de una fuente bíblica principal → **Error Crítico** (borrar las secundarias y exprimir la principal).
-8. **Bucle Parasocial (Personalidad y Vulnerabilidad):** ¿El guion expone la frustración/personalidad del creador hablando en primera persona ("Yo también fui al banco...", "Mi cuenta estaba en rojo") o usa datos crudos y específicos ("el banco te cobra casi el doble"), o es solo un relato distante de hechos? Si el guion es plano, no opina y no tiene vulnerabilidad → **Error Crítico** (no retendrá para un video #2).
-9. **El Filtro de WhatsApp (Métrica Share):** ¿El CTA o el tono general del video provoca que el espectador quiera compartirlo? (Ej. "Mándale esto a tu amigo que sigue endeudado"). ¿Se siente como un video que enviarías a un familiar quebrado? Si el guion no es "compartible" o el CTA solo pide likes aburridos → **Error Crítico** (cambiar el CTA y el tono para fomentar el Share).
-10. **Ingeniería Financiera vs. Escuela Dominical:** Si el guion menciona a un personaje bíblico, ¿lo trata como un "Ingeniero Financiero" (ej. José como creador del Fondo de Reserva) o relata un cuento bíblico tradicional ("Dios lo bendijo")? Si relata la historia como escuela dominical en lugar de traducir su perfil a Wall Street → **Error Crítico** (reescribir usando la Matriz de Ingenieros Financieros).
-
-### Checkpoints de Empaque (si el usuario también proporcionó título/miniatura)
-11. **Hashtags en el Título:** ¿El título tiene hashtags (#)? Si es así → **Error Crítico** (moverlos a la descripción).
-12. **Power Words en el Título:** ¿El título contiene al menos 1 Power Word de la matriz? Si no → **Error Crítico**.
-13. **Frases Muertas:** ¿El título usa una frase quemada ("La respuesta te sorprenderá", "No vas a creer")? Si es así → **Error Crítico**.
+Antes de llenar la tabla de auditoría, verifica estas reglas letales:
+1. **El Hook de Dolor:** ¿Inicia con una pregunta o paradoja hiper-específica sobre un dolor del espectador (ej. deuda, banco)? Si arranca con un concepto vago → **Error Crítico**.
+2. **Disonancia Bíblica vs. Caballo de Troya:** ¿Las palabras religiosas en el gancho generan shock/disonancia (ej. "Jesús condenó al hombre prudente")? Si se usan de forma genérica que suena a sermón ("Dios te va a prosperar") o no anclan un dolor secular → **Error Crítico** (mata el CTR).
+3. **Reencuadre Rápido:** ¿Valida el dolor y voltea la culpa rápido (antes del segundo 5)? Si suena a sermón regañón → **Error Crítico**.
+4. **Sola Fuente Bíblica:** ¿El guion cita un solo versículo/pasaje principal? Si dispara versículos de varios libros → **Error Crítico**.
+5. **Lenguaje de Calle:** ¿Usa jerga financiera (inflación, CDT, ETF)? Si sí → **Error Crítico**. (Debe decir: "te pagan centavos").
+6. **Síndrome del Púlpito (Tono de Amigo):** ¿Suena a un pastor regañando o usa muletillas condescendientes ("Y mira...") en vez de hablar como un amigo súper cercano de tú a tú? Si es así → **Error Crítico** (exigir reescritura en español neutral y directo).
+7. **Límite de Palabras (Shorts):** ¿El guion supera el presupuesto (60 palabras para Micro-Short, 150 para estándar)? Si sí → **Error Crítico** (exigir recortes severos).
+8. **Cierre de Alta Fricción (WhatsApp):** Para Shorts, ¿pide likes/subs aburridos? Si sí → **Error Crítico**. Debe ser un comando agresivo para compartir (ej. "Mándale esto al que...").
 
 ### Auditoría Estricta para Videos Largos (+3 minutos)
-Si el guion a revisar es para un video largo, sumar estas verificaciones a la lista anterior:
-14. **Micro-CTA Temprano (Pilar 3):** ¿El guion pide suscripción justo después del primer "mind-blow" (Pilar 2)? Si lo omite o lo pone demasiado tarde → **Error Crítico**.
-15. **Aritmética Brutal (Pilar 6):** ¿Hay números reales y crudos (inflación, deuda, interés) o solo consejos genéricos? Si no hay cifras → **Error Crítico** por sonar a "motivación barata".
-16. **Oración de Cierre (Pilar 10):** ¿El guion pide suscripción o like al final? Si lo hace → **Error Crítico**. El Pilar 10 es ÚNICAMENTE la oración de activación + redirección al siguiente video.
+Si el guion es para un video largo, suma estas dos reglas vitales:
+6. **Micro-CTA Temprano (Pilar 3):** ¿El guion pide suscripción justo después del primer "mind-blow" (Pilar 2)? Si lo omite o lo pone demasiado tarde → **Error Crítico**.
+7. **Oración de Cierre (Pilar 10):** ¿El guion pide suscripción o like al final? Si lo hace → **Error Crítico**. El Pilar 10 es ÚNICAMENTE la oración de activación + redirección al siguiente video.
 
 ## Paso 2 — Herramientas de Reparación (Reglas de "Fixes")
 

@@ -14,47 +14,21 @@ Activa este flujo cuando el usuario llegue con frases vagas como "ayúdame con e
 > - 🧵 Crear un Hilo de Threads para promocionar un video
 > - 📊 Diagnosticar métricas de un video publicado
 
-## Paso 2 — Según lo que elija, hacer la pregunta específica que falta
+## Paso 2 — Matriz de Inputs Requeridos
 
-**Si elige GUIÓN (video largo):**
-→ "¿Cuál es el tema o la idea del video?"
-→ "¿Duración objetivo?" (opciones: 8 min / 12 min / 15 min)
-→ Seguir el protocolo de `guion-reglas-obligatorias.md` + `guion-reglas-largo.md` y ejecutar
+Según la tarea elegida, haz SOLO la pregunta exacta que falta para poder iniciar, usando esta matriz:
 
-**Si elige SHORT:**
-→ "¿Cuál es el tema o el gancho central?"
-→ Seguir el protocolo de `guion-reglas-obligatorias.md` + `guion-reglas-shorts.md` y ejecutar
+| Tarea Elegida | Pregunta Requerida | Módulo a Cargar |
+|---|---|---|
+| **Guion Largo** | Tema + Duración (8, 12 o 15 min) | `guion-reglas-largo.md` |
+| **Short** | Tema o gancho central | `guion-reglas-shorts.md` |
+| **Empaque (Títulos/Mins)** | Tema o guion del video | `produccion-empaque.md` |
+| **Prompts de IA** | Guion con timestamps exactos | `produccion-imagen.md` o `produccion-voz.md` |
+| **Auditoría** | Guion completo o link del video | `auditoria-guion.md` |
+| **Resucitar Short** | Tema del Short estancado | `produccion-empaque.md` |
+| **Threads** | Tema principal o guion | `produccion-threads.md` |
 
-**Si no dice qué tipo de video:**
-→ Asumir el formato de SHORT, por defecto
-
-**Si elige EMPAQUE (Títulos y Miniaturas):**
-→ "¿De qué trata el video para el cual haremos el empaque?"
-→ Seguir el protocolo de `produccion-empaque.md` y ejecutar
-
-**Si elige PROMPTS:**
-→ "¿Tienes el guión con timestamps listo?"
-→ Si sí: "¿Necesitas prompts de imagen o de voz?"
-  → Voz: seguir el protocolo de `produccion-voz.md`
-  → Imagen: seguir el protocolo de `produccion-imagen.md` (Estilo Codex)
-→ Si no: "Necesito el guión con timestamps primero. ¿Lo tienes o arrancamos por ahí?" (Mientras el guion no tenga timestamps, no se pueden generar prompts de imagen)
-
-**Si elige AUDITAR un guión:**
-→ "¿El guión es para Short o para video largo?"
-→ "Compárteme el guión completo o el link del video publicado."
-→ Seguir el protocolo de `auditoria-guion.md` completo (Pasos 0 al 5).
-
-**Si elige DIAGNOSTICAR métricas:**
-→ "Pásame el CTR, Retención y vistas del video."
-→ Seguir el protocolo de `auditoria-guion.md` Paso 4 (Auditoría Analítica).
-
-**Si elige RESUCITAR SHORT:**
-→ "¿Cuál es el tema del Short que tiene menos de 100 vistas en sus primeras 48 horas?"
-→ Seguir el protocolo de `produccion-empaque.md` y generar un nuevo empaque (Título con Disonancia Bíblica + Miniatura Asfixia) para resubirlo.
-
-**Si elige THREADS:**
-→ "Pásame el tema principal del video o el guión que quieres promocionar."
-→ Seguir el protocolo de `produccion-threads.md` y generar el Hilo de 3 posts (Conflicto + Ruptura + Invitación).
+*(Si el usuario no especifica formato de video, asume "Short" por defecto).*
 
 ## Paso 3 — Siempre cerrar con acción concreta
 
