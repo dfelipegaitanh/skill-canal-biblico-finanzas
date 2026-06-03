@@ -6,10 +6,11 @@ Skill para creación de títulos, miniaturas y metadatos.
 
 ---
 
-## 1. La Arquitectura del Título (El Vehículo)
+## 1. La Arquitectura del Título (El Vehículo y la Distribución)
 
-El título no es un resumen teológico del video. Es el agravio personal o la queja financiera que le sirve de vehículo al espectador para entrar.
+El título no es un resumen teológico del video. Es el agravio personal o la queja financiera que le sirve de vehículo al espectador para entrar. **Su único objetivo es generar un "Candidato" de alta distribución (CTR) abriendo una brecha de curiosidad.**
 
+- **El "Curiosity Gap" del Outlier (Fusión de CTR):** Basado en el outlier de distribución, el título debe generar misterio absoluto vinculado al dolor, SIN revelar la respuesta. (Ej. "Jesús condenó ESTO y sigue igual en tu vida"). Quien lee el título DEBE sentir que necesita hacer clic para saber qué es "ESTO".
 - **Fórmula de Disonancia Bíblica (NUEVA REGLA MAESTRA):** Las palabras como *"Jesús", "Biblia", "Dios"* ESTÁN PERMITIDAS EXCLUSIVAMENTE si se usan para romper una creencia establecida y generar shock (ej. "Jesús condenó al hombre prudente").
 - **Disonancia Específica (Stop Stack):** Aplica la Regla de Disonancia Específica de `guion-clean.md` (JAMÁS atacar conceptos abstractos, DEBE atacar acciones físicas del espectador).
 - **La Regla de Oro (Prioridad Izquierda - El Personaje Primero):** *El shock va primero, la explicación va después.* La **PRIMERA PALABRA ABSOLUTA** del título DEBE ser el nombre del personaje bíblico (Jesús, Dios, Salomón, José, etc.). Si lo pones al final o en medio, la interfaz lo cortará y perderás el enganche de autoridad.
