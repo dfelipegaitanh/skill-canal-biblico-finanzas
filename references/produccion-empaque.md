@@ -13,7 +13,7 @@ El título no es un resumen teológico del video. Es el agravio personal o la qu
 - **El "Curiosity Gap" del Outlier (Fusión de CTR):** Basado en el outlier de distribución, el título debe generar misterio absoluto vinculado al dolor, SIN revelar la respuesta. (Ej. "Jesús condenó ESTO y sigue igual en tu vida"). Quien lee el título DEBE sentir que necesita hacer clic para saber qué es "ESTO".
 - **Fórmula de Disonancia Bíblica (NUEVA REGLA MAESTRA):** Las palabras como *"Jesús", "Biblia", "Dios"* ESTÁN PERMITIDAS EXCLUSIVAMENTE si se usan para romper una creencia establecida y generar shock (ej. "Jesús condenó al hombre prudente").
 - **Disonancia Específica (Stop Stack):** Aplica la Regla de Disonancia Específica de `guion-clean.md` (JAMÁS atacar conceptos abstractos, DEBE atacar acciones físicas del espectador).
-- **La Regla de Oro (Prioridad Izquierda - El Personaje Primero):** *El shock va primero, la explicación va después.* La **PRIMERA PALABRA ABSOLUTA** del título DEBE ser el nombre del personaje bíblico (Jesús, Dios, Salomón, José, etc.). Si lo pones al final o en medio, la interfaz lo cortará y perderás el enganche de autoridad.
+- **La Regla de Oro (Formato Pregunta OBLIGATORIO):** Absolutamente TODOS los títulos deben formularse como una pregunta. DEBEN empezar con una palabra interrogativa (¿Por qué...?, ¿Cómo...?, ¿Qué...?) seguida INMEDIATAMENTE por el Personaje Bíblico o la Autoridad para no perder el enganche (ej. "¿Por qué Jesús condenó tu ahorro?"). Quedan prohibidos los títulos afirmativos.
 - **Ataque al Dolor y "Stakes" (Urgencia):** El título debe implicar que el espectador está perdiendo algo AHORA. (Ej. "Por qué tu ahorro se está pudriendo" > "Cómo ahorrar").
 - **El "Tú" Directo:** Usa la segunda persona obligatoriamente ("Tu", "Tus", "Te"). El canal es un diálogo confrontacional.
 - **Power Words (OBLIGATORIO):** TODO título debe contener al menos una Power Word de nuestra matriz (código, sistema, condenó, decodificar, 3.000 años).
@@ -27,9 +27,9 @@ Para entender la diferencia entre un título "religioso" genérico y uno optimiz
 
 | Título Religioso (PROHIBIDO) | Título Optimizado | Razón del Cambio |
 |-----------------------------|-------------------|------------------|
-| "¿Oras por dinero pero sigues igual?" | "Dios rechaza tus oraciones bajo este sistema" | **Story-led:** Cambia abstracción por síntoma externo y doloroso. *(Cumple: Personaje [Dios] + Tú directo [tus] + Power Word [sistema])* |
-| "¿Dios quiere que seas pobre? La respuesta te sorprenderá" | "Jesús condenó tu prudencia financiera" | **Disonancia Bíblica:** Usa a Jesús para romper el cerebro atacando al espectador. *(Cumple: Personaje [Jesús] + Tú directo [tu] + Power Word [condenó])* |
-| "¿Por qué le vendieron sus hermanos?" | "José decodificó la envidia que arruina tu negocio" | **News-jacking:** Relato bíblico como manual de supervivencia moderna. *(Cumple: Personaje [José] + Tú directo [tu] + Power Word [decodificó])* |
+| "La oración para tener dinero" | "¿Por qué Dios rechaza tus oraciones bajo este sistema?" | **Story-led:** Cambia abstracción por síntoma doloroso en forma de pregunta. *(Cumple: Pregunta + Personaje + Tú directo)* |
+| "¿Dios quiere que seas pobre?" | "¿Por qué Jesús condenó tu prudencia financiera?" | **Disonancia Bíblica:** Usa a Jesús en una pregunta que ataca al espectador. *(Cumple: Pregunta + Personaje + Power Word)* |
+| "La historia de José el soñador" | "¿Cómo José decodificó la envidia que arruina tu negocio?" | **News-jacking:** Relato bíblico convertido en pregunta de supervivencia moderna. *(Cumple: Pregunta + Personaje + Power Word)* |
 
 ---
 
@@ -89,7 +89,8 @@ Cuando el usuario pida empaquetar un video, SIEMPRE debes entregar tu respuesta 
 3.  **Prompt de DALL-E:** Después de que el usuario elija su opción favorita, genera el prompt en inglés usando el **Prompt Base para DALL-E (Miniaturas 16:9)**.
 
 **Checklist Final (Validar antes de sugerir opciones):**
-*   [ ] ¿La Disonancia Bíblica o Power Word está en las primeras 3 palabras (Prioridad Izquierda)?
+*   [ ] ¿El título es una pregunta y empieza exactamente con una palabra interrogativa (Por qué, Cómo, Qué)?
+*   [ ] ¿El Personaje Bíblico está justo después de la palabra interrogativa?
 *   [ ] ¿El título implica "Urgencia o Pérdida" e incluye el "Tú" directo?
 *   [ ] ¿El título NO contiene hashtags ni Frases Muertas?
 *   [ ] ¿El gancho de Shorts está en los primeros 40 caracteres?

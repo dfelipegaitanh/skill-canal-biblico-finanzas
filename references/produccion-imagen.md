@@ -66,7 +66,7 @@ La IA tiene estrictamente **PROHIBIDO** generar un solo prompt de imagen si el u
 **Modos de Iluminación por Bloque Narrativo:**
 
 *   **Modo Normal (Beige Cálido):** Para bloques de calma, enseñanza o aplicación LATAM. Fondo beige cálido sólido y limpio, luz cálida difusa. Sin grano ni textura de papel.
-*   **Modo Contraste Alto (Fondo Oscuro - Tensión):** Para bloques de Gancho, Deuda o Crisis. Forzar a DALL-E a usar sombras dramáticas: `dark rustic stone backgrounds with deep atmospheric shadows, soft focal amber light from oil lamps illuminating the main figure, creating a high-contrast printed comic book look`.
+*   **Modo Tensión Iluminada (Encierro sin Oscuridad):** Para bloques de Gancho, Deuda o Crisis. Forzar a la IA a crear ambientes opresivos pero bien iluminados: `well-lit enclosed indoor space with no sky visible, completely eliminating deep dark shadows, bright and warm ambient lighting from multiple oil lamps`.
 
 ---
 
@@ -82,46 +82,41 @@ La IA tiene estrictamente **PROHIBIDO** generar un solo prompt de imagen si el u
 | **Interior Bíblico** | Stone walls with cracks, arched doorway with curtain, clay oil lamps, wooden shelves |
 | **Exterior Bíblico** | Dusty hills winding dirt road, city gates on horizon, olive trees, overcast sky |
 | **Interior Moderno LATAM** | Modest kitchen shelves, handwritten calendar on wall, small window showing neighborhood |
-| **Escena de Deuda / Trampa** | Locked iron gates, dark oppressive stone walls closing in, crumple papers on floor |
+| **Escena de Deuda / Trampa** | Locked iron gates, enclosed stone walls closing in, papers on floor, well-lit indoor environment |
 | **Atmósfera Emocional** | Storm clouds (crisis), golden rays breaking through (hope), heavy dark sky (guilt) |
 
-**Prompt base (sustituir campos en MAYÚSCULAS):**
-```
-[DESCRIPCIÓN DEL PERSONAJE Y ACCIÓN EN EL PRIMER PLANO],
-stick-figure character with thick black ink stroke arms and legs, large round unfilled white head with thick black outlines, expressive cartoon eyes with pupils and thick bold black eyebrows showing [EMOCIÓN],
+**Prompt base general (sustituir campos en MAYÚSCULAS):**
+```text
+[DESCRIPCIÓN DEL PERSONAJE Y ACCIÓN EN EL PRIMER PLANO]. Character rule: STRICTLY NO realistic human faces, no noses, no detailed ears or skin. Character MUST be a 2D stick-figure with a perfectly round unfilled white head with thick black outlines, expressive cartoon eyes with pupils and thick bold black eyebrows showing [EMOCIÓN] (but not so volatile). Hands MUST be simple outlined cartoon gloves (no realistic knuckles or nails),
 wearing a simple ancient [flowing tunic / plain shirt] with stylized folds,
 — midground: [objeto secundario o figura de contexto en trazos medianos de tinta],
-— background: [ELEMENTO CONTEXTUAL] drawn in dark, slightly thinner hand-drawn sketchy outlines, with pencil-sketch textures, stone cracks, and wood grain,
-premium hand-drawn comic book aesthetic with clean precision,
+— background: [ELEMENTO CONTEXTUAL] drawn in dark, slightly thinner hand-drawn sketchy outlines, with stone cracks and wood grain, NO dark environment, completely eliminating deep dark shadows,
+premium hand-drawn comic book aesthetic with clean precision. STRICTLY NO 3D rendering, no CGI, no watercolor, no anime.
 smooth solid warm beige background (#E8D5B0) completely free of paper grain or noise,
 thick bold hand-drawn black ink outlines with clean, crisp and solid edges,
 flat cel-shading and smooth digital color wash for rich volumetric depth,
 color accent rule: [ELEMENTO PRINCIPAL DE IMPACTO] in [COLOR + HEX] — main accent,
 [ELEMENTO DE CONTRASTE SECUNDARIO] in [COLOR + HEX] — secondary accent,
-everything else in crisp black ink outlines on smooth warm beige,
+everything else in crisp black ink outlines on fully visible, well-lit environments,
 strictly no high-frequency noise, no pencil sketch marks, no dust particles, optimized for video animation,
 optional environmental text in Spanish only
 ```
-
-**IMPORTANTE REGLA DURA**
-- El texto 'optional environmental text in Spanish only' en el promt es OBLIGATORIO para TODAS las imágenes.
-- A EXCEPCIÓN DE LA PRIMERA IMAGEN HOOK, no generar **TEXTO** dentro de las imágenes. Para todos los demás bloques, el texto se añade en CapCut.
 
 ---
 
 **IMAGEN HOOK (Stop Stack)** — solo para la primera imagen del Short (gancho, primeros 3-4 segundos):
 ```text
-Dynamic extreme close-up with forced perspective, an intense visual break happening right behind a massive red text, stick-figure character with large round unfilled white head with thick black outlines, expressive cartoon eyes with pupils and thick bold black eyebrows showing [EMOCIÓN], hands violently smashing or breaking a [OBJETO BÍBLICO-FINANCIERO: ancient scroll / golden coin / iron chain] directly toward the camera, thick black ink stroke arms, action lines emphasizing the sudden violent motion,
+Dynamic extreme close-up with forced perspective, an intense visual break happening right behind a massive red text. Character rule: STRICTLY NO realistic human faces, no noses, no detailed ears or skin. Character MUST be a 2D stick-figure with a perfectly round unfilled white head with thick black outlines, expressive cartoon eyes with pupils and thick bold black eyebrows showing [EMOCIÓN] (but not so volatile). Hands MUST be simple outlined cartoon gloves (no realistic knuckles or nails), gripping or holding a [OBJETO BÍBLICO-FINANCIERO: ancient scroll / golden coin / iron chain / among others] tensely near the chest, thick black ink stroke arms, subtle action lines emphasizing tension without violence,
 — midground: out-of-focus fragments of the broken object flying toward the viewer,
-— background: dark ancient stone walls with visible cracks and deep dramatic shadows, oppressive enclosed space with no sky visible,
-single harsh spotlight or oil lamp casting dramatic amber side light, extreme high-contrast chiaroscuro lighting,
-premium hand-drawn comic book aesthetic with clean precision,
+— background: ancient stone walls with visible cracks, well-lit enclosed indoor space with no sky visible, NO dark environment, completely eliminating deep dark shadows,
+bright and warm ambient lighting, multiple oil lamps casting bright amber light across the entire scene, replacing chiaroscuro with a fully illuminated background,
+premium hand-drawn comic book aesthetic with clean precision. STRICTLY NO 3D rendering, no CGI, no watercolor, no anime.
 thick bold hand-drawn black ink outlines with clean, crisp and solid edges,
 flat cel-shading and smooth digital color wash for rich volumetric depth,
 color accent rule: [OBJETO PRINCIPAL] fragments in golden yellow (#C9A84C) — main accent,
-dramatic amber light (#E67E22) — secondary accent,
-everything else in crisp black ink outlines on deep shadows,
-massive bold distressed red text that says "[TEXTO DE CHOQUE: ERROR / MENTIRA]" positioned dead center, with the violent physical action happening around and behind the text to force the viewer's eye to the absolute center,
+bright ambient amber light (#E67E22) — secondary accent,
+everything else in crisp black ink outlines on fully visible, well-lit warm stone textures,
+massive bold distressed red text that says "[TEXTO DE CHOQUE: ERROR / MENTIRA]" positioned dead center, with the character clearly visible and positioned behind the text, creating tension without being violently aggressive,
 strictly no high-frequency noise, no pencil sketch marks, optimized for video animation,
 optional environmental text in Spanish only,
 all elements within the 20%–80% vertical safe zone
@@ -133,9 +128,9 @@ all elements within the 20%–80% vertical safe zone
 
 *   **Regla 1 — Texto en imágenes (Excepción):** Esta es la **ÚNICA** imagen que lleva texto integrado desde el prompt. Para las demás, es **OBLIGATORIO** añadir el texto en CapCut.
     *   **Primer frame (00:00–00:03):** El texto de impacto va **OBLIGATORIAMENTE** en el prompt  (`massive bold red text that says "[TEXTO]" positioned dead center`).
-*   **Regla 2 — El quiebre visual (Stop Stack):** NUNCA uses un personaje estático reaccionando. Debe haber un zoom violento, un ángulo contrapicado o un objeto rompiéndose violentamente en primer plano (perspectiva forzada).
-*   **Regla 3 — Fondo cerrado y oscuro:** NUNCA muestres desiertos, cielos ni exteriores soleados. El prompt debe incluir OBLIGATORIAMENTE: `dark enclosed stone walls, oppressive space, no sky, no open landscape, no horizon line`.
-*   **Regla 4 — Texto rojo en el centro absoluto:** La acción violenta debe ocurrir *detrás o alrededor* del texto para forzar la atención en un solo punto focal.
+*   **Regla 2 — El quiebre visual (Stop Stack):** NUNCA uses un personaje estático y aburrido. Debe haber un encuadre dinámico (extreme close-up), pero **SIN ser agresivo ni violento**. El personaje debe sostener la tensión desde atrás del texto, manteniendo neutralidad en su expresión.
+*   **Regla 3 — Fondo cerrado y visible (Sin oscuridad extrema):** NUNCA muestres desiertos, cielos ni exteriores soleados. El fondo debe verse, no puede ser una mancha negra. El prompt debe incluir OBLIGATORIAMENTE: `No dark environment, enclosed stone walls, oppressive space, no sky, no open landscape, no horizon line`.
+*   **Regla 4 — Texto rojo en el centro absoluto:** El texto va en el centro. La acción de tensión ocurre *detrás* del texto, asegurándose de que el personaje permanezca visible sin interactuar violentamente con las letras.
 *   **Regla 5 — Zona segura vertical (20%–80%):** La interfaz de YouTube oculta el 20% inferior de la pantalla.
 
 ---
@@ -144,15 +139,16 @@ all elements within the 20%–80% vertical safe zone
 Este prompt se usa EXCLUSIVAMENTE para la última imagen del video (el clímax y comando final). Usa Perspectiva Forzada, luces dramáticas y rompe la cuarta pared para obligar al usuario a tomar acción.
 
 ```text
-Dynamic mid-shot from a low angle, stick-figure character leaning forward breaking the fourth wall, large round unfilled white head with thick black outlines, intense piercing stare directly at the viewer with furrowed thick bold black eyebrows showing extreme conviction, one arm extended straight toward the camera with forced perspective making the open palm appear huge in the foreground, thick black ink stroke arms, wearing a simple plain shirt with stylized folds,
+Dynamic mid-shot from a low angle, stick-figure character leaning forward breaking the fourth wall. Character rule: STRICTLY NO realistic human faces, no noses, no detailed ears or skin. Character MUST be a 2D stick-figure with a perfectly round unfilled white head with thick black outlines, intense piercing stare directly at the viewer with furrowed thick bold black eyebrows showing extreme conviction, one arm extended straight toward the camera with forced perspective making the open palm appear huge in the foreground. Hands MUST be simple outlined cartoon gloves, thick black ink stroke arms, wearing a simple plain shirt with stylized folds,
 — midground: a massive glowing [OBJETO BÍBLICO-FINANCIERO: golden coin / heavy iron key / sealed scroll] floating just millimeters above the oversized open palm, casting a warm amber light on the character's face,
-— background: dark ancient stone walls with deep heavy shadows, completely out of focus to force all attention on the glowing object and the character's intense eyes,
-premium hand-drawn comic book aesthetic with clean precision,
+— background: ancient stone walls with visible cracks, well-lit enclosed indoor space, NO dark environment, completely eliminating deep dark shadows,
+bright and warm ambient lighting, replacing chiaroscuro with a fully illuminated background,
+premium hand-drawn comic book aesthetic with clean precision. STRICTLY NO 3D rendering, no CGI, no watercolor, no anime.
 thick bold hand-drawn black ink outlines with clean crisp and solid edges,
-flat cel-shading but with high-contrast dramatic chiaroscuro lighting,
+flat cel-shading and smooth digital color wash for rich volumetric depth,
 color accent rule: floating object in golden yellow (#C9A84C) — main accent,
 intense warm amber wash (#E67E22) illuminating the face and palm — secondary accent,
-everything else in crisp black ink outlines on deep shadows,
+everything else in crisp black ink outlines on fully visible, well-lit warm stone textures,
 strictly no high-frequency noise, no pencil sketch marks, no dust particles, optimized for video animation,
 optional environmental text in Spanish only,
 all elements within the 20%–80% vertical safe zone
@@ -170,7 +166,7 @@ all elements within the 20%–80% vertical safe zone
 
 **Checklist rápido para la Primera Imagen (Hook Visual) (Validar antes de entregar):**
 * [ ] ¿El personaje muestra shock físico (retrocede, se agarra el pecho, ojos desorbitados)?
-* [ ] ¿El fondo es cerrado, oscuro y con alto contraste (paredes, cueva, sin cielo)?
+* [ ] ¿El fondo es cerrado pero bien iluminado (paredes, interior, sin cielo)?
 * [ ] ¿El personaje sostiene o interactúa con un objeto bíblico-financiero?
 * [ ] ¿La cara y el objeto están en el 20%–80% vertical de la pantalla?
 * [ ] ¿El texto de CapCut confronta con una paradoja (no describe el video)?
@@ -208,7 +204,7 @@ Justo debajo de la tabla, entrega un único bloque de código (`text`) que conte
 (Prompt completo de la imagen 3)
 ```
 
-### ⛔ REGLA DE TEXTOS EN PANTALLA (Dos tipos — no confundir)
+### ⛔ REGLA DURA OBLIGATORIA: TEXTOS EN PANTALLA (Dos tipos)
 
 | Tipo | Qué es | Dónde va | Ejemplo |
 |------|--------|----------|---------|
@@ -236,29 +232,14 @@ Las IA de video tienden a ser estáticas si no se les exige acción intensa. Par
 
 ---
 
-## Directrices de Edición Pacing (CapCut)
+## Directrices de Edición (Para incluir en las Tarjetas de Producción)
 
-Para evitar que una edición plana destruya la retención del video, exige siempre este pacing de "Frenar y Apilar":
+Para que el editor no haga videos planos, en la sección de `✨ CapCut` de tus entregables debes sugerir transiciones basadas en la tensión de la escena:
+1. **Para el Hook / Impacto Inicial:** Usa transiciones agresivas (Flash Blur, Zoom rápido) para atrapar el ojo.
+2. **Para Tensión o Crisis:** Usa movimientos que desestabilicen (Shaky Lens, Forceful Pull).
+3. **Para Enseñanza o Cierre:** Usa transiciones limpias y lentas (Fade In, Wipe) para asentar la autoridad técnica.
 
-1. **Frenado Visual (0.0s - 1.5s):** Edición rápida y cortes agresivos. No dejes que la imagen respire. La música debe ser tensa e incómoda. El texto en pantalla (generado en CapCut) debe aparecer **palabra por palabra** obligando al cerebro a leer ("Secuestro de la mente"). Siempre especifica el color de ruptura para la palabra clave (Rojo `#FF3333` o Amarillo Oro `#C9A84C`).
-2. **Apilado Visual (1.5s - 5.0s):** Baja el ritmo ligeramente para que la autoridad técnica se asiente. Usa un zoom lento (15% zoom in) o un cambio drástico de color (ej. un tono magenta) para señalar que la información es crítica.
-3. **Ruptura Visual (0:20 - 0:30):** Introduce un "swell" musical (subida repentina) y ejecuta un cambio drástico de plano (zoom 15% rápido o ruptura visual del personaje) para sacudir de nuevo al espectador y evitar el desgaste.
-
----
-
-## Tabla de animaciones CapCut por tipo de escena
-
-| Tipo de escena | Entrada (IN) | Salida (OUT) |
-|---------------|-------------|-------------|
-| Hook / impacto emocional | Flash Blur | Dark Wipe-L |
-| Enseñanza / revelación | Fade In | Dark Wipe-L |
-| Crisis / decisión | Forceful Pull | Dark Wipe-Up |
-| Transformación / esperanza | Slide Up | Vision Shrink |
-| Deuda / trampa | Shaky Lens | Dark Wipe-Down |
-| Familia / empatía | Fade-In Wipe | Vision Shrink |
-| Cierre / CTA | Forceful Pull | Dark Wipe-Up |
-| Giro / revelación dramática | Flash Flip-In | Slice Shrink |
-| Tensión acumulada | Wavy Wash-Up | Dark Wipe-Up |
+> *NOTA PARA LA IA: Nunca redactes teoría de edición ni expliques el pacing al usuario. Limítate a entregar la sugerencia concreta dentro de la tarjeta de producción.*
 
 ## Fuentes de recursos
 
