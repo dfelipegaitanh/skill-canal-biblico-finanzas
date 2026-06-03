@@ -2,22 +2,29 @@
 
 **Enfoque Principal:** Construir un activo de retención partiendo de la autoridad bíblica técnica, sin depender de fórmulas genéricas.
 
-## Estructura del Guion (60 segundos máximo)
+## Estructura de Sincronización Audio-Visual (60s)
 
-### 1. El Hook (0 - 5 seg): La Ruptura
-*   **Objetivo:** Romper la disonancia cognitiva inmediatamente.
-*   **Ritmo Narrativo:** La estática genera autoridad. Cero movimientos bruscos.
-*   **Texto en Pantalla:** Una frase de choque corta, **máximo 5 palabras**, en tipografía pesada. Nada más.
+El guion debe estructurarse obligatoriamente en los siguientes cuatro bloques de tiempo. Ningún bloque puede fundirse con otro sin cumplir su función.
 
-### 2. El Cuerpo (5 - 50 seg): La Autopsia (Descomposición)
-*   **Aritmética Brutal:** Cuando el guion hable de dinero, cifras o conceptos económicos, la narrativa debe anclarse obligatoriamente en la realidad financiera moderna (ej. un puente técnico o financiero duro), contrastando la enseñanza antigua con la cifra actual.
-*   **Ritmo de Retención:** El guion debe exigir un cambio (ya sea de concepto, de encuadre o de transición) cada **4-5 segundos**. Ningún bloque debe superar los 5 segundos sin avanzar.
-*   **Técnica de Capas:** No explicar el "cuadro completo" de golpe. Analiza los elementos por partes (la acción, la consecuencia, el número).
+### 1. (0-5s) El Hook: Ruptura Visual
+*   **Fórmula del Audio:** `[Pregunta de dolor] + [Power Word]`
+*   **Texto en Pantalla:** Una frase de choque corta, **máximo 3 palabras**, en tipografía serif pesada.
+*   **Acción Visual:** Plano fijo del estilo Codex (grabado), cero movimientos bruscos. Estática genera autoridad. Un zoom lentísimo (1.05x). Elemento en color Magenta de ruptura.
 
-### 3. El Loop (50 - 60 seg): Puente de Trascendencia
-*   **Texto Final / CTA:** El último frame debe ser un comando directo de acción o una pregunta confrontacional abierta (ej: "¿Y tú qué harás?", "¿Sigues enterrando?").
-*   **Transición Infinita:** La última frase del guion debe estar escrita de tal manera que se funda exactamente con la primera palabra del Hook, provocando que el usuario vea el inicio por segunda vez sin darse cuenta.
+### 2. (5-25s) La Autopsia: Descomposición
+*   **Fórmula del Audio:** `[Disonancia bíblica] + [Término técnico]`
+*   **Acción Visual:** Fragmentación. Cambios de plano sobre el grabado (mano, objeto, rostro). No mostrar el cuadro completo, analizar por capas.
+*   **Técnica de Capas (Ken Burns):** Explorar el grabado como si una cámara estuviera inspeccionando una evidencia técnica.
 
+### 3. (25-45s) La Brutalidad: Aritmética
+*   **Fórmula del Audio:** `[Aritmética brutal: Números fríos]`
+*   **Acción Visual:** Transición hacia un documento financiero antiguo, o tabla contable (siempre respetando la estética del grabado).
+*   **Objetivo:** Este es el anclaje a la realidad. Contraste entre el grabado antiguo y el número/porcentaje moderno.
+
+### 4. (45-60s) El Cierre: Loop y Trascendencia
+*   **Fórmula del Audio:** `[Comando de ejecución] + [Loop]`
+*   **Acción Visual:** Regreso al plano del hook, pero con una leve modificación (ej. el objeto que tenía en la mano ahora está vacío o el elemento magenta cambió).
+*   **Transición Infinita:** La última frase del guion debe fundirse **exactamente** con la primera palabra del Hook, provocando un loop perfecto.
 ---
 
 ## Reglas de Oro (Copywriting y Texto en Pantalla)
