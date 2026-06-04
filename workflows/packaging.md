@@ -26,11 +26,41 @@ La IA debe estructurar sus propuestas visuales respetando estos pilares:
 
 ---
 
-## 3. Formato de Salida Obligatorio (Propuesta de Portada)
-Cuando el usuario pida una propuesta de miniatura para un video, la IA debe entregar el siguiente bloque (nunca usar tablas Markdown):
+## 3. Redacción de Títulos (Disonancia Bíblica)
+El título NO es descriptivo, es un secuestro de atención.
+*   **Formato Pregunta (OBLIGATORIO):** Absolutamente TODOS los títulos deben formularse como una pregunta. DEBEN empezar con una palabra interrogativa (¿Por qué...?, ¿Cómo...?, ¿Qué...?, ¿De qué...?, ¿Dónde...?, ¿Cuándo...?). Prohibidos los títulos afirmativos.
+*   **Personaje Bíblico Inmediato:** El personaje bíblico debe ir justo después de la palabra interrogativa para no perder el enganche (ej. "¿Por qué Jesús condenó tu ahorro?").
+*   **El "Tú" Directo y el Dolor:** Usa la segunda persona ("Tu", "Tus", "Te"). El título debe implicar que el espectador está perdiendo algo AHORA.
+*   **Power Words:** Debe contener una Power Word (código, sistema, decodificar, condenó, 3.000 años).
+*   **Longitud:** Máximo 40 caracteres para Shorts (porque YouTube lo corta). Máximo 60 para largos. Cero hashtags.
 
-**🎯 PROPUESTA DE PORTADA: [Tema del Video]**
+### **SEIS (6) OPCIONES DE TÍTULOS (Ordenadas por Viralidad)**
+> ⚠️ **NOTA:** La siguiente tabla es solo un ejemplo de formato. El orden de las palabras interrogativas (Por qué, Cómo, Qué, etc.) NO es estricto ni secuencial. La IA debe evaluar cuál título tiene mayor potencial de disonancia y ordenarlos puramente por su Nivel de Viralidad, independientemente de con qué palabra empiecen.
 
-*   🧠 **El Enigma (Concepto):** `(Breve explicación psicológica de por qué esta imagen genera el clic sin ser clickbait barato)`
-*   📝 **Texto en Pantalla (Overlay):** `"[MÁXIMO 3 PALABRAS]"` (Sugerencia de Color Semántico: Rojo/Verde/Dorado)
-*   🖼️ **Prompt DALL-E:** `(El prompt exacto en inglés, cruzando las reglas de los 3 Pilares con el Estilo Codex de visual_style.md. Asegúrate de incluir el zoom y el objeto focal dominando el 50-70% del encuadre, SIN texto embebido en la imagen)`
+| Opción | Título (Disonancia Bíblica) | Explicación del porqué | Viralidad |
+|--------|-----------------------------|------------------------|-----------|
+| 1 | [Ej. ¿Qué...? / ¿Cómo...?] | Breve justificación... | 🔥🔥🔥🔥🔥 |
+| 2 | [Ej. ¿Por qué...?] | Breve justificación... | 🔥🔥🔥🔥 |
+| 3 | [Ej. ¿Dónde...?] | Breve justificación... | 🔥🔥🔥 |
+| 4 | [Ej. ¿De qué...?] | Breve justificación... | 🔥🔥 |
+| 5 | [Ej. ¿Cuándo...?] | Breve justificación... | 🔥 |
+| 6 | [Ej. ¿Qué...?] | Breve justificación... | 🧊 |
+
+---
+
+## 4. Formato de Salida Obligatorio (Empaque Completo)
+Cuando el usuario pida empaquetar un video, la IA debe entregar el siguiente bloque:
+
+**METADATOS Y SEO**
+*   **Descripción Corta:** [150-200 caracteres enfocados en el dolor y la disonancia]
+*   **Hashtags:** `#Keyword1 #Keyword2 #Keyword3`
+*   **Etiquetas Categorizadas:**
+    *   *Específicas:* [3-4 tags del tema]
+    *   *Nicho:* [3-4 tags del sector]
+    *   *Amplias:* [2-3 tags generales]
+*   **Bloque de Etiquetas (Copy-Paste):** `[Todas las etiquetas anteriores separadas por comas en un solo bloque continuo]`
+
+**MINIATURA Y PROMPT (DALL-E)**
+*   🧠 **Concepto Visual (El Enigma):** `(Breve descripción de la imagen que grafique la asfixia o el enigma basado en la Opción 1 de los Títulos)`
+*   📝 **Texto en Pantalla (Overlay):** `"[MÁXIMO 3 PALABRAS EN ROJO O DORADO]"`
+*   🖼️ **Prompt DALL-E:** `(El prompt exacto en inglés para generar el concepto visual, cruzando los 3 Pilares con el Estilo Codex. Asegúrate de incluir el objeto focal dominando el 50-70% del encuadre, SIN texto embebido en la imagen)`
