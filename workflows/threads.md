@@ -37,6 +37,8 @@ Todo hilo para promocionar un video debe tener **ESTRICTAMENTE 3 POSTS**, siguie
 ## 3. El Empaque Visual (La Imagen del Hilo)
 El hilo debe acompañarse OBLIGATORIAMENTE de una imagen generada con DALL-E para el primer post.
 
+> ⛔ **REGLA ESTRICTA DE TEXTO NATIVO:** A diferencia de los videos, la imagen para Threads debe generarse con el texto ya dibujado por DALL-E. No se permite añadir texto en post-producción o CapCut. El prompt de DALL-E siempre debe llevar la orden explícita de dibujar el texto masivo.
+
 **La Regla del Personaje en el Texto:**
 El texto rojo gigante dentro de la imagen DEBE empezar con el nombre del personaje bíblico del que trata el guión (ej. "JESÚS DIO EL CÓDIGO", "SALOMÓN DIO EL CÓDIGO"). 
 

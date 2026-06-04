@@ -24,6 +24,8 @@ La IA debe estructurar sus propuestas visuales respetando estos pilares:
 *   **Formato:** Sans-serif, pesada, contorno grueso. Debe ser legible en 160px (pantalla de celular).
 *   **Prohibición Absoluta:** Nunca repetir el título del video en la imagen. El texto de la miniatura complementa el título.
 
+> ⛔ **REGLA ESTRICTA DE TEXTO NATIVO:** Para las miniaturas, el texto (máximo 3 palabras) debe estar **OBLIGATORIAMENTE embebido en el prompt de DALL-E** (ej: `massive bold distressed text that says "[TEXTO]"`). Queda estrictamente PROHIBIDO sugerir añadir el texto en CapCut o post-producción. La miniatura debe salir con el texto dibujado.
+
 ---
 
 ## 3. Redacción de Títulos (Disonancia Bíblica)
@@ -62,5 +64,4 @@ Cuando el usuario pida empaquetar un video, la IA debe entregar el siguiente blo
 
 **MINIATURA Y PROMPT (DALL-E)**
 *   🧠 **Concepto Visual (El Enigma):** `(Breve descripción de la imagen que grafique la asfixia o el enigma basado en la Opción 1 de los Títulos)`
-*   📝 **Texto en Pantalla (Overlay):** `"[MÁXIMO 3 PALABRAS EN ROJO O DORADO]"`
-*   🖼️ **Prompt DALL-E:** `(El prompt exacto en inglés para generar el concepto visual, cruzando los 3 Pilares con el Estilo Codex. Asegúrate de incluir el objeto focal dominando el 50-70% del encuadre, SIN texto embebido en la imagen)`
+*   🖼️ **Prompt DALL-E:** `(El prompt exacto en inglés para generar el concepto visual, cruzando los 3 Pilares con el Estilo Codex. Asegúrate de incluir el objeto focal dominando el 50-70% del encuadre. DEBE incluir la orden explícita para que la IA dibuje el texto usando Color Semántico: "massive bold distressed text that says '[TEXTO EN ROJO/DORADO]' positioned [ubicación]")`
