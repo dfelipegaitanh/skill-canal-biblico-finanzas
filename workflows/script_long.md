@@ -43,8 +43,19 @@ Cada guion largo debe estructurarse obligatoriamente en estas 7 fases. No puedes
 
 ---
 
-## 3. Empaquetado: "Biblical Jazz"
-La IA debe exigir (vía directivas en el guion) que se aplique esta estética para evitar el "efecto PowerPoint":
-*   **Densidad Visual (Capa sobre Capa):** Composiciones complejas. Nunca mostrar una sola imagen estática de DALL-E. Grabados mezclados con ruido visual (texturas de papiro) y datos.
-*   **Movimiento Constante:** Ken Burns extremadamente lento (0.01% por segundo). Pasar siempre de un plano general a un micro-detalle (el ojo, la moneda, el mapa).
-*   **Audio de Urgencia:** Música industrial-épica, grave, tipo thriller histórico (jamás "lo-fi" ni "inspiracional").
+## 3. Empaquetado y Pacing: "Biblical Jazz"
+La IA debe dictar el ritmo del montaje a través de directivas explícitas en el guion (Keyframe Scripting), usando el *Protocolo de Pacing de Autoridad*:
+
+**A. La Escala de Intensidad Visual**
+El guion debe alternar entre estos tres niveles de instrucción visual:
+*   **Macro Pilar (30-60s):** Se usa al cambiar de un Pilar a otro. Es una declaración de principios. La imagen es un lienzo complejo; no hay cortes, sino un *Cámara en Mano Virtual* (zoom/pan lentísimo "descubriendo" detalles del grabado a medida que se mencionan).
+*   **Micro Flujo (8-12s):** Inspección clínica. Movimiento sutil sobre el grabado mientras se expone una tesis o puente emocional.
+*   **Punch Impacto (2-4s):** Ruptura total. Cortes rápidos y agresivos. Se usa EXCLUSIVAMENTE para lanzar datos en la *Aritmética Brutal*.
+
+**B. La Puntuación Magenta (El Texto Baila)**
+*   Prohibido subtitular todo el video.
+*   El texto en pantalla funciona como un **"Pulsar"**: el texto magenta (con el dato clave o frase de poder) aparece de golpe, como parte del grabado, y desaparece al terminar la frase. El espectador siente que las palabras marcan el ritmo del montaje.
+
+**C. Diseño Sonoro de Pegamento**
+*   **Capas de Atmósfera:** Exigir en el guion sonidos ambientales (viento, eco, pluma sobre papel antiguo) para mantener la inmersión durante los planos Macro de 60 segundos. Música industrial grave (cero inspiracional).
+*   **Inflexión de Voz:** Si la imagen no cambia (plano Macro), el guion debe indicar al locutor que cambie la intensidad y urgencia de su voz para evitar la monotonía.
