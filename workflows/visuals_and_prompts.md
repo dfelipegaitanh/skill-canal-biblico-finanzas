@@ -9,7 +9,15 @@ La IA tiene **PROHIBIDO** generar prompts de imágenes si el usuario no ha propo
 ## 2. Traducción de Intenciones
 Cuando la IA genera prompts, debe tomar las *Intenciones Visuales* del guion (las directivas de `[Visual: ...]` del Keyframe Scripting) y fusionarlas con las reglas estéticas de `guidelines/visual_style.md` (Estilo Codex, Stick-figure, Tinta negra, Texturas, Color Semántico) para generar un prompt perfecto en inglés.
 
-## 3. Formato de Entrega Obligatorio
+## 3. Deducción de Formato y Pacing (REGLA DE HIERRO)
+Antes de generar las Tarjetas, la IA DEBE analizar el timestamp final del guion provisto para deducir el formato:
+*   **Si el guion total dura menos de 60 segundos:** ES UN SHORT.
+*   **Si el guion total dura más de 60 segundos:** ES UN LARGO.
+
+> ⛔ **BLINDAJE DE RETENCIÓN PARA SHORTS (3-5s):** 
+> Si la IA deduce que es un Short, queda ESTRICTAMENTE PROHIBIDO generar Tarjetas de Producción que superen los 5 segundos de duración. La IA debe fragmentar el texto del guion y generar OBLIGATORIAMENTE un prompt de imagen cada **3 a 5 segundos máximo** (ej: `[00:00 - 00:03]`, `[00:03 - 00:07]`). Si el texto de un bloque provisto por el usuario dura 10 segundos, la IA asume el control del montaje y lo parte en dos o tres Tarjetas de Producción distintas con prompts visuales diferentes para forzar la retención.
+
+## 4. Formato de Entrega Obligatorio
 Entregar SIEMPRE la respuesta en dos partes, sin excepciones. Queda estrictamente PROHIBIDO usar tablas de Markdown, ya que comprimen el texto.
 
 **PARTE 1: Las Tarjetas de Producción**
