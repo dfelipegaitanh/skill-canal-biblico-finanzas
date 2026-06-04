@@ -1,42 +1,39 @@
-# Skill: Código Bíblico del Dinero (V2)
+# Código Bíblico del Dinero (Sistema Operativo V2)
 
-Bienvenido a la versión 2 (V2) de la Skill del canal **Código Bíblico del Dinero**. 
+Bienvenido a la versión 2 (V2) definitiva de la Skill operativa del canal **Código Bíblico del Dinero**. 
 
-NO DEFINITIVA Y SOLO PARA PRUEBAS**
+En esta versión, hemos transicionado de un enfoque monolítico a una **arquitectura de producción modular de alto rendimiento**. El sistema opera bajo estrictas reglas de autoridad visual, disonancia bíblica y fricción selectiva.
 
-En esta versión, hemos transicionado de un enfoque monolítico a una **arquitectura completamente modular**. Esto permite que el modelo cargue únicamente el contexto necesario según la tarea solicitada, optimizando el rendimiento, reduciendo el consumo de tokens y mejorando la precisión en las respuestas.
+## Arquitectura Modular (El Motor)
 
-## Arquitectura Modular
-
-La skill se divide en las siguientes áreas de responsabilidad:
+La inteligencia de producción se divide en las siguientes áreas de responsabilidad:
 
 ### Orquestador Principal
-- `SKILL.md`: Es el punto de entrada de la skill. Contiene la descripción de alto nivel y las reglas de enrutamiento (qué módulo cargar dependiendo de lo que pida el usuario).
+*   `SKILL.md`: El cerebro de la operación. Contiene la filosofía del canal (El "Tono de la Trinchera") y las tablas de enrutamiento que dictan qué módulos cargar dependiendo de lo que pida el usuario.
 
-### 1. Guías de Estilo (`/guidelines`)
-Reglas estéticas y de comunicación que rigen la creación de contenido.
-- `guidelines/tone_and_voice.md`: Instrucciones sobre el tono, qué decir y qué evitar estrictamente (no somos predicadores, no somos coaches motivacionales).
-- `guidelines/visual_style.md`: Detalles del estilo visual "Codex" (Manuscrito Da Vinci), paleta de colores y formato de los personajes (stick-figure).
+### 1. Guías Base (`/guidelines`)
+Reglas estéticas inquebrantables.
+*   `guidelines/tone_and_voice.md`: Instrucciones sobre el tono, qué decir y qué evitar. Prohibida la motivación barata o el tono de predicador.
+*   `guidelines/visual_style.md`: La **Matriz de Autoridad Visual**. Reglas del estilo "Codex", la paleta de colores semánticos (Rojo, Dorado, Verde, Azul, Naranja) y la estricta limitación de animación (Regla del 90/10).
 
 ### 2. Flujos de Trabajo y Producción (`/workflows`)
-Módulos especializados por cada etapa del embudo de producción (reemplaza y expande la antigua carpeta `references`).
-- `workflows/scripting_rules.md`: Reglas fundamentales obligatorias para cualquier tipo de guion.
-- `workflows/script_long.md`: Estructura y reglas para guiones largos.
-- `workflows/script_shorts.md`: Estructura y reglas para formato Short.
-- `workflows/script_audit.md`: Criterios para revisar, auditar y mejorar guiones existentes.
-- `workflows/packaging.md`: Creación de títulos, miniaturas (el "empaque") y metadatos SEO.
-- `workflows/visuals_and_prompts.md`: Prompts de generación de imagen y directrices de animación visual.
-- `workflows/audio_and_voice.md`: Guías para generación de voz, locución y música.
-- `workflows/threads.md`: Creación de hilos (threads) para redes sociales.
+Cada etapa de producción tiene su propio manual técnico:
+*   **Guiones:**
+    *   `workflows/scripting_rules.md`: Reglas base inquebrantables (ej. un solo espectador, cero plurales).
+    *   `workflows/script_long.md`: Arquitectura de **7 Pilares** para videos largos y puntuación de texto semántico ("Pulsar").
+    *   `workflows/script_shorts.md`: Estructura estricta para formato Short, con CTA enfocado en "Shares" y restricción de animaciones a solo 2 segundos.
+    *   `workflows/script_audit.md`: Criterios técnicos para auditar y elevar la retención de los guiones.
+*   **Visuales y Audio:**
+    *   `workflows/visuals_and_prompts.md`: Traducción de guiones aprobados a Tarjetas de Producción. Genera prompts para DALL-E, Textos Semánticos y parámetros de movimiento (CapCut/Video AI) de forma condicional.
+    *   `workflows/audio_and_voice.md`: Estructura de 3 campos para Google AI Studio y diseño de prompts de música acústica con "Dynamic Arc".
+*   **Empaque y Distribución:**
+    *   `workflows/packaging.md`: Ingeniería de Títulos con **Disonancia Bíblica**, generación de propuestas de miniatura (El Enigma Técnico) y arquitectura SEO (Etiquetas de 3 niveles).
+    *   `workflows/threads.md`: Distribución de alto impacto en texto mediante la estrategia de **Fricción Selectiva** de 3 Posts.
 
 ### 3. Interacción Básica (`/interaction`)
-- `interaction/onboarding.md`: Módulo de carga por defecto para cuando el usuario hace contacto inicial o no da suficiente contexto.
+*   `interaction/onboarding.md`: Módulo de carga por defecto para recibir al usuario y auditar su petición inicial.
 
-## ¿Cómo usar esta Skill?
+---
 
-Cuando se inicie una interacción:
-1. Revisa el requerimiento del usuario.
-2. Si el requerimiento es ambiguo o falta contexto, carga `interaction/onboarding.md`.
-3. Si el requerimiento es específico, carga **solo** el archivo pertinente de la carpeta `/workflows/` junto con las guías de `/guidelines/` que correspondan.
-
-**Regla de Oro:** NUNCA cargues todos los módulos al mismo tiempo. Selecciona únicamente la combinación de módulos que resuelva la tarea en curso.
+## Protocolo de Operación de la IA
+**Regla de Oro:** La IA NUNCA carga todos los módulos al mismo tiempo. Opera leyendo `SKILL.md` y ruteando la petición exclusivamente a los manuales necesarios para no contaminar el contexto (ej. Si pides un guion, no carga las reglas de empaque).
