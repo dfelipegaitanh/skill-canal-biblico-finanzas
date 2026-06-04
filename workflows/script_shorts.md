@@ -21,10 +21,12 @@ El guion debe estructurarse obligatoriamente en los siguientes cuatro bloques de
 *   **Acción Visual:** Transición hacia un documento financiero antiguo, o tabla contable (siempre respetando la estética del grabado).
 *   **Objetivo:** Este es el anclaje a la realidad. Contraste entre el grabado antiguo y el número/porcentaje moderno.
 
-### 4. (45-60s) El Cierre: Loop y Trascendencia
-*   **Fórmula del Audio:** `[Comando de ejecución] + [Loop]`
+### 4. (45-60s) El Cierre: CTA de Share y Loop Infinito
+*   **Fórmula del Audio:** `[Comando de Ejecución enfocado en el Share] + [Loop]`
+*   **La Métrica Oculta (Prohibido mendigar):** Cero peticiones débiles como "suscríbete", "dale like" o "comenta tu país". 
+*   **El CTA de Share Orgánico:** El llamado a la acción debe exigir al espectador que **comparta** esa "Aritmética Brutal" (el Momento de Compartir) con alguien que esté sufriendo la misma herida. Ej: *"Envíale este código a quien sigue regalándole su capital al banco"*.
 *   **Acción Visual:** Regreso al plano del hook, pero con una leve modificación (ej. el objeto que tenía en la mano ahora está vacío o el elemento magenta cambió).
-*   **Transición Infinita:** La última frase del guion debe fundirse **exactamente** con la primera palabra del Hook, provocando un loop perfecto.
+*   **Transición Infinita:** La última frase del guion debe fundirse **exactamente** con la primera palabra del Hook, provocando un loop perfecto sin que el espectador se dé cuenta.
 ---
 
 ## Reglas de Oro (Copywriting y Texto en Pantalla)

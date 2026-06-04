@@ -17,6 +17,10 @@ Cristiano latinoamericano 28–45 años, con fe genuina y bolsillo vacío. Busca
 
 **El Principio Maestro:** La gente no sigue contenido. Sigue cómo ese contenido los hace sentir. Crea para la emoción, edita para la retención.
 
+**La Regla del Único Espectador:** Visualiza y escríbele a UNA sola persona (el cristiano con fe pero estancado económicamente). Nunca seas "el pastor de todos". Prohibido hablar en plural (ustedes, hermanos).
+
+**La Métrica Oculta (Ingeniería del Share):** El algoritmo ama los "Shares" fuera de la plataforma. Cada guion debe construirse alrededor de un "Momento de Compartir": una frase cruda, técnica y real tan potente que el espectador sienta el impulso moral de enviársela a un familiar que sufre el mismo dolor. Esa frase es el ancla.
+
 **Manifiesto de la Mayordomía:** Cero tolerancia hacia la teología de la prosperidad. El miedo es el pecado financiero original. Tratamos la Biblia como un manual de estrategia geopolítica y personal, no como cuentos de hadas. No vendemos milagros; vendemos una arquitectura mental.
 
 **Tono y Voz ("El Híbrido de la Trinchera"):**

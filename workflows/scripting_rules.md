@@ -2,10 +2,10 @@
 
 **IMPORTANTE:** Olvida la prosa literaria tradicional. En este canal, el guion es una **partitura técnica** donde el audio y la imagen se sincronizan a nivel de keyframes. El guion dicta el movimiento.
 
-## 1. La Regla de los 5 Segundos (El Reloj)
+## 1. La Regla de los 4-5 Segundos (El Reloj)
 *   **Prohibido escribir párrafos.** Escribe en "bloques de respiración".
-*   El audio es el reloj que marca el cambio. Si una frase o bloque de audio tarda más de 5 segundos en leerse en voz alta, estás **obligado** a cortarla y añadir un nuevo bloque `[Visual: ...]` para forzar un cambio de plano (zoom, paneo o corte).
-*   Si la imagen se queda quieta por más de 5 segundos, la autoridad se evapora.
+*   El audio es el reloj que marca el cambio. Si una frase o bloque de audio tarda más de 4-5 segundos en leerse en voz alta, estás **obligado** a cortarla y añadir un nuevo bloque `[Visual: ...]` para forzar un cambio de plano (zoom, paneo o corte).
+*   Si la imagen se queda quieta por más de 4-5 segundos, la autoridad se evapora.
 
 ## 2. Keyframe Scripting (Formato Obligatorio)
 La salida (output) del guion debe seguir estrictamente este formato de bloque y comando visual:
