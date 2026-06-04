@@ -42,7 +42,7 @@ Para ejecutar tareas, carga SOLO el módulo pertinente para no diluir el enfoque
 | Títulos, Miniaturas y Metadatos SEO (El Empaque) | `workflows/packaging.md` |
 | Guiones nuevos, estructura narrativa, hooks | `workflows/scripting_rules.md` (Obligatorio) + `workflows/script_shorts.md` o `script_long.md` |
 | Revisar, auditar o mejorar un guión existente | `workflows/script_audit.md` |
-| Prompts de imagen, animación visual | `guidelines/visual_style.md` |
+| Prompts de imagen, animación visual | `guidelines/visual_style.md` + `workflows/visuals_and_prompts.md` |
 | Generación de voz, música, audio | `workflows/audio_and_voice.md` |
 | Threads para redes sociales | `workflows/threads.md` |
 
