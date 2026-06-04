@@ -163,15 +163,9 @@ Presenta cada bloque de imagen como una tarjeta vertical y fácil de leer.
 
 **🎬 BLOQUE [00:00 – 00:03]**
 *   🖼️ **DALL-E:** `(Prompt visual completo)` [OBLIGATORIO]
-*   🎥 **Kling/Runway:** `(Prompt de movimiento en inglés)` [OPCIONAL / RECOMENDADO]
-*   ✨ **CapCut:** Entrada: Zoom rápido / Salida: Fade
-*   📝 **Texto en Pantalla:** "PARA DEUDORES" (Fuente Blanca, palabra clave en Rojo `#FF3333` o Amarillo `#C9A84C`) [IDEAL / OPCIONAL]
 
 **🎬 BLOQUE [00:03 – 00:06]**
 *   🖼️ **DALL-E:** `(Prompt visual completo)` [OBLIGATORIO]
-*   🎥 **Kling/Runway:** `Fast push in camera, heavy dust...` [RECOMENDADO]
-*   ✨ **CapCut:** Entrada: Flash Blur / Salida: Wipe-L
-*   📝 **Texto en Pantalla:** "¿Llevas años?" (Fuente Blanca, palabra clave en Rojo `#FF3333` o Amarillo `#C9A84C`) [RECOMENDADO]
 
 *(Repetir para todos los bloques...)*
 
