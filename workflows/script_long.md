@@ -43,19 +43,32 @@ Cada guion largo debe estructurarse obligatoriamente en estas 7 fases. No puedes
 
 ---
 
-## 3. Empaquetado y Pacing: "Biblical Jazz"
-La IA debe dictar el ritmo del montaje a través de directivas explícitas en el guion (Keyframe Scripting), usando el *Protocolo de Pacing de Autoridad*:
+## 3. Pacing de Retención: "Biblical Jazz"
+La IA debe dictar el ritmo del montaje a través de directivas explícitas en el guion (Keyframe Scripting).
 
-**A. La Escala de Intensidad Visual**
-El guion debe alternar entre estos tres niveles de instrucción visual:
-*   **Macro Pilar (30-60s):** Se usa al cambiar de un Pilar a otro. Es una declaración de principios. La imagen es un lienzo complejo; no hay cortes, sino un *Cámara en Mano Virtual* (zoom/pan lentísimo "descubriendo" detalles del grabado a medida que se mencionan).
-*   **Micro Flujo (8-12s):** Inspección clínica. Movimiento sutil sobre el grabado mientras se expone una tesis o puente emocional.
-*   **Punch Impacto (2-4s):** Ruptura total. Cortes rápidos y agresivos, o animaciones técnicas de sistema (ej. gráficos llenándose). Se usa EXCLUSIVAMENTE para lanzar datos en la *Aritmética Brutal*. NUNCA pedir animación de personajes.
+> ⛔ **REGLA DE HIERRO:** Ninguna imagen dura más de **8 segundos**. La autoridad no viene del tiempo, viene de la **densidad del contenido** dentro de ese tiempo.
 
-**B. La Puntuación Semántica (El Texto Baila)**
+**A. Tabla de Pacing por Bloque**
+
+| Bloque | Duración del Bloque | Pacing por Imagen | Función Visual |
+|--------|---------------------|-------------------|----------------|
+| Hook / Herida | 30-45s | 5-6s | Grabado del dolor (cadena, mano vacía, deuda) |
+| Paradoja Bíblica | 45-60s | 6-8s | Personaje bíblico como estratega |
+| Aritmética Brutal | 60-90s | 5-7s | Números, texto en Color Semántico sobre grabado |
+| Escalera de Acción | 30-45s | 5-6s | Grabados de acción secuencial |
+| CTA Puente | 15-20s | 5-6s | Grabado de cierre, estático y limpio |
+
+**B. Las 3 Reglas de Autoridad Sostenida**
+Lo que crea la sensación de autoridad sin matar la retención NO es el tiempo de cada imagen. Es lo que pasa **dentro** de esos 5-8 segundos:
+1.  **Ken Burns Progresivo:** Cada imagen tiene un zoom o paneo lento. El cerebro percibe movimiento aunque la imagen sea estática.
+2.  **Texto Semántico Gradual:** El texto no aparece todo al mismo tiempo. A los 2 segundos aparece la primera palabra clave, a los 4 la segunda. Eso crea expectativa dentro del mismo cuadro. Usar siempre un **Color Semántico** de la tabla (`guidelines/visual_style.md`).
+3.  **Capas de Audio:** El sonido llena el "vacío" visual. Una imagen de 6 segundos con el sonido correcto (pergamino, viento, eco) se siente más densa que 15 segundos de silencio.
+
+**C. La Puntuación Semántica (El Texto Baila)**
 *   Prohibido subtitular todo el video.
-*   El texto en pantalla funciona como un **"Pulsar"**: el texto aparece de golpe resaltando la palabra o dato clave con un **Color Semántico** (Rojo para deuda, Dorado para capital, Verde para salida, según tu tabla de colores) y desaparece al terminar la frase. El espectador siente que las palabras marcan el ritmo del montaje.
+*   El texto en pantalla funciona como un **"Pulsar"**: resalta la palabra o dato clave con un **Color Semántico** (Rojo para deuda, Dorado para capital, Verde para salida) y desaparece al terminar la frase.
 
-**C. Diseño Sonoro de Pegamento**
-*   **Capas de Atmósfera:** Exigir en el guion sonidos ambientales (viento, eco, pluma sobre papel antiguo) para mantener la inmersión durante los planos Macro de 60 segundos. Música industrial grave (cero inspiracional).
-*   **Inflexión de Voz:** Si la imagen no cambia (plano Macro), el guion debe indicar al locutor que cambie la intensidad y urgencia de su voz para evitar la monotonía.
+**D. Diseño Sonoro de Pegamento**
+*   **Capas de Atmósfera:** Exigir en el guion sonidos ambientales (viento, eco, pluma sobre papel antiguo) para mantener la inmersión. Música acústica grave (cero inspiracional).
+*   **Inflexión de Voz:** El guion debe indicar al locutor cambios de intensidad y urgencia para evitar la monotonía.
+

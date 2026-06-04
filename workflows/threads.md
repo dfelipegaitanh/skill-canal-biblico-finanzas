@@ -45,14 +45,14 @@ Cuando la IA redacte un hilo, debe entregar al final este prompt exacto para la 
 
 ```text
 A highly legible image in a 16:9 aspect ratio.
-Dynamic mid-shot, stick-figure character with large round unfilled white head with thick black outlines, expressive cartoon eyes with pupils and thick bold black eyebrows showing profound realization and calm, standing confidently, holding a single heavy glowing golden coin safely in one hand while letting a pile of useless paper bills turn into dust from the other hand, thick black ink stroke arms, wearing a simple flowing ancient tunic with stylized folds,
-— midground: an ancient wooden table,
+Dynamic mid-shot, stick-figure character with large round unfilled white head with thick black outlines, expressive cartoon eyes with pupils and thick bold black eyebrows showing [EMOCIÓN: profound realization / calm authority / intense conviction], [ACCIÓN DEL PERSONAJE: standing confidently holding / gripping / presenting] a [OBJETO BÍBLICO-FINANCIERO: golden coin / iron chain / ancient scroll / key / balance scale], thick black ink stroke arms, wearing a simple flowing ancient tunic with stylized folds,
+— midground: [ELEMENTO DE CONTEXTO: ancient wooden table / stone altar / scattered papers],
 — background: dark ancient stone walls drawn in dark, slightly thinner hand-drawn sketchy outlines, with pencil-sketch textures, stone cracks,
 premium hand-drawn comic book aesthetic with clean precision,
 smooth solid warm beige background (#E8D5B0) completely free of paper grain or noise,
 thick bold hand-drawn black ink outlines with clean, crisp and solid edges,
 flat cel-shading and smooth digital color wash for rich volumetric depth,
-color accent rule: the single glowing golden coin in golden yellow (#C9A84C) — main accent,
+color accent rule: [OBJETO PRINCIPAL] in golden yellow (#C9A84C) — main accent,
 warm ambient light illuminating the character's face (#E67E22) — secondary accent,
 everything else in crisp black ink outlines on smooth warm beige,
 massive bold distressed red text that says "[NOMBRE DEL PERSONAJE BÍBLICO] DIO EL CÓDIGO" positioned on the left side taking up at least 30% of the space for extreme readability on mobile devices,

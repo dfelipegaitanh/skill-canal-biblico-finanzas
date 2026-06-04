@@ -7,7 +7,7 @@ La IA tiene **PROHIBIDO** generar prompts de imágenes si el usuario no ha propo
 - Si el usuario pide generar imágenes pero no provee el texto con los timestamps, la IA debe responder: *"Alerta de Sistema: No puedo inventar tiempos. Por favor, provéeme el guion aprobado con sus respectivos timestamps para poder generar los prompts exactos."*
 
 ## 2. Traducción de Intenciones
-Cuando la IA genera prompts, debe tomar las *Intenciones Visuales* del guion (Macro Pilar, Micro Flujo, Punch Impacto) y fusionarlas con las reglas estéticas de `guidelines/visual_style.md` (Estilo Codex, Stick-figure, Tinta negra, Texturas, Elemento en Color Semántico) para generar un prompt perfecto en inglés.
+Cuando la IA genera prompts, debe tomar las *Intenciones Visuales* del guion (las directivas de `[Visual: ...]` del Keyframe Scripting) y fusionarlas con las reglas estéticas de `guidelines/visual_style.md` (Estilo Codex, Stick-figure, Tinta negra, Texturas, Color Semántico) para generar un prompt perfecto en inglés.
 
 ## 3. Formato de Entrega Obligatorio
 Entregar SIEMPRE la respuesta en dos partes, sin excepciones. Queda estrictamente PROHIBIDO usar tablas de Markdown, ya que comprimen el texto.

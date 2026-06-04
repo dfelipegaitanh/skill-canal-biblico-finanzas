@@ -9,7 +9,7 @@ El guion debe estructurarse obligatoriamente en los siguientes cuatro bloques de
 ### 1. (0-4s) El Hook: Ruptura Visual
 *   **Fórmula del Audio:** `[Pregunta de dolor] + [Power Word]`
 *   **Texto en Pantalla:** Una frase de choque corta, **máximo 3 palabras**, en tipografía serif pesada.
-*   **Acción Visual:** Plano fijo del estilo Codex (grabado), cero movimientos bruscos. Estática genera autoridad. Un zoom lentísimo (1.05x). Elemento en Color Semántico de ruptura (Rojo o Dorado).
+*   **Acción Visual:** Plano fijo del estilo Codex (grabado), cero movimientos bruscos. Estática genera autoridad. Un zoom lentísimo (1.05x). Elemento de ruptura estrictamente en **Rojo** (`#C0392B`).
 
 ### 2. (4-25s) La Autopsia: Descomposición
 *   **Fórmula del Audio:** `[Disonancia bíblica] + [Término técnico]`
