@@ -6,12 +6,12 @@
 
 El guion debe estructurarse obligatoriamente en los siguientes cuatro bloques de tiempo. Ningún bloque puede fundirse con otro sin cumplir su función.
 
-### 1. (0-5s) El Hook: Ruptura Visual
+### 1. (0-4s) El Hook: Ruptura Visual
 *   **Fórmula del Audio:** `[Pregunta de dolor] + [Power Word]`
 *   **Texto en Pantalla:** Una frase de choque corta, **máximo 3 palabras**, en tipografía serif pesada.
-*   **Acción Visual:** Plano fijo del estilo Codex (grabado), cero movimientos bruscos. Estática genera autoridad. Un zoom lentísimo (1.05x). Elemento en color Magenta de ruptura.
+*   **Acción Visual:** Plano fijo del estilo Codex (grabado), cero movimientos bruscos. Estática genera autoridad. Un zoom lentísimo (1.05x). Elemento en Color Semántico de ruptura (Rojo o Dorado).
 
-### 2. (5-25s) La Autopsia: Descomposición
+### 2. (4-25s) La Autopsia: Descomposición
 *   **Fórmula del Audio:** `[Disonancia bíblica] + [Término técnico]`
 *   **Acción Visual:** Fragmentación. Cambios de plano sobre el grabado (mano, objeto, rostro). No mostrar el cuadro completo, analizar por capas.
 *   **Técnica de Capas (Ken Burns):** Explorar el grabado como si una cámara estuviera inspeccionando una evidencia técnica.
@@ -25,7 +25,7 @@ El guion debe estructurarse obligatoriamente en los siguientes cuatro bloques de
 *   **Fórmula del Audio:** `[Comando de Ejecución enfocado en el Share] + [Loop]`
 *   **La Métrica Oculta (Prohibido mendigar):** Cero peticiones débiles como "suscríbete", "dale like" o "comenta tu país". 
 *   **El CTA de Share Orgánico:** El llamado a la acción debe exigir al espectador que **comparta** esa "Aritmética Brutal" (el Momento de Compartir) con alguien que esté sufriendo la misma herida. Ej: *"Envíale este código a quien sigue regalándole su capital al banco"*.
-*   **Acción Visual:** Regreso al plano del hook, pero con una leve modificación (ej. el objeto que tenía en la mano ahora está vacío o el elemento magenta cambió).
+*   **Acción Visual:** Regreso al plano del hook, pero con una leve modificación (ej. el objeto que tenía en la mano ahora está vacío o el elemento de color semántico cambió).
 *   **Transición Infinita:** La última frase del guion debe fundirse **exactamente** con la primera palabra del Hook, provocando un loop perfecto sin que el espectador se dé cuenta.
 ---
 
@@ -33,3 +33,4 @@ El guion debe estructurarse obligatoriamente en los siguientes cuatro bloques de
 
 > ⛔ **ELIMINA EL RUIDO:** Si un elemento no aporta autoridad, elimínalo. 
 > El texto en pantalla debe usarse EXCLUSIVAMENTE para **reforzar la herida** (la palabra clave del dolor), NUNCA para subtitular todo el guion.
+> 🎬 **REGLA DE ANIMACIÓN (2 Segundos):** Si el guion requiere usar Video AI en un Short, la animación **no puede durar más de 2 segundos** (Ruptura Total). Se reserva para mecánica de sistema (ej. capital esfumándose). Prohibido animar personajes.

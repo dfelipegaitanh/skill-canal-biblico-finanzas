@@ -178,28 +178,10 @@ Justo debajo de la tabla, entrega un único bloque de código (`text`) que conte
 (Prompt completo de la imagen 3)
 ```
 
-### ⛔ REGLA DURA OBLIGATORIA: TEXTOS EN PANTALLA (Dos tipos)
+### 🎬 MATRIZ DE AUTORIDAD VISUAL (Animación vs Estática)
+Las IA de video (Sora, Kling, Runway) tienden a suavizar la estética cruda del grabado y crear un efecto de "valle inquietante". Para mantener la autoridad del "Código", aplica estrictamente la regla del 90/10:
 
-| Tipo | Qué es | Dónde va | Ejemplo |
-|------|--------|----------|---------|
-| **Texto Ambiental** | Decoración diegética (en pergaminos, paredes, carteles del fondo) | En el prompt  con sufijo: `optional environmental text in Spanish only` | Texto en un calendario de fondo |
-| **Texto de Choque** | Texto gigante rojo de impacto que domina la pantalla | SOLO en la primera imagen (Hook Visual) (00:00–00:03), embebido en el prompt  | `massive bold red text that says "[TEXTO]" positioned dead center` |
-
-### 🎬 REGLA DE ANIMACIÓN DE VIDEO: LAS 3 CAPAS DE MOVIMIENTO
-Las IA de video tienden a ser estáticas si no se les exige acción intensa. Para evitar videos congelados, el **Prompt video** debe forzar obligatoriamente tres capas de movimiento dinámico simultáneo, siempre en inglés:
-
-1. **Cámara (Cinematografía):** `fast push-in camera`, `shaky handheld camera`, `slow pan right`.
-2. **Sujeto (Acción agresiva):** Verbos fuertes. No "raises head", sino `violently recoils backward`, `smashes hand on table`, `drops the coins`.
-3. **Entorno (Partículas/Luz):** Obliga a la IA a procesar físicas. `heavy dust floating in the air`, `smoke billowing`, `dramatic flickering light`.
-
-> ⚠️ **REGLA PARA EL HOOK VISUAL (Conservación de Texto):** El texto de impacto ya fue generado en la primera imagen. Para evitar que la IA de video lo deforme o lo borre, NUNCA escribas la frase literal dentro del prompt de video. En su lugar, agrega la instrucción `text doesn't disappear in animation`.
-
-*Ejemplo perfecto (Escena normal):* `Fast push-in camera, character violently recoils backward dropping the scroll, heavy dust floating in the air, dramatic flickering amber light`
-*Ejemplo perfecto (Hook Visual con texto):* `Fast push-in camera, character violently recoils backward dropping the scroll, heavy dust floating in the air, dramatic flickering amber light, text doesn't disappear in animation`
-
-**Prioridad de Animación de Video:**
-- **RECOMENDADO:** Hook / impacto inicial, Crisis / decisión, Deuda / trampa, Giro dramático, Tensión.
-- **OPCIONAL:** Enseñanza / teoría, Transformación / esperanza, Familia / empatía, Cierre.
-
-**Regla de sincronización guión → tarjetas de producción (Shorts):**
-> Cuando generes las tarjetas de producción para Shorts, incluye la etiqueta `[PAUSA 1s]` y el prompt de animación de la cifra creciendo (ej. `number growing from 0 to 70, smooth count-up animation`) en la sección **Kling/Runway**, tal como se exige en el bloque DECODIFICACIÓN del archivo de guiones. Si el guión marca `[PAUSA 1s — número crece en pantalla]`, la tarjeta correspondiente DEBE tener el prompt de animación que ejecuta ese efecto. Sin excepción.
+1. **90% Ken Burns (Estático):** La base del formato. Mantiene la atmósfera de grabado, seriedad y control absoluto. La imagen de DALL-E se mantiene estática, y el movimiento se logra con zooms o paneos lentísimos en CapCut.
+2. **10% Animación Técnica:** Se usa SOLO para demostrar la mecánica de un sistema (ej. el flujo de capital, o gráficos llenándose). 
+   - **Prohibición Absoluta:** NUNCA animes personajes caminando, hablando o haciendo movimientos bruscos. Un grabado que no se mueve comunica "verdad eterna"; un grabado que intenta moverse y falla es una burla.
+3. **Semántica de Ruptura (El Flujo):** En las animaciones técnicas (10%), el personaje y el fondo permanecen estáticos (sepia). Lo único que se mueve o aparece es el activo/dato, el cual debe usar el color semántico correspondiente de la tabla superior (ej. Rojo para deuda/inflación, Dorado para acumulación). NUNCA uses "magenta" genérico.

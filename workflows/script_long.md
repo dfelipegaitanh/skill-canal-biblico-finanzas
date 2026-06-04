@@ -50,11 +50,11 @@ La IA debe dictar el ritmo del montaje a través de directivas explícitas en el
 El guion debe alternar entre estos tres niveles de instrucción visual:
 *   **Macro Pilar (30-60s):** Se usa al cambiar de un Pilar a otro. Es una declaración de principios. La imagen es un lienzo complejo; no hay cortes, sino un *Cámara en Mano Virtual* (zoom/pan lentísimo "descubriendo" detalles del grabado a medida que se mencionan).
 *   **Micro Flujo (8-12s):** Inspección clínica. Movimiento sutil sobre el grabado mientras se expone una tesis o puente emocional.
-*   **Punch Impacto (2-4s):** Ruptura total. Cortes rápidos y agresivos. Se usa EXCLUSIVAMENTE para lanzar datos en la *Aritmética Brutal*.
+*   **Punch Impacto (2-4s):** Ruptura total. Cortes rápidos y agresivos, o animaciones técnicas de sistema (ej. gráficos llenándose). Se usa EXCLUSIVAMENTE para lanzar datos en la *Aritmética Brutal*. NUNCA pedir animación de personajes.
 
-**B. La Puntuación Magenta (El Texto Baila)**
+**B. La Puntuación Semántica (El Texto Baila)**
 *   Prohibido subtitular todo el video.
-*   El texto en pantalla funciona como un **"Pulsar"**: el texto magenta (con el dato clave o frase de poder) aparece de golpe, como parte del grabado, y desaparece al terminar la frase. El espectador siente que las palabras marcan el ritmo del montaje.
+*   El texto en pantalla funciona como un **"Pulsar"**: el texto aparece de golpe resaltando la palabra o dato clave con un **Color Semántico** (Rojo para deuda, Dorado para capital, Verde para salida, según tu tabla de colores) y desaparece al terminar la frase. El espectador siente que las palabras marcan el ritmo del montaje.
 
 **C. Diseño Sonoro de Pegamento**
 *   **Capas de Atmósfera:** Exigir en el guion sonidos ambientales (viento, eco, pluma sobre papel antiguo) para mantener la inmersión durante los planos Macro de 60 segundos. Música industrial grave (cero inspiracional).

@@ -7,19 +7,25 @@ La IA tiene **PROHIBIDO** generar prompts de imágenes si el usuario no ha propo
 - Si el usuario pide generar imágenes pero no provee el texto con los timestamps, la IA debe responder: *"Alerta de Sistema: No puedo inventar tiempos. Por favor, provéeme el guion aprobado con sus respectivos timestamps para poder generar los prompts exactos."*
 
 ## 2. Traducción de Intenciones
-Cuando la IA genera prompts, debe tomar las *Intenciones Visuales* del guion (Macro Pilar, Micro Flujo, Punch Impacto) y fusionarlas con las reglas estéticas de `guidelines/visual_style.md` (Estilo Codex, Stick-figure, Tinta negra, Texturas, Elemento Magenta) para generar un prompt perfecto en inglés.
+Cuando la IA genera prompts, debe tomar las *Intenciones Visuales* del guion (Macro Pilar, Micro Flujo, Punch Impacto) y fusionarlas con las reglas estéticas de `guidelines/visual_style.md` (Estilo Codex, Stick-figure, Tinta negra, Texturas, Elemento en Color Semántico) para generar un prompt perfecto en inglés.
 
 ## 3. Formato de Entrega Obligatorio
-Entregar SIEMPRE la respuesta en dos partes, sin excepciones. Queda estrictamente PROHIBIDO usar tablas de Markdown, ya que comprimen el texto. No incluyas recomendaciones de CapCut ni de animación, SOLO el prompt para DALL-E.
+Entregar SIEMPRE la respuesta en dos partes, sin excepciones. Queda estrictamente PROHIBIDO usar tablas de Markdown, ya que comprimen el texto.
 
 **PARTE 1: Las Tarjetas de Producción**
-Presenta cada bloque de imagen como una tarjeta vertical y fácil de leer.
+Presenta cada bloque de imagen como una tarjeta vertical. Los campos de Video y Texto se llenan basados en la *Matriz de Autoridad Visual* (90% estático, 10% datos en movimiento) y la *Tabla de Colores Semánticos* (Rojo, Dorado, Verde, Azul, Naranja).
 
 **🎬 BLOQUE [00:00 – 00:03]**
 *   🖼️ **DALL-E:** `(Prompt visual completo en inglés, siguiendo el Estilo Codex)` [OBLIGATORIO]
+*   🎥 **Video AI (Kling/Sora):** `(Prompt de animación en inglés)` [SOLO SI APLICA: Únicamente para gráficos o mecánicas de sistema. PROHIBIDO animar personajes]
+*   ✨ **Movimiento (CapCut):** `(Instrucción de Ken Burns o Zoom lento)` [OBLIGATORIO para el 90% de las imágenes estáticas]
+*   📝 **Texto (Pulsar):** `("Frase breve", Color Semántico Ej: Rojo/Dorado/Verde)` [SOLO si la frase marca el ritmo]
 
 **🎬 BLOQUE [00:03 – 00:06]**
 *   🖼️ **DALL-E:** `(Prompt visual completo en inglés, siguiendo el Estilo Codex)` [OBLIGATORIO]
+*   🎥 **Video AI (Kling/Sora):** `(Prompt de animación en inglés)` [SOLO SI APLICA]
+*   ✨ **Movimiento (CapCut):** `(Instrucción de Ken Burns o Zoom lento)` [OBLIGATORIO]
+*   📝 **Texto (Pulsar):** `("Frase breve", Color Semántico)` [SOLO SI APLICA]
 
 *(Repetir para todos los bloques requeridos...)*
 
