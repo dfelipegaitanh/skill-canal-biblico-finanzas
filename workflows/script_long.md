@@ -32,14 +32,16 @@ Cada guion largo debe estructurarse obligatoriamente en estas 7 fases. No puedes
 
 ### Pilar 5: Puente Emocional (Tono: Amigo)
 *   **Función:** Reconexión y empatía. Validar el miedo del espectador tras haberlo asustado con la matemática.
+*   **Cambio de Marcha (Audio y Pacing):** Es obligatorio bajar drásticamente la velocidad aquí. Si en la Autopsia el ritmo era rápido, aquí se detiene. Pide silencios y un tono de voz suave.
+*   **Regla de la Mano Extendida:** Evitar la arrogancia. El golpe aritmético del Pilar 4 debe doler, pero aquí la empatía debe sentirse 100% auténtica (el tono pasa de Juez a Amigo). Demuestra que eres un guía de trinchera que entiende por qué cayó en el sistema.
 
 ### Pilar 6: Escalera de Acción (Tono: Técnico-Bíblico)
 *   **Función:** Pasos concretos de aplicación ("Haz esto esta misma semana para mover el capital").
 
 ### Pilar 7: CTA Trascendencia (Tono: Autoridad)
 *   **Función:** El **"CTA Silencioso"**. Cierre sin mendigar (prohibido pedir suscripciones o likes).
-*   **Ejecución:** Rompe el patrón usando psicología inversa y lanza un comando hacia el ecosistema del canal.
-*   **Fórmula del Guion:** *"No voy a pedirte que te suscribas. Si llegaste hasta aquí, sabes que no vendemos motivación barata. Tienes dos opciones: vuelves a la trinchera a perder dinero, o analizas cómo evitar el error de [X] en este siguiente video."*
+*   **Ejecución (El Único Paso Lógico):** Rompe el patrón usando psicología inversa. No enmarques el siguiente video como una sugerencia sutil ("si quieres saber más..."), sino como la **única salida lógica** a la crisis recién expuesta.
+*   **Fórmula del Guion:** *"No voy a pedirte que te suscribas. Si llegaste hasta aquí, sabes que no vendemos motivación barata. Tienes dos opciones: vuelves a la trinchera a perder dinero, o analizas cómo decodificar la trampa del [TEMA DEL SIGUIENTE VIDEO] en este siguiente paso del sistema."*
 
 ---
 
@@ -58,11 +60,12 @@ La IA debe dictar el ritmo del montaje a través de directivas explícitas en el
 | Escalera de Acción | 30-45s | 5-6s | Grabados de acción secuencial |
 | CTA Puente | 15-20s | 5-6s | Grabado de cierre, estático y limpio |
 
-**B. Las 3 Reglas de Autoridad Sostenida**
+**B. Las 4 Reglas de Autoridad Sostenida**
 Lo que crea la sensación de autoridad sin matar la retención NO es el tiempo de cada imagen. Es lo que pasa **dentro** de esos 5-8 segundos:
 1.  **Ken Burns Progresivo:** Cada imagen tiene un zoom o paneo lento. El cerebro percibe movimiento aunque la imagen sea estática.
 2.  **Texto Semántico Gradual:** El texto no aparece todo al mismo tiempo. A los 2 segundos aparece la primera palabra clave, a los 4 la segunda. Eso crea expectativa dentro del mismo cuadro. Usar siempre un **Color Semántico** de la tabla (`guidelines/visual_style.md`).
 3.  **Capas de Audio:** El sonido llena el "vacío" visual. Una imagen de 6 segundos con el sonido correcto (pergamino, viento, eco) se siente más densa que 15 segundos de silencio.
+4.  **Descanso Quirúrgico (Anti-Fatiga):** 12 minutos de intensidad agotan al cerebro. Después de grandes "bombas de verdad" (especialmente tras el Pilar 4 de Aritmética), inyecta un *Descanso Quirúrgico*: una imagen limpia sin texto o un silencio profundo de audio de 2-3 segundos para dejar que la verdad penetre antes de continuar.
 
 **C. La Puntuación Semántica (El Texto Baila)**
 *   Prohibido subtitular todo el video.
