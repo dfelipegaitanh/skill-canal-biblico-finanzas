@@ -29,24 +29,54 @@ La IA debe estructurar sus propuestas visuales respetando estos pilares:
 ---
 
 ## 3. Redacción de Títulos (Disonancia Bíblica)
-El título NO es descriptivo, es un secuestro de atención.
-*   **Formato Pregunta (OBLIGATORIO):** Absolutamente TODOS los títulos deben formularse como una pregunta. DEBEN empezar con una palabra interrogativa (¿Por qué...?, ¿Cómo...?, ¿Qué...?, ¿De qué...?, ¿Dónde...?, ¿Cuándo...?). Prohibidos los títulos afirmativos.
-*   **Personaje Bíblico Inmediato:** El personaje bíblico debe ir justo después de la palabra interrogativa para no perder el enganche (ej. "¿Por qué Jesús condenó tu ahorro?").
-*   **El "Tú" Directo y el Dolor:** Usa la segunda persona ("Tu", "Tus", "Te"). El título debe implicar que el espectador está perdiendo algo AHORA.
-*   **Power Words:** Debe contener una Power Word (código, sistema, decodificar, condenó, 3.000 años).
-*   **Longitud:** Máximo 40 caracteres para Shorts (porque YouTube lo corta). Máximo 60 para largos. Cero hashtags.
+El título NO es descriptivo. Es un secuestro de atención. Su único trabajo es crear una crisis cognitiva en los primeros 3 segundos de lectura.
 
-### **SEIS (6) OPCIONES DE TÍTULOS (Ordenadas por Viralidad)**
-> ⚠️ **NOTA:** La siguiente tabla es solo un ejemplo de formato. El orden de las palabras interrogativas (Por qué, Cómo, Qué, etc.) NO es estricto ni secuencial. La IA debe evaluar cuál título tiene mayor potencial de disonancia y ordenarlos puramente por su Nivel de Viralidad, independientemente de con qué palabra empiecen.
+### Reglas Fundamentales
+*   **Power Words (OBLIGATORIO):** Cada título debe contener al menos una (código, sistema, decodificar, condenó, 3.000 años).
+*   **El "Tú" Directo y el Dolor:** Usa segunda persona ("Tu", "Tus", "Te"). El título debe implicar que el espectador está perdiendo algo ahora mismo.
+*   **Personaje Bíblico:** Va en las primeras 5 palabras. Nunca enterrado al final.
+*   **Longitud:** Shorts → máximo 40 caracteres (YouTube corta el resto). Largo → máximo 60 caracteres. Cero hashtags.
+*   **Keywords long-tail:** Van al extremo izquierdo del título, antes de cualquier otra palabra. El algoritmo indexa desde el inicio.
 
-| Opción | Título (Disonancia Bíblica) | Explicación del porqué | Viralidad |
-|--------|-----------------------------|------------------------|-----------|
-| 1 | [Ej. ¿Qué...? / ¿Cómo...?] | Breve justificación... | 🔥🔥🔥🔥🔥 |
-| 2 | [Ej. ¿Por qué...?] | Breve justificación... | 🔥🔥🔥🔥 |
-| 3 | [Ej. ¿Dónde...?] | Breve justificación... | 🔥🔥🔥 |
-| 4 | [Ej. ¿De qué...?] | Breve justificación... | 🔥🔥 |
-| 5 | [Ej. ¿Cuándo...?] | Breve justificación... | 🔥 |
-| 6 | [Ej. ¿Qué...?] | Breve justificación... | 🧊 |
+### Formato del Título: Pregunta vs. Afirmación
+No existe un formato único obligatorio. Existen dos armas. Usas la que golpea más fuerte.
+
+**Formato A — Pregunta (Formato preferido)**
+*   *Estructura:* `[Interrogativa] + [Personaje Bíblico] + [Dolor directo al "Tú"]`
+*   La pregunta activa la mente del espectador y genera curiosidad. Es el formato por defecto porque baja la guardia antes del golpe.
+*   ✅ *"¿Por qué Jesús condenó tu ahorro?"*
+
+**Formato B — Afirmación Disruptiva (Crisis directa)**
+*   *Estructura:* `[Keyword long-tail] + [Personaje/sistema bíblico] + [Consecuencia para el "Tú"]`
+*   La afirmación no pregunta: declara una verdad incómoda. Úsala cuando nombrar el hecho duele más que preguntar sobre él.
+*   ✅ *"Jesús condenó al prudente. Y tú eres él."*
+*   ✅ *"Tu banco usa el sistema que Dios ya diseñó."*
+
+**⚖️ Regla de Decisión (Aplicar antes de elegir formato):**
+¿La versión afirmativa produce más incomodidad que la versión pregunta?
+*   **Sí** → Usa Afirmación (Formato B)
+*   **No / Son equivalentes** → Usa Pregunta (Formato A)
+
+### SEIS (6) OPCIONES DE TÍTULO
+Genera siempre 6 versiones. Ordénalas por nivel de viralidad descendente. El orden lo dicta la intensidad de la disonancia, no la gramática.
+
+| Opción | Formato (P/A) | Título (Disonancia Bíblica) | Por qué funciona | Viralidad |
+|--------|---------------|-----------------------------|------------------|-----------|
+| 1 | [P o A] | [Título] | Justificación breve | 🔥🔥🔥🔥🔥 |
+| 2 | [P o A] | [Título] | Justificación breve | 🔥🔥🔥🔥 |
+| 3 | [P o A] | [Título] | Justificación breve | 🔥🔥🔥 |
+| 4 | [P o A] | [Título] | Justificación breve | 🔥🔥 |
+| 5 | [P o A] | [Título] | Justificación breve | 🔥 |
+| 6 | [P o A] | [Título] | Justificación breve | 🧊 |
+*(P = Pregunta / A = Afirmación Disruptiva)*
+
+> ⛔ **ERRORES QUE INVALIDAN EL TÍTULO AUTOMÁTICAMENTE:**
+> *   **Informativo/Descriptivo:** *"El sistema financiero de José en la Biblia"*
+> *   **Clickbait sin dolor:** *"El secreto que nadie te contó"*
+> *   **Ausencia de Power Word:** *"¿Por qué Moisés manejaba bien el dinero?"*
+> *   **Personaje enterrado:** *"¿Cómo manejar tu dinero según José?"*
+> *   **Largo excedido:** Más de 40 caracteres en Shorts.
+> *   **Hashtags:** `#finanzas #biblia`
 
 ---
 
