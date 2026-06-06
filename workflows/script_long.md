@@ -75,3 +75,16 @@ Lo que crea la sensación de autoridad sin matar la retención NO es el tiempo d
 *   **Capas de Atmósfera:** Exigir en el guion sonidos ambientales (viento, eco, pluma sobre papel antiguo) para mantener la inmersión. Música acústica grave (cero inspiracional).
 *   **Inflexión de Voz:** El guion debe indicar al locutor cambios de intensidad y urgencia para evitar la monotonía.
 
+---
+
+> [!IMPORTANT]
+> **Checklist de Pre-Publicación (Obligatoria)**
+> Antes de que un guion Largo sea aprobado, DEBE cumplir con:
+> - [ ] **Arquitectura de 7 Pilares:** ¿Están presentes los 7 pilares obligatorios en el orden exacto?
+> - [ ] **Pilar 1 (Gancho Herida):** ¿El guion secuestra un dolor secular claro desde el inicio?
+> - [ ] **Pilar 4 (Aritmética Brutal):** ¿Existe un golpe de números fríos, con "Silencio Quirúrgico" y un claro "Momento de Compartir"?
+> - [ ] **Pilar 5 (Puente Emocional):** ¿Hay un cambio drástico de ritmo (descenso) y tono hacia empatía?
+> - [ ] **Pilar 7 (CTA Trascendencia):** ¿El cierre usa psicología inversa ("CTA Silencioso") en lugar de mendigar suscripciones o likes?
+> - [ ] **Regla de Pacing:** ¿Está explícitamente indicado que ninguna imagen debe durar más de 8 segundos?
+> - [ ] **Texto en Pantalla:** ¿Se usa como "Pulsar" (solo resaltando palabras/datos clave con Color Semántico) en lugar de subtitular todo?
+> - [ ] **Descanso Quirúrgico:** ¿Se incluye un silencio sonoro/visual estratégico (2-3 segundos) tras una "bomba de verdad" para evitar la fatiga?
