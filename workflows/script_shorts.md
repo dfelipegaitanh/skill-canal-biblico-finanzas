@@ -34,3 +34,16 @@ El guion debe estructurarse obligatoriamente en los siguientes cuatro bloques de
 > ⛔ **ELIMINA EL RUIDO:** Si un elemento no aporta autoridad, elimínalo. 
 > El texto en pantalla debe usarse EXCLUSIVAMENTE para **reforzar la herida** (la palabra clave del dolor), NUNCA para subtitular todo el guion.
 > 🎬 **REGLA DE ANIMACIÓN (2 Segundos):** Si el guion requiere usar Video AI en un Short, la animación **no puede durar más de 2 segundos** (Ruptura Total). Se reserva para mecánica de sistema (ej. capital esfumándose). Prohibido animar personajes.
+
+---
+
+> [!IMPORTANT]
+> **Checklist de Pre-Publicación (Obligatoria)**
+> Antes de que un guion de Short sea aprobado, DEBE cumplir con:
+> - [ ] **Duración:** ¿El video dura entre 50-60 segundos?
+> - [ ] **Bloque 1 (Hook):** ¿Ataca al "TÚ" con dolor directo en los primeros 4s?
+> - [ ] **Bloque 2 (Autopsia):** ¿Tiene versículo + término técnico?
+> - [ ] **Bloque 3 (Aritmética Brutal):** ¿Tiene UN dato macro-económico real de LATAM extraído de `aritmetica_brutal.md`?
+> - [ ] **Bloque 4 (Cierre):** ¿El CTA es de Share orgánico (NO de comentario)?
+> - [ ] **Loop:** ¿La última frase se funde EXACTAMENTE con la primera?
+> - [ ] **SEO:** ¿El título tiene keyword long-tail al inicio?
