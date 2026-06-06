@@ -84,7 +84,9 @@ Genera siempre 6 versiones. Ordénalas por nivel de viralidad descendente. El or
 El comentario fijo no es un "gracias por ver". Es una extensión del guion (El Pilar 8). Es la última bala de retención. Debe contener estrictamente:
 
 1.  **La Ruptura Extendida:** Una frase que profundiza la disonancia del video. Algo que no cabía en el guion pero que golpea igual (ej: "Lo que no dije en el video...").
-2.  **El Comando de Mapeo:** SIEMPRE. Sin excepción. Activa el algoritmo e identifica la audiencia. ("Comenta tu país 👇 — estoy mapeando dónde está la trinchera.")
+2.  **El Comando de Mapeo (Regla Dividida por Formato):** 
+    *   **Videos Largos:** SIEMPRE. Sin excepción. Activa el algoritmo e identifica la audiencia. ("Comenta tu país 👇 — estoy mapeando dónde está la trinchera.")
+    *   **Shorts:** PROHIBIDO pedir "comenta tu país". En su lugar, usa un CTA de **Share** que refuerce la acción del video (Ej: "Mándale este código a quien sigue perdiendo frente a la inflación").
 3.  **El Puente de Autoridad:** Un link al siguiente video del sistema. No como recomendación casual, sino como paso lógico obligatorio.
 
 > ⛔ **ANTI-LISTA DEL COMENTARIO FIJADO:**
@@ -92,6 +94,7 @@ El comentario fijo no es un "gracias por ver". Es una extensión del guion (El P
 > *   Prohibido mendigar "No olvides suscribirte..."
 > *   Prohibido usar emojis decorativos sin función.
 > *   Prohibido hacer resúmenes del video.
+> *   Prohibido pedir "comenta tu país" en Shorts (optimiza para retención/share, no para vanity metrics).
 
 ---
 
@@ -112,4 +115,4 @@ Cuando el usuario pida empaquetar un video, la IA debe entregar el siguiente blo
 *   🖼️ **Prompt DALL-E:** `(El prompt exacto en inglés para generar el concepto visual, cruzando los 3 Pilares con el Estilo Codex. Asegúrate de incluir el objeto focal dominando el 50-70% del encuadre. DEBE incluir la orden explícita para que la IA dibuje el texto usando Color Semántico: "massive bold distressed text that says '[TEXTO EN ROJO/DORADO]' positioned [ubicación]")`
 
 **COMENTARIO FIJADO (El Pilar 8)**
-*   💬 **Texto del Comentario:** `(El comentario redactado cruzando La Ruptura Extendida + El Comando de Mapeo + El Puente de Autoridad, listo para copiar y pegar)`
+*   💬 **Texto del Comentario:** `(El comentario redactado cruzando La Ruptura Extendida + El Comando de Mapeo [Share para Shorts / País para Largos] + El Puente de Autoridad, listo para copiar y pegar)`
