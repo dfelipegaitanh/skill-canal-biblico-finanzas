@@ -47,3 +47,4 @@ El guion debe estructurarse obligatoriamente en los siguientes cuatro bloques de
 > - [ ] **Bloque 4 (Cierre):** ¿El CTA es de Share orgánico (NO de comentario)?
 > - [ ] **Loop:** ¿La última frase se funde EXACTAMENTE con la primera?
 > - [ ] **SEO:** ¿El título tiene keyword long-tail al inicio?
+> - [ ] **Test del Sistema:** ¿Si quitas TODAS las referencias bíblicas, el guion sigue siendo una clase de ingeniería financiera brutal? Si no, es un sermón disfrazado.
