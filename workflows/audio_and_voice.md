@@ -10,11 +10,11 @@
 ## 2. Sistema de Generación de Voz (Google AI Studio)
 La IA debe entregar su respuesta dentro de un bloque de código (`text`) con 3 campos (`SCENE`, `SAMPLE CONTEXT`, `TEXT`). 
 *   **Para Shorts:** Se entrega todo en **un solo bloque continuo** (de corrido).
-*   **Para Videos Largos:** Se debe entregar **bloque por bloque** (separado por cada Pilar), repitiendo la estructura de los 3 campos para cada bloque.
+*   **Para Videos Largos:** Se debe entregar **bloque por bloque** (separado por cada Fase), repitiendo la estructura de los 3 campos para cada bloque.
 
 **Formato de Salida de Voz:**
 ```text
-[BLOQUE / PILAR #] (Solo si es video largo)
+[BLOQUE / FASE #] (Solo si es video largo)
 
 SCENE
 [Descripción en inglés del arco visual completo. Qué aparece en pantalla, qué hace el personaje. El arco visual siempre sigue al guion, no lo contradice.]
@@ -23,9 +23,9 @@ SAMPLE CONTEXT
 [Descripción en inglés del viewer y del tono. Ej: "Urgent delivery, fast-paced pacing, no slow meditation". Describir las pausas críticas.]
 
 TEXT
-[Guion en español intercalado con etiquetas de emoción. Si es Short: texto completo de corrido. Si es Largo: solo el texto correspondiente a este bloque/pilar.]
+[Guion en español intercalado con etiquetas de emoción. Si es Short: texto completo de corrido. Si es Largo: solo el texto correspondiente a este bloque/fase.]
 ```
-*(Si es un video largo, repetir esta estructura SCENE/CONTEXT/TEXT para el siguiente bloque/pilar dentro del mismo código `text`)*
+*(Si es un video largo, repetir esta estructura SCENE/CONTEXT/TEXT para el siguiente bloque/fase dentro del mismo código `text`)*
 
 ### Etiquetas de Emoción para el campo TEXT:
 *   `[somber]` Momentos graves, peso emocional.
@@ -35,6 +35,8 @@ TEXT
 *   `[emphatic]` El golpe clave.
 *   `[sharp]` Cortante, revelación cruda.
 *   `[fast]` Avalancha de datos técnicos.
+*   `[pensive]` Momento de reflexión antes de una revelación clave.
+*   `[declarative]` Declaración solemne o convicción firme.
 
 ---
 
