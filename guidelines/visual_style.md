@@ -70,12 +70,15 @@
 | **Escena de Deuda / Trampa** | Locked iron gates, enclosed stone walls closing in, papers on floor, well-lit indoor environment |
 | **Atmósfera Emocional** | Storm clouds (crisis), golden rays breaking through (hope), heavy dark sky (guilt) |
 
-### [CHARACTER_RULE] — Bloque Reutilizable (Inyectar en TODO prompt)
+### 🅰️ Bloques Reutilizables para SHORTS (Estilo Codex Intenso)
+Se usa para videos cortos. Trazos gruesos, 1 personaje, alto contraste.
+
+**[CHARACTER_RULE_SHORTS]**
 ```text
-Character rule: STRICTLY NO realistic human faces, no noses, no detailed ears or skin. Character MUST be a 2D stick-figure with a perfectly round unfilled white head with thick black outlines, expressive cartoon eyes with pupils and thick bold black eyebrows showing [EMOCIÓN] (but not so volatile). Hands MUST be simple outlined cartoon gloves (no realistic knuckles or nails), wearing a simple ancient [flowing tunic / plain shirt] with stylized folds.
+Character rule: STRICTLY NO realistic human faces, no noses, no detailed ears or skin. Character MUST be a single 2D stick-figure with a perfectly round unfilled white head with thick black outlines, expressive cartoon eyes with pupils and thick bold black eyebrows showing [EMOCIÓN] (but not so volatile). Hands MUST be simple outlined cartoon gloves (no realistic knuckles or nails), wearing a simple ancient [flowing tunic / plain shirt] with stylized folds.
 ```
 
-### [STYLE_RULE] — Bloque Reutilizable (Inyectar en TODO prompt)
+**[STYLE_RULE_SHORTS]**
 ```text
 premium hand-drawn comic book aesthetic with clean precision. STRICTLY NO 3D rendering, no CGI, no watercolor, no anime.
 smooth solid warm beige background (#E8D5B0) completely free of paper grain or noise,
@@ -83,17 +86,35 @@ thick bold hand-drawn black ink outlines with clean, crisp and solid edges,
 flat cel-shading and smooth digital color wash for rich volumetric depth,
 everything else in crisp black ink outlines on fully visible, well-lit environments,
 strictly no high-frequency noise, no pencil sketch marks, no dust particles, optimized for video animation,
-optional environmental text in Spanish only
+STRICTLY NO TEXT, NO WORDS, NO LETTERS IN THE IMAGE
+```
+
+### 🅱️ Bloques Reutilizables para LONGS (Estilo Pastel / Delicado)
+Se usa para videos de 20 minutos. Líneas delicadas, pasteles, menos detalle, hasta 3 personajes, 1 elemento de tensión, cero texto.
+
+**[CHARACTER_RULE_LONGS]**
+```text
+Character rule: 1 to 3 characters interacting. STRICTLY NO realistic human faces, no noses, no detailed ears or skin. Characters MUST be 2D stick-figures with perfectly round unfilled white heads with black outlines, expressive cartoon eyes and eyebrows showing [EMOCIÓN]. If a biblical character is required, add ancient biblical props (e.g., worn golden crowns, ancient staffs, royal robes) to the stick-figure to clearly distinguish them.
+```
+
+**[STYLE_RULE_LONGS]**
+```text
+clean and delicate minimalist aesthetic, pastel colors, soft and delicate thin outlines,
+low level of detail to avoid visual overload over 20 minutes,
+smooth solid warm beige background (#E8D5B0) completely free of paper grain or noise,
+only ONE single central element of tension or focus,
+flat cel-shading and smooth digital color wash for depth, well-lit environments,
+STRICTLY NO TEXT, NO WORDS, NO LETTERS IN THE IMAGE
 ```
 
 ---
 
-**Prompt base general (sustituir campos en MAYÚSCULAS):**
+**Prompt base general (Sustituir campos y usar la Regla correspondiente a Short o Long):**
 ```text
-[DESCRIPCIÓN DEL PERSONAJE Y ACCIÓN EN EL PRIMER PLANO]. [CHARACTER_RULE],
-— midground: [objeto secundario o figura de contexto en trazos medianos de tinta],
-— background: [ELEMENTO CONTEXTUAL] drawn in dark, slightly thinner hand-drawn sketchy outlines, with stone cracks and wood grain, NO dark environment, completely eliminating deep dark shadows,
-[STYLE_RULE],
+[DESCRIPCIÓN DE LA ESCENA EN PRIMER PLANO]. [CHARACTER_RULE_SHORTS o LONGS],
+— midground: [objeto secundario o figura de contexto],
+— background: [ELEMENTO CONTEXTUAL], NO dark environment, completely eliminating deep dark shadows,
+[STYLE_RULE_SHORTS o LONGS],
 color accent rule: [ELEMENTO PRINCIPAL DE IMPACTO] in [COLOR + HEX] — main accent,
 [ELEMENTO DE CONTRASTE SECUNDARIO] in [COLOR + HEX] — secondary accent
 ```
