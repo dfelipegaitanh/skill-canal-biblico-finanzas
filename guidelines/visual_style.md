@@ -86,6 +86,7 @@ thick bold hand-drawn black ink outlines with clean, crisp and solid edges,
 flat cel-shading and smooth digital color wash for rich volumetric depth,
 everything else in crisp black ink outlines on fully visible, well-lit environments,
 strictly no high-frequency noise, no pencil sketch marks, no dust particles, optimized for video animation,
+STRICT ELEMENT LIMIT: Maximum of 3 to 4 narrative objects in the entire image to avoid visual clutter.
 STRICTLY NO TEXT, NO WORDS, NO LETTERS IN THE IMAGE
 ```
 
@@ -94,7 +95,7 @@ Se usa para videos de 20 minutos. Líneas delicadas, pasteles, menos detalle, ha
 
 **[CHARACTER_RULE_LONGS]**
 ```text
-Character rule: 1 to 3 characters interacting. STRICTLY NO realistic human faces, no noses, no detailed ears or skin. Characters MUST be 2D stick-figures with perfectly round unfilled white heads with black outlines, expressive cartoon eyes and eyebrows showing [EMOCIÓN]. If a biblical character is required, add ancient biblical props (e.g., worn golden crowns, ancient staffs, royal robes) to the stick-figure to clearly distinguish them.
+Character rule: 1 to 3 characters interacting. STRICTLY NO realistic human faces, no noses, no detailed ears or skin. Characters MUST be 2D stick-figures with perfectly round unfilled white heads with black outlines, expressive cartoon eyes and eyebrows showing [EMOCIÓN]. If a biblical character is required, add ancient biblical props (e.g., worn golden crowns, ancient staffs, royal robes) to the stick-figure to clearly distinguish them. The biblical character MUST remain the absolute main focal point; any other narrative objects must be visually subordinate and placed subtly to avoid competing for attention.
 ```
 
 **[STYLE_RULE_LONGS]**
