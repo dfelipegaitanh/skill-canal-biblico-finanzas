@@ -41,7 +41,7 @@ Sin importar la modalidad (Short o Largo), siempre debes entregar tu respuesta f
 *   Etiqueta indicando qué estás generando (Ej: `SHORT (50 segundos)` o `LARGO (20 minutos)`).
 
 ### 3. Guion Final
-*   El texto completo, fluido y limpio que leerá el locutor. 
+*   El texto completo, fluido y limpio que leerá el locutor.
 *   **Límite de Palabras:** ~120 palabras para Shorts, ~3.000 palabras para Largos (Ritmo de 150 PPM).
 
 ### 4. Tabla de Indicaciones de Edición y Visuales
