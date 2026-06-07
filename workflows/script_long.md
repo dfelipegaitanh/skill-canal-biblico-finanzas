@@ -35,7 +35,7 @@ Esta es la carne del video. Se divide obligatoriamente en **3 secciones secuenci
 
 > [!IMPORTANT]
 > **⏱️ BLINDAJE DE RITMO VISUAL DE RETENCIÓN (INAMOVIBLE):**
-> En videos de 20 minutos, la hipnosis visual es innegociable. Cada directiva visual `[Visual: ...]` insertada en el guion DEBE abarcar **EXACTAMENTE de 5 a 6 segundos** de lectura del locutor. ¡Nunca más, nunca menos!
+> En videos de 20 minutos, la hipnosis visual es innegociable. Cada directiva visual `[Visual: ...]` insertada en el guion DEBE abarcar **EXACTAMENTE de 6 a 9 segundos** de lectura del locutor. ¡Nunca más, nunca menos!
 
 ### Integración Visual Estricta
 *   **CERO Texto:** NO TEXTOS en la imagen.

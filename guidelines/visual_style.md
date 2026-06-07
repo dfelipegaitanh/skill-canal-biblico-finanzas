@@ -1,5 +1,10 @@
 ## Estilo "Codex" (Manuscrito Da Vinci)
 
+> [!IMPORTANT]
+> **⏱️ BLINDAJE DE RITMO VISUAL DE RETENCIÓN (INAMOVIBLE):**
+> La IA tiene prohibido agrupar grandes bloques de texto en una sola imagen. La Tabla de Edición DEBE fragmentar el texto rigurosamente respetando esta matemática:
+> - **Para SHORTS:** Cada prompt visual abarca **EXACTAMENTE de 3 a 5 segundos** del guion hablado.
+> - **Para LONGS:** Cada prompt visual abarca **EXACTAMENTE de 6 a 9 segundos** del guion hablado.
 **Paleta:**
 | Uso | Hex |
 |-----|-----|

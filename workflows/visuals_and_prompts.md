@@ -14,8 +14,11 @@ Antes de generar las Tarjetas, la IA DEBE analizar el timestamp final del guion 
 *   **Si el guion total dura menos de 60 segundos:** ES UN SHORT.
 *   **Si el guion total dura más de 60 segundos:** ES UN LARGO.
 
-> ⛔ **BLINDAJE DE RETENCIÓN PARA SHORTS (3-5s):** 
-> Si la IA deduce que es un Short, queda ESTRICTAMENTE PROHIBIDO generar Tarjetas de Producción que superen los 5 segundos de duración. La IA debe fragmentar el texto del guion y generar OBLIGATORIAMENTE un prompt de imagen cada **3 a 5 segundos máximo** (ej: `[00:00 - 00:03]`, `[00:03 - 00:07]`). Si el texto de un bloque provisto por el usuario dura 10 segundos, la IA asume el control del montaje y lo parte en dos o tres Tarjetas de Producción distintas con prompts visuales diferentes para forzar la retención.
+> [!IMPORTANT]
+> **⏱️ BLINDAJE DE RITMO VISUAL DE RETENCIÓN (INAMOVIBLE):**
+> La IA tiene prohibido agrupar grandes bloques de texto en una sola imagen. La Tabla de Edición DEBE fragmentar el texto rigurosamente respetando esta matemática:
+> - **Para SHORTS:** Cada prompt visual abarca **EXACTAMENTE de 3 a 5 segundos** del guion hablado.
+> - **Para LONGS:** Cada prompt visual abarca **EXACTAMENTE de 6 a 9 segundos** del guion hablado.
 
 ## 4. Formato de Entrega Obligatorio
 Entregar SIEMPRE la respuesta en dos partes, sin excepciones. Queda estrictamente PROHIBIDO usar tablas de Markdown, ya que comprimen el texto.
