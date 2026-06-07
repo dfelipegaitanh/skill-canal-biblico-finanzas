@@ -48,9 +48,9 @@ La música justifica la inmersión estática de los planos Macro.
 Cuando el usuario pida música, entrega este prompt para herramientas de generación musical (ej. Suno/Udio/Suno):
 ```text
 Acoustic instrumental music for a Spanish-language YouTube channel about biblical principles and personal finance.
-Mood: starts tense and uncomfortable for the first 5 seconds, then strictly transitions into [contemplative/warm/reflective] and remains highly harmonious.
-Tempo: slow to mid (55-75 BPM).
-Instruments: classical or Spanish acoustic guitar as the main instrument.
-Exclusions: strictly no vocals or choirs, no hip-hop/trap beats, no electronic elements, no heavy percussion, no sad or heavy rhythms after the initial tension.
-Texture: intimate, warm, and highly harmonious — like a private conversation.
+Mood: starts tense and uncomfortable for the first 5 seconds, then strictly transitions into [uplifting/optimistic/bright] and remains highly energetic and harmonious.
+Tempo: mid to fast (90-115 BPM).
+Instruments: upbeat classical or Spanish acoustic guitar as the main instrument.
+Exclusions: strictly no vocals or choirs, no hip-hop/trap beats, no electronic elements, no heavy percussion, absolutely no sad, melancholic, or somber melodies.
+Texture: bright, dynamic, and inspiring — driving momentum and clarity.
 ```
