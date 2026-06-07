@@ -26,14 +26,12 @@ Presenta cada bloque de imagen como una tarjeta vertical. Los campos de Video y 
 **🎬 BLOQUE [00:00 – 00:03]**
 *   🗣️ **Audio/Guion:** `"(Texto literal del guion que cubre este bloque)"` [OBLIGATORIO]
 *   🖼️ **DALL-E:** `(Prompt visual completo en inglés, siguiendo el Estilo Codex)` [OBLIGATORIO]
-*   🎥 **Video AI (Kling/Sora):** `(Prompt de animación en inglés)` [SOLO SI APLICA: Únicamente para gráficos o mecánicas de sistema. PROHIBIDO animar personajes]
 *   ✨ **Movimiento (CapCut):** `(Instrucción de Ken Burns o Zoom lento)` [OBLIGATORIO para el 90% de las imágenes estáticas]
 *   📝 **Texto (Pulsar):** `("Frase breve", Color Semántico Ej: Rojo/Dorado/Verde)` [SOLO si la frase marca el ritmo]
 
 **🎬 BLOQUE [00:03 – 00:06]**
 *   🗣️ **Audio/Guion:** `"(Texto literal del guion que cubre este bloque)"` [OBLIGATORIO]
 *   🖼️ **DALL-E:** `(Prompt visual completo en inglés, siguiendo el Estilo Codex)` [OBLIGATORIO]
-*   🎥 **Video AI (Kling/Sora):** `(Prompt de animación en inglés)` [SOLO SI APLICA]
 *   ✨ **Movimiento (CapCut):** `(Instrucción de Ken Burns o Zoom lento)` [OBLIGATORIO]
 *   📝 **Texto (Pulsar):** `("Frase breve", Color Semántico)` [SOLO SI APLICA]
 
