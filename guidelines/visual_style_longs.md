@@ -97,7 +97,9 @@ The recurring biblical teacher remains the primary visual anchor of the channel 
 Supporting characters may represent universal archetypes: father, mother, young worker, merchant, business owner, servant, steward, farmer, debtor, lender, investor, shopper, family member.
 Supporting characters should feel timeless and culturally neutral rather than tied to a specific historical period.
 Faces are stylized and illustrative rather than realistic: small expressive eyes, subtle eyebrows, minimal facial detail, no skin pores, no hyper-realistic anatomy, no exaggerated cartoon features, no oversized mascot eyes.
-Characters wear simple ancient robes, shawls, sandals, belts, or modest period-appropriate garments.
+The recurring biblical teacher wears biblical-inspired robes.
+
+Supporting characters wear simple timeless garments that feel culturally neutral and universally relatable, avoiding both modern fashion and historically specific costumes.
 The primary character must remain the clear focal point of the image.
 Supporting characters are visually secondary.
 Maximum 3 characters.
