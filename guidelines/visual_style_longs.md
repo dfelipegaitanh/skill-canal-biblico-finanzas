@@ -4,6 +4,23 @@ Esta guía establece el estándar visual "Premium Biblical Editorial" para los v
 
 ## Flujo de Trabajo Obligatorio (Lógica de Generación)
 
+**[NARRATIVE_FIRST_RULE]**
+```text
+NARRATIVE FIRST RULE:
+For every scene, prioritize the following decision hierarchy:
+1. What is the audience supposed to feel?
+2. What is the audience supposed to understand?
+3. What is the most effective visual metaphor?
+4. Which characters should carry the scene?
+5. Which objects best support the scene?
+
+Objects exist to support the narrative.
+The narrative does not exist to showcase objects.
+Whenever a character action, facial expression, relationship, consequence, temptation, or emotional situation communicates the lesson more effectively than an object, prioritize the human story.
+Strong visual storytelling is preferred over literal symbolic translation.
+The generator should optimize for emotional resonance, visual variety, and narrative clarity while remaining fully consistent with the Premium Biblical Editorial world.
+```
+
 Antes de ensamblar el prompt visual, es **OBLIGATORIO** aplicar la capa lógica de clasificación y traducción conceptual.
 
 ### Pasos:
@@ -17,10 +34,32 @@ Antes de ensamblar el prompt visual, es **OBLIGATORIO** aplicar la capa lógica 
 | Categoría | Uso Principal | Emoción / Atmósfera | Elementos Frecuentes |
 | :--- | :--- | :--- | :--- |
 | **PARABLE** | Historias y enseñanzas figurativas | Reflexión, curiosidad, asombro | Maestro enseñando, uno o dos oyentes, objeto simbólico principal. |
-| **TEACHING** | Explicaciones bíblicas directas | Sabiduría, convicción, calma | Pergaminos, actitud de instrucción, luz cálida. |
+| **TEACHING** | Explicaciones bíblicas directas | Sabiduría, convicción, calma | Teaching gestures, listening posture, balance scale, open hand, key, scrolls when scripture itself is being referenced. |
 | **MONEY** | Dinero, riqueza, ahorro material | Interés, atención, responsabilidad | Monedas, balanzas, bolsas, cofres. |
 | **WARNING** | Errores, deudas, codicia, peligro | Preocupación, cautela, arrepentimiento | Bolsas cerradas, contratos rotos. La tensión visual se logra por la postura y arreglo de los objetos, manteniendo la iluminación consistente. |
 | **STEWARDSHIP**| Administración responsable, inversión | Humildad, responsabilidad, gratitud | Monedas organizadas, siembra, balanzas. |
+
+**[VISUAL_INTERPRETATION_FREEDOM_RULE]**
+```text
+VISUAL INTERPRETATION FREEDOM RULE:
+The Conceptual Translation Table exists to communicate narrative meaning, not to force specific visual objects.
+The examples provided in the table represent possible visual interpretations rather than mandatory objects.
+For every scene, the generator should first identify the underlying narrative meaning, emotion, consequence, temptation, conflict, lesson, or transformation being communicated.
+Only after identifying the narrative meaning should the generator select the most effective visual representation.
+The generator may communicate the same concept through:
+* Approved objects
+* Character actions
+* Character relationships
+* Emotional posture
+* Environmental metaphors
+* Symbolic arrangements
+* Visual contrast
+* Cause-and-effect storytelling
+
+When multiple valid representations exist, prioritize the one that creates the strongest visual storytelling, emotional clarity, and scene variety.
+Avoid repeatedly selecting the same symbolic representation when alternative representations communicate the same meaning equally well.
+The objective is narrative clarity, not object consistency.
+```
 
 ### Tabla de Traducción Conceptual Avanzada
 Nunca uses mapeos 1 a 1 para evitar repetición de imágenes. Traduce el concepto moderno a una metáfora bíblica y selecciona una de las opciones físicas de la Biblioteca de Objetos:
@@ -36,8 +75,12 @@ Nunca uses mapeos 1 a 1 para evitar repetición de imágenes. Traduce el concept
 | Interés compuesto | Crecimiento gradual | seed bag / growing coin stacks |
 | Flujo de caja | Entrada y salida de recursos | coin stacks being organized |
 | Ahorro | Acumulación disciplinada | clay jar / coin stack |
-| Sabiduría | Conocimiento revelado | open scroll |
+| Sabiduría | Conocimiento revelado / Guía | open scroll / listening posture / balance scale / key / teaching gesture |
 | Confianza | Entrega de recursos | open hand receiving coin |
+| Estafa piramidal / Esquemas rápidos | Falsas promesas / Engaño | merchant receiving suspicious contract / withered plant |
+| Comparación social / Estatus | Envidia / Vanidad | overloaded basket / single fruit / closed gate |
+| Consumo impulsivo | Tentación / Falta de dominio | single fruit / open hand near temptation |
+| Agotamiento / Ansiedad por deudas | Opresión / Carga de consecuencias | empty chair / broken jar / young worker looking exhausted / unfinished wall |
 
 ### Biblioteca Oficial de Objetos Autorizados (APPROVED OBJECT LIBRARY)
 Para evitar que la IA invente elementos modernos o extraños, el foco narrativo debe extraerse estrictamente de esta lista:
@@ -58,10 +101,52 @@ Para evitar que la IA invente elementos modernos o extraños, el foco narrativo 
 * oil lamp
 * key
 * bundle of bills (styled as ancient paper/parchment)
+* empty chair
+* broken jar
+* closed gate
+* unfinished wall
+* overloaded basket
+* single fruit
+* withered plant
+* healthy plant
+* pathway
+* forked road
+
+**[APPROVED_OBJECT_LIBRARY_INTERPRETATION_RULE]**
+```text
+APPROVED OBJECT LIBRARY INTERPRETATION RULE:
+The Approved Object Library serves as the primary source of symbolic objects and visual anchors.
+However, the library is not intended to function as a restrictive whitelist.
+Additional supporting elements may be introduced when they:
+* Naturally reinforce the scene
+* Remain consistent with the biblical editorial world
+* Do not introduce modern technology or modern aesthetics
+* Do not compete with the primary narrative focus
+* Improve storytelling clarity
+
+Examples may include:
+* rope
+* empty bowl
+* worn travel bag
+* folded document
+* simple container
+* spilled grain
+* wooden tools
+* market goods
+* simple household items
+* agricultural elements
+
+These supporting elements should remain secondary to the approved symbolic objects and should never become dominant recurring symbols.
+Narrative quality takes priority over strict object enforcement.
+```
 
 **[OBJECT DISTRIBUTION RULE]**
 Para evitar fatiga visual extrema en videos largos:
 *Avoid using the same primary object for more than three consecutive scenes whenever alternative approved objects can communicate the same concept.*
+
+**[SCRIPTURE_SCENE_RULE]**
+Ancient scrolls should appear primarily when scripture itself is being referenced, quoted, revealed, interpreted, or explained.
+For practical financial lessons, consequences, temptations, family struggles, debt, scarcity, diligence, stewardship, and everyday economic decisions, visual storytelling should rely primarily on characters and approved symbolic objects rather than scrolls.
 
 ---
 
@@ -90,6 +175,16 @@ The scene should feel intimate, focused, timeless, and instructional.
 ```
 
 ### 2. Personajes y Continuidad
+
+**[NARRATIVE_PRESENCE_RULE]**
+```text
+NARRATIVE PRESENCE RULE:
+The recurring biblical teacher should appear in approximately 40% to 60% of scenes.
+In scenes focused on consequences, temptation, financial struggle, debt, envy, scarcity, family pressure, diligence, stewardship, or everyday financial decisions, supporting characters may become the primary narrative focus.
+The biblical teacher remains the intellectual guide of the video but does not need to physically appear in every scene.
+The teacher should appear more frequently during teaching, interpretation, warning, and conclusion moments.
+```
+
 **[CHARACTER_RULE_BIBLICAL_EDITORIAL]**
 ```text
 Character rule: 1 to 3 adult characters interacting naturally within a financial, teaching, stewardship, or parable-based scene.
@@ -185,53 +280,24 @@ Slightly stronger contrast than standard scenes.
 
 ---
 
-## Templates Generadores
+## Regla de Síntesis para Generación de Prompts
 
-### TEMPLATE PRINCIPAL
-Se usa para el 99% de las escenas del video. Este template unifica todas las reglas de consistencia para prevenir fatiga visual y anacronismos a gran escala.
+> [!WARNING]
+> **TIENES ESTRICTAMENTE PROHIBIDO copiar y pegar el texto literal de las reglas** dentro de los prompts de imagen (ej. no pongas "Character rule: 1 to 3 adult..."). 
+> Esto satura a Midjourney/DALL-E y arruina la generación.
 
-```text
-[SCENE ACTION OR PARABLE MOMENT]
+Tu trabajo es **SINTETIZAR** todas las reglas aplicables en un único párrafo en inglés, conciso y orgánico (de 40 a 60 palabras máximo), que describa visualmente la escena.
 
-[CHARACTER_RULE_BIBLICAL_EDITORIAL]
-[MASTER_TEACHER_IDENTITY_RULE]
-[VISUAL_CONTINUITY_RULE]
+### Estructura de Prompt Requerida
 
-— narrative focus: [MAIN FINANCIAL OR PARABLE OBJECT FROM APPROVED LIBRARY]
+Cada prompt debe ser un solo bloque de texto fluido con esta estructura:
 
-— supporting narrative element: [OPTIONAL SECONDARY OBJECT OR LISTENER REACTION]
+`"[Acción de los personajes, incluyendo descripción del maestro bíblico y ropa neutral de la audiencia] + [Foco narrativo: objeto aprobado de la biblioteca] + [Contexto del entorno sugerido mínimo] + [Estilo: Premium biblical finance editorial illustration, digital watercolor, refined ink sketch, muted earth tones, soft natural lighting, extremely clean composition, minimalist visual storytelling, no text]."`
 
-— environmental suggestion: [OPTIONAL MINIMAL CONTEXTUAL ELEMENT]
+### Ejemplos Correctos (Lo que DEBES entregar)
 
-[TIME_PERIOD_RULE]
-[FRAME_READABILITY_RULE]
-[VARIATION_RULE]
-[COMPOSITION_RULE_BIBLICAL_EDITORIAL]
-[ENVIRONMENT_RULE_BIBLICAL_EDITORIAL]
-[STYLE_RULE_BIBLICAL_EDITORIAL]
-```
+**Ejemplo 1 (Escena normal):**
+`"A middle-aged biblical teacher with a short neatly groomed beard and simple ivory robe, pointing cautiously toward a sealed contract lying on a small wooden table. A young worker in simple timeless neutral garments looks on with curiosity. Faint architectural silhouette in the background. Premium biblical finance editorial illustration, digital watercolor, refined ink sketch, muted earth tones, soft natural lighting, extremely clean composition, minimalist visual storytelling, no text."`
 
-### TEMPLATE CTA
-Exclusivo para la llamada a la acción (Cierre del video). Rompe la cuarta pared para indicar al espectador que el video está concluyendo.
-
-```text
-A biblical teacher directly addressing the viewer with calm authority and conviction.
-
-[CHARACTER_RULE_BIBLICAL_EDITORIAL]
-[MASTER_TEACHER_IDENTITY_RULE]
-[VISUAL_CONTINUITY_RULE]
-
-The teacher is positioned slightly forward and looking directly into the viewer's eyes.
-One hand is gently extended toward the audience as if inviting reflection or action.
-
-— narrative focus: a single [gold coin / ancient scroll / clay jar / balance scale] positioned naturally near the extended hand.
-
-— supporting narrative element: subtle warm light illuminating the teaching object.
-
-— environmental suggestion: faint stone wall or simple interior architectural cue.
-
-[TIME_PERIOD_RULE]
-[CTA_VISUAL_RULE]
-[ENVIRONMENT_RULE_BIBLICAL_EDITORIAL]
-[STYLE_RULE_BIBLICAL_EDITORIAL]
-```
+**Ejemplo 2 (Escena CTA de Cierre):**
+`"A middle-aged biblical teacher with a short neatly groomed beard and simple ivory robe, positioned slightly forward and looking directly into the viewer's eyes with calm authority. One hand is gently extended, with a gold coin positioned naturally near the hand. Subtle warm light illuminating the coin, faint stone wall background. Premium biblical finance editorial illustration, digital watercolor, refined ink sketch, muted earth tones, soft natural lighting, extremely clean composition, no text."`
