@@ -1,10 +1,7 @@
 ## Estilo "Codex" (Manuscrito Da Vinci)
 
 > [!IMPORTANT]
-> **⏱️ BLINDAJE DE RITMO VISUAL DE RETENCIÓN (INAMOVIBLE):**
-> La IA tiene prohibido agrupar grandes bloques de texto en una sola imagen. La Tabla de Edición DEBE fragmentar el texto rigurosamente respetando esta matemática:
-> - **Para SHORTS:** Cada prompt visual abarca **EXACTAMENTE de 3 a 5 segundos** del guion hablado.
-> - **Para LONGS:** Cada prompt visual abarca **EXACTAMENTE de 6 a 9 segundos** del guion hablado.
+> **⏱️ RITMO VISUAL:** Ver la regla de pacing canónico en `workflows/visuals_and_prompts.md`.
 **Paleta:**
 | Uso | Hex |
 |-----|-----|
@@ -90,32 +87,16 @@ STRICT ELEMENT LIMIT: Maximum of 3 to 4 narrative objects in the entire image to
 STRICTLY NO TEXT, NO WORDS, NO LETTERS IN THE IMAGE
 ```
 
-### 🅱️ Bloques Reutilizables para LONGS (Estilo Pastel / Delicado)
-Se usa para videos de 20 minutos. Líneas delicadas, pasteles, menos detalle, hasta 3 personajes, 1 elemento de tensión, cero texto.
 
-**[CHARACTER_RULE_LONGS]**
-```text
-Character rule: 1 to 3 characters interacting. STRICTLY NO realistic human faces, no noses, no detailed ears or skin. Characters MUST be 2D stick-figures with perfectly round unfilled white heads with black outlines, expressive cartoon eyes and eyebrows showing [EMOCIÓN]. If a biblical character is required, add ancient biblical props (e.g., worn golden crowns, ancient staffs, royal robes) to the stick-figure to clearly distinguish them. The biblical character MUST remain the absolute main focal point; any other narrative objects must be visually subordinate and placed subtly to avoid competing for attention.
-```
-
-**[STYLE_RULE_LONGS]**
-```text
-clean and delicate minimalist aesthetic, pastel colors, soft and delicate thin outlines,
-low level of detail to avoid visual overload over 20 minutes,
-smooth solid warm beige background (#E8D5B0) completely free of paper grain or noise,
-only ONE single central element of tension or focus,
-flat cel-shading and smooth digital color wash for depth, well-lit environments,
-STRICTLY NO TEXT, NO WORDS, NO LETTERS IN THE IMAGE
-```
 
 ---
 
-**Prompt base general (Sustituir campos y usar la Regla correspondiente a Short o Long):**
+**Prompt base general para SHORTS (Sustituir campos):**
 ```text
-[DESCRIPCIÓN DE LA ESCENA EN PRIMER PLANO]. [CHARACTER_RULE_SHORTS o LONGS],
+[DESCRIPCIÓN DE LA ESCENA EN PRIMER PLANO]. [CHARACTER_RULE_SHORTS],
 — midground: [objeto secundario o figura de contexto],
 — background: [ELEMENTO CONTEXTUAL], NO dark environment, completely eliminating deep dark shadows,
-[STYLE_RULE_SHORTS o LONGS],
+[STYLE_RULE_SHORTS],
 color accent rule: [ELEMENTO PRINCIPAL DE IMPACTO] in [COLOR + HEX] — main accent,
 [ELEMENTO DE CONTRASTE SECUNDARIO] in [COLOR + HEX] — secondary accent
 ```

@@ -8,7 +8,7 @@ Versión definitiva de la Skill operativa del canal **Código Bíblico del Diner
 *   `SKILL.md`: El cerebro de la operación. Contiene la filosofía del canal y las tablas de enrutamiento que dictan qué módulos cargar.
 
 ### 1. Guías Base (`/guidelines`)
-*   `guidelines/visual_style.md`: La **Matriz de Autoridad Visual para Shorts**. Estilo "Codex", paleta de colores semánticos, prompts base reutilizables.
+*   `guidelines/visual_style_shorts.md`: La **Matriz de Autoridad Visual para Shorts**. Estilo "Codex", paleta de colores semánticos, prompts base reutilizables.
 *   `guidelines/visual_style_longs.md`: La **Matriz de Autoridad Visual para Longs**. Estilo editorial, personajes universales, entorno atemporal y traducción conceptual avanzada.
 
 ### 2. Flujos de Trabajo y Producción (`/workflows`)

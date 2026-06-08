@@ -8,7 +8,7 @@ La IA tiene **PROHIBIDO** generar prompts de imágenes si el usuario no ha propo
 
 ## 2. Traducción de Intenciones
 Cuando la IA genera prompts, debe tomar las *Intenciones Visuales* del guion (las directivas de `[Visual: ...]` del Keyframe Scripting) y fusionarlas con las reglas estéticas correspondientes:
-- Para **SHORTS**: usar `guidelines/visual_style.md` (Estilo Codex, Stick-figure, Tinta negra, Texturas, Color Semántico).
+- Para **SHORTS**: usar `guidelines/visual_style_shorts.md` (Estilo Codex, Stick-figure, Tinta negra, Texturas, Color Semántico).
 - Para **LONGS**: usar `guidelines/visual_style_longs.md` (Premium Biblical Editorial, Personajes Universales, Traducción Conceptual).
 
 ## 3. Deducción de Formato y Pacing (REGLA DE HIERRO)
@@ -19,7 +19,7 @@ Antes de generar las Tarjetas, la IA DEBE analizar el timestamp final del guion 
 > [!IMPORTANT]
 > **⏱️ BLINDAJE DE RITMO VISUAL DE RETENCIÓN (INAMOVIBLE):**
 > La IA tiene prohibido agrupar grandes bloques de texto en una sola imagen. La Tabla de Edición DEBE fragmentar el texto rigurosamente respetando esta matemática:
-> - **Para SHORTS:** Cada prompt visual abarca **EXACTAMENTE de 3 a 5 segundos** del guion hablado.
+> - **Para SHORTS:** Cada prompt visual abarca **EXACTAMENTE de 4 a 5 segundos** del guion hablado.
 > - **Para LONGS:** Cada prompt visual abarca **EXACTAMENTE de 6 a 9 segundos** del guion hablado.
 
 ## 4. Formato de Entrega Obligatorio

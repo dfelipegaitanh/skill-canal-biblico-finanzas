@@ -34,12 +34,11 @@ Esta es la carne del video. Se divide obligatoriamente en **3 secciones secuenci
 ## 2. Reglas de Oro Visuales y Pacing
 
 > [!IMPORTANT]
-> **⏱️ BLINDAJE DE RITMO VISUAL DE RETENCIÓN (INAMOVIBLE):**
-> En videos de 20 minutos, la hipnosis visual es innegociable. Cada directiva visual `[Visual: ...]` insertada en el guion DEBE abarcar **EXACTAMENTE de 6 a 9 segundos** de lectura del locutor. ¡Nunca más, nunca menos!
+> **⏱️ RITMO VISUAL:** Ver la regla de pacing canónico en `workflows/visuals_and_prompts.md`.
 
 ### Integración Visual Estricta
 *   **CERO Texto:** NO TEXTOS en la imagen.
-*   **Personajes:** Puedes incluir **hasta 3 personajes** detallados interactuando en el mismo prompt, manteniendo siempre el Estilo Codex.
+*   **Personajes:** Puedes incluir **hasta 3 personajes** detallados interactuando en el mismo prompt, aplicando siempre las reglas de `guidelines/visual_style_longs.md`.
 *   **La Imagen de Reflexión:** El último visual del video (Fase 4) DEBE coincidir con el tono reflexivo de cierre (Ej: un personaje estático contemplativo, un objeto iluminado con luz cálida ámbar, sin distracciones de fondo).
 
 ---

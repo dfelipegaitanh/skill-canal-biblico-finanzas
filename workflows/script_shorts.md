@@ -29,9 +29,7 @@ El guion debe estructurarse obligatoriamente en las siguientes 3 Fases.
 ## Reglas de Oro (Copywriting y Ritmo Visual)
 
 > [!IMPORTANT]
-> **⏱️ BLINDAJE DE RITMO VISUAL DE RETENCIÓN (INAMOVIBLE):**
-> La IA tiene prohibido agrupar texto en tramos grandes. En el guion, las directivas visuales `[Visual: ...]` deben fragmentar el texto rigurosamente respetando esta matemática:
-> **Cada prompt visual abarca EXACTAMENTE de 3 a 5 segundos de lectura del locutor.** ¡Nunca más, nunca menos!
+> **⏱️ RITMO VISUAL:** Ver la regla de pacing canónico en `workflows/visuals_and_prompts.md`.
 
 *   **Texto en Pantalla (Hooks Visibles):** A diferencia de los videos largos, los Shorts **SÍ** llevan texto explícito de refuerzo en la edición (máximo 3 palabras de impacto). Este texto debe incluirse en la columna "Acción Exacta / Texto en Pantalla" de tu tabla de entrega final.
 *   **Personajes Visuales:** Máximo 1 personaje central por prompt de imagen para mantener el foco.
