@@ -39,51 +39,60 @@ Antes de ensamblar el prompt visual, es **OBLIGATORIO** aplicar la capa lógica 
 | **WARNING** | Errores, deudas, codicia, peligro | Preocupación, cautela, arrepentimiento | Bolsas cerradas, contratos rotos. La tensión visual se logra por la postura y arreglo de los objetos, manteniendo la iluminación consistente. |
 | **STEWARDSHIP**| Administración responsable, inversión | Humildad, responsabilidad, gratitud | Monedas organizadas, siembra, balanzas. |
 
-**[VISUAL_INTERPRETATION_FREEDOM_RULE]**
+**[CONCEPTUAL_FRAMEWORK_INTERPRETATION_RULE]**
 ```text
-VISUAL INTERPRETATION FREEDOM RULE:
-The Conceptual Translation Table exists to communicate narrative meaning, not to force specific visual objects.
-The examples provided in the table represent possible visual interpretations rather than mandatory objects.
-For every scene, the generator should first identify the underlying narrative meaning, emotion, consequence, temptation, conflict, lesson, or transformation being communicated.
-Only after identifying the narrative meaning should the generator select the most effective visual representation.
-The generator may communicate the same concept through:
-* Approved objects
-* Character actions
-* Character relationships
-* Emotional posture
-* Environmental metaphors
-* Symbolic arrangements
-* Visual contrast
-* Cause-and-effect storytelling
+CONCEPTUAL FRAMEWORK INTERPRETATION RULE:
+The Narrative Translation Framework provides possible narrative representations rather than required objects.
+A concept may be represented through:
+* character emotion
+* character posture
+* character interaction
+* symbolic object
+* environmental metaphor
+* visual contrast
+* cause-and-effect storytelling
 
-When multiple valid representations exist, prioritize the one that creates the strongest visual storytelling, emotional clarity, and scene variety.
-Avoid repeatedly selecting the same symbolic representation when alternative representations communicate the same meaning equally well.
-The objective is narrative clarity, not object consistency.
+The strongest narrative solution should always be selected.
+Narrative clarity takes priority over symbolic literalism.
+The framework should inspire visual variety rather than enforce repetitive object selection.
 ```
 
-### Tabla de Traducción Conceptual Avanzada
-Nunca uses mapeos 1 a 1 para evitar repetición de imágenes. Traduce el concepto moderno a una metáfora bíblica y selecciona una de las opciones físicas de la Biblioteca de Objetos:
+### Narrative Translation Framework
 
-| Concepto moderno | Concepto bíblico visual | Objeto final posible |
+| Modern Concept | Biblical Narrative Meaning | Possible Representations |
 | :--- | :--- | :--- |
-| Tarjeta de crédito | Obligación financiera | sealed contract |
-| Cuenta bancaria | Reserva de valor | storage chest / clay jar |
-| Presupuesto | Planificación | ledger book / accounting tablet |
-| Inversión | Multiplicación de recursos | seed bag / coin stack |
-| Fondo de emergencia | Recursos guardados | storage chest |
-| Deuda | Carga financiera | heavy money pouch / sealed contract |
-| Interés compuesto | Crecimiento gradual | seed bag / growing coin stacks |
-| Flujo de caja | Entrada y salida de recursos | coin stacks being organized |
-| Ahorro | Acumulación disciplinada | clay jar / coin stack |
-| Sabiduría | Conocimiento revelado / Guía | open scroll / listening posture / balance scale / key / teaching gesture |
-| Confianza | Entrega de recursos | open hand receiving coin |
-| Estafa piramidal / Esquemas rápidos | Falsas promesas / Engaño | merchant receiving suspicious contract / withered plant |
-| Comparación social / Estatus | Envidia / Vanidad | overloaded basket / single fruit / closed gate |
-| Consumo impulsivo | Tentación / Falta de dominio | single fruit / open hand near temptation |
-| Agotamiento / Ansiedad por deudas | Opresión / Carga de consecuencias | empty chair / broken jar / young worker looking exhausted / unfinished wall |
+| **Tarjeta de crédito** | Financial obligation | sealed contract, hand offering contract, heavy money pouch, pressured worker |
+| **Cuenta bancaria** | Store of value | storage chest, clay jar, secured room, character storing items |
+| **Presupuesto** | Planning and foresight | character counting, organized items, measuring weights, ledger book, accounting tablet |
+| **Inversión** | Multiplication and patience | seed bag, growing plants, farmer observing field, organized coin stacks |
+| **Fondo de emergencia** | Preparedness and security | storage chest, full grain sack, closed gate, calm posture, character resting |
+| **Deuda** | Financial burden and loss of freedom | heavy money pouch, sealed contract, exhausted worker, burdened posture, worried family, unfinished wall, empty chair, character carrying excessive weight |
+| **Interés compuesto** | Gradual growth | seed bag, healthy plant, stacked coins, character watching progress |
+| **Flujo de caja** | Resource movement | coin stacks being organized, active market scene, pouring grain, character exchanging items |
+| **Ahorro** | Disciplined accumulation | clay jar, coin stack, careful measurement, character adding to a pile |
+| **Sabiduría** | Revealed knowledge / Guidance | listening posture, teaching gesture, open scroll, balance scale, key, master and student interaction |
+| **Confianza** | Resource transfer | open hand receiving coin, firm handshake, calm interaction, character sharing |
+| **Estafa piramidal / Esquemas rápidos** | False promises / Deception | merchant receiving suspicious contract, withered plant, hiding hands, anxious interaction |
+| **Comparación social / Estatus** | Envy, dissatisfaction, perceived lack | overloaded basket, single fruit, comparing characters, character observing another person's resources, closed gate, longing posture |
+| **Consumo impulsivo** | Temptation, lack of control | single fruit, open hand near temptation, reaching gesture, character ignoring warning |
+| **Agotamiento / Ansiedad por deudas** | Pressure, uncertainty, emotional exhaustion | broken jar, exhausted worker, empty chair, unfinished wall, worried family, character sitting alone, spilled grain |
+
+**Generator Decision Priority:**
+When using the framework:
+1. Human story
+2. Character emotion
+3. Character action
+4. Character relationship
+5. Environmental metaphor
+6. Symbolic object
+
+Objects should support the story. Objects should not replace the story.
+
+**Success Criteria:**
+A viewer should never feel that every lesson becomes a scroll, every temptation becomes a fruit, every debt becomes a contract, or every financial problem becomes a money pouch. Instead, the viewer should feel that the biblical world naturally adapts to the narrative while maintaining visual consistency throughout the channel.
 
 ### Biblioteca Oficial de Objetos Autorizados (APPROVED OBJECT LIBRARY)
-Para evitar que la IA invente elementos modernos o extraños, el foco narrativo debe extraerse estrictamente de esta lista:
+The approved object library serves as the primary source of recurring symbolic objects and visual anchors.
 * gold coin
 * small coin stack
 * money pouch
