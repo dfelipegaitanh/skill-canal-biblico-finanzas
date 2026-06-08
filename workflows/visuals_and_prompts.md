@@ -1,6 +1,6 @@
 # Motor de Prompts Visuales
 
-**Propósito:** Este módulo rige la traducción del guion aprobado a Prompts de imagen masivos (DALL-E).
+**Propósito:** Este módulo rige la traducción del guion aprobado a Prompts de imagen masivos (OpenAI Images 2).
 
 ## 1. Condición de Disparo (Bloqueo de Seguridad)
 La IA tiene **PROHIBIDO** generar prompts de imágenes si el usuario no ha proporcionado el guion definitivo **con los timestamps exactos** (las marcas de tiempo) o si el usuario no lo pide explícitamente.
@@ -30,13 +30,13 @@ Presenta cada bloque de imagen como una tarjeta vertical. Los campos de Video y 
 
 **🎬 BLOQUE 1 [00:00 – 00:03]**
 *   🗣️ **Audio/Guion:** `"(Texto literal del guion que cubre este bloque)"` [OBLIGATORIO]
-*   🖼️ **DALL-E:** `(Prompt visual completo en inglés, siguiendo la guía de estilo correspondiente)` [OBLIGATORIO]
+*   🖼️ **OpenAI Images 2:** `(Prompt visual completo en inglés, siguiendo la guía de estilo correspondiente)` [OBLIGATORIO]
 *   ✨ **Movimiento (CapCut):** `(Instrucción de Ken Burns o Zoom lento)` [OBLIGATORIO para el 90% de las imágenes estáticas]
 *   📝 **Texto (Pulsar):** `("Frase breve", Color Semántico Ej: Rojo/Dorado/Verde)` [SOLO si la frase marca el ritmo]
 
 **🎬 BLOQUE 2 [00:03 – 00:06]**
 *   🗣️ **Audio/Guion:** `"(Texto literal del guion que cubre este bloque)"` [OBLIGATORIO]
-*   🖼️ **DALL-E:** `(Prompt visual completo en inglés, siguiendo la guía de estilo correspondiente)` [OBLIGATORIO]
+*   🖼️ **OpenAI Images 2:** `(Prompt visual completo en inglés, siguiendo la guía de estilo correspondiente)` [OBLIGATORIO]
 *   ✨ **Movimiento (CapCut):** `(Instrucción de Ken Burns o Zoom lento)` [OBLIGATORIO]
 *   📝 **Texto (Pulsar):** `("Frase breve", Color Semántico)` [SOLO SI APLICA]
 

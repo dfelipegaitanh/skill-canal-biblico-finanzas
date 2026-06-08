@@ -16,7 +16,7 @@ La miniatura nunca debe explicar o resumir el video (eso mata la curiosidad). De
 
 ### Pilar 2: Color de Ruptura (Semántica Obligatoria)
 *   El 90% de la miniatura debe tener la estética *Codex* (Sepia/Grabado cálido).
-*   El elemento clave (el enigma, el dolor o la solución) debe brillar usando UNO de los Colores Semánticos (Ver `visual_style.md`: **Rojo** para deuda, **Dorado** para riqueza, **Verde** para liberación).
+*   El elemento clave (el enigma, el dolor o la solución) debe brillar usando UNO de los Colores Semánticos (TODO: Definir formato de miniaturas y estilo correspondiente).
 *   **Prohibido:** Neones estridentes o magenta genérico.
 
 ### Pilar 3: Regla de Cero Texto Incrustado (CRITICAL)
@@ -83,7 +83,7 @@ Cuando el usuario pida empaquetar, entrega este bloque:
 
 **2. MINIATURA (SUGERENCIAS Y PROMPT)**
 *   🧠 **Concepto Visual:** [Descripción de la composición]
-*   🖼️ **Prompt Visual (DALL-E/Midjourney):** [Prompt en inglés, aplicando la regla de Cero Texto, Máximo 3 Personajes y Color Semántico]
+*   🖼️ **Prompt Visual (OpenAI Images 2):** [Prompt en inglés, aplicando la regla de Cero Texto, Máximo 3 Personajes y Color Semántico]
 *   ✍️ **Sugerencia de Texto para el Editor:** [1-3 palabras impactantes que el humano debería añadir sobre la imagen final]
 
 **3. TÍTULOS (Las 6 Opciones)**

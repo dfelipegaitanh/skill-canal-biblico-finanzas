@@ -59,7 +59,7 @@
 
 **Biblioteca de Fondos (Backgrounds) recomendados por Contexto:**
 
-| Contexto de Escena | Elementos de Background Obligatorios (DALL-E 3) |
+| Contexto de Escena | Elementos de Background Obligatorios (OpenAI Images 2) |
 |---------------------|-----------------------------------------------|
 | **Interior Bíblico** | Stone walls with cracks, arched doorway with curtain, clay oil lamps, wooden shelves |
 | **Exterior Bíblico** | Dusty hills winding dirt road, city gates on horizon, olive trees, overcast sky |
@@ -157,7 +157,7 @@ all elements within the 20%–80% vertical safe zone
 ### 🎬 MATRIZ DE AUTORIDAD VISUAL (Animación vs Estática)
 Las IA de video (Sora, Kling, Runway) tienden a suavizar la estética cruda del grabado. Para mantener la autoridad del "Código", aplica estrictamente la regla del 90/10:
 
-1. **90% Ken Burns (Estático):** La base del formato. La imagen de DALL-E se mantiene estática, y el movimiento se logra con zooms o paneos lentísimos en CapCut.
+1. **90% Ken Burns (Estático):** La base del formato. La imagen de OpenAI Images 2 se mantiene estática, y el movimiento se logra con zooms o paneos lentísimos en CapCut.
 2. **10% Animación Técnica:** Se usa SOLO para demostrar la mecánica de un sistema (ej. el flujo de capital, o gráficos llenándose). 
    - **Prohibición Absoluta:** NUNCA animes personajes caminando, hablando o haciendo movimientos bruscos.
 3. **Semántica de Ruptura (El Flujo):** En las animaciones técnicas (10%), el personaje y el fondo permanecen estáticos (sepia). Lo único que se mueve es el activo/dato, usando el **Color Semántico** correspondiente de la tabla (ej. Rojo para deuda, Dorado para acumulación).

@@ -14,9 +14,10 @@ Versión definitiva de la Skill operativa del canal **Código Bíblico del Diner
 ### 2. Flujos de Trabajo y Producción (`/workflows`)
 *   **Guiones:**
     *   `workflows/scripting_rules.md`: Reglas base inquebrantables. Incluye el **Tono y Voz** ("El Híbrido de la Trinchera"), la Regla del Reloj (max 8 segundos por imagen), el Keyframe Scripting y la integración de Colores Semánticos.
-    *   `workflows/script_long.md`: Arquitectura de **7 Pilares** para videos largos, Pacing de Retención por Bloque (tabla VidIQ) y puntuación de texto semántico ("Pulsar").
+    *   `workflows/script_long.md`: Arquitectura de **4 Fases** para videos largos, Pacing de Retención por Bloque (tabla VidIQ) y puntuación de texto semántico ("Pulsar").
     *   `workflows/script_shorts.md`: Estructura estricta para formato Short, CTA enfocado en "Shares" y restricción de animaciones a 2 segundos.
     *   `workflows/script_audit.md`: El "Juez Clínico". Protocolo de 6 pasos para auditar guiones (y matarlos sin piedad si fallan).
+    *   `workflows/aritmetica_brutal.md`: Banco de "Aritmética Brutal" con datos macroeconómicos de LATAM para anclar el contenido bíblico a la realidad.
 *   **Visuales y Audio:**
     *   `workflows/visuals_and_prompts.md`: Traducción de guiones aprobados a Tarjetas de Producción. Prompts para DALL-E, Textos Semánticos y parámetros de movimiento (CapCut/Video AI).
     *   `workflows/audio_and_voice.md`: Estructura de 3 campos para Google AI Studio (por bloques para Largos, continuo para Shorts) y diseño de prompts de música acústica con "Dynamic Arc".

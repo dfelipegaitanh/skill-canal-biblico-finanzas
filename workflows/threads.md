@@ -1,6 +1,6 @@
 # Estrategia y Distribución en Threads
 
-**Propósito:** Este documento rige la creación de hilos para redirigir tráfico de alta calidad hacia YouTube usando **Fricción Selectiva**. En Threads no somos vendedores pidiendo clics; somos estrategas sembrando dudas.
+**Propósito:** Este documento rige la creación de hilos para redirigir tráfico hacia YouTube usando **Fricción Selectiva**.
 
 > ⛔ **REGLA DE ORO DE THREADS:** El algoritmo entierra los posts que solo contienen un enlace. NUNCA crear un post que sea un resumen aburrido + un link. 
 
@@ -35,9 +35,9 @@ Todo hilo para promocionar un video debe tener **ESTRICTAMENTE 3 POSTS**, siguie
 ---
 
 ## 3. El Empaque Visual (La Imagen del Hilo)
-El hilo debe acompañarse OBLIGATORIAMENTE de una imagen generada con DALL-E para el primer post.
+El hilo debe acompañarse OBLIGATORIAMENTE de una imagen generada con OpenAI Images 2 para el primer post.
 
-> ⛔ **REGLA ESTRICTA DE TEXTO NATIVO:** A diferencia de los videos, la imagen para Threads debe generarse con el texto ya dibujado por DALL-E. No se permite añadir texto en post-producción o CapCut. El prompt de DALL-E siempre debe llevar la orden explícita de dibujar el texto masivo.
+> ⛔ **REGLA ESTRICTA DE TEXTO NATIVO:** A diferencia de los videos, la imagen para Threads debe generarse con el texto ya dibujado por OpenAI Images 2. No se permite añadir texto en post-producción o CapCut. El prompt de OpenAI Images 2 siempre debe llevar la orden explícita de dibujar el texto masivo.
 
 **La Regla del Personaje en el Texto:**
 El texto rojo gigante dentro de la imagen DEBE empezar con el nombre del personaje bíblico del que trata el guión (ej. "JESÚS DIO EL CÓDIGO", "SALOMÓN DIO EL CÓDIGO"). 

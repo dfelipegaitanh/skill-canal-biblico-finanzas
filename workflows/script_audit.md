@@ -1,9 +1,9 @@
 # Protocolo de Auditoría Clínica: "El Juez Clínico"
 
-**Propósito:** Este es el protocolo de **Blindaje de Contenido**. Si un guion no pasa estos 6 filtros, NO se produce. No hay margen para "probar" o "ver qué pasa". Aquí se viene a decodificar el sistema, no a jugar.
+**Propósito:** Protocolo de **Blindaje de Contenido**. Si un guion no pasa estos filtros, NO se produce.
 
-> ⛔ **LA REGLA DE LA TRINCHERA (Matar sin Piedad):**
-> Si un guion falla varios pasos, **NO intentes parchearlo**. Parchear una estructura débil solo genera contenido mediocre, lo cual erosiona la autoridad del canal. Si falla, identifica la "Falla Raíz" (usualmente en el Paso 0 o Paso 1) y **mándalo a reescribir desde cero**. 
+> ⛔ **LA REGLA DE LA TRINCHERA:**
+> Si un guion falla varios pasos, **NO intentes parchearlo**. Identifica la "Falla Raíz" (usualmente en el Paso 0 o Paso 1) y **mándalo a reescribir desde cero**.
 
 ---
 
@@ -67,4 +67,4 @@ Cuando actúes como Auditor, entregarás el resultado en una tabla estructurada:
 **Decisión Final:**
 *   Si pasa limpio: **APROBADO PARA EMPAQUE Y VISUALES.**
 *   Si falla en tecnicismos menores (ej. falta una orden visual): **CORRECCIÓN MENOR.**
-*   Si falla más de 2 pasos, o falla en **Paso 0, Paso 2 o Paso 3**: **MATAR Y REESCRIBIR.** Declara la "Falla Raíz" para que el usuario entienda dónde estuvo la cobardía estructural y dile explícitamente: *"No parchearemos esto. Vuelve a la pizarra."*
+*   Si falla más de 2 pasos, o falla en **Paso 0, Paso 2 o Paso 3**: **REESCRIBIR.** Declara la "Falla Raíz" y pide reescribir desde cero.
