@@ -7,7 +7,9 @@ La IA tiene **PROHIBIDO** generar prompts de imágenes si el usuario no ha propo
 - Si el usuario pide generar imágenes pero no provee el texto con los timestamps, la IA debe responder: *"Alerta de Sistema: No puedo inventar tiempos. Por favor, provéeme el guion aprobado con sus respectivos timestamps para poder generar los prompts exactos."*
 
 ## 2. Traducción de Intenciones
-Cuando la IA genera prompts, debe tomar las *Intenciones Visuales* del guion (las directivas de `[Visual: ...]` del Keyframe Scripting) y fusionarlas con las reglas estéticas de `guidelines/visual_style.md` (Estilo Codex, Stick-figure, Tinta negra, Texturas, Color Semántico) para generar un prompt perfecto en inglés.
+Cuando la IA genera prompts, debe tomar las *Intenciones Visuales* del guion (las directivas de `[Visual: ...]` del Keyframe Scripting) y fusionarlas con las reglas estéticas correspondientes:
+- Para **SHORTS**: usar `guidelines/visual_style.md` (Estilo Codex, Stick-figure, Tinta negra, Texturas, Color Semántico).
+- Para **LONGS**: usar `guidelines/visual_style_longs.md` (Premium Biblical Editorial, Personajes Universales, Traducción Conceptual).
 
 ## 3. Deducción de Formato y Pacing (REGLA DE HIERRO)
 Antes de generar las Tarjetas, la IA DEBE analizar el timestamp final del guion provisto para deducir el formato:
@@ -28,13 +30,13 @@ Presenta cada bloque de imagen como una tarjeta vertical. Los campos de Video y 
 
 **🎬 BLOQUE [00:00 – 00:03]**
 *   🗣️ **Audio/Guion:** `"(Texto literal del guion que cubre este bloque)"` [OBLIGATORIO]
-*   🖼️ **DALL-E:** `(Prompt visual completo en inglés, siguiendo el Estilo Codex)` [OBLIGATORIO]
+*   🖼️ **DALL-E:** `(Prompt visual completo en inglés, siguiendo la guía de estilo correspondiente)` [OBLIGATORIO]
 *   ✨ **Movimiento (CapCut):** `(Instrucción de Ken Burns o Zoom lento)` [OBLIGATORIO para el 90% de las imágenes estáticas]
 *   📝 **Texto (Pulsar):** `("Frase breve", Color Semántico Ej: Rojo/Dorado/Verde)` [SOLO si la frase marca el ritmo]
 
 **🎬 BLOQUE [00:03 – 00:06]**
 *   🗣️ **Audio/Guion:** `"(Texto literal del guion que cubre este bloque)"` [OBLIGATORIO]
-*   🖼️ **DALL-E:** `(Prompt visual completo en inglés, siguiendo el Estilo Codex)` [OBLIGATORIO]
+*   🖼️ **DALL-E:** `(Prompt visual completo en inglés, siguiendo la guía de estilo correspondiente)` [OBLIGATORIO]
 *   ✨ **Movimiento (CapCut):** `(Instrucción de Ken Burns o Zoom lento)` [OBLIGATORIO]
 *   📝 **Texto (Pulsar):** `("Frase breve", Color Semántico)` [SOLO SI APLICA]
 
