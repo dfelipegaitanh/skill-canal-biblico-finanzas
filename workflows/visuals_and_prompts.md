@@ -28,13 +28,13 @@ Entregar SIEMPRE la respuesta en dos partes, sin excepciones. Queda estrictament
 **PARTE 1: Las Tarjetas de Producción**
 Presenta cada bloque de imagen como una tarjeta vertical. Los campos de Video y Texto se llenan basados en la *Matriz de Autoridad Visual* (90% estático, 10% datos en movimiento) y la *Tabla de Colores Semánticos* (Rojo, Dorado, Verde, Azul, Naranja).
 
-**🎬 BLOQUE [00:00 – 00:03]**
+**🎬 BLOQUE 1 [00:00 – 00:03]**
 *   🗣️ **Audio/Guion:** `"(Texto literal del guion que cubre este bloque)"` [OBLIGATORIO]
 *   🖼️ **DALL-E:** `(Prompt visual completo en inglés, siguiendo la guía de estilo correspondiente)` [OBLIGATORIO]
 *   ✨ **Movimiento (CapCut):** `(Instrucción de Ken Burns o Zoom lento)` [OBLIGATORIO para el 90% de las imágenes estáticas]
 *   📝 **Texto (Pulsar):** `("Frase breve", Color Semántico Ej: Rojo/Dorado/Verde)` [SOLO si la frase marca el ritmo]
 
-**🎬 BLOQUE [00:03 – 00:06]**
+**🎬 BLOQUE 2 [00:03 – 00:06]**
 *   🗣️ **Audio/Guion:** `"(Texto literal del guion que cubre este bloque)"` [OBLIGATORIO]
 *   🖼️ **DALL-E:** `(Prompt visual completo en inglés, siguiendo la guía de estilo correspondiente)` [OBLIGATORIO]
 *   ✨ **Movimiento (CapCut):** `(Instrucción de Ken Burns o Zoom lento)` [OBLIGATORIO]
