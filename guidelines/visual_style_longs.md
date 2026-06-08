@@ -59,6 +59,10 @@ Para evitar que la IA invente elementos modernos o extraños, el foco narrativo 
 * key
 * bundle of bills (styled as ancient paper/parchment)
 
+**[OBJECT DISTRIBUTION RULE]**
+Para evitar fatiga visual extrema en videos largos:
+*Avoid using the same primary object for more than three consecutive scenes whenever alternative approved objects can communicate the same concept.*
+
 ---
 
 ## Reglas de Construcción (Los Bloques)
@@ -101,6 +105,13 @@ Character emotions should remain subtle, mature, and readable: wisdom, reflectio
 Avoid comedy expressions, exaggerated reactions, slapstick poses, childish gestures, or mascot behavior.
 ```
 
+**[MASTER_TEACHER_IDENTITY_RULE]**
+```text
+MASTER TEACHER IDENTITY RULE:
+The recurring biblical teacher is a middle-aged man with a short neatly groomed beard, calm intelligent eyes, warm expression, simple ivory robe, muted olive outer shawl, and consistent silhouette.
+This appearance must remain unchanged throughout the entire channel unless explicitly overridden.
+```
+
 **[VISUAL_CONTINUITY_RULE]**
 ```text
 VISUAL CONTINUITY RULE:
@@ -130,13 +141,16 @@ No text, no letters, no captions, no logos, no watermarks.
 ```
 
 ### 4. Cámara, Composición y Variación
-**[CAMERA_RULE]**
+**[FRAME_READABILITY_RULE]**
 ```text
-CAMERA RULE:
+FRAME READABILITY RULE:
+The primary character and teaching object must remain clearly readable on a mobile screen at thumbnail size.
 Prefer medium shots and medium-close shots.
 Avoid extreme closeups.
 Avoid wide cinematic establishing shots.
-The characters should remain clearly visible and readable on mobile screens.
+Avoid tiny characters.
+Avoid distant compositions.
+Avoid excessive empty space that weakens readability.
 ```
 
 **[COMPOSITION_RULE_BIBLICAL_EDITORIAL]**
@@ -178,6 +192,7 @@ Se usa para el 99% de las escenas del video. Este template unifica todas las reg
 [SCENE ACTION OR PARABLE MOMENT]
 
 [CHARACTER_RULE_BIBLICAL_EDITORIAL]
+[MASTER_TEACHER_IDENTITY_RULE]
 [VISUAL_CONTINUITY_RULE]
 
 — narrative focus: [MAIN FINANCIAL OR PARABLE OBJECT FROM APPROVED LIBRARY]
@@ -187,7 +202,7 @@ Se usa para el 99% de las escenas del video. Este template unifica todas las reg
 — environmental suggestion: [OPTIONAL MINIMAL CONTEXTUAL ELEMENT]
 
 [TIME_PERIOD_RULE]
-[CAMERA_RULE]
+[FRAME_READABILITY_RULE]
 [VARIATION_RULE]
 [COMPOSITION_RULE_BIBLICAL_EDITORIAL]
 [ENVIRONMENT_RULE_BIBLICAL_EDITORIAL]
@@ -201,12 +216,13 @@ Exclusivo para la llamada a la acción (Cierre del video). Rompe la cuarta pared
 A biblical teacher directly addressing the viewer with calm authority and conviction.
 
 [CHARACTER_RULE_BIBLICAL_EDITORIAL]
+[MASTER_TEACHER_IDENTITY_RULE]
 [VISUAL_CONTINUITY_RULE]
 
 The teacher is positioned slightly forward and looking directly into the viewer's eyes.
 One hand is gently extended toward the audience as if inviting reflection or action.
 
-— narrative focus: a single [gold coin / ancient scroll / clay jar / balance scale / sealed contract] positioned naturally near the extended hand.
+— narrative focus: a single [gold coin / ancient scroll / clay jar / balance scale] positioned naturally near the extended hand.
 
 — supporting narrative element: subtle warm light illuminating the teaching object.
 
