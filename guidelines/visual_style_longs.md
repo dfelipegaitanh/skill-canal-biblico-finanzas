@@ -2,6 +2,11 @@
 
 Esta guía establece el estándar visual "Premium Biblical Editorial" para los videos en formato largo (15-30 minutos). Combina un maestro bíblico atemporal con personajes universales, garantizando que los conceptos financieros modernos se entiendan sin romper la inmersión de la época ni fatigar al espectador.
 
+## Regla Importante Mandatoria
+> [!IMPORTANT]
+> **⏱️ RITMO Y FORMATO DE ENTREGA:** Para videos LONG, es OBLIGATORIO seguir la regla de pacing (6 a 9 segundos) y el formato exacto de tarjetas establecidos en `workflows/visuals_and_prompts.md`.
+
+
 ## Flujo de Trabajo Obligatorio (Lógica de Generación)
 
 **[NARRATIVE_FIRST_RULE]**
