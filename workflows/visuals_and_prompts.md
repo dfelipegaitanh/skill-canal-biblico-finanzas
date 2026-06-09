@@ -22,7 +22,16 @@ Antes de generar las Tarjetas, la IA DEBE analizar el timestamp final del guion 
 > - **Para SHORTS:** Cada prompt visual abarca **EXACTAMENTE de 4 a 5 segundos** del guion hablado.
 > - **Para LONGS:** Cada prompt visual abarca **EXACTAMENTE de 6 a 9 segundos** del guion hablado.
 
-## 4. Formato de Entrega Obligatorio
+## 4. Opciones de Animación Reveal (Canva)
+Cuando se sugiera una animación Reveal en las Tarjetas de Producción, la IA debe elegir entre las siguientes opciones basándose en la intención visual:
+*   **Brush:** La imagen en blanco se descubre con el trazo de una brocha de izquierda a derecha.
+*   **Ink:** La imagen en blanco se descubre de abajo hacia arriba como si fuera una especie de humo o tinta.
+*   **Digital:** La imagen en blanco se descubre desde el centro hacia los bordes en forma de pequeños cuadros que se van multiplicando.
+*   **Spray:** Similar a *Brush*, pero el trazo descubre la imagen simultáneamente de izquierda a derecha y de derecha a izquierda.
+*   **Sketch:** Igual que *Brush*, pero los trazos que van descubriendo la imagen son mucho más angostos (estilo lápiz).
+*   **Gradiente:** La imagen se descubre progresivamente empezando desde la esquina inferior izquierda.
+
+## 5. Formato de Entrega Obligatorio
 Entregar SIEMPRE la respuesta en dos partes, sin excepciones. Queda estrictamente PROHIBIDO usar tablas de Markdown, ya que comprimen el texto.
 
 **PARTE 1: Las Tarjetas de Producción**
@@ -32,12 +41,14 @@ Presenta cada bloque de imagen como una tarjeta vertical. Los campos de Video y 
 *   🗣️ **Audio/Guion:** `"(Texto literal del guion que cubre este bloque)"` [OBLIGATORIO]
 *   🖼️ **OpenAI Images 2:** `(Prompt visual completo en inglés, siguiendo la guía de estilo correspondiente)` [OBLIGATORIO]
 *   ✨ **Movimiento (CapCut):** `(Instrucción de Ken Burns o Zoom lento)` [OBLIGATORIO para el 90% de las imágenes estáticas]
+*   🪄 **Animación Reveal (Canva):** `(Recomendar: Brush, Ink, Digital, Spray, Sketch, Gradiente, o Ninguna)` [EVALUAR si suma impacto visual]
 *   📝 **Texto (Pulsar):** `("Frase breve", Color Semántico Ej: Rojo/Dorado/Verde)` [SOLO si la frase marca el ritmo]
 
 **🎬 BLOQUE 2 [00:03 – 00:06]**
 *   🗣️ **Audio/Guion:** `"(Texto literal del guion que cubre este bloque)"` [OBLIGATORIO]
 *   🖼️ **OpenAI Images 2:** `(Prompt visual completo en inglés, siguiendo la guía de estilo correspondiente)` [OBLIGATORIO]
 *   ✨ **Movimiento (CapCut):** `(Instrucción de Ken Burns o Zoom lento)` [OBLIGATORIO]
+*   🪄 **Animación Reveal (Canva):** `(Recomendar: Brush, Ink, Digital, Spray, Sketch, Gradiente, o Ninguna)` [EVALUAR si suma impacto visual]
 *   📝 **Texto (Pulsar):** `("Frase breve", Color Semántico)` [SOLO SI APLICA]
 
 *(Repetir para todos los bloques requeridos...)*
