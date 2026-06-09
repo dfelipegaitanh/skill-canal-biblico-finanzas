@@ -7,7 +7,7 @@
 ## 1. Estructura Narrativa de 4 Fases (10-12 Minutos)
 
 El guion debe estructurarse obligatoriamente en estas 4 fases de progresión.
-**Límite Total:** Por defecto **10-12 minutos** (~1.500 - 1.800 palabras a un ritmo firme).
+**Límite Total:** Por defecto **10-12 minutos** (~1.800 - 2.200 palabras a un ritmo firme).
 
 ### Fase 1: Gancho (0:00 - 1:30)
 *   **Función:** Secuestrar el dolor secular latinoamericano (ej. deudas, inflación, estancamiento).

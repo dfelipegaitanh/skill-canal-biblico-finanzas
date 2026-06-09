@@ -14,11 +14,14 @@
 
 Si estás auditando un formato corto, aplica estas reglas:
 
-### ⏱️ Paso 0: El Pórtico (Hook Tempranero)
+### Paso 0: Numero palabras
+* El guion tiene entre (~1800 - 2200 palabras a un ritmo firme). Si no es asi, no pasa
+
+### ⏱️ Paso 1: El Pórtico (Hook Tempranero)
 *   No audites Título ni Miniatura.
 *   Validación obligatoria (0-3 segundos): ¿Cumple estrictamente la fórmula `[Pregunta directa de dolor] + [CTA de Share Pasivo] + [Pasaje exacto]`? Si falta uno, falla.
 
-### 🧱 Paso 1: Auditoría Estructural (Shorts)
+### 🧱 Paso 2: Auditoría Estructural (Shorts)
 *   **Límite de Palabras:** ¿El guion tiene un máximo de 120 palabras?
 *   **Cuerpo (Autopsia LATAM):** ¿Aterriza directamente al dolor financiero real (ej. bancos, deudas) de Latinoamérica sin predicar?
 *   **Cierre en Loop:** ¿La narrativa termina cortada a medias de forma que la última frase del guion se funde EXACTAMENTE con la primera palabra del Hook?
