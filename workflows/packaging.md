@@ -30,6 +30,7 @@ La miniatura nunca debe explicar o resumir el video (eso mata la curiosidad). De
 El título NO es descriptivo. Es un secuestro de atención que genera una crisis cognitiva.
 
 ### Reglas Fundamentales
+*   **Cierre de Disonancia (Videos Largos):** El título del video largo debe ser un espejo exacto de la disonancia bíblica más fuerte presente en el cuerpo del guion. *(Por qué: Asegura que el título no sea un clickbait vacío, sino un resumen congruente de la ruptura cognitiva que el usuario experimentará en el clímax del video).*
 *   **Power Words (OBLIGATORIO):** Cada título debe contener al menos una (código, sistema, decodificar, condenó, 3.000 años).
 *   **El "Tú" Directo y el Dolor:** Usa segunda persona ("Tu", "Tus", "Te").
 *   **Personaje Bíblico:** Va en las primeras 5 palabras. Nunca enterrado al final.
