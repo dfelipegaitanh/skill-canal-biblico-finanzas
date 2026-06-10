@@ -186,6 +186,9 @@ Environmental elements must never compete with the characters.
 NEVER INCLUDE: modern offices, computers, cellphones, modern banks, cars, skyscrapers.
 NEVER INCLUDE: giant temples, complex architecture, palaces, epic landscapes, mountains, forests, large crowds, dramatic skies, highly detailed scenery.
 The scene should feel intimate, focused, timeless, and instructional.
+CRITICAL ENVIRONMENT VARIATION: Do NOT default to dark, enclosed stone rooms for every scene. You MUST vary the environments based on the emotion of the scene:
+- For Growth/Wisdom/Opportunity: Use bright, open outdoor spaces, sunlit courtyards, dusty dirt pathways, or agricultural fields.
+- For Debt/Crisis/Warning: Use enclosed rooms, shadowed walls, or narrowing paths.
 ```
 
 ### 2. Personajes y Continuidad
@@ -246,7 +249,7 @@ Sophisticated educational publishing aesthetic.
 Inspired by high-end illustrated books, financial editorials, biblical teaching materials, and premium educational media.
 Muted color palette: desaturated earth tones, warm ivory fabrics, aged gold accents, soft olive greens, terracotta browns, dusty blue-gray shadows.
 No bright saturated colors, no neon colors, no cartoon palettes, no childish appearance.
-Cinematic directional lighting (e.g., chiaroscuro, rim lighting, or strong sunlight filtering through a window) with deep shadows. High contrast to create a 3D, dramatic, and premium atmosphere. Avoid flat, overly soft lighting.
+Cinematic directional lighting with high contrast to create a 3D, premium atmosphere. For outdoor scenes: use strong, bright directional sunlight. For indoor scenes: use chiaroscuro or rim lighting. CRITICAL: "High contrast" does NOT mean "dark environment". Do not make every scene look like a gloomy dungeon; keep the overall scene well-lit.
 WARNING scenes should increase visual tension through posture, composition, and object arrangement rather than darkness. Maintain the same visual style and lighting consistency.
 Extremely clean composition, large negative space, no visual clutter, no visual noise.
 No text, no letters, no captions, no logos, no watermarks (EXCEPCIÓN: Números integrados en el entorno durante el Minilisticle, ver [MINILISTICLE_VISUAL_RULE]).

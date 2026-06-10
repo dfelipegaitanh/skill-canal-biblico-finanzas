@@ -149,7 +149,7 @@ flat cel-shading and smooth digital color wash for rich volumetric depth,
 everything else in crisp black ink outlines on fully visible, well-lit environments,
 strictly no high-frequency noise, no pencil sketch marks, no dust particles, optimized for video animation,
 STRICT ELEMENT LIMIT: Maximum of 3 to 4 narrative objects in the entire image to avoid visual clutter.
-STRICTLY NO TEXT EXCEPT THE DESIGNATED HOOK FRAME.
+STRICTLY NO MASSIVE TEXT HEADINGS EXCEPT THE DESIGNATED HOOK FRAME. Optional environmental text organically integrated into the scene (e.g., words on a scroll, carved in stone) is allowed in Spanish only.
 ```
 
 
