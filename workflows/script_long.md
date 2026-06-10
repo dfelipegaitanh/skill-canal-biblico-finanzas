@@ -7,7 +7,7 @@
 ## 1. Estructura Narrativa de 4 Fases (10-12 Minutos)
 
 El guion debe estructurarse obligatoriamente en estas 4 fases de progresión.
-**Límite Total:** Por defecto **10-12 minutos** (~1.800 - 2.200 palabras a un ritmo firme).
+**Límite Total:** Por defecto **10-12 minutos** (~2.000 - 2.400 palabras). Al requerir más palabras en el mismo tiempo, la redacción debe forzar un *pace* (ritmo) de lectura rápido, cortante y dinámico, eliminando por completo la cadencia lenta de un "sermón tradicional".
 
 ### Fase 1: Gancho (0:00 - 1:30)
 *   **Función:** Secuestrar el dolor secular latinoamericano (ej. deudas, inflación, estancamiento).
@@ -44,6 +44,7 @@ Esta es la carne del video. Se divide obligatoriamente en **3 secciones secuenci
 ---
 
 ## 3. Dinámica Anti-Fatiga (El Ritmo de la Locución)
+*   **Pace y Tono Anti-Sermón:** El ritmo de lectura base debe ser ágil y al grano. Evitar frases largas y decorativas que inviten a una locución eclesiástica pausada. Usar oraciones cortas y de impacto para mantener la energía alta y el formato retentivo.
 *   **Definición de Bomba de Verdad:** Una Bomba de Verdad debe construirse obligatoriamente con la fórmula: `[Afirmación Financiera Audaz] + [Versículo/Cita Bíblica] + [Aritmética Brutal / Lógica Financiera]`. Si falta uno de los tres elementos, no es una bomba, es una simple opinión. *(Por qué: Asegura que cada clímax narrativo tenga un sustento matemático y bíblico irrefutable, evitando divagaciones emocionales).*
-*   **Descanso Quirúrgico:** Tras soltar una "Bomba de Verdad", se debe insertar explícitamente en el texto el marcador `[PAUSA 2-3 SEG]` para forzar la pausa narrativa. *(Por qué: Las verdades pesadas causan disonancia cognitiva. El cerebro del oyente requiere segundos físicos para procesar el impacto y aceptar que sus creencias anteriores estaban equivocadas antes de seguir).*
+*   **Descanso Quirúrgico:** Tras soltar una "Bomba de Verdad", se debe insertar explícitamente en el texto el marcador `[PAUSA 2-3 SEG]` para contrastar fuertemente con el *pace* rápido anterior. *(Por qué: Las verdades pesadas causan disonancia cognitiva. El cerebro del oyente requiere segundos físicos para procesar el impacto y aceptar que sus creencias anteriores estaban equivocadas antes de seguir).*
 *   **Entrega Focalizada:** El resultado final (el Output) se escribe completo, pero las etiquetas de emoción de la IA (`[warm]`, `[urgent]`, `[declarative]`) deben estar fuertemente marcadas para guiar la grabación de voz.

@@ -15,7 +15,7 @@
 Si estás auditando un formato corto, aplica estas reglas:
 
 ### Paso 0: Numero palabras
-* El guion tiene entre (~1800 - 2200 palabras a un ritmo firme). Si no es asi, no pasa
+* El guion tiene entre (~2000 - 2400 palabras a un pace ágil y dinámico / Fast-Pace estricto). Si no es asi, no pasa
 
 ### ⏱️ Paso 1: El Pórtico (Hook Tempranero)
 *   No audites Título ni Miniatura.

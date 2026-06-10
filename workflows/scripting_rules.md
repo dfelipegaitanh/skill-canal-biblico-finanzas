@@ -37,7 +37,7 @@ Sin importar la modalidad (Short o Largo), siempre debes entregar tu respuesta f
 
 ### 3. Guion Final
 *   El texto completo, fluido y limpio que leerá el locutor.
-*   **Límite de Palabras:** ~120 palabras para Shorts, ~3.000 palabras para Largos (Ritmo de 150 PPM).
+*   **Límite de Palabras:** ~120 palabras para Shorts, ~2.000 - 2.400 palabras para Largos (Fast-Pace estricto).
 
 ### 4. Tabla de Indicaciones de Edición y Visuales
 *   Una tabla final que guiará el trabajo de post-producción. Debe incluir:

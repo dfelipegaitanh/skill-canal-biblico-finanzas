@@ -6,7 +6,7 @@
 *   **Tono:** Hombre, voz medio-grave. Tono de *Estratega de Trinchera* (Confrontacional-empático). **NO es un predicador, NO es un coach motivacional.**
 *   **Velocidad:** La velocidad varía según el formato para maximizar la retención:
     *   **Para Shorts:** **Fast-Pace estricto (110–115%).** Ágil, urgente. No hay tiempo para respirar, el espectador debe sentir que la revelación lo asfixia.
-    *   **Para Videos Largos:** **Ritmo firme pero digerible.** Permite procesar conceptos financieros densos y profundos sin causar fatiga auditiva, dando mayor peso al estudio de caso.
+    *   **Para Videos Largos:** **Fast-Pace estricto (110–115%).** Igual que en los shorts, debe ser ágil y enérgico para evitar sonar a sermón religioso, manteniendo la energía alta mientras se procesan los conceptos financieros densos.
 *   **Pausas Quirúrgicas:** Usar comas o puntos. Prohibido usar etiquetas explícitas como `[pause]` para forzar pausas en el generador, usar puntuación natural.
 
 ## 2. Sistema de Generación de Voz (Google AI Studio)
