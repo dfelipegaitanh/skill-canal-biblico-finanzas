@@ -37,7 +37,7 @@ Esta es la carne del video. Se divide obligatoriamente en **3 secciones secuenci
 > **⏱️ RITMO VISUAL:** Ver la regla de pacing canónico en `workflows/visuals_and_prompts.md`.
 
 ### Integración Visual Estricta
-*   **CERO Texto:** NO TEXTOS en la imagen.
+*   **CERO Texto (Excepción Minilisticle):** Por regla general, NO TEXTOS en la imagen. La única excepción son los números grandes (1, 2, 3...) durante la sección del Minilisticle. Estos números deben estar orgánicamente integrados en objetos del entorno y resaltar claramente como punto focal (ver `[MINILISTICLE_VISUAL_RULE]` en la guía visual).
 *   **Personajes:** Puedes incluir **hasta 3 personajes** detallados interactuando en el mismo prompt, aplicando siempre las reglas de `guidelines/visual_style_longs.md`.
 *   **La Imagen de Reflexión:** El último visual del video (Fase 4) DEBE coincidir con el tono reflexivo de cierre (Ej: un personaje estático contemplativo, un objeto iluminado con luz cálida ámbar, sin distracciones de fondo).
 

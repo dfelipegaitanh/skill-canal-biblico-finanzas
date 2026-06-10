@@ -248,7 +248,7 @@ No bright saturated colors, no neon colors, no cartoon palettes, no childish app
 Soft natural lighting, gentle shadows, balanced contrast.
 WARNING scenes should increase visual tension through posture, composition, and object arrangement rather than darkness. Maintain the same visual style and lighting consistency.
 Extremely clean composition, large negative space, no visual clutter, no visual noise.
-No text, no letters, no captions, no logos, no watermarks.
+No text, no letters, no captions, no logos, no watermarks (EXCEPCIÓN: Números integrados en el entorno durante el Minilisticle, ver [MINILISTICLE_VISUAL_RULE]).
 ```
 
 ### 4. Cámara, Composición y Variación
@@ -279,6 +279,16 @@ Every image must communicate a single idea. Only one central narrative concept p
 ```text
 VARIATION RULE:
 Alternate between: teacher explaining, teacher listening, teacher presenting object, teacher walking with listener, teacher showing object, teacher receiving object, teacher observing object, while maintaining overall style consistency.
+```
+
+**[MINILISTICLE_VISUAL_RULE]**
+```text
+MINILISTICLE VISUAL RULE:
+During "Minilisticle" sequences, a single large number (1, 2, 3, etc.) MUST be visually present to anchor the step.
+The number MUST be organically integrated into a physical object within the scene (e.g., carved deeply into a stone tablet, written in thick black ink on an open scroll, embossed on a large gold coin, or painted on a wooden sign).
+The number cannot be floating or isolated in the air.
+The integrated number MUST STAND OUT clearly as the primary focal point of the image (high contrast, well-lit, large enough to read easily on a phone screen).
+Do not use modern digital fonts; the number must match the ancient, crafted aesthetic of the biblical world.
 ```
 
 ### 5. Regla Exclusiva CTA
