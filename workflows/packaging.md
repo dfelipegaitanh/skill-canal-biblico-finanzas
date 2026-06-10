@@ -92,3 +92,7 @@ Cuando el usuario pida empaquetar, entrega este bloque:
 
 **4. COMENTARIO FIJADO**
 *   [Texto listo para copiar y pegar]
+
+**5. CAPCUT REPURPOSE PROMPT (Long to Shorts)**
+*   [SOLO PARA VIDEOS LARGOS] Entregar el siguiente prompt para que el usuario lo copie y pegue en la herramienta de "Long to Shorts" de CapCut:
+    > "Busca 'Bombas de Verdad' donde se conecte un principio bíblico antiguo con un problema financiero moderno (deudas, ahorro, bancos). Prioriza: 1. Segmentos con datos matemáticos o porcentajes ('Aritmética Brutal'). 2. Listas de pasos prácticos ('Minilisticle'). 3. Ejemplos o autopsias de errores financieros comunes. El clip debe contener el problema y la revelación completa sin cortar el contexto."
