@@ -202,6 +202,7 @@ The teacher should appear more frequently during teaching, interpretation, warni
 **[CHARACTER_RULE_BIBLICAL_EDITORIAL]**
 ```text
 Character rule: 1 to 3 adult characters interacting naturally within a financial, teaching, stewardship, or parable-based scene.
+CRITICAL: NEVER generate "still life" images of isolated objects (e.g., just a chair in an empty room, or just a scroll on a table). Objects MUST ALWAYS be held, intensely observed, pointed at, or physically interacted with by a human character. The human anchors the emotion.
 The recurring biblical teacher remains the primary visual anchor of the channel and appears whenever biblical wisdom is being explained.
 Supporting characters may represent universal archetypes: father, mother, young worker, merchant, business owner, servant, steward, farmer, debtor, lender, investor, shopper, family member.
 Supporting characters should feel timeless and culturally neutral rather than tied to a specific historical period.
@@ -212,8 +213,8 @@ Supporting characters wear simple timeless garments that feel culturally neutral
 The primary character must remain the clear focal point of the image.
 Supporting characters are visually secondary.
 Maximum 3 characters.
-Character emotions should remain subtle, mature, and readable: wisdom, reflection, curiosity, concern, conviction, gratitude, regret, responsibility, humility.
-Avoid comedy expressions, exaggerated reactions, slapstick poses, childish gestures, or mascot behavior.
+Character emotions must be conveyed through DYNAMIC BODY LANGUAGE rather than just facial expressions. Use active postures: leaning forward intensely, gripping objects tightly, slumped shoulders for heavy burdens, hands raised in warning, or pointing decisively.
+Avoid comedy expressions, exaggerated cartoon reactions, or slapstick poses, but DO NOT make characters stiff, static, or expressionless. They must look alive, engaged, and captured "in the moment."
 ```
 
 **[MASTER_TEACHER_IDENTITY_RULE]**
@@ -245,7 +246,7 @@ Sophisticated educational publishing aesthetic.
 Inspired by high-end illustrated books, financial editorials, biblical teaching materials, and premium educational media.
 Muted color palette: desaturated earth tones, warm ivory fabrics, aged gold accents, soft olive greens, terracotta browns, dusty blue-gray shadows.
 No bright saturated colors, no neon colors, no cartoon palettes, no childish appearance.
-Soft natural lighting, gentle shadows, balanced contrast.
+Cinematic directional lighting (e.g., chiaroscuro, rim lighting, or strong sunlight filtering through a window) with deep shadows. High contrast to create a 3D, dramatic, and premium atmosphere. Avoid flat, overly soft lighting.
 WARNING scenes should increase visual tension through posture, composition, and object arrangement rather than darkness. Maintain the same visual style and lighting consistency.
 Extremely clean composition, large negative space, no visual clutter, no visual noise.
 No text, no letters, no captions, no logos, no watermarks (EXCEPCIÓN: Números integrados en el entorno durante el Minilisticle, ver [MINILISTICLE_VISUAL_RULE]).
@@ -277,8 +278,8 @@ Every image must communicate a single idea. Only one central narrative concept p
 
 **[VARIATION_RULE]**
 ```text
-VARIATION RULE:
-Alternate between: teacher explaining, teacher listening, teacher presenting object, teacher walking with listener, teacher showing object, teacher receiving object, teacher observing object, while maintaining overall style consistency.
+VARIATION RULE (DYNAMIC ACTIONS):
+Avoid passive verbs in prompts. Alternate between dynamic actions: teacher leaning in to explain urgently, debtor gripping a heavy pouch with tension, merchant intensely inspecting a coin, farmer wiping sweat while planting, teacher pointing decisively at a scroll. The camera can slightly vary (e.g., subtle low-angle for authority, or over-the-shoulder shots) to break visual monotony while maintaining overall style consistency.
 ```
 
 **[MINILISTICLE_VISUAL_RULE]**
